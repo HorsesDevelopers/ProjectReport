@@ -91,19 +91,19 @@
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th>Columna 1</th>
-    <th>Columna 2</th>
-    <th>Columna 3</th>
+    <th>Criterio especifico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
   </tr>
   <tr>
     <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
-    <td>Fila 2 - Col 2</td>
-    <td>Fila 2 - Col 3</td>
+    <td>MartelZevallos, Gabriel Aristoteles<br><i>TB1</i></td>
+    <td>Concluimos</td>
   </tr>
   <tr>
     <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
-    <td>Fila 3 - Col 2</td>
-    <td>Fila 3 - Col 3</td>
+    <td>MartelZevallos, Gabriel Aristoteles<br><i>TB1</i></td>
+    <td>Concluimos</td>
   </tr>
 </table>
 
@@ -285,7 +285,7 @@
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th>Epic / Story<br>ID</th>
+    <th>Epic / Story ID</th>
     <th>Título</th>
     <th>Descripción</th>
     <th>Criterios de<br>Aceptación</th>
