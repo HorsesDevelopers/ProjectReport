@@ -1,6 +1,24 @@
-# Registro de Versiones del Informe
+# Reporte de Proyecto
 
-# Project Report Collaboration Insights
+## Registro de Versiones del Informe
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+## Project Report Collaboration Insights
 
 ## Contenido
 
@@ -70,12 +88,31 @@
 
 ## Student Outcome
 
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th>Columna 1</th>
+    <th>Columna 2</th>
+    <th>Columna 3</th>
+  </tr>
+  <tr>
+    <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+    <td>Fila 2 - Col 2</td>
+    <td>Fila 2 - Col 3</td>
+  </tr>
+  <tr>
+    <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
+    <td>Fila 3 - Col 2</td>
+    <td>Fila 3 - Col 3</td>
+  </tr>
+</table>
+
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 #### 1.1.2. Perfiles de integrantes del equipo
-
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 #### 1.2.2. Lean UX Process
@@ -90,6 +127,141 @@
 
 ### 2.1. Competidores
 #### 2.1.1. Análisis competitivo
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <!-- Fila 1: Título que ocupa las 7 columnas -->
+  <tr>
+    <th colspan="7">Competitive Analysis Landscape</th>
+  </tr>
+
+  <!-- Fila 2: Primera celda ocupa 2 columnas y 2 filas; las otras 5 son normales -->
+  <tr>
+    <td rowspan="2" colspan="2"><strong>¿Por qué llevar a cabo este análisis?</strong></td>
+    <td colspan="5"><strong>Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</strong></td>
+  </tr>
+
+  <!-- Fila 3: solo 5 columnas, alineadas con las celdas superiores -->
+  <tr>
+    <td colspan="5"></td>
+  </tr>
+
+  <!-- Fila 4: primera celda ocupa 3 columnas, el resto son normales -->
+  <tr>
+    <td colspan="3"><strong>(En la cabecera colocar por cada competidor nombre y logo)</strong></td>
+    <td style="width: 25%;">Su startup </td>
+    <td style="width: 25%;">Competidor 1</td>
+    <td style="width: 25%;">Competidor 2</td>
+    <td style="width: 25%;">Competidor 3</td>
+  </tr>
+
+  <!-- Perfil-->
+  <tr>
+    <td rowspan="2" colspan="1" style="writing-mode: vertical-rl; 
+           transform: rotate(180deg); 
+           text-align: center; 
+           vertical-align: middle;"><strong>Perfil</strong></td>
+    <td colspan="2"><strong>Overview</strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  <!-- Perfil de Marketing-->
+  <tr>
+    <td rowspan="2" colspan="1" style="writing-mode: vertical-rl; 
+           transform: rotate(180deg); 
+           text-align: center; 
+           vertical-align: middle;"><strong>Perfil de Marketing</strong></td>
+    <td colspan="2"><strong>Mercado objetivo</strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><strong>Estrategias demarketing</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Perfil de Producto-->
+  <tr>
+    <td rowspan="3" colspan="1" style="writing-mode: vertical-rl; 
+           transform: rotate(180deg); 
+           text-align: center; 
+           vertical-align: middle;"><strong>Perfil de Producto</strong></td>
+    <td colspan="2"><strong>Productos & Servicios</strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Precios & Costos</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Canales de distribución (Web y/o Móvil)</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Analisis SWOT-->
+  <tr>
+    <td rowspan="5" colspan="1" style="writing-mode: vertical-rl; 
+           transform: rotate(180deg); 
+           text-align: center; 
+           vertical-align: middle;"><strong>Analisis SWOT</strong></td>
+    <td colspan="6"><strong>Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Fortalezas</strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+    <td><strong></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Debilidades</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Oportunidades</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Amenazas</strong></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
@@ -110,8 +282,45 @@
 
 ### 3.1. To-Be Scenario Mapping
 ### 3.2. User Stories
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th>Epic / Story<br>ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de<br>Aceptación</th>
+    <th>Relacionado<br>con (Epic ID)</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
 ### 3.3. Impact Mapping
 ### 3.4. Product Backlog
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th># Orden</th>
+    <th>User Story Id</th>
+    <th>Titulo</th>
+    <th>Descripcion</th>
+    <th>Story Points<br>(1/2/3/5/8)</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 
 ## Capítulo IV: Solution Software Design
 
@@ -126,6 +335,7 @@
 ##### 4.1.3.2. Context Level Diagrams
 ##### 4.1.3.2. Container Level Diagrams
 ##### 4.1.3.3. Deployment Diagrams
+
 
 ### 4.2. Tactical-Level Domain-Driven Design
 #### 4.2.X. Bounded Context: \<Bounded Context Name\>
