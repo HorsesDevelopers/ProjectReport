@@ -494,15 +494,34 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
 > **💬 Enunciado:** En esta sección se debe realizar un análisis por cada segmento objetivo, identificando con sustento estadístico (porcentajes) todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento y que son necesarios para la construcción de los arquetipos. La fuente de información para este análisis proviene de las entrevistas registradas. Debe evidenciarse que cada característica tiene relación con las entrevistas registradas y los resúmenes realizados para las mismas.
 
 ### 2.3. Needfinding
-> **💬 Enunciado:** En esta sección el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada. Aquí se incluye secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
+El proceso de **Needfinding** tiene como propósito identificar las necesidades, expectativas, frustraciones y comportamientos de los usuarios vinculados al dominio de la solución. Esta etapa permite fundamentar decisiones de diseño centradas en el usuario, basadas en datos empíricos extraídos de entrevistas y observación contextual.<br>
+A continuación, se detallan los principales artefactos elaborados en esta fase del proyecto.
+
 #### 2.3.1. User Personas
+Con base en el análisis de entrevistas realizadas a representantes de los segmentos objetivo, se han definido dos **User Personas** representativos del ecosistema productivo de la acuicultura semiindustrial.
+
+- **Persona 1**, asdasdasd
+- **Persona 2**, asd
+
+Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidades clave que serán consideradas a lo largo del diseño de la solución.
+
 > **💬 Enunciado:** En esta sección se incluye la elaboración de las fichas de User Persona. La sección inicia con una introducción explicando la relación entre los artefactos a presentar y las principales características que se están tomando en cuenta del análisis de entrevistas y de la competencia. Se elabora una ficha de User Persona por cada segmento objetivo. Considere las mejores prácticas y todos los ítems necesarios para especificar un arquetipo. Utilice la herramienta indicada para este tipo de artefacto. 
 #### 2.3.2. User Task Matrix
+Se elaboró una **matriz de tareas** basada en las acciones que los User Personas realizan en su contexto laboral.
+
+>aqui va la matriz de tareas en cuadro
+
+
+**Análisis**: Las tareas relacionadas con la alimentación y monitoreo son críticas para ambos usuarios, lo que refuerza la necesidad de automatización y apoyo visual en la toma de decisiones.
+
 > **💬 Enunciado:** En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan para cumplir sus objetivos. No confundir tareas (tasks) con opciones o características de software, pues las tareas deben ser realizadas por los segmentos independientemente de la existencia de su solución de software. Esta sección inicia con una introducción donde se
 establece los segmentos que se están considerando. El cuadro debe incluir como columna cada User Persona y para cada una como sub-columnas, la Frecuencia y la Importancia de cada tarea (task). Como filas se colocan las tareas identificadas. Luego del cuadro se realiza una explicación resaltando las tareas con mayor frecuencia e importancia, principales diferencias y coincidencias entre lo realizado por los User Personas. 
 #### 2.3.3. User Journey Mapping
 > **💬 Enunciado:** En esta sección se elabora los User Journey Maps (uno por cada User Persona). La
 sección inicia con una introducción que resume el end-to-end journey que se pretende ilustrar. Debe incluirse capturas de imagen de los diagramas elaborados en la herramienta indicada. En este caso se elabora las versiones As-Is de los User Journey Maps, es decir los journey de cada segmento representado para la situación actual, sin que exista su solución. Cada User Journey Map debe vincularse con el User Persona correspondiente (cuya ficha de User Persona también debe haberse elaborado en la misma herramienta indicada).
+
+Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
+
 #### 2.3.4. Empathy Mapping
 > **💬 Enunciado:** En esta sección, el equipo resume el proceso de elaboración y presenta capturas de
 los Empathy Maps realizados en la herramienta indicada, para cada uno de los User
@@ -514,6 +533,10 @@ diciendo? ¿Qué está viendo? ¿Qué está haciendo? ¿Qué está escuchando? �
 siente y qué piensa? Identificar Pains y Gains en base a las preguntas ¿Qué le
 preocupa? Y ¿Qué puede ayudar a resolver sus problemas? ¿Qué puede convencerlo
 de que somos la alternativa correcta? ¿Qué dice?
+
+
+Se construyeron mapas de empatía para comprender mejor la experiencia de los User Personas. A continuación se resumen los principales hallazgos:
+
 #### 2.3.5. As-is Scenario Mapping
 > **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
 presenta una captura de los As-Is Scenario Mapping elaborados en la herramienta
@@ -522,6 +545,9 @@ Feeling. El proceso de realización debe pasar por las etapas de preparación, l
 ideas individual, revisión e identificación de fases como columnas, nombrar las fases,
 identificar y etiquetar áreas positivas y negativas para los usuarios, junto con blank
 areas (áreas que requieren aprender más sobre ellas)
+
+A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) para ambos perfiles. Se identificaron fases repetitivas que podrían ser optimizadas con tecnología.
+
 
 ### 2.4. Ubiquitous Language
 > **💬 Enunciado:** En esta sección el equipo redacta un glosario de términos y conceptos con
