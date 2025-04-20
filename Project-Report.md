@@ -99,19 +99,51 @@
   </tr>
   <tr>
     <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
-    <td>MartelZevallos, Gabriel Aristoteles<br><i>TB1</i></td>
+    <td>
+    Avellaneda Ramos, Carlos Edward<br>
+    <i>TB1</i><br>
+    Eduardo Espinoza, Vittorio Marcelo<br>
+    <i>TB1</i><br>
+    Flores Avalos, Diego<br>
+    <i>TB1</i><br>
+    Garcia Rodriguez, Gabriel Stefano<br>
+    <i>TB1</i><br>
+    MartelZevallos, Gabriel Aristoteles<br>
+    <i>TB1</i><br>
+    Rivas Sarango, David Alejandro<br>
+    <i>TB1</i><br>
+    </td>
     <td>Concluimos</td>
   </tr>
   <tr>
     <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
-    <td>MartelZevallos, Gabriel Aristoteles<br><i>TB1</i></td>
+    <td>
+    Avellaneda Ramos, Carlos Edward<br>
+    <i>TB1</i><br>
+    Eduardo Espinoza, Vittorio Marcelo<br>
+    <i>TB1</i><br>
+    Flores Avalos, Diego<br>
+    <i>TB1</i><br>
+    Garcia Rodriguez, Gabriel Stefano<br>
+    <i>TB1</i><br>
+    MartelZevallos, Gabriel Aristoteles<br>
+    <i>TB1</i><br>
+    Rivas Sarango, David Alejandro<br>
+    <i>TB1</i><br>
+    </td>
     <td>Concluimos</td>
   </tr>
 </table>
 
 
 ## Capítulo I: Introducción
+En el contexto de los sistemas productivos modernos, la incorporación de tecnologías emergentes como el Internet de las Cosas (IoT, por sus siglas en inglés) representa una oportunidad clave para mejorar procesos tradicionales a través de la automatización, el monitoreo en tiempo real y la toma de decisiones basada en datos. Esta transformación digital, conocida como Industria 4.0, ha impactado positivamente múltiples sectores, incluyendo la agricultura, la manufactura, la logística y, más recientemente, la acuicultura.
 
+La acuicultura, entendida como la cría controlada de organismos acuáticos en entornos artificiales o semi-naturales, se ha consolidado como una de las principales fuentes de proteína animal a nivel mundial. Sin embargo, a pesar de su crecimiento, enfrenta desafíos estructurales relacionados con la eficiencia de los recursos, la sostenibilidad ambiental y la precisión en los procesos operativos, especialmente en el manejo de la alimentación y la calidad del agua.
+
+Este reporte documenta el ciclo de vida completo del desarrollo de una solución basada en IoT orientada a resolver una problemática concreta dentro del entorno acuícola. A través de la aplicación de metodologías ágiles, principios de diseño centrado en el usuario, y prácticas modernas de desarrollo de software, se busca diseñar e implementar una solución que no solo resuelva una necesidad real del sector, sino que también aproveche los beneficios de la conectividad y la automatización.
+
+El contenido del informe abordará desde la identificación de la problemática, el análisis de los usuarios, la especificación de requerimientos y diseño de la arquitectura de software, hasta la implementación, validación y despliegue de la solución propuesta. Todo ello con el objetivo de mostrar cómo una propuesta tecnológica puede impactar positivamente la productividad y sostenibilidad de una actividad económica vital como lo es la acuicultura.
 ### 1.1. Startup Profile
 > **💬 Enunciado:** Incluye la descripción de startup1, perfiles de los miembros del equipo, incluyendo foto de participante, nombres y apellidos, código de estudiante y descripción de carrera, junto con párrafo de resumen indicando principales conocimientos técnicos y habilidades que puede aportar en el equipo. <br>
 1 Un startup es una pequeña empresa de reciente creación, con alto potencial innovador y tecnológico, donde su modelo es
@@ -123,7 +155,45 @@ Y, efectivamente, podemos definirlo como el periodo inicial de una empresa, el c
 ### 1.2. Solution Profile
 > **💬 Enunciado:** Esta sección incluye dos secciones internas. La primera parte, Antecedentes y Problemática, consta del enunciado de problema, y una descripción de los puntos más importante que debe resolver la solución propuesta, así como objetivos y restricciones que delimiten el alcance del proyecto. La segunda parte, Lean UX Process, es resultado de la ejecución del Lean UX Process sobre el dominio del problema.
 #### 1.2.1. Antecedentes y problemática
-> **💬 Enunciado:** Aquí se incluye una aproximación preliminar a la descripción de los antecedentes y la descripción de la problemática. Para la elaboración de esta descripción, el equipo debe aplicar previamente la técnica de The 5 ‘W’s y 2 ‘H’s - Who, What, Where, When, Why, How & How Much.
+#### The 5 W’s and 2 H’s
+
+- **Who (¿Quiénes están involucrados?)**  
+  Productores acuícolas, específicamente aquellos que operan sistemas semiindustriales de crianza de peces en estanques, piscinas o jaulas flotantes.  
+  Técnicos encargados del monitoreo y mantenimiento de las condiciones del agua y de los procesos de alimentación.  
+  Proveedores de alimento balanceado y servicios de mantenimiento de equipos.  
+  Instituciones regulatorias o de supervisión ambiental.
+
+- **What (¿Qué está ocurriendo?)**  
+  Se presentan ineficiencias significativas en los procesos de alimentación y control de calidad del agua. Estas fallas operativas generan impactos negativos en el crecimiento de los peces, el uso de insumos y la rentabilidad general del sistema.
+
+- **Where (¿Dónde ocurre?)**  
+  En entornos de acuicultura semiindustrial, comúnmente en zonas rurales o periurbanas donde se instalan estanques o piscinas de crianza de peces como parte de sistemas de producción local o regional.
+
+- **When (¿Cuándo ocurre?)**  
+  De forma continua durante las fases activas del ciclo productivo de los peces, con especial incidencia durante los horarios de alimentación y monitoreo diario.
+
+- **Why (¿Por qué ocurre?)**  
+  La problemática surge por la ausencia de mecanismos automatizados y precisos que permitan controlar tanto la cantidad de alimento suministrado como el estado ambiental del agua. Las decisiones suelen basarse en la experiencia empírica del personal y no en datos en tiempo real.
+
+- **How (¿Cómo ocurre?)**  
+  A través de procesos manuales o semi-manuales que no siempre garantizan la regularidad ni la exactitud necesarias, lo que puede llevar a situaciones de sobrealimentación, subalimentación, o alimentación en condiciones desfavorables del agua.
+
+- **How much (¿Cuánto impacta?)**  
+  El impacto puede reflejarse en pérdidas económicas por mal aprovechamiento del alimento (hasta un 30% del alimento puede desperdiciarse), aumento del estrés en los peces, crecimiento lento, aparición de enfermedades, y deterioro de la calidad del agua que obliga a realizar tratamientos costosos o incluso pérdidas totales en algunos ciclos productivos.
+
+---
+
+### Descripción de la problemática
+
+En los sistemas acuícolas semiindustriales, uno de los procesos más críticos y determinantes para el éxito del ciclo de producción es la alimentación. La alimentación adecuada no solo garantiza el crecimiento óptimo de los peces, sino que también influye directamente en la calidad del agua y en la salud general del cultivo. Sin embargo, a pesar de su importancia, la alimentación suele llevarse a cabo de manera manual o con mecanismos rudimentarios, lo que conlleva una serie de desafíos recurrentes.
+
+En primer lugar, la alimentación manual depende de la experiencia del operario, lo que introduce una variabilidad significativa en términos de cantidad, frecuencia y oportunidad. Esto puede resultar en prácticas ineficientes como la sobrealimentación, que genera acumulación de residuos en el agua, o la subalimentación, que afecta el crecimiento de los peces. Ambas situaciones pueden tener consecuencias económicas severas para los productores.
+
+Adicionalmente, la falta de integración entre el proceso de alimentación y las condiciones ambientales del agua representa otro factor de riesgo. Parámetros como el oxígeno disuelto o los niveles de compuestos nitrogenados (amonio, nitritos, nitratos) tienen un impacto directo en la fisiología de los peces. Alimentar en condiciones subóptimas no solo reduce la eficiencia de conversión alimenticia, sino que también incrementa el estrés y la vulnerabilidad a enfermedades.
+
+A esto se suma la necesidad de optimizar el uso del tiempo y los recursos humanos en un contexto donde el acceso a personal capacitado es limitado y los márgenes de ganancia son estrechos. Las actividades repetitivas y rutinarias como la alimentación podrían ser automatizadas para liberar tiempo y reducir errores humanos.
+
+Frente a esta problemática, se evidencia una clara oportunidad de mejora mediante el uso de tecnologías emergentes que permitan tomar decisiones más informadas, automatizar procesos clave y mejorar la sostenibilidad del sistema productivo.
 #### 1.2.2. Lean UX Process
 > **💬 Enunciado:** Aquí se aplica Lean UX Process y abarca la visión del modelo de negocio que será soportado por el producto de software, incluyendo Problem Statements (incluyendo aspectos como domain, customer segments, pain points, gap, visión/strategy, e initial segment), Assumptions e Hypothesis Statements según Lean UX Process. Finalizando esta sección se incluye el Lean UX Canvas. 
 ##### 1.2.2.1. Lean UX Problem Statements
