@@ -84,65 +84,82 @@
 
 ### Tabla de contenidos
 
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](#411-eventstorming)
-      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](#412-context-mapping)
-    - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
-      - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
-      - [4.1.3.2. Container Level Diagrams](#4132-container-level-diagrams)
-      - [4.1.3.3. Deployment Diagrams](#4133-deployment-diagrams)
-
-  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.X. Bounded Context: \<Bounded Context Name\>](#42x-bounded-context-bounded-context-name)
-      - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-      - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-      - [4.2.X.3. Application Layer](#42x3-application-layer)
-      - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-      - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
-      - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
-        - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
-        - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
+- [Reporte de Proyecto](#reporte-de-proyecto)
+- [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
+    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+    - [**2025-1**](#2025-1)
+      - [**Curso:**](#curso)
+    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+      - [**NRC:**](#nrc)
+      - [2947](#2947)
+      - [**Profesor:**](#profesor)
+      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+      - [Producto: **FeedGuard**](#producto-feedguard)
+    - [**Integrantes del equipo**](#integrantes-del-equipo)
+    - [**Abril 2025**](#abril-2025)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+    - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [The 5 W’s and 2 H’s](#the-5-ws-and-2-hs)
+    - [Descripción de la problemática](#descripción-de-la-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+      - [4.1.1. EventStorming](#411-eventstorming)
+        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [4.1.2. Context Mapping](#412-context-mapping)
+      - [4.1.3. Software Architecture](#413-software-architecture)
+        - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
+        - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
+        - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
+        - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
+    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+      - [4.2.X. Bounded Context: \<Bounded Context Name\>](#42x-bounded-context-bounded-context-name)
+        - [4.2.X.1. Domain Layer](#42x1-domain-layer)
+        - [4.2.X.2. Interface Layer](#42x2-interface-layer)
+        - [4.2.X.3. Application Layer](#42x3-application-layer)
+        - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
+        - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
+        - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
+          - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
+          - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
 
 ---
 
@@ -329,14 +346,140 @@ A esto se suma la necesidad de optimizar el uso del tiempo y los recursos humano
 
 Frente a esta problemática, se evidencia una clara oportunidad de mejora mediante el uso de tecnologías emergentes que permitan tomar decisiones más informadas, automatizar procesos clave y mejorar la sostenibilidad del sistema productivo.
 #### 1.2.2. Lean UX Process
-> **💬 Enunciado:** Aquí se aplica Lean UX Process y abarca la visión del modelo de negocio que será soportado por el producto de software, incluyendo Problem Statements (incluyendo aspectos como domain, customer segments, pain points, gap, visión/strategy, e initial segment), Assumptions e Hypothesis Statements según Lean UX Process. Finalizando esta sección se incluye el Lean UX Canvas. 
 ##### 1.2.2.1. Lean UX Problem Statements
+
+**Domain:**
+Acuicultura semiindustrial (crianza de peces en sistemas controlados, en zonas rurales o periurbanas).
+
+**Customer Segments:**
+Productores acuícolas semiindustriales, técnicos de campo, cooperativas pesqueras pequeñas, y eventualmente proveedores de tecnología para acuicultura.
+
+**Pain Points:**
+
+Alimentación ineficiente (sobre o subalimentación).
+
+Falta de monitoreo continuo de calidad del agua.
+
+Procesos manuales propensos a errores humanos.
+
+Pérdida económica por desperdicio de alimento.
+
+Crecimiento lento y enfermedades en los peces por malas prácticas.
+
+**Gap:**
+No existen soluciones integradas, accesibles y adaptables a entornos semiindustriales que automaticen la alimentación y el monitoreo ambiental en tiempo real.
+
+**Visión / Strategy:**
+Desarrollar un sistema inteligente que automatice la dosificación de alimento en función de parámetros ambientales del agua y del comportamiento de los peces, conectando sensores IoT con una plataforma de análisis de datos.
+
+**Initial Segment:**
+Piscicultores semiindustriales con entre 2 y 10 estanques operativos, localizados en zonas rurales con acceso a conectividad básica.
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+- Los productores acuícolas tienen acceso mínimo a conexión a internet o redes móviles.
+
+- Están dispuestos a invertir en soluciones tecnológicas si estas aseguran ahorro en alimento y mejoran el crecimiento de los peces.
+
+- La variabilidad en la alimentación está generando pérdidas económicas en más del 20% de los ciclos productivos.
+
+- La introducción de una solución de fácil uso puede ser adoptada sin capacitación extensa si cuenta con interfaz intuitiva.
+
+- Los parámetros más críticos para la alimentación son el oxígeno disuelto y los compuestos nitrogenados.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hipótesis general:**
+Creemos que los productores acuícolas semiindustriales adoptarán un sistema de alimentación inteligente si este les permite ahorrar alimento, mejorar el crecimiento de los peces y reducir el trabajo manual.
+
+**Hipótesis específicas:**
+
+Si automatizamos la dosificación de alimento en función del oxígeno disuelto, entonces reduciremos el desperdicio de alimento en al menos un 20%.
+
+Si mostramos alertas sobre condiciones críticas del agua en tiempo real, entonces los técnicos podrán tomar decisiones más informadas, reduciendo la mortalidad de peces.
+
+Si ofrecemos una interfaz amigable basada en iconos y visualizaciones simples, entonces los usuarios podrán utilizar el sistema sin requerir capacitación formal.
+
+Si el sistema demuestra beneficios medibles en el primer mes, entonces los usuarios recomendarán su uso a otros piscicultores locales.
+
 ##### 1.2.2.4. Lean UX Canvas
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="4">Lean UX Canvas</th>
+  </tr>
+
+  <!-- Fila 1 -->
+  <tr>
+    <td colspan="2"><strong>Business Problem</strong><br> 
+      Los productores acuícolas semiindustriales enfrentan pérdidas económicas por sobrealimentación y deterioro del agua debido a prácticas manuales sin automatización.
+    </td>
+    <td colspan="2"><strong>Business Outcomes</strong><br>
+      - Reducción de desperdicio de alimento (20%)<br>
+      - Mejora en crecimiento y salud de los peces<br>
+      - Reducción de tareas manuales<br>
+      - Incremento en la rentabilidad por ciclo productivo
+    </td>
+  </tr>
+
+  <!-- Fila 2 -->
+  <tr>
+    <td colspan="2"><strong>Users</strong><br>
+      Piscicultores semiindustriales con entre 2 y 10 estanques, y técnicos de campo responsables del monitoreo y alimentación.
+    </td>
+    <td colspan="2"><strong>User Outcomes & Benefits</strong><br>
+      - Reducción de trabajo manual<br>
+      - Toma de decisiones basadas en datos<br>
+      - Menor mortalidad<br>
+      - Mayor tasa de conversión alimenticia
+    </td>
+  </tr>
+
+  <!-- Fila 3 -->
+  <tr>
+    <td colspan="4"><strong>Solutions</strong><br>
+      - Sistema de sensores IoT<br>
+      - Algoritmo de dosificación automática de alimento<br>
+      - Interfaz móvil/web sencilla<br>
+      - Alertas ambientales automatizadas<br>
+      - Plataforma conectada a la nube con operación offline temporal
+    </td>
+  </tr>
+
+  <!-- Fila 4 -->
+  <tr>
+    <td colspan="4"><strong>Hypotheses</strong><br>
+      Creemos que la reducción del desperdicio de alimento será posible si los piscicultores obtienen alertas personalizadas y automatización del proceso de alimentación mediante sensores IoT integrados a una plataforma inteligente.
+    </td>
+  </tr>
+
+  <!-- Fila 5 -->
+  <tr>
+    <td colspan="2"><strong>What's the most important thing we need to learn first?</strong><br>
+      ¿Los usuarios confiarán en la automatización para dosificar el alimento? <br>
+      Riesgo: Si no confían, no usarán el sistema.
+    </td>
+    <td colspan="2"><strong>What's the least amount of work we need to do to learn the next most important thing?</strong><br>
+      Probar un piloto funcional en un estanque real con sensores, dosificador y visualización básica para evaluar ahorro de alimento y aceptación del usuario.
+    </td>
+  </tr>
+</table>
+
 
 ### 1.3. Segmentos objetivo
 > **💬 Enunciado:** Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
+
+**Segmento 1: Productores acuícolas semiindustriales rurales**
+Descripción:
+Pequeños y medianos piscicultores que operan estanques de crianza de tilapia, trucha o gamitana en zonas rurales o periurbanas. Generalmente trabajan de forma independiente o en asociación, con entre 2 y 10 unidades de cultivo operativas.
+
+Características demográficas y técnicas:
+
+- Edad promedio de los productores: entre 35 y 55 años.
+- Nivel educativo: secundaria completa o técnica agrícola.
+- Acceso limitado a tecnologías digitales, pero creciente interés por innovaciones que mejoren la rentabilidad.
+- Ubicación en zonas con conectividad móvil básica y limitado acceso a servicios técnicos continuos.
+- Operación centrada en ciclos productivos de entre 5 y 8 meses.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 > **💬 Enunciado:** Se incluye el proceso de Needfinding junto con análisis de la competencia. Las entrevistas se registrarán en video y se editarán para construir el video de evidencia de entrevistas. El análisis de dichas entrevistas servirá de base para la identificación de necesidades y la construcción de los User Persona para cada segmento objetivo, así como la construcción del User Task Matrix, los User Journey Map para los User Persona identificados, así como los Empathy Maps y los As-is Scenario Maps. 
