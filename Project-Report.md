@@ -1,5 +1,63 @@
 # Reporte de Proyecto
 
+<div align="center">
+
+# **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
+
+### **Facultad de Ingeniería - Carrera de Ingeniería de Software**  
+### **2025-1**
+
+
+#### **Curso:** 
+### 1ASI0572 - Desarrollo de Soluciones IoT  
+#### **NRC:**
+#### 2947
+#### **Profesor:**
+#### Angel Augusto Velasquez Nuñez
+
+
+### **Informe de Trabajo Final**
+
+#### Startup: **AquaSense Technologies**  
+#### Producto: **FeedGuard**
+
+
+### **Integrantes del equipo**
+
+</div>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Código de Estudiante</th>
+      <th>Apellidos y Nombres</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">U202121584</td>
+      <td align="center">Martel Zevallos, Gabriel</td>
+    </tr>
+    <tr>
+      <td align="center">202XXXXXX</td>
+      <td align="center">Apellido1 Apellido2, Nombre</td>
+    </tr>
+    <tr>
+      <td align="center">202XXXXXX</td>
+      <td align="center">Apellido1 Apellido2, Nombre</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<div align="center">
+
+### **Abril 2025**
+
+</div>
+
+---
 ## Registro de Versiones del Informe
 
 <table border="1" cellspacing="0" cellpadding="5">
@@ -144,14 +202,90 @@ La acuicultura, entendida como la cría controlada de organismos acuáticos en e
 Este reporte documenta el ciclo de vida completo del desarrollo de una solución basada en IoT orientada a resolver una problemática concreta dentro del entorno acuícola. A través de la aplicación de metodologías ágiles, principios de diseño centrado en el usuario, y prácticas modernas de desarrollo de software, se busca diseñar e implementar una solución que no solo resuelva una necesidad real del sector, sino que también aproveche los beneficios de la conectividad y la automatización.
 
 El contenido del informe abordará desde la identificación de la problemática, el análisis de los usuarios, la especificación de requerimientos y diseño de la arquitectura de software, hasta la implementación, validación y despliegue de la solución propuesta. Todo ello con el objetivo de mostrar cómo una propuesta tecnológica puede impactar positivamente la productividad y sostenibilidad de una actividad económica vital como lo es la acuicultura.
-### 1.1. Startup Profile
-> **💬 Enunciado:** Incluye la descripción de startup1, perfiles de los miembros del equipo, incluyendo foto de participante, nombres y apellidos, código de estudiante y descripción de carrera, junto con párrafo de resumen indicando principales conocimientos técnicos y habilidades que puede aportar en el equipo. <br>
-1 Un startup es una pequeña empresa de reciente creación, con alto potencial innovador y tecnológico, donde su modelo es
-escalable y su crecimiento puede ser exponencial. En su traducción del inglés, el término start-up significa “puesta en marcha”.
-Y, efectivamente, podemos definirlo como el periodo inicial de una empresa, el comienzo o arranque de un nuevo negocio.
 
+
+### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
+
+AquaSense Technologies es una startup tecnológica orientada al desarrollo de soluciones inteligentes para el sector acuícola. Su enfoque principal es mejorar la eficiencia y sostenibilidad de los procesos productivos en pisciculturas mediante el uso de tecnologías IoT, automatización y monitoreo ambiental en tiempo real. La empresa trabaja con un enfoque centrado en el usuario, combinando ingeniería, datos y experiencia en campo para resolver problemáticas clave en sistemas semiindustriales de crianza de peces.
+
+- 🧭 **Visión**
+
+  Convertirnos en referentes en la transformación digital de la acuicultura en Latinoamérica, mediante soluciones tecnológicas accesibles, eficientes y sostenibles que contribuyan al desarrollo de sistemas de producción más rentables y responsables con el medio ambiente.
+
+- 🎯 **Misión**
+
+  Diseñar e implementar soluciones inteligentes que integren IoT, automatización y análisis de datos en tiempo real para optimizar procesos clave en sistemas acuícolas, mejorando la productividad, la sostenibilidad y la calidad del producto final.
+
+- 💡 **Propuesta de valor**
+  - Soluciones tecnológicas adaptadas a las necesidades reales de productores acuícolas semiindustriales.
+  - Automatización de procesos críticos como la alimentación y el monitoreo ambiental.
+  - Mejora de la eficiencia operativa, reducción de desperdicios y optimización del uso de recursos.
+  - Diseño centrado en el usuario y validación continua con datos reales del entorno.
+
+- ⚙️ **Enfoque tecnológico**
+
+  AquaSense Technologies desarrolla productos utilizando:
+  - **Tecnologías IoT** para la sensorización y automatización.
+  - **Sistemas embebidos** conectados con plataformas en la nube.
+  - **Arquitecturas distribuidas** con Edge Computing y servicios RESTful.
+  - **Software open-source** para garantizar adaptabilidad y sostenibilidad.
+
+- 🤝 **Compromiso**
+
+  Promovemos la integración entre tecnología y sostenibilidad en el sector acuícola. Nuestro compromiso es con la innovación responsable, la mejora continua y la colaboración interdisciplinaria, integrando conocimientos de ingeniería, biología acuática y experiencia del usuario.
+
+- 🚀 **Primer producto**
+
+  **FeedGuard**  
+Sistema inteligente de alimentación y monitoreo para acuicultura semiindustrial.<br>
+Automatiza la dosificación de alimento y toma decisiones en función de parámetros como el oxígeno disuelto y los compuestos nitrogenados del agua, mejorando la eficiencia productiva y el bienestar de los peces.
 #### 1.1.2. Perfiles de integrantes del equipo
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th>Foto</th>
+    <th>Descripcion</th>
+  </tr>
+  <tr>
+    <td>pongan su foto</td>
+    <td>
+    Avellaneda Ramos, Carlos Edward
+    </td>
+  </tr>
+  <tr>
+    <td>pongan su foto</td>
+    <td>
+    Eduardo Espinoza, Vittorio Marcelo
+    </td>
+  </tr>
+  
+  <tr>
+    <td>pongan su foto</td>
+    <td>
+    Flores Avalos, Diego
+    </td>
+  </tr>
+  <tr>
+    <td>pongan su foto</td>
+    <td>
+    Garcia Rodriguez, Gabriel Stefano
+    </td>
+  </tr>
+  <tr>
+    <td> <img src="./Assets/GabrielMartel.jpg" width="200"/></td>
+    <td>
+    MartelZevallos, Gabriel Aristoteles
+    </td>
+  </tr>
+  <tr>
+    <td>pongan su foto</td>
+    <td>
+    Rivas Sarango, David Alejandro
+    </td>
+  </tr>
+</table>
+
 ### 1.2. Solution Profile
 > **💬 Enunciado:** Esta sección incluye dos secciones internas. La primera parte, Antecedentes y Problemática, consta del enunciado de problema, y una descripción de los puntos más importante que debe resolver la solución propuesta, así como objetivos y restricciones que delimiten el alcance del proyecto. La segunda parte, Lean UX Process, es resultado de la ejecución del Lean UX Process sobre el dominio del problema.
 #### 1.2.1. Antecedentes y problemática
