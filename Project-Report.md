@@ -39,8 +39,8 @@
       <td align="center">Martel Zevallos, Gabriel</td>
     </tr>
     <tr>
-      <td align="center">202XXXXXX</td>
-      <td align="center">Apellido1 Apellido2, Nombre</td>
+      <td align="center">U202018627</td>
+      <td align="center">Garcia Rodriguez, Gabriel</td>
     </tr>
     <tr>
       <td align="center">202XXXXXX</td>
@@ -278,13 +278,13 @@ Automatiza la dosificación de alimento y toma decisiones en función de paráme
   </tr>
   
   <tr>
-    <td>pongan su foto</td>
+    <td><img src="Assets\diegoflorez.png" width="200"/></td>
     <td>
     Flores Avalos, Diego
     </td>
   </tr>
   <tr>
-    <td>pongan su foto</td>
+    <td><img src="Assets\GabrielGarcia.png" width="200"/></td>
     <td>
     Garcia Rodriguez, Gabriel Stefano
     </td>
@@ -296,13 +296,12 @@ Automatiza la dosificación de alimento y toma decisiones en función de paráme
     </td>
   </tr>
   <tr>
-    <td>pongan su foto</td>
+    <td></td>
     <td>
     Rivas Sarango, David Alejandro
     </td>
   </tr>
 </table>
-
 ### 1.2. Solution Profile
 > **💬 Enunciado:** Esta sección incluye dos secciones internas. La primera parte, Antecedentes y Problemática, consta del enunciado de problema, y una descripción de los puntos más importante que debe resolver la solución propuesta, así como objetivos y restricciones que delimiten el alcance del proyecto. La segunda parte, Lean UX Process, es resultado de la ejecución del Lean UX Process sobre el dominio del problema.
 #### 1.2.1. Antecedentes y problemática
