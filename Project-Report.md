@@ -629,7 +629,62 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
 ### 2.2. Entrevistas
 > **💬 Enunciado:**  En esta sección se aborda la investigación tomando como base la recolección de información en base a entrevistas a representantes de los segmentos objetivo.
 #### 2.2.1. Diseño de entrevistas
-> **💬 Enunciado:**  Esta sección incluye la relación de preguntas principales y complementarias para entrevistas, dirigidas a cada uno de los segmentos. Es importante considerar que debe aplicarse buenas prácticas para diseño de entrevistas. También debe considerar qué tipo de información principal y complementaria necesita recolectar para construir los arquetipos (características demográficas como género, edad, distrito de residencia, estado civil, familia, ocupación, al igual que otras características como personalidad, habilidades, marcas e influencias, dispositivos de preferencia, canales digitales de interacción, objetivos, frustraciones, biografía o background).
+Con el objetivo de comprender las necesidades, frustraciones, comportamientos y expectativas de los usuarios objetivo del sistema FeedGuard, se diseñó una guía de entrevistas semiestructurada dirigida a **productores acuícolas semiindustriales**. Estas entrevistas permitirán construir perfiles de usuario (User Personas) representativos y definir con mayor claridad las funcionalidades de la solución IoT.
+
+Las entrevistas se dividen en 4 bloques temáticos: **Datos personales y productivos**, **Proceso de alimentación actual**, **Monitoreo ambiental**, y **Tecnología y disposición al cambio**.
+
+### 🎯 Objetivo de la entrevista
+
+Recolectar información cualitativa sobre la operación acuícola, métodos actuales de alimentación, monitoreo ambiental, percepción de la tecnología y disposición a adoptar una solución automatizada como FeedGuard.
+
+### 📋 Guía de preguntas
+
+#### 1. Datos personales y productivos
+- ¿Cuál es su nombre y edad?
+- ¿Dónde está ubicada su piscigranja?
+- ¿Qué especie cultiva (tilapia, trucha, gamitana, etc.)?
+- ¿Cuántos estanques opera actualmente?
+- ¿Desde hace cuánto tiempo se dedica a la acuicultura?
+- ¿Cuántas personas trabajan en la operación?
+- ¿Qué tipo de formación o experiencia tiene en este rubro?
+
+#### 2. Proceso de alimentación actual
+- ¿Cómo se realiza actualmente la alimentación de los peces?
+- ¿Cuántas veces al día alimenta y en qué horarios?
+- ¿Cómo decide la cantidad de alimento que les da?
+- ¿Qué sucede si un día no puede alimentar en el horario previsto?
+- ¿Ha tenido problemas de sobrealimentación o desperdicio?
+- ¿Qué indicadores usa para saber si los peces están comiendo bien?
+
+#### 3. Monitoreo ambiental y toma de decisiones
+- ¿Monitorea parámetros del agua como oxígeno o amonio? ¿Con qué frecuencia?
+- ¿Tiene sensores o lo hace de forma manual?
+- ¿Alguna vez ha tenido pérdidas por mala calidad del agua?
+- ¿Qué tan fácil o difícil es mantener el agua en condiciones óptimas?
+
+#### 4. Tecnología, percepción y adopción
+- ¿Ha usado alguna tecnología automatizada para alimentar?
+- ¿Qué herramientas digitales utiliza en su trabajo? (Apps, redes, sensores, etc.)
+- ¿Le interesaría automatizar el proceso de alimentación si esto le ahorra alimento y trabajo?
+- ¿Qué necesitaría una herramienta tecnológica para que usted la use sin complicaciones?
+- ¿Qué desconfianza tendría respecto a un sistema automatizado?
+- ¿Cuánto estaría dispuesto a invertir en una solución que mejore su eficiencia?
+
+---
+
+### 📝 Datos complementarios a recolectar
+
+Además de las respuestas a las preguntas, durante cada entrevista se deben registrar los siguientes datos del participante:
+
+- **Género**: Masculino, femenino u otro.
+- **Edad**: Número de años cumplidos.
+- **Nivel educativo**: Primaria, secundaria, formación técnica o educación superior.
+- **Tecnología que utiliza habitualmente**: Por ejemplo, celular, laptop, o ninguna herramienta digital.
+- **Canales digitales que usa con frecuencia**: Como WhatsApp, Facebook u otras plataformas de comunicación.
+- **Tiempo promedio dedicado diariamente al monitoreo de los estanques**: Expresado en horas por día.
+
+
+
 #### 2.2.2. Registro de entrevistas
 > **💬 Enunciado:**  Para cada segmento se requiere de 3 a 5 entrevistas. Para cada una de las entrevistas se debe indicar la información de nombres, apellidos, edad, distrito, un screenshot de un cuadro de video y el URL del video subido en Microsoft Stream (es un solo video editado para todas las entrevistas) incluyendo el timing donde inicia la entrevista y su duración. La entrevista debe ser registrada en video, que sirve de evidencia de entrevistas. Para cada entrevista debe redactarse en este informe un resumen, que explique de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Todas las características objetivas y subjetivas, incluyendo aspectos como personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc. Deben estar incluidas como parte de los resúmenes para cada entrevista. Debe ser evidente que cada característica de los arquetipos que se construirán en base a esta información provienen de datos recolectados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos.
 #### 2.2.3. Análisis de entrevistas
@@ -642,8 +697,13 @@ A continuación, se detallan los principales artefactos elaborados en esta fase 
 #### 2.3.1. User Personas
 Con base en el análisis de entrevistas realizadas a representantes de los segmentos objetivo, se han definido dos **User Personas** representativos del ecosistema productivo de la acuicultura semiindustrial.
 
-- **Persona 1**, asdasdasd
-- **Persona 2**, asd
+- **Persona 1**, Juan
+<img src="Assets\UserPersonas\Juan, piscicultor rural.png"/>
+
+- **Persona 2**, Bryan
+<img src="Assets\UserPersonas\Bryan, piscicultor técnico.png"/>
+
+
 
 Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidades clave que serán consideradas a lo largo del diseño de la solución.
 
