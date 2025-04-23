@@ -752,19 +752,36 @@ A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) par
 
 
 ### 2.4. Ubiquitous Language
-> **💬 Enunciado:** En esta sección el equipo redacta un glosario de términos y conceptos con
-definiciones utilizadas en el business domain, sin ambigüedad, relacionados al área
-de especialidad o sector en el que se establecen el problema y la solución. Mantener
-un glosario de este tipo completo y actualizado, permite que se comuniquen
-claramente todos los miembros y stakeholders en el equipo. Solo debe incluirse
-13/41
-términos del dominio, no términos técnicos del área de ingeniería de software. Los
-términos deben estar en inglés (puede incluirse adicionalmente el término
-equivalente en español entre paréntesis). La definición correspondiente al término
-puede estar en español. Eric Evans habla sobre Ubiquitous Language en su libro
-Domain-Driven Design: Tackling Complexity in the Heart of Software2.<br>2 En el libro Eric Evans establece “Ubiquitous Language is modeled within a Limited context, where
-the terms and concepts of the business domain are identified, and there should be no ambiguity”.
 
+Piscicultura: Sistema de crianza y producción de peces en ambientes controlados, como estanques o jaulas flotantes.
+
+Sistema de Monitoreo Ambiental: Conjunto de sensores IoT desplegados en la piscicultura que recogen datos en tiempo real (temperatura, oxígeno disuelto, pH, turbidez, etc.).
+
+Plataforma de Gestión Acuícola: Aplicación web o móvil donde se visualizan y gestionan los datos recolectados, alertas, históricos y recomendaciones operativas.
+
+Sensor IoT: Dispositivo inteligente que mide parámetros ambientales críticos del agua y transmite datos a la nube.
+
+Nodo de Control: Unidad central que recibe información de múltiples sensores y actúa sobre sistemas automatizados (alimentadores, aireadores, bombas).
+
+Actuador: Componente físico que ejecuta acciones automáticas en función de los datos recibidos (como encender un oxigenador).
+
+Alerta Crítica: Notificación emitida por el sistema ante condiciones que podrían poner en riesgo la salud de los peces.
+
+Condiciones Óptimas del Agua: Rango de valores para cada parámetro ambiental que aseguran un crecimiento saludable de los peces.
+
+Productividad Piscícola: Métrica que evalúa el rendimiento de producción, considerando crecimiento, conversión alimenticia y sobrevivencia.
+
+Ciclo de Crianza: Período desde la siembra de alevinos hasta la cosecha de peces adultos.
+
+Alevinos: Peces juveniles en etapa temprana de desarrollo.
+
+Panel de Control: Interfaz de usuario donde se muestran los principales indicadores operativos de la piscicultura.
+
+Recomendación Inteligente: Sugerencia automática generada por el sistema basada en datos históricos y condiciones actuales.
+
+Interfaz de Usuario (UI): Diseño y estructura visual de la plataforma con la que interactúan los operarios.
+
+Experto de Campo: Profesional con experiencia práctica en la operación de pisciculturas, clave en la validación y calibración del sistema.
 
 ## Capítulo III: Requirements Specification
 > **💬 Enunciado:** Esta sección permite que el equipo realice en base al análisis de la información
