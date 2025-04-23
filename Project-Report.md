@@ -727,35 +727,148 @@ Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidade
 
 > **💬 Enunciado:** En esta sección se incluye la elaboración de las fichas de User Persona. La sección inicia con una introducción explicando la relación entre los artefactos a presentar y las principales características que se están tomando en cuenta del análisis de entrevistas y de la competencia. Se elabora una ficha de User Persona por cada segmento objetivo. Considere las mejores prácticas y todos los ítems necesarios para especificar un arquetipo. Utilice la herramienta indicada para este tipo de artefacto. 
 #### 2.3.2. User Task Matrix
-Se elaboró una **matriz de tareas** basada en las acciones que los User Personas realizan en su contexto laboral.
+En esta sección se presenta la matriz de tareas (*User Task Matrix*) correspondiente a los dos segmentos identificados durante el proceso de entrevistas y análisis de campo. La matriz busca consolidar las principales **tareas que ambos perfiles realizan en su día a día** para cumplir sus objetivos dentro de sus sistemas de producción acuícola.
 
->aqui va la matriz de tareas en cuadro
+Los segmentos considerados son:
+- **Juan Pérez (User Persona 1):** Piscicultor rural, tradicional, con bajo nivel de digitalización.
+- **Bryan Díaz (User Persona 2):** Piscicultor técnico, joven, con alta familiaridad tecnológica.
 
 
-**Análisis**: Las tareas relacionadas con la alimentación y monitoreo son críticas para ambos usuarios, lo que refuerza la necesidad de automatización y apoyo visual en la toma de decisiones.
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <!-- "Tarea" ocupa dos filas de altura -->
+      <th rowspan="2" style="text-align: center;">Tarea</th>
+      <!-- Agrupa las dos columnas de Juan -->
+      <th colspan="2" style="text-align: center;">Juan</th>
+      <!-- Agrupa las dos columnas de Bryan -->
+      <th colspan="2" style="text-align: center;">Bryan</th>
+    </tr>
+    <tr>
+      <!-- Segunda fila de encabezado: Frecuencia e Importancia -->
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dosificar alimento manualmente</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Supervisar comportamiento de los peces</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Medir oxígeno disuelto</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Medir compuestos nitrogenados (amonio, etc.)</td>
+      <td>Baja</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Registrar datos de producción</td>
+      <td>Nula</td>
+      <td>Baja</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Ajustar horarios de alimentación</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Verificar condición del agua</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Buscar soluciones ante mortalidad</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Comunicarme con proveedores</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Evaluar costo-beneficio del alimento</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
 
-> **💬 Enunciado:** En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan para cumplir sus objetivos. No confundir tareas (tasks) con opciones o características de software, pues las tareas deben ser realizadas por los segmentos independientemente de la existencia de su solución de software. Esta sección inicia con una introducción donde se
-establece los segmentos que se están considerando. El cuadro debe incluir como columna cada User Persona y para cada una como sub-columnas, la Frecuencia y la Importancia de cada tarea (task). Como filas se colocan las tareas identificadas. Luego del cuadro se realiza una explicación resaltando las tareas con mayor frecuencia e importancia, principales diferencias y coincidencias entre lo realizado por los User Personas. 
+
+**Análisis:**<br>
+Las tareas con mayor **frecuencia e importancia para ambos usuarios** son:
+
+- **Supervisar el comportamiento de los peces**  
+- **Verificar condición del agua**  
+- **Ajustar horarios de alimentación**
+
+Estas actividades están directamente relacionadas con la eficiencia del sistema productivo y el bienestar de los peces, lo que las convierte en puntos clave para la propuesta de valor del sistema FeedGuard.
+
+En cuanto a las **diferencias**:
+
+- **Juan** prioriza tareas manuales como la dosificación y supervisión visual, con poco uso de registros o análisis digital.
+- **Bryan**, en cambio, tiene una visión más analítica: mide constantemente, registra sus datos y busca optimizar con base en evidencia técnica.
+
+También se observa que **Bryan valora mucho la automatización y el uso de sensores**, mientras que **Juan necesita confianza y simplicidad** para adoptar nuevas herramientas.
+
 #### 2.3.3. User Journey Mapping
-> **💬 Enunciado:** En esta sección se elabora los User Journey Maps (uno por cada User Persona). La
-sección inicia con una introducción que resume el end-to-end journey que se pretende ilustrar. Debe incluirse capturas de imagen de los diagramas elaborados en la herramienta indicada. En este caso se elabora las versiones As-Is de los User Journey Maps, es decir los journey de cada segmento representado para la situación actual, sin que exista su solución. Cada User Journey Map debe vincularse con el User Persona correspondiente (cuya ficha de User Persona también debe haberse elaborado en la misma herramienta indicada).
+En esta sección se presentan los *User Journey Maps (As-Is)* correspondientes a los dos User Personas definidos previamente: **Juan Pérez** y **Bryan Díaz**. Cada mapa describe el recorrido actual que realiza el usuario durante su jornada típica de trabajo, específicamente en relación al proceso de **alimentación y monitoreo de peces en sistemas acuícolas semiindustriales**, sin la existencia de la solución IoT propuesta (*FeedGuard*).<br>
+El objetivo es identificar puntos críticos, frustraciones y oportunidades de mejora dentro de sus flujos diarios, lo cual permitirá orientar las funcionalidades del producto hacia un impacto real y medible.
 
-Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
+###  User Journey Map – Juan Pérez
+
+**Contexto**: Juan realiza la alimentación y supervisión del estanque manualmente, con escaso uso de tecnología, tomando decisiones en base a experiencia propia.
+
+<img src="Assets\UserJourneyMaps\JourneyMapUserJuan.png"/>
+
+### User Journey Map – Bryan Díaz
+
+**Contexto**: Bryan ha integrado soluciones tecnológicas de bajo costo como sensores caseros y automatización básica. Su enfoque está orientado al control y optimización del sistema con soporte digital.
+
+<img src="Assets\UserJourneyMaps\JourneyMapUserBryan.png"/>
 
 #### 2.3.4. Empathy Mapping
-> **💬 Enunciado:** En esta sección, el equipo resume el proceso de elaboración y presenta capturas de
-los Empathy Maps realizados en la herramienta indicada, para cada uno de los User
-Personas. El proceso de elaboración incluye la preparación, colocar al centro el User
-Persona. Colocar en la sección correspondiente en la herramienta cada observación
-de los miembros del equipo sobre el User Persona, buscando responder las
-preguntas ¿Con quién estamos empatizando? ¿Qué necesita hacer? ¿Qué está
-diciendo? ¿Qué está viendo? ¿Qué está haciendo? ¿Qué está escuchando? ¿Cómo se
-siente y qué piensa? Identificar Pains y Gains en base a las preguntas ¿Qué le
-preocupa? Y ¿Qué puede ayudar a resolver sus problemas? ¿Qué puede convencerlo
-de que somos la alternativa correcta? ¿Qué dice?
+
+En esta sección se presentan los *Empathy Maps* construidos para cada uno de los User Personas definidos: **Juan Pérez** y **Bryan Díaz**. Estos mapas se elaboraron a partir del análisis de las entrevistas, discusiones internas del equipo y observaciones derivadas del contexto productivo de cada usuario.
+
+### Empathy Map – Juan Pérez
+<img src="Assets\EmphatyMaps\JuanEmpathyMap.png">
 
 
-Se construyeron mapas de empatía para comprender mejor la experiencia de los User Personas. A continuación se resumen los principales hallazgos:
+### Empathy Map – Bryan Díaz
+<img src="Assets\EmphatyMaps\BryanEmpathyMap.png"/>
 
 #### 2.3.5. As-is Scenario Mapping
 > **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
@@ -766,8 +879,19 @@ ideas individual, revisión e identificación de fases como columnas, nombrar la
 identificar y etiquetar áreas positivas y negativas para los usuarios, junto con blank
 areas (áreas que requieren aprender más sobre ellas)
 
-A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) para ambos perfiles. Se identificaron fases repetitivas que podrían ser optimizadas con tecnología.
+En esta sección se presentan los *As-Is Scenario Mapping* correspondientes a los dos User Personas definidos: **Juan Pérez** y **Bryan Díaz**. Estos mapas describen el escenario actual de los usuarios, sin la intervención de la solución FeedGuard, y permiten visualizar cómo experimentan su jornada operativa en relación a la alimentación y monitoreo en sistemas acuícolas semiindustriales.
 
+### As-Is Scenario Mapping – Juan Pérez
+<img src="Assets\As-IsMapping\Juan-AsIs.jpg">
+
+### As-Is Scenario Mapping – Bryan Díaz
+<img src="Assets\As-IsMapping\Juan-AsIs.jpg"/>
+
+Ambos escenarios muestran puntos de mejora que validan la necesidad de una solución IoT automatizada:
+- En el caso de **Juan**, existe una fuerte dependencia de la supervisión manual y la experiencia empírica, lo cual lo expone a errores y sobrecarga operativa.
+- En el caso de **Bryan**, aunque ha avanzado con tecnologías caseras, todavía carece de un sistema integral que le permita gestionar todo el proceso de forma conectada y eficiente.
+
+Estos escenarios proporcionan la base para construir el *To-Be Scenario Mapping*, donde se reflejará cómo la solución **FeedGuard** transforma estas experiencias.
 
 ### 2.4. Ubiquitous Language
 
