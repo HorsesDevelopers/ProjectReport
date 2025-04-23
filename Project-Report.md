@@ -43,8 +43,8 @@
       <td align="center">Garcia Rodriguez, Gabriel</td>
     </tr>
     <tr>
-      <td align="center">202XXXXXX</td>
-      <td align="center">Apellido1 Apellido2, Nombre</td>
+      <td align="center">20191E831</td>
+      <td align="center">Rivas Sarango, David Alejandro</td>
     </tr>
   </tbody>
 </table>
@@ -481,13 +481,10 @@ Características demográficas y técnicas:
 - Operación centrada en ciclos productivos de entre 5 y 8 meses.
 
 ## Capítulo II: Requirements Elicitation & Analysis
-> **💬 Enunciado:** Se incluye el proceso de Needfinding junto con análisis de la competencia. Las entrevistas se registrarán en video y se editarán para construir el video de evidencia de entrevistas. El análisis de dichas entrevistas servirá de base para la identificación de necesidades y la construcción de los User Persona para cada segmento objetivo, así como la construcción del User Task Matrix, los User Journey Map para los User Persona identificados, así como los Empathy Maps y los As-is Scenario Maps. 
 
 ### 2.1. Competidores
-> **💬 Enunciado:** En esta sección se realiza la identificación y descripción de los principales competidores directos (3 como mínimo) con modelos de negocio basados en productos digitales similares, o en su defecto competidores indirectos con ofertas parcialmente similares.
+
 #### 2.1.1. Análisis competitivo
-> **💬 Enunciado:** En esta sección tiene como objetivo que su startup conozca mejor a sus competidores, en contraste con la idea inicial que pudiera tener sobre ellos. Se debe desarrollar el siguiente Landscape:<br>
-Para cada uno de ellos debe identificarse fortalezas y debilidades, así como las oportunidades y amenazas asociadas. 
 
 <table border="1" cellspacing="0" cellpadding="5">
   <!-- Fila 1: Título que ocupa las 7 columnas -->
@@ -509,10 +506,10 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
   <!-- Fila 4: primera celda ocupa 3 columnas, el resto son normales -->
   <tr>
     <td colspan="3"><strong>(En la cabecera colocar por cada competidor nombre y logo)</strong></td>
-    <td style="width: 25%;">Su startup </td>
-    <td style="width: 25%;">Competidor 1</td>
-    <td style="width: 25%;">Competidor 2</td>
-    <td style="width: 25%;">Competidor 3</td>
+    <td style="width: 25%;">FeedGuard</td>
+    <td style="width: 25%;">Aquarium Xiamoi</td>
+    <td style="width: 25%;">FishFarmFeeder</td>
+    <td style="width: 25%;">Aplians Fish</td>
   </tr>
 
   <!-- Perfil-->
@@ -523,9 +520,9 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
            vertical-align: middle;"><strong>Perfil</strong></td>
     <td colspan="2"><strong>Overview</strong></td>
     <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>Acuario inteligente de Xiaomi dedicado a Smart Home, este dispositivo puede alimentar automáticamente a los peces, ofrece información sobre el estado del acuario</strong></td>
+    <td><strong>Aplicación móvil que permite monitorizar en tiempo real los alimentadores instalados. Accesible tanto para IPhone como Android.</strong></td>
+    <td><strong>Plataforma española que gestiona de manera continua el desempeño de la piscíola, disponible desde celular y pc.</strong></td>
   </tr>
 
   <tr>
@@ -544,17 +541,17 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
            vertical-align: middle;"><strong>Perfil de Marketing</strong></td>
     <td colspan="2"><strong>Mercado objetivo</strong></td>
     <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>Consumidores interesados en acuarios domésticos inteligentes.</strong></td>
+    <td><strong>Productores agrícoles de pequeña a gran escala.</strong></td>
+    <td><strong>Productores agrícoles que buscan digitalizar y optimizar la gestión de sus cultivos.</strong></td>
   </tr>
 
   <tr>
-    <td colspan="2"><strong>Estrategias demarketing</strong></td>
+    <td colspan="2"><strong>Estrategias de marketing</strong></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Poseen una línea de productos SmartHome que venden globalmente, no solo consolidándose como competidor en el mercado móvil.</td>
+    <td>Marketing digital dirigido a la industria agrícola y en eventos del sector, incluyendo demostraciones del producto.</td>
+    <td>Marketing online a través de su plataforma y redes sociales.</td>
   </tr>
 
   <!-- Perfil de Producto-->
@@ -565,23 +562,23 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
            vertical-align: middle;"><strong>Perfil de Producto</strong></td>
     <td colspan="2"><strong>Productos & Servicios</strong></td>
     <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>Acuario inteligente con sistema de filtración integrado, iluminación LED, control de temperatura y oxígeno, conectividad WI-FI y aplicación móvil.</strong></td>
+    <td><strong>Sistema de alimentación automática de peces en estanques y sistemas de acuicultura.</strong></td>
+    <td><strong>Plataforma que maneja el desempeño agrícola incluso de manera local, incluye seguimiento del proceso productivo y reportes en línea.</strong></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Precios & Costos</strong></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>50 dólares por unidad</td>
+    <td>55 dólares al mes</td>
+    <td>80 dólares al mes por Centro piscícola / 25 dólares al mes por estanque</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Canales de distribución (Web y/o Móvil)</strong></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>A través de su plataforma oficial o en tiendas online de terceros.</td>
+    <td>Venta directa a través de su propia página web.</td>
+    <td>Principalmente a través de su propia tienda online, luego se extiende a tiendasfísicas especializadas en acuarios.</td>
   </tr>
 
   <!-- Analisis SWOT-->
@@ -595,30 +592,30 @@ Para cada uno de ellos debe identificarse fortalezas y debilidades, así como la
   <tr>
     <td colspan="2"><strong>Fortalezas</strong></td>
     <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>Integración de tecnología inteligente que se puede controlar por aplicación móvil, conectividad móvil, alimentación automática y monitoreo de ambiente.</strong></td>
+    <td><strong>Solución especializada para la alimentación en acuicultura.</strong></td>
+    <td><strong>Enfoque en la variedad y calidad de peces, conocimiento especilizado en el cuidado de peces.</strong></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Debilidades</strong></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Precio elevado</td>
+    <td>Necesidad de capacitación, mercado objetivo limitado a la industria acuícola empresarial.</td>
+    <td>Requiere una curva de aprendizaje elevada para el correcto manejo del producto.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Oportunidades</strong></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Creciente interés en hogares inteligentes.</td>
+    <td>Creciente demanda por productos del mar gestionables, posibilidad de incluir sensores.</td>
+    <td>Creciente demanda por productos gestionables.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Amenazas</strong></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Competencia con marcas de acuarios tradicionales y nuevos competidores de acuarios inteligentes.</td>
+    <td>Costo elevado mensual respecto al mercado acuícola.</td>
+    <td>Competencia de otras plataformas con mayor visibilidad.</td>
   </tr>
 </table>
 
