@@ -693,10 +693,6 @@ A partir del análisis competitivo realizado, se logró identificar las fortalez
 
 ### 2.2. Entrevistas
 
-
-
-
-
 #### 2.2.1. Diseño de entrevistas
 Con el objetivo de comprender las necesidades, frustraciones, comportamientos y expectativas de los usuarios objetivo del sistema FeedGuard, se diseñó una guía de entrevistas semiestructurada dirigida a **productores acuícolas semiindustriales**. Estas entrevistas permitirán construir perfiles de usuario (User Personas) representativos y definir con mayor claridad las funcionalidades de la solución IoT.
 
@@ -753,8 +749,16 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 - **Tiempo promedio dedicado diariamente al monitoreo de los estanques**: Expresado en horas por día.
 
 
-
 #### 2.2.2. Registro de entrevistas
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Sebastian Pacheco**|
+|:-|:-|
+|Edad|23 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+||Como primer entrevistado tenemos a Sebastian Pacheco, él es un piscicultor cuya granja se encuentra en Qulmana, Cañete. Cultiva tolapia roja y paco en menor escala. Nos menciona que posee un alimentador automático casero que armo con Arduino. Este alimenta a los peces 3 veces por día. Para el cálculo y registro de la alimentacion de los peces usa la herramienta Excel. Como indicadores paa saber si los peces estan comiendo bien califica la velocidad de consumoo, residuos en el fondo, reaccion cuando se aprocima a la granja de peces y la temperatura. Incluyendo el monitoreo de oxígeno y amonio constantemente. Actualmente posee una aplicación móvil que le avisa cuando baja el nivel de agua. Utiliza Whatsapp para ventas, Youtube para aprender y Dirve para su registro. Él desearía que el sistema no falle o no avise sobre un evento. Estaría dispuesto a invertir entre 1500 y 2000 soles por una solución más completa.|
+
 > **💬 Enunciado:**  Para cada segmento se requiere de 3 a 5 entrevistas. Para cada una de las entrevistas se debe indicar la información de nombres, apellidos, edad, distrito, un screenshot de un cuadro de video y el URL del video subido en Microsoft Stream (es un solo video editado para todas las entrevistas) incluyendo el timing donde inicia la entrevista y su duración. La entrevista debe ser registrada en video, que sirve de evidencia de entrevistas. Para cada entrevista debe redactarse en este informe un resumen, que explique de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Todas las características objetivas y subjetivas, incluyendo aspectos como personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc. Deben estar incluidas como parte de los resúmenes para cada entrevista. Debe ser evidente que cada característica de los arquetipos que se construirán en base a esta información provienen de datos recolectados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos.
 #### 2.2.3. Análisis de entrevistas
 > **💬 Enunciado:** En esta sección se debe realizar un análisis por cada segmento objetivo, identificando con sustento estadístico (porcentajes) todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento y que son necesarios para la construcción de los arquetipos. La fuente de información para este análisis proviene de las entrevistas registradas. Debe evidenciarse que cada característica tiene relación con las entrevistas registradas y los resúmenes realizados para las mismas.
