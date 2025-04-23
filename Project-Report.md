@@ -519,7 +519,7 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil</strong></td>
     <td colspan="2"><strong>Overview</strong></td>
-    <td><strong></strong></td>
+    <td><strong>Es una solución enfocada en la automatización del proceso de alimentación en las pesceras mediante sensores integrados.</strong></td>
     <td><strong>Acuario inteligente de Xiaomi dedicado a Smart Home, este dispositivo puede alimentar automáticamente a los peces, ofrece información sobre el estado del acuario</strong></td>
     <td><strong>Aplicación móvil que permite monitorizar en tiempo real los alimentadores instalados. Accesible tanto para IPhone como Android.</strong></td>
     <td><strong>Plataforma española que gestiona de manera continua el desempeño de la piscíola, disponible desde celular y pc.</strong></td>
@@ -527,7 +527,7 @@ Características demográficas y técnicas:
 
   <tr>
     <td colspan="2"><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
-    <td></td>
+    <td>Automatización de alimentación y notificación de alerta basada en datos y con un diseño intuitivo</td>
     <td>Su principal ventaja radica en la integración tecnológica, siendo respaldado por la marca mundial Xiaomi. Ofrese una experiencia de usuario moderna para los poseedores de estanques hogareños.</td>
     <td>Su ventaja reside en la especialización y enfoque en la eficiencia y optimización de la alimentación en la industria acuícola.</td>
     <td>Centrado en la especialización de control de inventario y monitoreo de crecimiento, esta plataforma sigue todo el ciclo de vida desde la siembra hasta la cosecha y trazabilidad.</td>
@@ -540,7 +540,7 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil de Marketing</strong></td>
     <td colspan="2"><strong>Mercado objetivo</strong></td>
-    <td><strong></strong></td>
+    <td><strong>Son los piscicultores con limitaciones tecnológicas que posean de 2 a 10 estanques que se ubican entre los 35 y 55 años de edad.</strong></td>
     <td><strong>Consumidores interesados en acuarios domésticos inteligentes.</strong></td>
     <td><strong>Productores agrícoles de pequeña a gran escala.</strong></td>
     <td><strong>Productores agrícoles que buscan digitalizar y optimizar la gestión de sus cultivos.</strong></td>
@@ -548,7 +548,7 @@ Características demográficas y técnicas:
 
   <tr>
     <td colspan="2"><strong>Estrategias de marketing</strong></td>
-    <td></td>
+    <td> Marketing educativo, alianzas estratégicas y flexibilidad en los costos.</td>
     <td>Poseen una línea de productos SmartHome que venden globalmente, no solo consolidándose como competidor en el mercado móvil.</td>
     <td>Marketing digital dirigido a la industria agrícola y en eventos del sector, incluyendo demostraciones del producto.</td>
     <td>Marketing online a través de su plataforma y redes sociales.</td>
@@ -561,21 +561,21 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil de Producto</strong></td>
     <td colspan="2"><strong>Productos & Servicios</strong></td>
-    <td><strong></strong></td>
+    <td><strong>La funcionalidad principal viene de la mano con sensores IoT para monitorear oxígeno, temperatura y compuestos dañinos dentro de la pescera.</strong></td>
     <td><strong>Acuario inteligente con sistema de filtración integrado, iluminación LED, control de temperatura y oxígeno, conectividad WI-FI y aplicación móvil.</strong></td>
     <td><strong>Sistema de alimentación automática de peces en estanques y sistemas de acuicultura.</strong></td>
     <td><strong>Plataforma que maneja el desempeño agrícola incluso de manera local, incluye seguimiento del proceso productivo y reportes en línea.</strong></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Precios & Costos</strong></td>
-    <td></td>
+    <td>40 dólares por suscripción mensual.</td>
     <td>50 dólares por unidad</td>
     <td>55 dólares al mes</td>
     <td>80 dólares al mes por Centro piscícola / 25 dólares al mes por estanque</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Canales de distribución (Web y/o Móvil)</strong></td>
-    <td></td>
+    <td>Distribución tanto web como móvil.</td>
     <td>A través de su plataforma oficial o en tiendas online de terceros.</td>
     <td>Venta directa a través de su propia página web.</td>
     <td>Principalmente a través de su propia tienda online, luego se extiende a tiendasfísicas especializadas en acuarios.</td>
@@ -591,40 +591,112 @@ Características demográficas y técnicas:
   </tr>
   <tr>
     <td colspan="2"><strong>Fortalezas</strong></td>
-    <td><strong></strong></td>
+    <td><strong>No se posee necesidad de uso de red, implementación en granjas de estanques clave y colaboración estratégica con piscicultores de nicho.</strong></td>
     <td><strong>Integración de tecnología inteligente que se puede controlar por aplicación móvil, conectividad móvil, alimentación automática y monitoreo de ambiente.</strong></td>
     <td><strong>Solución especializada para la alimentación en acuicultura.</strong></td>
     <td><strong>Enfoque en la variedad y calidad de peces, conocimiento especilizado en el cuidado de peces.</strong></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Debilidades</strong></td>
-    <td></td>
+    <td>Dificultad inicial a adoptar una técnología con una curva de aprendizaje media para los piscicultores.</td>
     <td>Precio elevado</td>
     <td>Necesidad de capacitación, mercado objetivo limitado a la industria acuícola empresarial.</td>
     <td>Requiere una curva de aprendizaje elevada para el correcto manejo del producto.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Oportunidades</strong></td>
-    <td></td>
+    <td>Crecimiento del sector acuícola en LATAM, enfoque en los que no poseen acceso a internet 24/7.</td>
     <td>Creciente interés en hogares inteligentes.</td>
     <td>Creciente demanda por productos del mar gestionables, posibilidad de incluir sensores.</td>
     <td>Creciente demanda por productos gestionables.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Amenazas</strong></td>
-    <td></td>
+    <td>Competencia de soluciones genéricas IoT con monitoreo, variedad de características por parte de la competencia.</td>
     <td>Competencia con marcas de acuarios tradicionales y nuevos competidores de acuarios inteligentes.</td>
     <td>Costo elevado mensual respecto al mercado acuícola.</td>
     <td>Competencia de otras plataformas con mayor visibilidad.</td>
   </tr>
 </table>
 
-
 #### 2.1.2. Estrategias y tácticas frente a competidores
-> **💬 Enunciado:**  Se debe incluir las estrategias y tácticas preliminares que aplicará su startup para afrontar las fortalezas y aprovechar las debilidades, así como el contexto de oportunidades y amenazas en relación a la competencia. 
+A partir del análisis competitivo realizado, se logró identificar las fortalezas, debilidades, oportunidades y amenzas destacadas en los competidores. A continuación, se brindará tanto estrategias como tácticas para alcanzar esta meta:
+
+**Fortalezas de nuestros competidores:** 
+
+- Integración de tecnología inteligente con una marga global por detrás.
+- Solución especializada y eficiente para la alimentación.
+- Acompaña en el ciclo de vida, incluyendo el control de inventario y monitoreo de crecimiento.
+
+**Estrategias y tácticas a nuestras fortalezas:**
+
+**Estrategias:**
+- Consolidación de características: Se puede desarrollar tecnología que abarque en conjunto lo que ofrecen los competidores.
+- Construcción de una comunidad: Se fomentaría una unión mediante una comunidad, los usuarios podrían acceder a contenido educativo que otros publican.
+- Ampliar segmento objetivo: No limitarnos a negocios de piscicultura, sino a usuarios que inician en este ámbito.
+
+**Tácticas:** 
+- Crear foros de comunidad.
+- Colaboración con tiendas online de cuidado de peces.
+- Sistema de recompensas.
+
+**Debilidades de nuestros competidores:** 
+
+- Algunos pueden ser percibidos como caros debido a su costo excesivo mensual, llegando hasta los 80 dólares.
+- Curva de aprendizaje pronunciada debido a su logística compleja.
+  
+**Estrategias y tácticas a nuestras debilidades:**
+**Estrategias:** 
+
+- Simplicidad: Ofrecer simplicidad y facilidad de uso para que la aplicación no posea una curva de aprendizaje pronunciada.
+- Soporte: Ofrecer servicio al cliente
+- Calidad-precio: Disminuir precio para acceder a la aplicación, distribuirlo entre las características que brinda.
+- 
+**Tácticas:**
+
+- Crear tutoriales de uso y conceptos sobre la piscicultura
+- Desarrollar alianzas con tiendas de mascotas locales
+- Implementar sistema de suscripciones por características.
+
+**Oportunidades de nuestros competidores:**
+
+- Creciente interés en hogares inteligentes.
+- Monitoreo avanzado y modificable que se le proporciona a los usuarios.
+  
+**Estrategias y tácticas a nuestras oportunidades:**
+**Estrategias:** 
+
+- Compra/venta de productos: Se pueden ofrecer productos como pesceras a nivel de usuarios especializados.
+- Anticipación de tendencias y conceptos: Se puede identificar las nuevas tendencias y promoverlas en la plataforma.
+  
+**Tácticas:**
+
+- Integrar asistentes de voz e IA.
+- Establecer el producto físico como el más completo.
+- Implementar nuevos sensores de monitoreo para el ambiente, no solo la pescera.
+
+**Amenazas de nuestros competidores:**
+
+- Competencia entre marcas de acuarios innovando en la tecnología, crecimiento de la IA, variedad de costos en el mercado.
+- Competencia tanto online como en el mercado retail.
+  
+**Estrategias y tácticas a nuestras amenazas:**
+**Estrategias:** 
+
+- Adaptabilidad: Debemos ser capaces de ajustar la oferta, limitar lo esencial a la plataforma.
+- Seguridad: Se debe incluir un sistema de seguridad eficiente.
+- Disponibilidad: Debe utilizarse con normalidad sin resaltar defectos por parte del sistema.
+  
+**Tácticas:**
+- Implementar un sistema de recompensa.
+- Establecernos como la plataforma que monitorea todos los aspectos.
 
 ### 2.2. Entrevistas
-> **💬 Enunciado:**  En esta sección se aborda la investigación tomando como base la recolección de información en base a entrevistas a representantes de los segmentos objetivo.
+
+
+
+
+
 #### 2.2.1. Diseño de entrevistas
 Con el objetivo de comprender las necesidades, frustraciones, comportamientos y expectativas de los usuarios objetivo del sistema FeedGuard, se diseñó una guía de entrevistas semiestructurada dirigida a **productores acuícolas semiindustriales**. Estas entrevistas permitirán construir perfiles de usuario (User Personas) representativos y definir con mayor claridad las funcionalidades de la solución IoT.
 
