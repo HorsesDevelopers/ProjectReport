@@ -124,6 +124,13 @@
       - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [🎯 Objetivo de la entrevista](#-objetivo-de-la-entrevista)
+    - [📋 Guía de preguntas](#-guía-de-preguntas)
+      - [1. Datos personales y productivos](#1-datos-personales-y-productivos)
+      - [2. Proceso de alimentación actual](#2-proceso-de-alimentación-actual)
+      - [3. Monitoreo ambiental y toma de decisiones](#3-monitoreo-ambiental-y-toma-de-decisiones)
+      - [4. Tecnología, percepción y adopción](#4-tecnología-percepción-y-adopción)
+    - [📝 Datos complementarios a recolectar](#-datos-complementarios-a-recolectar)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [2.3. Needfinding](#23-needfinding)
@@ -271,7 +278,7 @@ Automatiza la dosificación de alimento y toma decisiones en función de paráme
     </td>
   </tr>
   <tr>
-    <td>pongan su foto</td>
+    <td><img src="Assets\VittorioEduardo.jpg" width="200"/></td>
     <td>
     Eduardo Espinoza, Vittorio Marcelo
     </td>
@@ -466,7 +473,6 @@ Si el sistema demuestra beneficios medibles en el primer mes, entonces los usuar
 
 
 ### 1.3. Segmentos objetivo
-> **💬 Enunciado:** Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
 
 **Segmento 1: Productores acuícolas semiindustriales rurales**
 Descripción:
@@ -479,6 +485,18 @@ Características demográficas y técnicas:
 - Acceso limitado a tecnologías digitales, pero creciente interés por innovaciones que mejoren la rentabilidad.
 - Ubicación en zonas con conectividad móvil básica y limitado acceso a servicios técnicos continuos.
 - Operación centrada en ciclos productivos de entre 5 y 8 meses.
+
+**Segmento 2: Piscicultores técnicos innovadores**
+Descripción:
+Piscicultores jóvenes o de perfil técnico, con conocimientos básicos o intermedios en tecnologías digitales, automatización y sensores. Utilizan o experimentan con herramientas como Arduino, sensores ambientales y dispositivos móviles para monitoreo de sus estanques. Tienen altas expectativas en cuanto a eficiencia y tecnología.
+
+Características demográficas y técnicas:
+
+- Edad promedio: 25 a 40 años.
+- Nivel educativo: técnico superior o universitario (áreas relacionadas a producción agropecuaria, ingeniería técnica o afines).
+- Uso de dispositivos móviles y plataformas digitales.
+- Interés activo en automatización, monitoreo en tiempo real y reducción de costos operativos.
+- Buscan soluciones escalables y con soporte técnico constante.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 > **💬 Enunciado:** Se incluye el proceso de Needfinding junto con análisis de la competencia. Las entrevistas se registrarán en video y se editarán para construir el video de evidencia de entrevistas. El análisis de dichas entrevistas servirá de base para la identificación de necesidades y la construcción de los User Persona para cada segmento objetivo, así como la construcción del User Task Matrix, los User Journey Map para los User Persona identificados, así como los Empathy Maps y los As-is Scenario Maps. 
