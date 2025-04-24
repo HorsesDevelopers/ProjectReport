@@ -829,6 +829,12 @@ sección inicia con una introducción que resume el end-to-end journey que se pr
 
 Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
 
+**Piscicultores rurales**
+
+<img src="Assets/miro_user_journey_map_rural.jpg"/>
+
+**Piscicultores técnicos**
+
 #### 2.3.4. Empathy Mapping
 > **💬 Enunciado:** En esta sección, el equipo resume el proceso de elaboración y presenta capturas de
 los Empathy Maps realizados en la herramienta indicada, para cada uno de los User
