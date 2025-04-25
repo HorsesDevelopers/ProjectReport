@@ -47,8 +47,8 @@
       <td align="center">Garcia Rodriguez, Gabriel</td>
     </tr>
     <tr>
-      <td align="center">202XXXXXX</td>
-      <td align="center">Apellido1 Apellido2, Nombre</td>
+      <td align="center">20191E831</td>
+      <td align="center">Rivas Sarango, David Alejandro</td>
     </tr>
   </tbody>
 </table>
@@ -307,9 +307,9 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td><img src="./Assets/rivas-foto.jpg" width="200"/></td>
     <td>
-    Rivas Sarango, David Alejandro
+    Mi nombre es David Alejandro Rivas Sarango, actualmente estoy cursando la carrera de Ingeniería de Software en la UPC. Soy una persona honesta y responsable. Me interesa el área de Data Science, por esto estoy siguiendo cursos de capacitacion en SQL y Python.
     </td>
   </tr>
 </table>
@@ -505,16 +505,10 @@ Características demográficas y técnicas:
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
-> **💬 Enunciado:** Se incluye el proceso de Needfinding junto con análisis de la competencia. Las entrevistas se registrarán en video y se editarán para construir el video de evidencia de entrevistas. El análisis de dichas entrevistas servirá de base para la identificación de necesidades y la construcción de los User Persona para cada segmento objetivo, así como la construcción del User Task Matrix, los User Journey Map para los User Persona identificados, así como los Empathy Maps y los As-is Scenario Maps.
-
 ### 2.1. Competidores
-
-> **💬 Enunciado:** En esta sección se realiza la identificación y descripción de los principales competidores directos (3 como mínimo) con modelos de negocio basados en productos digitales similares, o en su defecto competidores indirectos con ofertas parcialmente similares.
 
 #### 2.1.1. Análisis competitivo
 
-> **💬 Enunciado:** En esta sección tiene como objetivo que su startup conozca mejor a sus competidores, en contraste con la idea inicial que pudiera tener sobre ellos. Se debe desarrollar el siguiente Landscape:<br>
-> Para cada uno de ellos debe identificarse fortalezas y debilidades, así como las oportunidades y amenazas asociadas.
 
 <table border="1" cellspacing="0" cellpadding="5">
   <!-- Fila 1: Título que ocupa las 7 columnas -->
@@ -536,10 +530,10 @@ Características demográficas y técnicas:
   <!-- Fila 4: primera celda ocupa 3 columnas, el resto son normales -->
   <tr>
     <td colspan="3"><strong>(En la cabecera colocar por cada competidor nombre y logo)</strong></td>
-    <td style="width: 25%;">Su startup </td>
-    <td style="width: 25%;">Competidor 1</td>
-    <td style="width: 25%;">Competidor 2</td>
-    <td style="width: 25%;">Competidor 3</td>
+    <td style="width: 25%;">FeedGuard</td>
+    <td style="width: 25%;">Aquarium Xiamoi</td>
+    <td style="width: 25%;">FishFarmFeeder</td>
+    <td style="width: 25%;">Aplians Fish</td>
   </tr>
 
   <!-- Perfil-->
@@ -549,18 +543,18 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil</strong></td>
     <td colspan="2"><strong>Overview</strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>Es una solución enfocada en la automatización del proceso de alimentación en las pesceras mediante sensores integrados.</strong></td>
+    <td><strong>Acuario inteligente de Xiaomi dedicado a Smart Home, este dispositivo puede alimentar automáticamente a los peces, ofrece información sobre el estado del acuario</strong></td>
+    <td><strong>Aplicación móvil que permite monitorizar en tiempo real los alimentadores instalados. Accesible tanto para IPhone como Android.</strong></td>
+    <td><strong>Plataforma española que gestiona de manera continua el desempeño de la piscíola, disponible desde celular y pc.</strong></td>
   </tr>
 
   <tr>
     <td colspan="2"><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Automatización de alimentación y notificación de alerta basada en datos y con un diseño intuitivo</td>
+    <td>Su principal ventaja radica en la integración tecnológica, siendo respaldado por la marca mundial Xiaomi. Ofrese una experiencia de usuario moderna para los poseedores de estanques hogareños.</td>
+    <td>Su ventaja reside en la especialización y enfoque en la eficiencia y optimización de la alimentación en la industria acuícola.</td>
+    <td>Centrado en la especialización de control de inventario y monitoreo de crecimiento, esta plataforma sigue todo el ciclo de vida desde la siembra hasta la cosecha y trazabilidad.</td>
   </tr>
   
   <!-- Perfil de Marketing-->
@@ -570,18 +564,18 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil de Marketing</strong></td>
     <td colspan="2"><strong>Mercado objetivo</strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>Son los piscicultores con limitaciones tecnológicas que posean de 2 a 10 estanques que se ubican entre los 35 y 55 años de edad.</strong></td>
+    <td><strong>Consumidores interesados en acuarios domésticos inteligentes.</strong></td>
+    <td><strong>Productores agrícoles de pequeña a gran escala.</strong></td>
+    <td><strong>Productores agrícoles que buscan digitalizar y optimizar la gestión de sus cultivos.</strong></td>
   </tr>
 
   <tr>
-    <td colspan="2"><strong>Estrategias demarketing</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td colspan="2"><strong>Estrategias de marketing</strong></td>
+    <td> Marketing educativo, alianzas estratégicas y flexibilidad en los costos.</td>
+    <td>Poseen una línea de productos SmartHome que venden globalmente, no solo consolidándose como competidor en el mercado móvil.</td>
+    <td>Marketing digital dirigido a la industria agrícola y en eventos del sector, incluyendo demostraciones del producto.</td>
+    <td>Marketing online a través de su plataforma y redes sociales.</td>
   </tr>
 
   <!-- Perfil de Producto-->
@@ -591,24 +585,24 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil de Producto</strong></td>
     <td colspan="2"><strong>Productos & Servicios</strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>La funcionalidad principal viene de la mano con sensores IoT para monitorear oxígeno, temperatura y compuestos dañinos dentro de la pescera.</strong></td>
+    <td><strong>Acuario inteligente con sistema de filtración integrado, iluminación LED, control de temperatura y oxígeno, conectividad WI-FI y aplicación móvil.</strong></td>
+    <td><strong>Sistema de alimentación automática de peces en estanques y sistemas de acuicultura.</strong></td>
+    <td><strong>Plataforma que maneja el desempeño agrícola incluso de manera local, incluye seguimiento del proceso productivo y reportes en línea.</strong></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Precios & Costos</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>40 dólares por suscripción mensual.</td>
+    <td>50 dólares por unidad</td>
+    <td>55 dólares al mes</td>
+    <td>80 dólares al mes por Centro piscícola / 25 dólares al mes por estanque</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Canales de distribución (Web y/o Móvil)</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Distribución tanto web como móvil.</td>
+    <td>A través de su plataforma oficial o en tiendas online de terceros.</td>
+    <td>Venta directa a través de su propia página web.</td>
+    <td>Principalmente a través de su propia tienda online, luego se extiende a tiendasfísicas especializadas en acuarios.</td>
   </tr>
 
   <!-- Analisis SWOT-->
@@ -621,41 +615,108 @@ Características demográficas y técnicas:
   </tr>
   <tr>
     <td colspan="2"><strong>Fortalezas</strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
-    <td><strong></strong></td>
+    <td><strong>No se posee necesidad de uso de red, implementación en granjas de estanques clave y colaboración estratégica con piscicultores de nicho.</strong></td>
+    <td><strong>Integración de tecnología inteligente que se puede controlar por aplicación móvil, conectividad móvil, alimentación automática y monitoreo de ambiente.</strong></td>
+    <td><strong>Solución especializada para la alimentación en acuicultura.</strong></td>
+    <td><strong>Enfoque en la variedad y calidad de peces, conocimiento especilizado en el cuidado de peces.</strong></td>
   </tr>
   <tr>
     <td colspan="2"><strong>Debilidades</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Dificultad inicial a adoptar una técnología con una curva de aprendizaje media para los piscicultores.</td>
+    <td>Precio elevado</td>
+    <td>Necesidad de capacitación, mercado objetivo limitado a la industria acuícola empresarial.</td>
+    <td>Requiere una curva de aprendizaje elevada para el correcto manejo del producto.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Oportunidades</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Crecimiento del sector acuícola en LATAM, enfoque en los que no poseen acceso a internet 24/7.</td>
+    <td>Creciente interés en hogares inteligentes.</td>
+    <td>Creciente demanda por productos del mar gestionables, posibilidad de incluir sensores.</td>
+    <td>Creciente demanda por productos gestionables.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Amenazas</strong></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Competencia de soluciones genéricas IoT con monitoreo, variedad de características por parte de la competencia.</td>
+    <td>Competencia con marcas de acuarios tradicionales y nuevos competidores de acuarios inteligentes.</td>
+    <td>Costo elevado mensual respecto al mercado acuícola.</td>
+    <td>Competencia de otras plataformas con mayor visibilidad.</td>
   </tr>
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
-> **💬 Enunciado:** Se debe incluir las estrategias y tácticas preliminares que aplicará su startup para afrontar las fortalezas y aprovechar las debilidades, así como el contexto de oportunidades y amenazas en relación a la competencia.
+A partir del análisis competitivo realizado, se logró identificar las fortalezas, debilidades, oportunidades y amenzas destacadas en los competidores. A continuación, se brindará tanto estrategias como tácticas para alcanzar esta meta:
+
+**Fortalezas de nuestros competidores:** 
+
+- Integración de tecnología inteligente con una marga global por detrás.
+- Solución especializada y eficiente para la alimentación.
+- Acompaña en el ciclo de vida, incluyendo el control de inventario y monitoreo de crecimiento.
+
+**Estrategias y tácticas a nuestras fortalezas:**
+
+**Estrategias:**
+- Consolidación de características: Se puede desarrollar tecnología que abarque en conjunto lo que ofrecen los competidores.
+- Construcción de una comunidad: Se fomentaría una unión mediante una comunidad, los usuarios podrían acceder a contenido educativo que otros publican.
+- Ampliar segmento objetivo: No limitarnos a negocios de piscicultura, sino a usuarios que inician en este ámbito.
+
+**Tácticas:** 
+- Crear foros de comunidad.
+- Colaboración con tiendas online de cuidado de peces.
+- Sistema de recompensas.
+
+**Debilidades de nuestros competidores:** 
+
+- Algunos pueden ser percibidos como caros debido a su costo excesivo mensual, llegando hasta los 80 dólares.
+- Curva de aprendizaje pronunciada debido a su logística compleja.
+  
+**Estrategias y tácticas a nuestras debilidades:**
+**Estrategias:** 
+
+- Simplicidad: Ofrecer simplicidad y facilidad de uso para que la aplicación no posea una curva de aprendizaje pronunciada.
+- Soporte: Ofrecer servicio al cliente
+- Calidad-precio: Disminuir precio para acceder a la aplicación, distribuirlo entre las características que brinda.
+- 
+**Tácticas:**
+
+- Crear tutoriales de uso y conceptos sobre la piscicultura
+- Desarrollar alianzas con tiendas de mascotas locales
+- Implementar sistema de suscripciones por características.
+
+**Oportunidades de nuestros competidores:**
+
+- Creciente interés en hogares inteligentes.
+- Monitoreo avanzado y modificable que se le proporciona a los usuarios.
+  
+**Estrategias y tácticas a nuestras oportunidades:**
+**Estrategias:** 
+
+- Compra/venta de productos: Se pueden ofrecer productos como pesceras a nivel de usuarios especializados.
+- Anticipación de tendencias y conceptos: Se puede identificar las nuevas tendencias y promoverlas en la plataforma.
+  
+**Tácticas:**
+
+- Integrar asistentes de voz e IA.
+- Establecer el producto físico como el más completo.
+- Implementar nuevos sensores de monitoreo para el ambiente, no solo la pescera.
+
+**Amenazas de nuestros competidores:**
+
+- Competencia entre marcas de acuarios innovando en la tecnología, crecimiento de la IA, variedad de costos en el mercado.
+- Competencia tanto online como en el mercado retail.
+  
+**Estrategias y tácticas a nuestras amenazas:**
+**Estrategias:** 
+
+- Adaptabilidad: Debemos ser capaces de ajustar la oferta, limitar lo esencial a la plataforma.
+- Seguridad: Se debe incluir un sistema de seguridad eficiente.
+- Disponibilidad: Debe utilizarse con normalidad sin resaltar defectos por parte del sistema.
+  
+**Tácticas:**
+- Implementar un sistema de recompensa.
+- Establecernos como la plataforma que monitorea todos los aspectos.
 
 ### 2.2. Entrevistas
-
-> **💬 Enunciado:** En esta sección se aborda la investigación tomando como base la recolección de información en base a entrevistas a representantes de los segmentos objetivo.
 
 #### 2.2.1. Diseño de entrevistas
 
@@ -719,7 +780,34 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 
 #### 2.2.2. Registro de entrevistas
 
-> **💬 Enunciado:** Para cada segmento se requiere de 3 a 5 entrevistas. Para cada una de las entrevistas se debe indicar la información de nombres, apellidos, edad, distrito, un screenshot de un cuadro de video y el URL del video subido en Microsoft Stream (es un solo video editado para todas las entrevistas) incluyendo el timing donde inicia la entrevista y su duración. La entrevista debe ser registrada en video, que sirve de evidencia de entrevistas. Para cada entrevista debe redactarse en este informe un resumen, que explique de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Todas las características objetivas y subjetivas, incluyendo aspectos como personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc. Deben estar incluidas como parte de los resúmenes para cada entrevista. Debe ser evidente que cada característica de los arquetipos que se construirán en base a esta información provienen de datos recolectados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos.
+#### 2.2.2. Registro de entrevistas
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Sebastian Pacheco**|
+|:-|:-|
+|Edad|23 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+||Como primer entrevistado tenemos a Sebastian Pacheco, él es un piscicultor rural cuya granja se encuentra en Qulmana, Cañete. Cultiva tolapia roja y paco en menor escala. Nos menciona que posee un alimentador automático casero que armo con Arduino. Este alimenta a los peces 3 veces por día. Para el cálculo y registro de la alimentacion de los peces usa la herramienta Excel. Como indicadores paa saber si los peces estan comiendo bien califica la velocidad de consumoo, residuos en el fondo, reaccion cuando se aproxima a la granja de peces y la temperatura. Incluyendo el monitoreo de oxígeno y amonio constantemente. Actualmente posee una aplicación móvil que le avisa cuando baja el nivel de agua. Utiliza Whatsapp para ventas, Youtube para aprender y Drive para su registro. Él desearía que el sistema no falle o no avise sobre un evento. Estaría dispuesto a invertir entre 1500 y 2000 soles por una solución más completa.|
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Andre Bernaola**|
+|:-|:-|
+|Edad|24 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+||Andre Bernaola es un pisciultor rural que cría anguílas en agua salada. Menciona que no posee un control de la cantidad especifica de alimento que le brinda a su cultivo. Se les alimenta 2 veces durante un día. El desea saber cómo se puede verificar el nivel tanto de oxígeno y calidad del agua para poder proceder a un cambio y así las anguílas puedan prosperar en un buen ambiente. Utiliza Whatsapp para el contacto con proveedores y ventas. Esta muy interesado en usar una aplicación que lo ayuden con el monitoreo. El desearía que la aplicación posea monitoreo de oxígeno, cantidad de anguílas y datos que lo ayuden a mejorar su piscigranja. Estaría dispuesto a invertir 40 soles mensuales en una solución completa.|
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Alberto Martinez**|
+|:-|:-|
+|Edad|24 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+|| Alberto es un pisciultor experimentado que ya posee dispositivos de monitoreo para sus piscigranjas. Cría salmon en agua salada, carpas y tilapias. Con uno de sus dispositivos de Arduino, él ya puede saber la cantidad exacta de alimento que les va a proveer, con los demás registra el nivel de oxígeno, amonio y de residuos que perjudiquen a su cultivo; esto lo ayuda a decidir cuando hay un cambio de agua en sus piscigranjas. Utiliza Whatsapp e Instagram para el contacto con proveedores y para realizar sus ventas. Se encuentra interesado en usar una aplicación que reúna todas las características que sus dispositivos indican. El desearía que la aplicación posea una sección donde pueda colocar sus anotaciones. Estaría dispuesto a invertir 50 soles mensuales para una solución que reúna todas las características de sus ya existentes dispositivos Arduino. |
+
+
+> **💬 Enunciado:**  Para cada segmento se requiere de 3 a 5 entrevistas. Para cada una de las entrevistas se debe indicar la información de nombres, apellidos, edad, distrito, un screenshot de un cuadro de video y el URL del video subido en Microsoft Stream (es un solo video editado para todas las entrevistas) incluyendo el timing donde inicia la entrevista y su duración. La entrevista debe ser registrada en video, que sirve de evidencia de entrevistas. Para cada entrevista debe redactarse en este informe un resumen, que explique de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Todas las características objetivas y subjetivas, incluyendo aspectos como personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc. Deben estar incluidas como parte de los resúmenes para cada entrevista. Debe ser evidente que cada característica de los arquetipos que se construirán en base a esta información provienen de datos recolectados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos.
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -746,208 +834,94 @@ Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidade
 
 #### 2.3.2. User Task Matrix
 
-En esta sección se presenta la matriz de tareas (_User Task Matrix_) correspondiente a los dos segmentos identificados durante el proceso de entrevistas y análisis de campo. La matriz busca consolidar las principales **tareas que ambos perfiles realizan en su día a día** para cumplir sus objetivos dentro de sus sistemas de producción acuícola.
+| Task Matrix                                                         | Piscicultores rural Frecuencia | Piscicultores rural Importancia | Piscicultores técnico Frecuencia | Piscicultores técnico Importancia |
+|----------------------------------------------------------------|:------------------------:|:-----------------------:|:------------------------:|:-----------------------:|
+| 1. Aumentar la eficiencia de su operación                      |           Alta           | Alta                    | Alta                     | Alta                    |
+| 2. Monitorear niveles de la piscigranja                        |           Alta           | Alta                   | Alta                     | Media                   |
+| 3. Reducir el desperdicio de recursos                          |           Alta           | Alta                   | Alta                     | Alta                    |
+| 4. Anotar actividades y datos sobre su trabajo                 |           Media           | Alta                    | Alta                     | Alta                    |
+| 5. Contar la cantidad de cultivos que posee                    |           Media           | Alta                    | Media                    | Media                   |
+| 6. Monitorear el ciclo de vida del cultivo completo en la piscigranja|           Alta           | Alta                   | Alta                     | Alta                    |
+| 7. Tomar decisiones en base a datos brindados                  |           Media           | Alta                    | Alta                    | Alta                   |
+| 8. Estar alerta en caso de escasez o excedente de recursos     |           Alta           | Alta                    | Media                    | Alta                   |
+| 9. Intentar automatizar el proceso                             |           Baja           | Media                    | Alta                    | Alta                   |
 
-Los segmentos considerados son:
-
-- **Juan Pérez (User Persona 1):** Piscicultor rural, tradicional, con bajo nivel de digitalización.
-- **Bryan Díaz (User Persona 2):** Piscicultor técnico, joven, con alta familiaridad tecnológica.
-
-<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr>
-      <!-- "Tarea" ocupa dos filas de altura -->
-      <th rowspan="2" style="text-align: center;">Tarea</th>
-      <!-- Agrupa las dos columnas de Juan -->
-      <th colspan="2" style="text-align: center;">Juan</th>
-      <!-- Agrupa las dos columnas de Bryan -->
-      <th colspan="2" style="text-align: center;">Bryan</th>
-    </tr>
-    <tr>
-      <!-- Segunda fila de encabezado: Frecuencia e Importancia -->
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Dosificar alimento manualmente</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Baja</td>
-      <td>Media</td>
-    </tr>
-    <tr>
-      <td>Supervisar comportamiento de los peces</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Medir oxígeno disuelto</td>
-      <td>Media</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Medir compuestos nitrogenados (amonio, etc.)</td>
-      <td>Baja</td>
-      <td>Media</td>
-      <td>Media</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Registrar datos de producción</td>
-      <td>Nula</td>
-      <td>Baja</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Ajustar horarios de alimentación</td>
-      <td>Media</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Verificar condición del agua</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Buscar soluciones ante mortalidad</td>
-      <td>Media</td>
-      <td>Alta</td>
-      <td>Baja</td>
-      <td>Media</td>
-    </tr>
-    <tr>
-      <td>Comunicarme con proveedores</td>
-      <td>Media</td>
-      <td>Media</td>
-      <td>Alta</td>
-      <td>Media</td>
-    </tr>
-    <tr>
-      <td>Evaluar costo-beneficio del alimento</td>
-      <td>Media</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-  </tbody>
-</table>
-
-**Análisis:**<br>
-Las tareas con mayor **frecuencia e importancia para ambos usuarios** son:
-
-- **Supervisar el comportamiento de los peces**
-- **Verificar condición del agua**
-- **Ajustar horarios de alimentación**
-
-Estas actividades están directamente relacionadas con la eficiencia del sistema productivo y el bienestar de los peces, lo que las convierte en puntos clave para la propuesta de valor del sistema FeedGuard.
-
-En cuanto a las **diferencias**:
 
 - **Juan** prioriza tareas manuales como la dosificación y supervisión visual, con poco uso de registros o análisis digital.
 - **Bryan**, en cambio, tiene una visión más analítica: mide constantemente, registra sus datos y busca optimizar con base en evidencia técnica.
 
 También se observa que **Bryan valora mucho la automatización y el uso de sensores**, mientras que **Juan necesita confianza y simplicidad** para adoptar nuevas herramientas.
 
+**Piscicultores rurales**
+Los piscicultores rurales priorizan la eficiencia operativa, el monitoreo constante de las  condiciones de la granja y la reducción de desperdicio de recursos. También se observa un alto valor otorgado a registrar actividades y datos. Aunque la automatización no esta entre su foco principal, muestra interés en la toma de decisiones a partir de datos.
+
+**Piscicultores técnicos**
+
+Los piscicultores técnicos, por otro lado, muestran un enfoque más avanzado y estratégico en la gestión de sus operaciones. Junto con la eficiencia, valoran altamente la automatización de procesos y el uso de datos para la toma de decisiones. Aunque el monitoreo constante sigue siendo frecuente, su importancia rapida más en los aspectos técnicos y analíticos. La anotación de datos son prácticas clave en este segmento.
+
+
 #### 2.3.3. User Journey Mapping
+Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
 
-En esta sección se presentan los _User Journey Maps (As-Is)_ correspondientes a los dos User Personas definidos previamente: **Juan Pérez** y **Bryan Díaz**. Cada mapa describe el recorrido actual que realiza el usuario durante su jornada típica de trabajo, específicamente en relación al proceso de **alimentación y monitoreo de peces en sistemas acuícolas semiindustriales**, sin la existencia de la solución IoT propuesta (_FeedGuard_).<br>
-El objetivo es identificar puntos críticos, frustraciones y oportunidades de mejora dentro de sus flujos diarios, lo cual permitirá orientar las funcionalidades del producto hacia un impacto real y medible.
+**Piscicultores rurales**
 
-### User Journey Map – Juan Pérez
+<img src="Assets/miro_user_journey_map_rural.jpg"/>
 
-**Contexto**: Juan realiza la alimentación y supervisión del estanque manualmente, con escaso uso de tecnología, tomando decisiones en base a experiencia propia.
+**Piscicultores técnicos**
 
-<img src="Assets\UserJourneyMaps\JourneyMapUserJuan.png"/>
-
-### User Journey Map – Bryan Díaz
-
-**Contexto**: Bryan ha integrado soluciones tecnológicas de bajo costo como sensores caseros y automatización básica. Su enfoque está orientado al control y optimización del sistema con soporte digital.
-
-<img src="Assets\UserJourneyMaps\JourneyMapUserBryan.png"/>
+<img src="Assets/miro_user_journey_map_tec.jpg"/>
 
 #### 2.3.4. Empathy Mapping
 
-En esta sección se presentan los _Empathy Maps_ construidos para cada uno de los User Personas definidos: **Juan Pérez** y **Bryan Díaz**. Estos mapas se elaboraron a partir del análisis de las entrevistas, discusiones internas del equipo y observaciones derivadas del contexto productivo de cada usuario.
-
-### Empathy Map – Juan Pérez
-
-<img src="Assets\EmphatyMaps\JuanEmpathyMap.png">
 
 ### Empathy Map – Bryan Díaz
 
 <img src="Assets\EmphatyMaps\BryanEmpathyMap.png"/>
 
-#### 2.3.5. As-is Scenario Mapping
+**Piscicultores rurales**
 
-> **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
-> presenta una captura de los As-Is Scenario Mapping elaborados en la herramienta
-> indicada para cada User Persona, incluyendo las filas Phases, Doing, Thinking y
-> Feeling. El proceso de realización debe pasar por las etapas de preparación, lluvia de
-> ideas individual, revisión e identificación de fases como columnas, nombrar las fases,
-> identificar y etiquetar áreas positivas y negativas para los usuarios, junto con blank
-> areas (áreas que requieren aprender más sobre ellas)
+<img src="Assets/miro_empathy1.jpg"/>
+
+**Piscicultores técnicos**
+
+<img src="Assets/miro_empathy2.jpg"/>
+
+#### 2.3.5. As-is Scenario Mapping
 
 En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a los dos User Personas definidos: **Juan Pérez** y **Bryan Díaz**. Estos mapas describen el escenario actual de los usuarios, sin la intervención de la solución FeedGuard, y permiten visualizar cómo experimentan su jornada operativa en relación a la alimentación y monitoreo en sistemas acuícolas semiindustriales.
 
-### As-Is Scenario Mapping – Juan Pérez
+**Piscicultores rurales**
 
-<img src="Assets\As-IsMapping\Juan-AsIs.jpg">
+|Phases|Preparación|Inspección visual|Alimentación|Registro|
+|-|-|-|-|-|
+|DOING|Se alista temprano y se dirige a los estanques.|Observa el color del agua y el comportamiento de los peces.|Abre manualmente los paquetes de comida y la reparte.|Anota en papel la cantidad de alimento usado y condiciones del estanque.|
+|THINKING|“Hoy debo revisar todo antes que suba el sol.”|“Estará limpia el agua? Se ve un poco turbia.”|“Ojalá recuerde la cantidad exacta para cada estanque.”|“Todo esta en esta hoja, mejor no perderla.”|
+|FEELING|Motivado por cuidar su producción.|Inseguro sobre la calidad del agua.|Estresado por la carga física.|Aliviado pero preocupado por olvidar o perder datos.|
 
-### As-Is Scenario Mapping – Bryan Díaz
+**Piscicultores técnicos**
 
-<img src="Assets\As-IsMapping\Bryan-AsIs.jpg"/>
-
-Ambos escenarios muestran puntos de mejora que validan la necesidad de una solución IoT automatizada:
-
-- En el caso de **Juan**, existe una fuerte dependencia de la supervisión manual y la experiencia empírica, lo cual lo expone a errores y sobrecarga operativa.
-- En el caso de **Bryan**, aunque ha avanzado con tecnologías caseras, todavía carece de un sistema integral que le permita gestionar todo el proceso de forma conectada y eficiente.
-
-Estos escenarios proporcionan la base para construir el _To-Be Scenario Mapping_, donde se reflejará cómo la solución **FeedGuard** transforma estas experiencias.
+|Phases|Inicio del día|Monitoreo digital|Análisis de datos|Mantenimiento|
+|-|-|-|-|-|
+|DOING|Verifica funcionamiento de cada uno de los sensores.|Revisa parámetros de sensores: oxígeno, temperatura, etc.|Analiza datos históricos para planificar alimentación.|Registra datos en Excel a partir de lo arrojado en los sensores.|
+|THINKING|“Voy a revisar los datos primero.”|“Estos valores están fuera del rango normal.”|“Podemos optimizar la alimentación.”|“Debo revisar este sensor que no envía datos.”|
+|FEELING|Organizado y con control.|Alerta si algo no cuadra.|Proactivo y analítico.	|Frustrado si algo técnico falla.|
 
 ### 2.4. Ubiquitous Language
 
-Piscicultura: Sistema de crianza y producción de peces en ambientes controlados, como estanques o jaulas flotantes.
+|Término (inglés)|Término (español)|Definición|
+|-|-|-|
+|Fish Farmer|Piscicultor|Persona responsable por la gestión de la piscigranja.|
+|Fish Farm|Piscigranja|Instalación acuícola (natural o artificial) destinada a la crianza de organismos marinos.|
+|Pond|Estanque|Donde se cultivan los organismos marinos.|
+|Fish Stock|Cultivo de peces|Total de organismos marinos que estan siendo criados en un estanque.|
+|Feeding time|Tiempo de alimentación|Momento determinado del día en el que se alimenta a los organismos marinos.|
+|Feed distribution|Distribución de alimento|Acción de repartir el alimento para organismos marinos sobre el estanque.|
+|Water Quality|Calidad del agua|Medición de las condiciones del agua, considerando oxígeno, pH, temperatura y químicos que afectan la salud de los peces.|
+|Contamined water|Agua contaminada|Agua que no es adecuada para los peces debido a los desechos o químicos.|
+|Oxygen level|Nivel de oxígeno|Cantidad de oxígeno disuelto en el agua.|
+|Ammonia level|Nivel de amoniaco|Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.|
+|Daily routine|Rutina diaria|Actividades realizadas o por realizar en un día en la piscigranja.|
 
-Sistema de Monitoreo Ambiental: Conjunto de sensores IoT desplegados en la piscicultura que recogen datos en tiempo real (temperatura, oxígeno disuelto, pH, turbidez, etc.).
-
-Plataforma de Gestión Acuícola: Aplicación web o móvil donde se visualizan y gestionan los datos recolectados, alertas, históricos y recomendaciones operativas.
-
-Sensor IoT: Dispositivo inteligente que mide parámetros ambientales críticos del agua y transmite datos a la nube.
-
-Nodo de Control: Unidad central que recibe información de múltiples sensores y actúa sobre sistemas automatizados (alimentadores, aireadores, bombas).
-
-Actuador: Componente físico que ejecuta acciones automáticas en función de los datos recibidos (como encender un oxigenador).
-
-Alerta Crítica: Notificación emitida por el sistema ante condiciones que podrían poner en riesgo la salud de los peces.
-
-Condiciones Óptimas del Agua: Rango de valores para cada parámetro ambiental que aseguran un crecimiento saludable de los peces.
-
-Productividad Piscícola: Métrica que evalúa el rendimiento de producción, considerando crecimiento, conversión alimenticia y sobrevivencia.
-
-Ciclo de Crianza: Período desde la siembra de alevinos hasta la cosecha de peces adultos.
-
-Alevinos: Peces juveniles en etapa temprana de desarrollo.
-
-Panel de Control: Interfaz de usuario donde se muestran los principales indicadores operativos de la piscicultura.
-
-Recomendación Inteligente: Sugerencia automática generada por el sistema basada en datos históricos y condiciones actuales.
-
-Interfaz de Usuario (UI): Diseño y estructura visual de la plataforma con la que interactúan los operarios.
-
-Experto de Campo: Profesional con experiencia práctica en la operación de pisciculturas, clave en la validación y calibración del sistema.
 
 ## Capítulo III: Requirements Specification
 
