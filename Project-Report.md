@@ -824,9 +824,6 @@ Los piscicultores técnicos, por otro lado, muestran un enfoque más avanzado y 
 
 
 #### 2.3.3. User Journey Mapping
-> **💬 Enunciado:** En esta sección se elabora los User Journey Maps (uno por cada User Persona). La
-sección inicia con una introducción que resume el end-to-end journey que se pretende ilustrar. Debe incluirse capturas de imagen de los diagramas elaborados en la herramienta indicada. En este caso se elabora las versiones As-Is de los User Journey Maps, es decir los journey de cada segmento representado para la situación actual, sin que exista su solución. Cada User Journey Map debe vincularse con el User Persona correspondiente (cuya ficha de User Persona también debe haberse elaborado en la misma herramienta indicada).
-
 Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
 
 **Piscicultores rurales**
@@ -838,19 +835,16 @@ Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada Us
 <img src="Assets/miro_user_journey_map_tec.jpg"/>
 
 #### 2.3.4. Empathy Mapping
-> **💬 Enunciado:** En esta sección, el equipo resume el proceso de elaboración y presenta capturas de
-los Empathy Maps realizados en la herramienta indicada, para cada uno de los User
-Personas. El proceso de elaboración incluye la preparación, colocar al centro el User
-Persona. Colocar en la sección correspondiente en la herramienta cada observación
-de los miembros del equipo sobre el User Persona, buscando responder las
-preguntas ¿Con quién estamos empatizando? ¿Qué necesita hacer? ¿Qué está
-diciendo? ¿Qué está viendo? ¿Qué está haciendo? ¿Qué está escuchando? ¿Cómo se
-siente y qué piensa? Identificar Pains y Gains en base a las preguntas ¿Qué le
-preocupa? Y ¿Qué puede ayudar a resolver sus problemas? ¿Qué puede convencerlo
-de que somos la alternativa correcta? ¿Qué dice?
-
 
 Se construyeron mapas de empatía para comprender mejor la experiencia de los User Personas. A continuación se resumen los principales hallazgos:
+
+**Piscicultores rurales**
+
+<img src="Assets/miro_empathy1.jpg"/>
+
+**Piscicultores técnicos**
+
+<img src="Assets/miro_empathy2.jpg"/>
 
 #### 2.3.5. As-is Scenario Mapping
 > **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
