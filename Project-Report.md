@@ -949,25 +949,34 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
 
 ### 3.2. User Stories
 
-> **💬 Enunciado:** Requisitos definidos junto con el conjunto de User Stories y Epics para los requisitos
-> identificados. Los User Stories incluyen Acceptance Criteria. En esta sección el
-> equipo redacta una introducción y presenta un cuadro con la estructura especificada
-> a continuación. Solo se elabora un cuadro para todo el conjunto de Epics/Stories.
-> Debe dedicar una línea del cuadro a cada Epic / User Story. Es importante recordar que una User Story tiene varios criterios de aceptación. Los
-> criterios de aceptación deben redactarse en tiempo presente, tercera persona, no
-> hacer referencia a detalles de interfaz de usuario y deben ser comprobables. La
-> estructura de criterios de aceptación debe seguir la estructura de Gherkin (GivenWhen-Then). Las únicas excepciones podrían ser reglas de negocio o restricciones
-> que no dependan de condiciones.
-> Debe también considerar User Stories para el sitio web estático (Landing Page),
-> tomando como rol base visitante (o subconjuntos para cada segmento considerado
-> cuando se requiera, como visitante del segmento XXXX) en la redacción de la
-> descripción de la User Story. Recuerde que el sitio web estático tienen diversas secciones, con contenido dirigido a diversos segmentos, con características y
-> comportamiento que permita su vínculo con la experiencia web.
-> Adicionalmente, debe considerarse Technical Stories para los features de productos
-> digitales que no tienen interacción directa con los usuarios finales, como por ejemplo
-> los RESTful APIs. En ese caso, utilice el rol Developer en la redacción de la descripción
-> de la User Story. Considere como Acceptance Criteria los posibles escenarios de
-> interacción de request/response, siguiendo la estructura de Gherkin.
+Los User Stories sirven para describir de manera más detallada las diferentes funciones de la aplicación, adaptándolas a las necesidades y prioridades de los usuarios. Estas historias también capturan el propósito de uso de las personas, brindando una comprensión más completa de cómo se relacionan con la aplicación y qué esperan lograr con ella.
+
+**Epic Stories**
+<table>
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Landing Page</td>
+      <td>
+  <strong>Descripción:</strong> Como piscicultor, deseo que la landing page comunique claramente los beneficios de FeedGuard y cómo puede ayudarme a optimizar la alimentación y el monitoreo en mi piscigranja.<br><br>
+  Como usuario interesado, deseo entender rápidamente cómo FeedGuard automatiza procesos críticos, reduce desperdicios y mejora la eficiencia en la acuicultura.<br><br>
+  Como cliente potencial, deseo poder acceder fácilmente a información sobre las funcionalidades principales, casos de éxito y cómo comenzar a usar el sistema.<br><br>
+  <strong>Technical Stories:</strong><br>
+  - Como desarrollador, deseo implementar una landing page responsiva y optimizada para SEO, para atraer y convertir visitantes.<br>
+  - Como desarrollador, deseo mostrar testimonios y casos de éxito en la landing page, para aumentar la confianza de los usuarios.<br>
+  - Como desarrollador, deseo asegurar que la landing page cargue rápidamente y sea accesible desde cualquier dispositivo.
+</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -978,12 +987,95 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
     <th>Relacionado<br>con (Epic ID)</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+      <td>HU1</td>
+      <td>Visualización de Servicios Destacados</td>
+      <td>Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.</td>
+      <td>
+        <strong>Scenario 1:</strong> Visualización de Servicios Destacados<br>
+        GIVEN un cliente potencial visitando la landing page<br>
+        WHEN accede al sitio web<br>
+        THEN se muestran los servicios legales más relevantes y populares en un formato atractivo, organizado por categorías para facilitar la navegación<br>
+        AND puede hacer clic directamente en los servicios para obtener más información.<br><br>
+        <strong>Scenario 2:</strong> No hay servicios destacados disponibles<br>
+        GIVEN un cliente potencial accediendo a la landing page<br>
+        WHEN no hay servicios destacados disponibles<br>
+        THEN se muestra un mensaje indicando que los servicios se actualizarán pronto<br>
+        AND se ofrece la opción de registrarse para recibir notificaciones sobre los nuevos servicios.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+  <td>HU2</td>
+  <td>Testimonios de Usuarios Satisfechos</td>
+  <td>Como piscicultor, quiero leer testimonios de otros usuarios satisfechos en la landing page para sentirme más confiado al considerar la solución, lo que me ayudará a tomar una decisión informada.</td>
+  <td>
+    <strong>Scenario 1:</strong> Visualización de Testimonios<br>
+    GIVEN un piscicultor potencial interesado en FeedGuard<br>
+    WHEN navega por la landing page<br>
+    THEN se muestra una sección con testimonios auténticos de usuarios satisfechos, ordenados por relevancia<br>
+    AND puede filtrar los testimonios por tipo de piscigranja o beneficio obtenido.<br><br>
+    <strong>Scenario 2:</strong> No hay testimonios disponibles<br>
+    GIVEN un piscicultor potencial buscando opiniones en la landing page<br>
+    WHEN no hay testimonios disponibles<br>
+    THEN se muestra un mensaje indicando que pronto se publicarán nuevos testimonios<br>
+    AND se invita al usuario a contactar con el equipo para más información.
+  </td>
+  <td>EP01</td>
+</tr>
+<tr>
+  <td>HU3</td>
+  <td>Acceso Rápido a Funcionalidades Clave</td>
+  <td>Como piscicultor, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.</td>
+  <td>
+    <strong>Scenario 1:</strong> Acceso Rápido desde la Landing Page<br>
+    GIVEN un piscicultor potencial explorando el sitio web<br>
+    WHEN llega a la landing page<br>
+    THEN se muestran accesos directos claros a funcionalidades clave como registro, contacto y casos de éxito, con un diseño intuitivo y responsivo<br>
+    AND puede realizar una acción en 3 clics o menos.<br><br>
+    <strong>Scenario 2:</strong> No hay accesos rápidos disponibles<br>
+    GIVEN un piscicultor potencial buscando funcionalidades clave<br>
+    WHEN no se muestran accesos rápidos en la landing page<br>
+    THEN el usuario puede navegar a través del menú principal para acceder a las funcionalidades deseadas<br>
+    AND se le informa de los accesos disponibles en otras secciones.
+  </td>
+  <td>EP01</td>
+</tr>
+<tr>
+  <td>HU4</td>
+  <td>Información Clara y Concisa sobre FeedGuard</td>
+  <td>Como piscicultor, quiero encontrar una descripción clara y concisa de FeedGuard en la landing page para entender de qué se trata la solución sin complicaciones.</td>
+  <td>
+    <strong>Scenario 1:</strong> Información sobre el Servicio<br>
+    GIVEN un piscicultor potencial sin experiencia previa con FeedGuard<br>
+    WHEN accede a la landing page<br>
+    THEN se presenta una descripción clara y simple de los servicios y beneficios de FeedGuard<br>
+    AND puede acceder a más información sin tener que navegar por varias páginas.<br><br>
+    <strong>Scenario 2:</strong> No se muestra la información clara<br>
+    GIVEN un piscicultor potencial buscando más información<br>
+    WHEN la descripción no es clara o está incompleta<br>
+    THEN el usuario puede contactar al equipo para obtener más detalles<br>
+    AND se le ofrece una guía o página de preguntas frecuentes.
+  </td>
+  <td>EP01</td>
+</tr>
+<tr>
+  <td>HU5</td>
+  <td>Diseño Atractivo y Responsivo</td>
+  <td>Como piscicultor, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
+  <td>
+    <strong>Scenario 1:</strong> Diseño de la Landing Page<br>
+    GIVEN un piscicultor potencial utilizando diferentes dispositivos<br>
+    WHEN visita la landing page<br>
+    THEN la página se adapta perfectamente al dispositivo, con un diseño atractivo que facilita la navegación<br>
+    AND las principales funcionalidades son accesibles sin problemas desde móviles y tablets.<br><br>
+    <strong>Scenario 2:</strong> Problemas de responsividad<br>
+    GIVEN un piscicultor utilizando un dispositivo móvil<br>
+    WHEN la página no se adapta correctamente a su pantalla<br>
+    THEN el usuario puede informar del problema a través de un formulario de retroalimentación<br>
+    AND se le ofrece una versión simplificada de la página para continuar su navegación.
+  </td>
+  <td>EP01</td>
+</tr>
 </table>
 
 ### 3.3. Impact Mapping
