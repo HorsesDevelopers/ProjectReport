@@ -313,8 +313,9 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     </td>
   </tr>
 </table>
+
 ### 1.2. Solution Profile
-> **💬 Enunciado:** Esta sección incluye dos secciones internas. La primera parte, Antecedentes y Problemática, consta del enunciado de problema, y una descripción de los puntos más importante que debe resolver la solución propuesta, así como objetivos y restricciones que delimiten el alcance del proyecto. La segunda parte, Lean UX Process, es resultado de la ejecución del Lean UX Process sobre el dominio del problema.
+
 #### 1.2.1. Antecedentes y problemática
 #### The 5 W’s and 2 H’s
 
@@ -815,7 +816,6 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 
 ### 2.3. Needfinding
 
-El proceso de **Needfinding** tiene como propósito identificar las necesidades, expectativas, frustraciones y comportamientos de los usuarios vinculados al dominio de la solución. Esta etapa permite fundamentar decisiones de diseño centradas en el usuario, basadas en datos empíricos extraídos de entrevistas y observación contextual.<br>
 A continuación, se detallan los principales artefactos elaborados en esta fase del proyecto.
 
 #### 2.3.1. User Personas
@@ -829,8 +829,6 @@ Con base en el análisis de entrevistas realizadas a representantes de los segme
   <img src="Assets\UserPersonas\Bryan, piscicultor técnico.png"/>
 
 Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidades clave que serán consideradas a lo largo del diseño de la solución.
-
-> **💬 Enunciado:** En esta sección se incluye la elaboración de las fichas de User Persona. La sección inicia con una introducción explicando la relación entre los artefactos a presentar y las principales características que se están tomando en cuenta del análisis de entrevistas y de la competencia. Se elabora una ficha de User Persona por cada segmento objetivo. Considere las mejores prácticas y todos los ítems necesarios para especificar un arquetipo. Utilice la herramienta indicada para este tipo de artefacto.
 
 #### 2.3.2. User Task Matrix
 
@@ -867,24 +865,29 @@ Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada Us
 
 <img src="Assets/miro_user_journey_map_rural.jpg"/>
 
+Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+
 **Piscicultores técnicos**
 
 <img src="Assets/miro_user_journey_map_tec.jpg"/>
 
+Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+
+
 #### 2.3.4. Empathy Mapping
-
-
-### Empathy Map – Bryan Díaz
-
-<img src="Assets\EmphatyMaps\BryanEmpathyMap.png"/>
 
 **Piscicultores rurales**
 
 <img src="Assets/miro_empathy1.jpg"/>
 
+Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+
+
 **Piscicultores técnicos**
 
 <img src="Assets/miro_empathy2.jpg"/>
+
+Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
 #### 2.3.5. As-is Scenario Mapping
 
@@ -894,10 +897,14 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 
 <img src="Assets/miro_asis1.jpg"/>
 
+Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+
 
 **Piscicultores técnicos**
 
 <img src="Assets/miro_asis2.jpg"/>
+
+Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
 
 ### 2.4. Ubiquitous Language
