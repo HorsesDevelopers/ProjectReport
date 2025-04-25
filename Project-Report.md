@@ -987,22 +987,20 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
 
 ### 3.3. Impact Mapping
 
-> **💬 Enunciado:** En esta sección el equipo explica y presenta capturas del Impact Mapping para el
-> modelo de negocio digital, elaborado en la herramienta indicada. Para esto debe
-> haber elaborado previamente en la herramienta las fichas para cada User Persona.
-> La elaboración incluye la identificación de los Business Goals (los business goals
-> deben cumplir con los criterios SMART3
-> . Por ejemplo “Alcanzar los 600 usuarios
-> suscritos al plan A en el lapso de 8 meses.”). Debe considerar varios Business Goals.
-> Debe incluir como Actors/Personas a los User Personas previamente identificados,
-> según relaciones con los Business Goals, buscando responder la pregunta ¿Quiénes
-> me ayudarán a lograr la meta? La columna Impact debe incluir los enunciados de
-> cómo desea que los User Persona cambien o se comporten ¿Qué tendría él/ella que
-> hacer para ayudar a que se logre la meta? La columna Deliverables debe incluir los
-> elementos que respondan la pregunta ¿Qué puedo hacer como negocio digital para
-> provocar esos Impacts? La columna User Stories debe incluir la descripción de los
-> User Stories (en el formato “Como... deseo... para...”) que permitirán obtener los
-> features que ayudarán a producir los Deliverables identificados.
+En esta sección se presentan los **Impact Mapping** desarrollados para cada uno de los segmentos objetivo identificados: **Juan Pérez** (piscicultor rural, tradicional) y **Bryan Díaz** (piscicultor técnico, innovador).  
+El Impact Mapping fue clave para alinear las funcionalidades de FeedGuard con los objetivos estratégicos del proyecto, permitiendo visualizar de manera clara cómo las acciones y cambios de comportamiento de cada usuario contribuyen al logro de los resultados esperados.
+
+El proceso de construcción de estos mapas incluyó sesiones colaborativas de análisis, identificación de objetivos, actores, impactos y entregables clave, asegurando que cada funcionalidad propuesta responda a necesidades reales detectadas en la investigación.  
+
+A continuación, se presentan los Impact Mapping para cada segmento objetivo, facilitando la comparación de los caminos de valor y el impacto esperado de la solución en cada perfil de usuario.
+
+#### Impact Mapping – Juan Pérez (Piscicultor rural, tradicional)
+
+<img src="Assets\impactMapping\im-juan.png">
+
+#### Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)
+
+<img src="Assets\impactMapping\im-bryan.png"/>
 
 ### 3.4. Product Backlog
 
