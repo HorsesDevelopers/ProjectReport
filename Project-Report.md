@@ -852,19 +852,20 @@ A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) par
 |FEELING|Organizado y con control.|Alerta si algo no cuadra.|Proactivo y analítico.	|Frustrado si algo técnico falla.|
 
 ### 2.4. Ubiquitous Language
-> **💬 Enunciado:** En esta sección el equipo redacta un glosario de términos y conceptos con
-definiciones utilizadas en el business domain, sin ambigüedad, relacionados al área
-de especialidad o sector en el que se establecen el problema y la solución. Mantener
-un glosario de este tipo completo y actualizado, permite que se comuniquen
-claramente todos los miembros y stakeholders en el equipo. Solo debe incluirse
-13/41
-términos del dominio, no términos técnicos del área de ingeniería de software. Los
-términos deben estar en inglés (puede incluirse adicionalmente el término
-equivalente en español entre paréntesis). La definición correspondiente al término
-puede estar en español. Eric Evans habla sobre Ubiquitous Language en su libro
-Domain-Driven Design: Tackling Complexity in the Heart of Software2.<br>2 En el libro Eric Evans establece “Ubiquitous Language is modeled within a Limited context, where
-the terms and concepts of the business domain are identified, and there should be no ambiguity”.
 
+|Término (inglés)|Término (español)|Definición|
+|-|-|-|
+|Fish Farmer|Piscicultor|Persona responsable por la gestión de la piscigranja.|
+|Fish Farm|Piscigranja|Instalación acuícola (natural o artificial) destinada a la crianza de organismos marinos.|
+|Pond|Estanque|Donde se cultivan los organismos marinos.|
+|Fish Stock|Cultivo de peces|Total de organismos marinos que estan siendo criados en un estanque.|
+|Feeding time|Tiempo de alimentación|Momento determinado del día en el que se alimenta a los organismos marinos.|
+|Feed distribution|Distribución de alimento|Acción de repartir el alimento para organismos marinos sobre el estanque.|
+|Water Quality|Calidad del agua|Medición de las condiciones del agua, considerando oxígeno, pH, temperatura y químicos que afectan la salud de los peces.|
+|Contamined water|Agua contaminada|Agua que no es adecuada para los peces debido a los desechos o químicos.|
+|Oxygen level|Nivel de oxígeno|Cantidad de oxígeno disuelto en el agua.|
+|Ammonia level|Nivel de amoniaco|Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.|
+|Daily routine|Rutina diaria|Actividades realizadas o por realizar en un día en la piscigranja.|
 
 ## Capítulo III: Requirements Specification
 > **💬 Enunciado:** Esta sección permite que el equipo realice en base al análisis de la información
