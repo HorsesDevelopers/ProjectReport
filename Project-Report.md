@@ -4,23 +4,27 @@
 
 # **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
-### **Facultad de Ingeniería - Carrera de Ingeniería de Software**  
+### **Facultad de Ingeniería - Carrera de Ingeniería de Software**
+
 ### **2025-1**
 
+#### **Curso:**
 
-#### **Curso:** 
-### 1ASI0572 - Desarrollo de Soluciones IoT  
+### 1ASI0572 - Desarrollo de Soluciones IoT
+
 #### **NRC:**
-#### 2947
-#### **Profesor:**
-#### Angel Augusto Velasquez Nuñez
 
+#### 2947
+
+#### **Profesor:**
+
+#### Angel Augusto Velasquez Nuñez
 
 ### **Informe de Trabajo Final**
 
-#### Startup: **AquaSense Technologies**  
-#### Producto: **FeedGuard**
+#### Startup: **AquaSense Technologies**
 
+#### Producto: **FeedGuard**
 
 ### **Integrantes del equipo**
 
@@ -58,6 +62,7 @@
 </div>
 
 ---
+
 ## Registro de Versiones del Informe
 
 <table border="1" cellspacing="0" cellpadding="5">
@@ -75,15 +80,27 @@
   </tr>
 </table>
 
-
-
-
 ## Project Report Collaboration Insights
 
 ## Contenido
 
 ### Tabla de contenidos
 
+- [Reporte de Proyecto](#reporte-de-proyecto)
+- [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
+  - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+  - [**2025-1**](#2025-1)
+    - [**Curso:**](#curso)
+  - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+    - [**NRC:**](#nrc)
+    - [2947](#2947)
+    - [**Profesor:**](#profesor)
+    - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+  - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+    - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+    - [Producto: **FeedGuard**](#producto-feedguard)
+  - [**Integrantes del equipo**](#integrantes-del-equipo)
+  - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -109,6 +126,13 @@
       - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [🎯 Objetivo de la entrevista](#-objetivo-de-la-entrevista)
+    - [📋 Guía de preguntas](#-guía-de-preguntas)
+      - [1. Datos personales y productivos](#1-datos-personales-y-productivos)
+      - [2. Proceso de alimentación actual](#2-proceso-de-alimentación-actual)
+      - [3. Monitoreo ambiental y toma de decisiones](#3-monitoreo-ambiental-y-toma-de-decisiones)
+      - [4. Tecnología, percepción y adopción](#4-tecnología-percepción-y-adopción)
+    - [📝 Datos complementarios a recolectar](#-datos-complementarios-a-recolectar)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [2.3. Needfinding](#23-needfinding)
@@ -149,7 +173,6 @@
 ---
 
 ## Student Outcome
-
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -195,8 +218,8 @@
   </tr>
 </table>
 
-
 ## Capítulo I: Introducción
+
 En el contexto de los sistemas productivos modernos, la incorporación de tecnologías emergentes como el Internet de las Cosas (IoT, por sus siglas en inglés) representa una oportunidad clave para mejorar procesos tradicionales a través de la automatización, el monitoreo en tiempo real y la toma de decisiones basada en datos. Esta transformación digital, conocida como Industria 4.0, ha impactado positivamente múltiples sectores, incluyendo la agricultura, la manufactura, la logística y, más recientemente, la acuicultura.
 
 La acuicultura, entendida como la cría controlada de organismos acuáticos en entornos artificiales o semi-naturales, se ha consolidado como una de las principales fuentes de proteína animal a nivel mundial. Sin embargo, a pesar de su crecimiento, enfrenta desafíos estructurales relacionados con la eficiencia de los recursos, la sostenibilidad ambiental y la precisión en los procesos operativos, especialmente en el manejo de la alimentación y la calidad del agua.
@@ -205,8 +228,8 @@ Este reporte documenta el ciclo de vida completo del desarrollo de una solución
 
 El contenido del informe abordará desde la identificación de la problemática, el análisis de los usuarios, la especificación de requerimientos y diseño de la arquitectura de software, hasta la implementación, validación y despliegue de la solución propuesta. Todo ello con el objetivo de mostrar cómo una propuesta tecnológica puede impactar positivamente la productividad y sostenibilidad de una actividad económica vital como lo es la acuicultura.
 
-
 ### 1.1. Startup Profile
+
 #### 1.1.1. Descripción de la Startup
 
 AquaSense Technologies es una startup tecnológica orientada al desarrollo de soluciones inteligentes para el sector acuícola. Su enfoque principal es mejorar la eficiencia y sostenibilidad de los procesos productivos en pisciculturas mediante el uso de tecnologías IoT, automatización y monitoreo ambiental en tiempo real. La empresa trabaja con un enfoque centrado en el usuario, combinando ingeniería, datos y experiencia en campo para resolver problemáticas clave en sistemas semiindustriales de crianza de peces.
@@ -220,6 +243,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
   Diseñar e implementar soluciones inteligentes que integren IoT, automatización y análisis de datos en tiempo real para optimizar procesos clave en sistemas acuícolas, mejorando la productividad, la sostenibilidad y la calidad del producto final.
 
 - 💡 **Propuesta de valor**
+
   - Soluciones tecnológicas adaptadas a las necesidades reales de productores acuícolas semiindustriales.
   - Automatización de procesos críticos como la alimentación y el monitoreo ambiental.
   - Mejora de la eficiencia operativa, reducción de desperdicios y optimización del uso de recursos.
@@ -228,6 +252,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
 - ⚙️ **Enfoque tecnológico**
 
   AquaSense Technologies desarrolla productos utilizando:
+
   - **Tecnologías IoT** para la sensorización y automatización.
   - **Sistemas embebidos** conectados con plataformas en la nube.
   - **Arquitecturas distribuidas** con Edge Computing y servicios RESTful.
@@ -240,8 +265,9 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
 - 🚀 **Primer producto**
 
   **FeedGuard**  
-Sistema inteligente de alimentación y monitoreo para acuicultura semiindustrial.<br>
-Automatiza la dosificación de alimento y toma decisiones en función de parámetros como el oxígeno disuelto y los compuestos nitrogenados del agua, mejorando la eficiencia productiva y el bienestar de los peces.
+  Sistema inteligente de alimentación y monitoreo para acuicultura semiindustrial.<br>
+  Automatiza la dosificación de alimento y toma decisiones en función de parámetros como el oxígeno disuelto y los compuestos nitrogenados del agua, mejorando la eficiencia productiva y el bienestar de los peces.
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
@@ -256,7 +282,7 @@ Automatiza la dosificación de alimento y toma decisiones en función de paráme
     </td>
   </tr>
   <tr>
-    <td>pongan su foto</td>
+    <td><img src="Assets\VittorioEduardo.jpg" width="200"/></td>
     <td>
     Eduardo Espinoza, Vittorio Marcelo
     </td>
@@ -329,7 +355,9 @@ Adicionalmente, la falta de integración entre el proceso de alimentación y las
 A esto se suma la necesidad de optimizar el uso del tiempo y los recursos humanos en un contexto donde el acceso a personal capacitado es limitado y los márgenes de ganancia son estrechos. Las actividades repetitivas y rutinarias como la alimentación podrían ser automatizadas para liberar tiempo y reducir errores humanos.
 
 Frente a esta problemática, se evidencia una clara oportunidad de mejora mediante el uso de tecnologías emergentes que permitan tomar decisiones más informadas, automatizar procesos clave y mejorar la sostenibilidad del sistema productivo.
+
 #### 1.2.2. Lean UX Process
+
 ##### 1.2.2.1. Lean UX Problem Statements
 
 **Domain:**
@@ -449,9 +477,7 @@ Si el sistema demuestra beneficios medibles en el primer mes, entonces los usuar
   </tr>
 </table>
 
-
 ### 1.3. Segmentos objetivo
-> **💬 Enunciado:** Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento.
 
 **Segmento 1: Productores acuícolas semiindustriales rurales**
 Descripción:
@@ -465,11 +491,24 @@ Características demográficas y técnicas:
 - Ubicación en zonas con conectividad móvil básica y limitado acceso a servicios técnicos continuos.
 - Operación centrada en ciclos productivos de entre 5 y 8 meses.
 
+**Segmento 2: Piscicultores técnicos innovadores**
+Descripción:
+Piscicultores jóvenes o de perfil técnico, con conocimientos básicos o intermedios en tecnologías digitales, automatización y sensores. Utilizan o experimentan con herramientas como Arduino, sensores ambientales y dispositivos móviles para monitoreo de sus estanques. Tienen altas expectativas en cuanto a eficiencia y tecnología.
+
+Características demográficas y técnicas:
+
+- Edad promedio: 25 a 40 años.
+- Nivel educativo: técnico superior o universitario (áreas relacionadas a producción agropecuaria, ingeniería técnica o afines).
+- Uso de dispositivos móviles y plataformas digitales.
+- Interés activo en automatización, monitoreo en tiempo real y reducción de costos operativos.
+- Buscan soluciones escalables y con soporte técnico constante.
+
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
+
 
 <table border="1" cellspacing="0" cellpadding="5">
   <!-- Fila 1: Título que ocupa las 7 columnas -->
@@ -605,6 +644,7 @@ Características demográficas y técnicas:
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
 A partir del análisis competitivo realizado, se logró identificar las fortalezas, debilidades, oportunidades y amenzas destacadas en los competidores. A continuación, se brindará tanto estrategias como tácticas para alcanzar esta meta:
 
 **Fortalezas de nuestros competidores:** 
@@ -679,6 +719,7 @@ A partir del análisis competitivo realizado, se logró identificar las fortalez
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+
 Con el objetivo de comprender las necesidades, frustraciones, comportamientos y expectativas de los usuarios objetivo del sistema FeedGuard, se diseñó una guía de entrevistas semiestructurada dirigida a **productores acuícolas semiindustriales**. Estas entrevistas permitirán construir perfiles de usuario (User Personas) representativos y definir con mayor claridad las funcionalidades de la solución IoT.
 
 Las entrevistas se dividen en 4 bloques temáticos: **Datos personales y productivos**, **Proceso de alimentación actual**, **Monitoreo ambiental**, y **Tecnología y disposición al cambio**.
@@ -690,6 +731,7 @@ Recolectar información cualitativa sobre la operación acuícola, métodos actu
 ### 📋 Guía de preguntas
 
 #### 1. Datos personales y productivos
+
 - ¿Cuál es su nombre y edad?
 - ¿Dónde está ubicada su piscigranja?
 - ¿Qué especie cultiva (tilapia, trucha, gamitana, etc.)?
@@ -699,6 +741,7 @@ Recolectar información cualitativa sobre la operación acuícola, métodos actu
 - ¿Qué tipo de formación o experiencia tiene en este rubro?
 
 #### 2. Proceso de alimentación actual
+
 - ¿Cómo se realiza actualmente la alimentación de los peces?
 - ¿Cuántas veces al día alimenta y en qué horarios?
 - ¿Cómo decide la cantidad de alimento que les da?
@@ -707,12 +750,14 @@ Recolectar información cualitativa sobre la operación acuícola, métodos actu
 - ¿Qué indicadores usa para saber si los peces están comiendo bien?
 
 #### 3. Monitoreo ambiental y toma de decisiones
+
 - ¿Monitorea parámetros del agua como oxígeno o amonio? ¿Con qué frecuencia?
 - ¿Tiene sensores o lo hace de forma manual?
 - ¿Alguna vez ha tenido pérdidas por mala calidad del agua?
 - ¿Qué tan fácil o difícil es mantener el agua en condiciones óptimas?
 
 #### 4. Tecnología, percepción y adopción
+
 - ¿Ha usado alguna tecnología automatizada para alimentar?
 - ¿Qué herramientas digitales utiliza en su trabajo? (Apps, redes, sensores, etc.)
 - ¿Le interesaría automatizar el proceso de alimentación si esto le ahorra alimento y trabajo?
@@ -733,6 +778,7 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 - **Canales digitales que usa con frecuencia**: Como WhatsApp, Facebook u otras plataformas de comunicación.
 - **Tiempo promedio dedicado diariamente al monitoreo de los estanques**: Expresado en horas por día.
 
+#### 2.2.2. Registro de entrevistas
 
 #### 2.2.2. Registro de entrevistas
 
@@ -762,29 +808,31 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 
 
 > **💬 Enunciado:**  Para cada segmento se requiere de 3 a 5 entrevistas. Para cada una de las entrevistas se debe indicar la información de nombres, apellidos, edad, distrito, un screenshot de un cuadro de video y el URL del video subido en Microsoft Stream (es un solo video editado para todas las entrevistas) incluyendo el timing donde inicia la entrevista y su duración. La entrevista debe ser registrada en video, que sirve de evidencia de entrevistas. Para cada entrevista debe redactarse en este informe un resumen, que explique de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Todas las características objetivas y subjetivas, incluyendo aspectos como personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc. Deben estar incluidas como parte de los resúmenes para cada entrevista. Debe ser evidente que cada característica de los arquetipos que se construirán en base a esta información provienen de datos recolectados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos.
+
 #### 2.2.3. Análisis de entrevistas
+
 > **💬 Enunciado:** En esta sección se debe realizar un análisis por cada segmento objetivo, identificando con sustento estadístico (porcentajes) todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento y que son necesarios para la construcción de los arquetipos. La fuente de información para este análisis proviene de las entrevistas registradas. Debe evidenciarse que cada característica tiene relación con las entrevistas registradas y los resúmenes realizados para las mismas.
 
 ### 2.3. Needfinding
+
 El proceso de **Needfinding** tiene como propósito identificar las necesidades, expectativas, frustraciones y comportamientos de los usuarios vinculados al dominio de la solución. Esta etapa permite fundamentar decisiones de diseño centradas en el usuario, basadas en datos empíricos extraídos de entrevistas y observación contextual.<br>
 A continuación, se detallan los principales artefactos elaborados en esta fase del proyecto.
 
 #### 2.3.1. User Personas
+
 Con base en el análisis de entrevistas realizadas a representantes de los segmentos objetivo, se han definido dos **User Personas** representativos del ecosistema productivo de la acuicultura semiindustrial.
 
 - **Persona 1**, Juan
-<img src="Assets\UserPersonas\Juan, piscicultor rural.png"/>
+  <img src="Assets\UserPersonas\Juan, piscicultor rural.png"/>
 
 - **Persona 2**, Bryan
-<img src="Assets\UserPersonas\Bryan, piscicultor técnico.png"/>
-
-
+  <img src="Assets\UserPersonas\Bryan, piscicultor técnico.png"/>
 
 Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidades clave que serán consideradas a lo largo del diseño de la solución.
 
-> **💬 Enunciado:** En esta sección se incluye la elaboración de las fichas de User Persona. La sección inicia con una introducción explicando la relación entre los artefactos a presentar y las principales características que se están tomando en cuenta del análisis de entrevistas y de la competencia. Se elabora una ficha de User Persona por cada segmento objetivo. Considere las mejores prácticas y todos los ítems necesarios para especificar un arquetipo. Utilice la herramienta indicada para este tipo de artefacto. 
+> **💬 Enunciado:** En esta sección se incluye la elaboración de las fichas de User Persona. La sección inicia con una introducción explicando la relación entre los artefactos a presentar y las principales características que se están tomando en cuenta del análisis de entrevistas y de la competencia. Se elabora una ficha de User Persona por cada segmento objetivo. Considere las mejores prácticas y todos los ítems necesarios para especificar un arquetipo. Utilice la herramienta indicada para este tipo de artefacto.
+
 #### 2.3.2. User Task Matrix
-Se elaboró una **matriz de tareas** basada en las acciones que los User Personas realizan en su contexto laboral.
 
 | Task Matrix                                                         | Piscicultores rural Frecuencia | Piscicultores rural Importancia | Piscicultores técnico Frecuencia | Piscicultores técnico Importancia |
 |----------------------------------------------------------------|:------------------------:|:-----------------------:|:------------------------:|:-----------------------:|
@@ -798,7 +846,11 @@ Se elaboró una **matriz de tareas** basada en las acciones que los User Persona
 | 8. Estar alerta en caso de escasez o excedente de recursos     |           Alta           | Alta                    | Media                    | Alta                   |
 | 9. Intentar automatizar el proceso                             |           Baja           | Media                    | Alta                    | Alta                   |
 
-**Análisis**: Las tareas relacionadas con la alimentación y monitoreo son críticas para ambos usuarios, lo que refuerza la necesidad de automatización y apoyo visual en la toma de decisiones.
+
+- **Juan** prioriza tareas manuales como la dosificación y supervisión visual, con poco uso de registros o análisis digital.
+- **Bryan**, en cambio, tiene una visión más analítica: mide constantemente, registra sus datos y busca optimizar con base en evidencia técnica.
+
+También se observa que **Bryan valora mucho la automatización y el uso de sensores**, mientras que **Juan necesita confianza y simplicidad** para adoptar nuevas herramientas.
 
 **Piscicultores rurales**
 Los piscicultores rurales priorizan la eficiencia operativa, el monitoreo constante de las  condiciones de la granja y la reducción de desperdicio de recursos. También se observa un alto valor otorgado a registrar actividades y datos. Aunque la automatización no esta entre su foco principal, muestra interés en la toma de decisiones a partir de datos.
@@ -821,7 +873,10 @@ Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada Us
 
 #### 2.3.4. Empathy Mapping
 
-Se construyeron mapas de empatía para comprender mejor la experiencia de los User Personas. A continuación se resumen los principales hallazgos:
+
+### Empathy Map – Bryan Díaz
+
+<img src="Assets\EmphatyMaps\BryanEmpathyMap.png"/>
 
 **Piscicultores rurales**
 
@@ -833,7 +888,7 @@ Se construyeron mapas de empatía para comprender mejor la experiencia de los Us
 
 #### 2.3.5. As-is Scenario Mapping
 
-A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) para ambos perfiles. Se identificaron fases repetitivas que podrían ser optimizadas con tecnología.
+En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a los dos User Personas definidos: **Juan Pérez** y **Bryan Díaz**. Estos mapas describen el escenario actual de los usuarios, sin la intervención de la solución FeedGuard, y permiten visualizar cómo experimentan su jornada operativa en relación a la alimentación y monitoreo en sistemas acuícolas semiindustriales.
 
 **Piscicultores rurales**
 
@@ -867,40 +922,51 @@ A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) par
 |Ammonia level|Nivel de amoniaco|Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.|
 |Daily routine|Rutina diaria|Actividades realizadas o por realizar en un día en la piscigranja.|
 
+
 ## Capítulo III: Requirements Specification
+
 > **💬 Enunciado:** Esta sección permite que el equipo realice en base al análisis de la información
-obtenida en las investigaciones, la especificación de los requisitos de los productos
-digitales. La sección inicia con una introducción e incluye secciones internas para el
-To-Be Scenario Mapping, los User Stories, Impact Map y Product Backlog.
+> obtenida en las investigaciones, la especificación de los requisitos de los productos
+> digitales. La sección inicia con una introducción e incluye secciones internas para el
+> To-Be Scenario Mapping, los User Stories, Impact Map y Product Backlog.
 
 ### 3.1. To-Be Scenario Mapping
-> **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
-presenta una captura de los To-Be Scenario Mapping elaborados en la herramienta
-indicada para cada User Persona, incluyendo las filas Phases, Doing, Thinking y
-Feeling. El proceso de realización debe pasar por las etapas de preparación, lluvia de
-ideas individual, revisión e identificación de fases como columnas, nombrar las fases,
-comparar el mapa con el As-Is Scenario Mapping, identificando cambios que podría
-ofrecer el To-Be Scenario Mapping.
+
+En esta sección se presentan los **To-Be Scenario Mapping** elaborados para cada uno de los segmentos objetivo identificados: **Juan Pérez** (piscicultor rural, tradicional) y **Bryan Díaz** (piscicultor técnico, innovador).  
+Cada mapa refleja cómo la solución FeedGuard transforma la experiencia diaria de los usuarios, detallando las fases principales de su jornada y describiendo, para cada una, lo que hacen (Doing), piensan (Thinking) y sienten (Feeling) con la incorporación de la tecnología.
+
+El proceso de construcción de estos mapas incluyó sesiones de lluvia de ideas, revisión de los recorridos actuales (As-Is), identificación de fases clave y validación de los cambios esperados.  
+A continuación, se presenta el To-Be Scenario Mapping para cada segmento objetivo, permitiendo comparar claramente la evolución respecto al escenario actual y evidenciar los beneficios de la solución propuesta.
+
+### To-Be Scenario Mapping – Juan Pérez
+
+<img src="Assets\To-BeMapping\Juan-ToBe.png">
+
+### To-Be Scenario Mapping – Bryan Díaz
+
+<img src="Assets\To-BeMapping\Bryan-ToBe.png"/>
+
 ### 3.2. User Stories
+
 > **💬 Enunciado:** Requisitos definidos junto con el conjunto de User Stories y Epics para los requisitos
-identificados. Los User Stories incluyen Acceptance Criteria. En esta sección el
-equipo redacta una introducción y presenta un cuadro con la estructura especificada
-a continuación. Solo se elabora un cuadro para todo el conjunto de Epics/Stories.
-Debe dedicar una línea del cuadro a cada Epic / User Story. Es importante recordar que una User Story tiene varios criterios de aceptación. Los
-criterios de aceptación deben redactarse en tiempo presente, tercera persona, no
-hacer referencia a detalles de interfaz de usuario y deben ser comprobables. La
-estructura de criterios de aceptación debe seguir la estructura de Gherkin (GivenWhen-Then). Las únicas excepciones podrían ser reglas de negocio o restricciones
-que no dependan de condiciones.
-Debe también considerar User Stories para el sitio web estático (Landing Page),
-tomando como rol base visitante (o subconjuntos para cada segmento considerado
-cuando se requiera, como visitante del segmento XXXX) en la redacción de la
-descripción de la User Story. Recuerde que el sitio web estático tienen diversas secciones, con contenido dirigido a diversos segmentos, con características y
-comportamiento que permita su vínculo con la experiencia web.
-Adicionalmente, debe considerarse Technical Stories para los features de productos
-digitales que no tienen interacción directa con los usuarios finales, como por ejemplo
-los RESTful APIs. En ese caso, utilice el rol Developer en la redacción de la descripción
-de la User Story. Considere como Acceptance Criteria los posibles escenarios de
-interacción de request/response, siguiendo la estructura de Gherkin.
+> identificados. Los User Stories incluyen Acceptance Criteria. En esta sección el
+> equipo redacta una introducción y presenta un cuadro con la estructura especificada
+> a continuación. Solo se elabora un cuadro para todo el conjunto de Epics/Stories.
+> Debe dedicar una línea del cuadro a cada Epic / User Story. Es importante recordar que una User Story tiene varios criterios de aceptación. Los
+> criterios de aceptación deben redactarse en tiempo presente, tercera persona, no
+> hacer referencia a detalles de interfaz de usuario y deben ser comprobables. La
+> estructura de criterios de aceptación debe seguir la estructura de Gherkin (GivenWhen-Then). Las únicas excepciones podrían ser reglas de negocio o restricciones
+> que no dependan de condiciones.
+> Debe también considerar User Stories para el sitio web estático (Landing Page),
+> tomando como rol base visitante (o subconjuntos para cada segmento considerado
+> cuando se requiera, como visitante del segmento XXXX) en la redacción de la
+> descripción de la User Story. Recuerde que el sitio web estático tienen diversas secciones, con contenido dirigido a diversos segmentos, con características y
+> comportamiento que permita su vínculo con la experiencia web.
+> Adicionalmente, debe considerarse Technical Stories para los features de productos
+> digitales que no tienen interacción directa con los usuarios finales, como por ejemplo
+> los RESTful APIs. En ese caso, utilice el rol Developer en la redacción de la descripción
+> de la User Story. Considere como Acceptance Criteria los posibles escenarios de
+> interacción de request/response, siguiendo la estructura de Gherkin.
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -919,33 +985,35 @@ interacción de request/response, siguiendo la estructura de Gherkin.
   </tr>
 </table>
 
-
 ### 3.3. Impact Mapping
+
 > **💬 Enunciado:** En esta sección el equipo explica y presenta capturas del Impact Mapping para el
-modelo de negocio digital, elaborado en la herramienta indicada. Para esto debe
-haber elaborado previamente en la herramienta las fichas para cada User Persona.
-La elaboración incluye la identificación de los Business Goals (los business goals
-deben cumplir con los criterios SMART3
-. Por ejemplo “Alcanzar los 600 usuarios
-suscritos al plan A en el lapso de 8 meses.”). Debe considerar varios Business Goals.
-Debe incluir como Actors/Personas a los User Personas previamente identificados,
-según relaciones con los Business Goals, buscando responder la pregunta ¿Quiénes
-me ayudarán a lograr la meta? La columna Impact debe incluir los enunciados de
-cómo desea que los User Persona cambien o se comporten ¿Qué tendría él/ella que
-hacer para ayudar a que se logre la meta? La columna Deliverables debe incluir los
-elementos que respondan la pregunta ¿Qué puedo hacer como negocio digital para
-provocar esos Impacts? La columna User Stories debe incluir la descripción de los
-User Stories (en el formato “Como... deseo... para...”) que permitirán obtener los
-features que ayudarán a producir los Deliverables identificados.
+> modelo de negocio digital, elaborado en la herramienta indicada. Para esto debe
+> haber elaborado previamente en la herramienta las fichas para cada User Persona.
+> La elaboración incluye la identificación de los Business Goals (los business goals
+> deben cumplir con los criterios SMART3
+> . Por ejemplo “Alcanzar los 600 usuarios
+> suscritos al plan A en el lapso de 8 meses.”). Debe considerar varios Business Goals.
+> Debe incluir como Actors/Personas a los User Personas previamente identificados,
+> según relaciones con los Business Goals, buscando responder la pregunta ¿Quiénes
+> me ayudarán a lograr la meta? La columna Impact debe incluir los enunciados de
+> cómo desea que los User Persona cambien o se comporten ¿Qué tendría él/ella que
+> hacer para ayudar a que se logre la meta? La columna Deliverables debe incluir los
+> elementos que respondan la pregunta ¿Qué puedo hacer como negocio digital para
+> provocar esos Impacts? La columna User Stories debe incluir la descripción de los
+> User Stories (en el formato “Como... deseo... para...”) que permitirán obtener los
+> features que ayudarán a producir los Deliverables identificados.
+
 ### 3.4. Product Backlog
+
 > **💬 Enunciado:** Los User Stories deben incluir su estimación y priorización en el Product Backlog.
-Debe utilizar la herramienta indicada para el Product Backlog. Adicionalmente debe
-elaborar en este documento una tabla con la siguiente estructura. Adicionalmente debe incluir una captura y una referencia de URL del enlace público
-para el product backlog en la herramienta indicada. Recuerde que en el Product
-Backlog, el orden lo determina el valor para el negocio. Elaborar un product backlog
-colocando al inicio User Stories ligados a la seguridad o autenticación, por ejemplo,
-se considera incorrecto. Considere que los User Stories relacionados con el sitio web
-estático (Landing Page) requieren considerarse desde el primer sprint.
+> Debe utilizar la herramienta indicada para el Product Backlog. Adicionalmente debe
+> elaborar en este documento una tabla con la siguiente estructura. Adicionalmente debe incluir una captura y una referencia de URL del enlace público
+> para el product backlog en la herramienta indicada. Recuerde que en el Product
+> Backlog, el orden lo determina el valor para el negocio. Elaborar un product backlog
+> colocando al inicio User Stories ligados a la seguridad o autenticación, por ejemplo,
+> se considera incorrecto. Considere que los User Stories relacionados con el sitio web
+> estático (Landing Page) requieren considerarse desde el primer sprint.
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -964,50 +1032,88 @@ estático (Landing Page) requieren considerarse desde el primer sprint.
   </tr>
 </table>
 
-
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Domain-Driven Design
+
 > **💬 Enunciado:** En esta sección el equipo introduce y explica el proceso realizado para las decisiones de nivel estratégico aplicando Domain-Driven Design.<br> Bounded Contexts<br> `--En esta sección el equipo explica y evidencia el proceso para descomponer el sistema en subconjuntos con límites naturales o Bounded Contexts. Para ello debe aplicar las herramientas de EvenStorming y Bounded Context Canvas
+
 #### 4.1.1. EventStorming
+
 > **💬 Enunciado:** En esta sección el equipo explica y evidencia el proceso de EventStorming, con el fin de plantear una primera aproximación al modelado de nivel general para el dominio del problema, buscando a partir de ahí identificar el mayor nivel de detalle posible.
-Es recomendable que el equipo organice la sesión de EventStorming con una duración entre 1 – 2 horas, a fin de concentrar esfuerzos y no extender el proceso de forma innecesaria. La sección inicia con una introducción y explicación de las actividades realizadas en la sesión de EventStorming, e incluye capturas de lo elaborado en la herramienta indicada.
+> Es recomendable que el equipo organice la sesión de EventStorming con una duración entre 1 – 2 horas, a fin de concentrar esfuerzos y no extender el proceso de forma innecesaria. La sección inicia con una introducción y explicación de las actividades realizadas en la sesión de EventStorming, e incluye capturas de lo elaborado en la herramienta indicada.
+
 ##### 4.1.1.1. Candidate Context Discovery
+
 > **💬 Enunciado:** En esta sección el equipo, a partir del dominio modelado como EventStorm, explica y evidencia el proceso realizado para la sesión de Candidate Context Discovery, en la que se busca identificar los bounded contexts. Puede aplicar las técnicas de startwith-value (Identificar las partes core del dominio que tienen el mayor valor para el negocio), start-with-simple (Crear modelos simples, pero con propósito, descomponiendo el timeline en steps secuenciales), ó look-for-pivotal-events (Buscar eventos clave del negocio que indiquen cambios de estado entre diferentes partes del proceso de negocio). La sesión de Candidate Context Discovery no debería durar más de 2 horas. Utilice para el proceso la herramienta indicada. Complemente la explicación con capturas en imagen de los cambios progresivos del EventStorm.
+
 ##### 4.1.1.2. Domain Message Flows Modeling
+
 > **💬 Enunciado:** En esta sección, el equipo explica y evidencia el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. Para ello debe aplicar la técnica de visualización Domain Storytelling. Complemente la explicación con capturas en imágenes de los diagramas de Domain Storytelling elaborados.
+
 ##### 4.1.1.3. Bounded Context Canvases
+
 > **💬 Enunciado:** En esta sección el equipo diseña sus candidate bounded contexts, detallando los criterios de diseño. El equipo debe ir seleccionando cada bounded context, por orden de importancia, para elaborar su Bounded Context Canvas. La elaboración del Bounded Context Canvas debe seguir un proceso iterativo con los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering (si aplica), Dependencies Capture, y Design Critique.
+
 #### 4.1.2. Context Mapping
+
 > **💬 Enunciado:** En esta sección el equipo explica y evidencia el proceso de elaboración de un conjunto de contexts maps (visualizaciones de las relaciones estructurales entre bounded contexts). Para ello el equipo revisa información recolectada y la utiliza para producir los diseños candidatos. Se recomienda en el proceso incluir preguntas como: “¿qué pasaría si movemos este capability a otro bounded context?”, “¿qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?”, “¿qué pasaría si partimos el bounded context en múltiples
-bounded contexts?”, “¿qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?”, “¿qué pasaría si duplicamos una 16/41 V1.0 funcionalidad para romper la dependencia?”, “¿qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?”, “¿qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?”. Debe finalizar este proceso discutiendo cada alternativa de context mapping a fin de llegar a la mejor aproximación. Es importante que el equipo considere los patrones de relaciones entre Bounded Contexts establecidos en Domain-Driven Design, como Anti-corruption Layer, Conformist, Customer/Supplier ó Shared Kernel.
+> bounded contexts?”, “¿qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?”, “¿qué pasaría si duplicamos una 16/41 V1.0 funcionalidad para romper la dependencia?”, “¿qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?”, “¿qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?”. Debe finalizar este proceso discutiendo cada alternativa de context mapping a fin de llegar a la mejor aproximación. Es importante que el equipo considere los patrones de relaciones entre Bounded Contexts establecidos en Domain-Driven Design, como Anti-corruption Layer, Conformist, Customer/Supplier ó Shared Kernel.
+
 #### 4.1.3. Software Architecture
+
 > **💬 Enunciado:** En esta sección el equipo presenta y explica la representación, aplicando C4 Model y utilizando la herramienta indicada, de la Arquitectura de Software para la solución. Aquí se realiza una introducción y se incluye como secciones internas Software Architecture Context Level Diagram y Software Architecture Container Level Diagrams.
+
 ##### 4.1.3.1. System Landscape Diagram
+
 ##### 4.1.3.2. Context Level Diagrams
+
 > **💬 Enunciado:** En esta sección el equipo realiza una introducción, presenta en imagen el context diagram, el cual debe mostrar el sistema como un recuadro en el centro, rodeado por sus usuarios y otros sistemas con los que interactúa. Utilice la herramienta indicada para la elaboración del diagrama. Se incluye en esta sección una explicación del diagrama.
+
+![ContextDiagram](Assets/c4/diagrama-context-c4.png)
+
 ##### 4.1.3.3. Container Level Diagrams
+
 > **💬 Enunciado:** En esta sección, el equipo realiza una introducción, presenta y explica el Container Diagram. Dicho diagrama debe mostrar los elementos de alto nivel de la arquitectura de software y cómo se distribuyen las responsabilidades entre ellos. Aquí se debe mostrar también las principales decisiones de tecnología y cómo los containers se comunican entre sí.
+
 ##### 4.1.3.4. Deployment Diagrams
 
-
 ### 4.2. Tactical-Level Domain-Driven Design
-> **💬 Enunciado:** En este capítulo el equipo explica y presenta su propuesta para la perspectiva táctica del diseño de la solución de software. Aquí se incluye una sección interna por cada bounded context. 
+
+> **💬 Enunciado:** En este capítulo el equipo explica y presenta su propuesta para la perspectiva táctica del diseño de la solución de software. Aquí se incluye una sección interna por cada bounded context.
+
 #### 4.2.X. Bounded Context: \<Bounded Context Name\>
-> **💬 Enunciado:** En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario, explicando para cada una su nombre, propósito y la documentación de atributos y métodos considerados, junto con las relaciones entre ellas. 
+
+> **💬 Enunciado:** En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario, explicando para cada una su nombre, propósito y la documentación de atributos y métodos considerados, junto con las relaciones entre ellas.
+
 ##### 4.2.X.1. Domain Layer
-> **💬 Enunciado:** En esta capa el equipo explica por medio de qué clases representará el core de la aplicación y las reglas de negocio que pertenecen al dominio para el bounded context. Aquí el equipo presenta clases de categorías como Entities, Value Objects, Aggregates, Factories, Domain Services, o abstracciones representadas por interfaces como en el caso de Repositories. 
+
+> **💬 Enunciado:** En esta capa el equipo explica por medio de qué clases representará el core de la aplicación y las reglas de negocio que pertenecen al dominio para el bounded context. Aquí el equipo presenta clases de categorías como Entities, Value Objects, Aggregates, Factories, Domain Services, o abstracciones representadas por interfaces como en el caso de Repositories.
+
 ##### 4.2.X.2. Interface Layer
-> **💬 Enunciado:** En esta sección el equipo introduce, presenta y explica las clases que forman parte de Interface/Presentation Layer, como clases del tipo Controllers o Consumers. 
+
+> **💬 Enunciado:** En esta sección el equipo introduce, presenta y explica las clases que forman parte de Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
+
 ##### 4.2.X.3. Application Layer
-> **💬 Enunciado:** En esta sección el equipo explica a través de qué clases se maneja los flujos de procesos del negocio. En esta sección debe evidenciarse que se considera los 17/41 capabilities de la aplicación en relación al bounded context. Aquí debe considerarse clases del tipo Command Handlers e Event Handlers. 
+
+> **💬 Enunciado:** En esta sección el equipo explica a través de qué clases se maneja los flujos de procesos del negocio. En esta sección debe evidenciarse que se considera los 17/41 capabilities de la aplicación en relación al bounded context. Aquí debe considerarse clases del tipo Command Handlers e Event Handlers.
+
 ##### 4.2.X.4. Infrastructure Layer
+
 > **💬 Enunciado:** En esta capa el equipo presenta aquellas clases que acceden a servicios externos como databases, messaging systems o email services. Es en esta capa que se ubica la implementación de Repositories para las interfaces definidas en Domain Layer. Algo similar ocurre con interfaces definidas para MessageBrokers.
+
 ##### 4.2.X.5. Component Level Diagrams
+
 > **💬 Enunciado:** En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model para cada uno de los Containers considerados para el bounded context. En estos diagramas el equipo busca reflejar la descomposición de cada Container para identificar los bloques estructurales principales y sus interacciones. Un Component Diagram debe mostrar cómo un container está conformado por components, qué son cada uno de dichos components, sus responsabilidades y los detalles de implementación/tecnología. Utilice la herramienta indicada para la elaboración del diagrama.
+
 ##### 4.2.X.6. Code Level Diagrams
+
 > **💬 Enunciado:** En esta sección, el equipo presenta y explica los diagramas que presentan un mayor detalle sobre la implementación de componentes en el bounded context. Aquí se incluye como secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram.
+
 ###### 4.2.X.6.1. Domain Layer Class Diagrams
+
 > **💬 Enunciado:** En esta sección el equipo presenta el Class Diagram de UML para las clases del Domain Layer en el bounded context. El nivel de detalle debe incluir además de las clases, interfaces, enumeraciones y sus relaciones, los miembros para cada clase, incluyendo atributos, métodos y el scope en cada caso (private, public, protected). Las relaciones deben incluir la calificación con nombres, la dirección (cuando aplica) y la multiplicidad. Utilice para la elaboración del diagrama la herramienta indicada.
+
 ###### 4.2.X.6.2. Database Design Diagram
+
 > **💬 Enunciado:** En esta sección el equipo presenta y explica el Database Diagram que incluye los objetos de base de datos que permitirán la persistencia de información para los objetos del bounded context. Para el caso de un almacenamiento en base de datos relacional, aquí debe especificarse tablas, columnas, constraints (por ejemplo, primary, foreign key) y evidenciarse las relaciones en
