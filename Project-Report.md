@@ -892,19 +892,13 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 
 **Piscicultores rurales**
 
-|Phases|Preparación|Inspección visual|Alimentación|Registro|
-|-|-|-|-|-|
-|DOING|Se alista temprano y se dirige a los estanques.|Observa el color del agua y el comportamiento de los peces.|Abre manualmente los paquetes de comida y la reparte.|Anota en papel la cantidad de alimento usado y condiciones del estanque.|
-|THINKING|“Hoy debo revisar todo antes que suba el sol.”|“Estará limpia el agua? Se ve un poco turbia.”|“Ojalá recuerde la cantidad exacta para cada estanque.”|“Todo esta en esta hoja, mejor no perderla.”|
-|FEELING|Motivado por cuidar su producción.|Inseguro sobre la calidad del agua.|Estresado por la carga física.|Aliviado pero preocupado por olvidar o perder datos.|
+<img src="Assets/miro_asis1.jpg"/>
+
 
 **Piscicultores técnicos**
 
-|Phases|Inicio del día|Monitoreo digital|Análisis de datos|Mantenimiento|
-|-|-|-|-|-|
-|DOING|Verifica funcionamiento de cada uno de los sensores.|Revisa parámetros de sensores: oxígeno, temperatura, etc.|Analiza datos históricos para planificar alimentación.|Registra datos en Excel a partir de lo arrojado en los sensores.|
-|THINKING|“Voy a revisar los datos primero.”|“Estos valores están fuera del rango normal.”|“Podemos optimizar la alimentación.”|“Debo revisar este sensor que no envía datos.”|
-|FEELING|Organizado y con control.|Alerta si algo no cuadra.|Proactivo y analítico.	|Frustrado si algo técnico falla.|
+<img src="Assets/miro_asis2.jpg"/>
+
 
 ### 2.4. Ubiquitous Language
 
