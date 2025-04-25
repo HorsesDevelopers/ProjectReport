@@ -1094,14 +1094,30 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
 
 ##### 4.1.3.2. Context Level Diagrams
 
-> **💬 Enunciado:** En esta sección el equipo realiza una introducción, presenta en imagen el context diagram, el cual debe mostrar el sistema como un recuadro en el centro, rodeado por sus usuarios y otros sistemas con los que interactúa. Utilice la herramienta indicada para la elaboración del diagrama. Se incluye en esta sección una explicación del diagrama.
+El diagrama de contexto de AquaSense Technologies ilustra la interacción entre su AquaSense Platform y las entidades externas que la rodean. Los principales actores (Personas) que interactúan con la plataforma son los Productores Acuícolas, quienes la utilizan para monitorear sus granjas, gestionar la alimentación y recibir alertas, y los Técnicos de Campo, que también interactúan para supervisar las operaciones y responder a las alertas.
 
+La AquaSense Platform se comunica con varios Sistemas de Software Externos para enriquecer su funcionalidad. Obtiene datos meteorológicos del Weather Service y datos de calidad del agua (si utilizan sensores de terceros) del Water Quality Sensor Cloud. La conectividad para los dispositivos IoT se proporciona a través de la Cellular Network. En el futuro, podría haber una integración con un Fish Feed Management System de proveedores o de los propios productores.
+
+En esencia, la AquaSense Platform se sitúa como un sistema central que ayuda a los productores acuícolas a optimizar sus operaciones al integrar datos del entorno, automatizar procesos clave y proporcionar información valiosa a través de una interfaz de usuario accesible.
 ![ContextDiagram](Assets/c4/context-diagram.png)
 
 ##### 4.1.3.3. Container Level Diagrams
 
-> **💬 Enunciado:** En esta sección, el equipo realiza una introducción, presenta y explica el Container Diagram. Dicho diagrama debe mostrar los elementos de alto nivel de la arquitectura de software y cómo se distribuyen las responsabilidades entre ellos. Aquí se debe mostrar también las principales decisiones de tecnología y cómo los containers se comunican entre sí.
+El diagrama de contenedores de la **AquaSense Platform** desglosa la arquitectura interna del sistema. El contenedor central es la **AquaSense Platform**, que alberga varios contenedores clave:
 
+* La **Mobile App** proporciona la interfaz de usuario principal para los productores y técnicos.
+* La **API Application** actúa como la puerta de enlace central, gestionando la comunicación entre la Mobile App y los bounded contexts.
+* Varios **Bounded Contexts** organizan la lógica de negocio en dominios específicos:
+  * **Feeding Bounded Context** gestiona la alimentación automatizada.
+  * **Monitoring Bounded Context** maneja la ingesta y el procesamiento de datos de sensores.
+  * **Farm Management Bounded Context** almacena la información de las granjas, usuarios y configuraciones.
+  * **Alerting Bounded Context** gestiona las reglas y el envío de notificaciones.
+  * **User Interface Bounded Context** maneja la presentación de la interfaz de usuario.
+* El **Data Analytics Service** procesa los datos para generar insights.
+* Los **IoT Devices** son los sensores y actuadores desplegados en las granjas.
+* La **Relational Database** almacena todos los datos persistentes del sistema.
+
+Estos contenedores interactúan entre sí para proporcionar las funcionalidades de la plataforma, desde la recopilación de datos de los IoT Devices hasta la presentación de información y el control de la alimentación a través de la Mobile App, todo orquestado por la API Application y la lógica de negocio encapsulada en los Bounded Contexts.
 ![ContextDiagram](Assets/c4/containers-diagram.png)
 
 ##### 4.1.3.4. Deployment Diagrams
