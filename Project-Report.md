@@ -908,7 +908,7 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 
 ### As-Is Scenario Mapping – Bryan Díaz
 
-<img src="Assets\As-IsMapping\Juan-AsIs.jpg"/>
+<img src="Assets\As-IsMapping\Bryan-AsIs.jpg"/>
 
 Ambos escenarios muestran puntos de mejora que validan la necesidad de una solución IoT automatizada:
 
@@ -958,13 +958,19 @@ Experto de Campo: Profesional con experiencia práctica en la operación de pisc
 
 ### 3.1. To-Be Scenario Mapping
 
-> **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
-> presenta una captura de los To-Be Scenario Mapping elaborados en la herramienta
-> indicada para cada User Persona, incluyendo las filas Phases, Doing, Thinking y
-> Feeling. El proceso de realización debe pasar por las etapas de preparación, lluvia de
-> ideas individual, revisión e identificación de fases como columnas, nombrar las fases,
-> comparar el mapa con el As-Is Scenario Mapping, identificando cambios que podría
-> ofrecer el To-Be Scenario Mapping.
+En esta sección se presentan los **To-Be Scenario Mapping** elaborados para cada uno de los segmentos objetivo identificados: **Juan Pérez** (piscicultor rural, tradicional) y **Bryan Díaz** (piscicultor técnico, innovador).  
+Cada mapa refleja cómo la solución FeedGuard transforma la experiencia diaria de los usuarios, detallando las fases principales de su jornada y describiendo, para cada una, lo que hacen (Doing), piensan (Thinking) y sienten (Feeling) con la incorporación de la tecnología.
+
+El proceso de construcción de estos mapas incluyó sesiones de lluvia de ideas, revisión de los recorridos actuales (As-Is), identificación de fases clave y validación de los cambios esperados.  
+A continuación, se presenta el To-Be Scenario Mapping para cada segmento objetivo, permitiendo comparar claramente la evolución respecto al escenario actual y evidenciar los beneficios de la solución propuesta.
+
+### To-Be Scenario Mapping – Juan Pérez
+
+<img src="Assets\To-BeMapping\Juan-ToBe.png">
+
+### To-Be Scenario Mapping – Bryan Díaz
+
+<img src="Assets\To-BeMapping\Bryan-ToBe.png"/>
 
 ### 3.2. User Stories
 
