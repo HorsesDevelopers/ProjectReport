@@ -1117,6 +1117,10 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
 ## User Interface Bounded Context
 ![ContextDiagram](Assets/c4/BC5.png)
 
+### link de structurizr
+
+https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
+
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
