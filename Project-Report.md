@@ -835,6 +835,8 @@ Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada Us
 
 **Piscicultores técnicos**
 
+<img src="Assets/miro_user_journey_map_tec.jpg"/>
+
 #### 2.3.4. Empathy Mapping
 > **💬 Enunciado:** En esta sección, el equipo resume el proceso de elaboración y presenta capturas de
 los Empathy Maps realizados en la herramienta indicada, para cada uno de los User
