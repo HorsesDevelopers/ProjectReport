@@ -47,8 +47,8 @@
       <td align="center">Garcia Rodriguez, Gabriel</td>
     </tr>
     <tr>
-      <td align="center">202XXXXXX</td>
-      <td align="center">Apellido1 Apellido2, Nombre</td>
+      <td align="center">201923994</td>
+      <td align="center">Avellaneda Ramos, Carlo</td>
     </tr>
   </tbody>
 </table>
@@ -276,7 +276,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     <th>Descripcion</th>
   </tr>
   <tr>
-    <td>pongan su foto</td>
+    <td><img src="Assets\CarlosAvellaneda.jpg" width="200"/></td>
     <td>
     Avellaneda Ramos, Carlos Edward
     </td>
@@ -1096,13 +1096,27 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
 
 > **💬 Enunciado:** En esta sección el equipo realiza una introducción, presenta en imagen el context diagram, el cual debe mostrar el sistema como un recuadro en el centro, rodeado por sus usuarios y otros sistemas con los que interactúa. Utilice la herramienta indicada para la elaboración del diagrama. Se incluye en esta sección una explicación del diagrama.
 
-![ContextDiagram](Assets/c4/diagrama-context-c4.png)
+![ContextDiagram](Assets/c4/context-diagram.png)
 
 ##### 4.1.3.3. Container Level Diagrams
 
 > **💬 Enunciado:** En esta sección, el equipo realiza una introducción, presenta y explica el Container Diagram. Dicho diagrama debe mostrar los elementos de alto nivel de la arquitectura de software y cómo se distribuyen las responsabilidades entre ellos. Aquí se debe mostrar también las principales decisiones de tecnología y cómo los containers se comunican entre sí.
 
+![ContextDiagram](Assets/c4/containers-diagram.png)
+
 ##### 4.1.3.4. Deployment Diagrams
+
+## Alerting Bounded Context
+![ContextDiagram](Assets/c4/BC1.png)
+## Farm Management Bounded Context
+![ContextDiagram](Assets/c4/BC2.png)
+## Feeding Bounded Context
+![ContextDiagram](Assets/c4/BC3.png)
+##  Monitoring Bounded Context
+![ContextDiagram](Assets/c4/BC4.png)
+## User Interface Bounded Context
+![ContextDiagram](Assets/c4/BC5.png)
+
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
