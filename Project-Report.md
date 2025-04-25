@@ -847,16 +847,24 @@ Se construyeron mapas de empatía para comprender mejor la experiencia de los Us
 <img src="Assets/miro_empathy2.jpg"/>
 
 #### 2.3.5. As-is Scenario Mapping
-> **💬 Enunciado:** En esta sección el equipo introduce, resume el proceso realizado por el equipo y
-presenta una captura de los As-Is Scenario Mapping elaborados en la herramienta
-indicada para cada User Persona, incluyendo las filas Phases, Doing, Thinking y
-Feeling. El proceso de realización debe pasar por las etapas de preparación, lluvia de
-ideas individual, revisión e identificación de fases como columnas, nombrar las fases,
-identificar y etiquetar áreas positivas y negativas para los usuarios, junto con blank
-areas (áreas que requieren aprender más sobre ellas)
 
 A partir de los datos anteriores se elaboraron escenarios actuales (*As-Is*) para ambos perfiles. Se identificaron fases repetitivas que podrían ser optimizadas con tecnología.
 
+**Piscicultores rurales**
+
+|Phases|Preparación|Inspección visual|Alimentación|Registro|
+|-|-|-|-|-|
+|DOING|Se alista temprano y se dirige a los estanques.|Observa el color del agua y el comportamiento de los peces.|Abre manualmente los paquetes de comida y la reparte.|Anota en papel la cantidad de alimento usado y condiciones del estanque.|
+|THINKING|“Hoy debo revisar todo antes que suba el sol.”|“Estará limpia el agua? Se ve un poco turbia.”|“Ojalá recuerde la cantidad exacta para cada estanque.”|“Todo esta en esta hoja, mejor no perderla.”|
+|FEELING|Motivado por cuidar su producción.|Inseguro sobre la calidad del agua.|Estresado por la carga física.|Aliviado pero preocupado por olvidar o perder datos.|
+
+**Piscicultores técnicos**
+
+|Phases|Inicio del día|Monitoreo digital|Análisis de datos|Mantenimiento|
+|-|-|-|-|-|
+|DOING|Verifica funcionamiento de cada uno de los sensores.|Revisa parámetros de sensores: oxígeno, temperatura, etc.|Analiza datos históricos para planificar alimentación.|Registra datos en Excel a partir de lo arrojado en los sensores.|
+|THINKING|“Voy a revisar los datos primero.”|“Estos valores están fuera del rango normal.”|“Podemos optimizar la alimentación.”|“Debo revisar este sensor que no envía datos.”|
+|FEELING|Organizado y con control.|Alerta si algo no cuadra.|Proactivo y analítico.	|Frustrado si algo técnico falla.|
 
 ### 2.4. Ubiquitous Language
 > **💬 Enunciado:** En esta sección el equipo redacta un glosario de términos y conceptos con
