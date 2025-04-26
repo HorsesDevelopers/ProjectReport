@@ -190,7 +190,7 @@
     Flores Avalos, Diego<br>
     <i>TB1</i><br>
     Garcia Rodriguez, Gabriel Stefano<br>
-    <i>TB1</i><br>
+    <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
@@ -208,7 +208,7 @@
     Flores Avalos, Diego<br>
     <i>TB1</i><br>
     Garcia Rodriguez, Gabriel Stefano<br>
-    <i>TB1</i><br>
+    <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
@@ -297,7 +297,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
   <tr>
     <td><img src="Assets\GabrielGarcia.png" width="200"/></td>
     <td>
-    Garcia Rodriguez, Gabriel Stefano
+    Mi nombre es Garcia Rodriguez Gabriel Stefano, tengo conocimientos de lenguajes de programación c++, c#, python, html y css, Frontend: Html, CSS, Angular y Vue. Backend: C# .NET y Java Spring Boot.  Habilidades de liderazgo y contribución en equipo.
     </td>
   </tr>
   <tr>
