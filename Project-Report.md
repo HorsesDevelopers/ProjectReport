@@ -289,7 +289,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
   <tr>
     <td><img src="Assets\VittorioEduardo.jpg" width="200"/></td>
     <td>
-    Eduardo Espinoza, Vittorio Marcelo
+    Mi nombre es Vittorio Marcelo Eduardo Espinoza y soy alumno de la carrera de ingeniería de software en la UPC. Soy una persona persistente y honesta que trata realizar su trabajo de manera correcta, así como tengo conocimientos en programación como C++ y Java Spring.
     </td>
   </tr>
   
