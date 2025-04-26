@@ -1105,7 +1105,6 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>HU07</td>
   <td>Configuración Inicial de la Granja</td>
@@ -1122,7 +1121,6 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>HU08</td>
   <td>Vinculación de Dispositivos IoT</td>
