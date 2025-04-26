@@ -206,7 +206,7 @@
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
-    <i>TB1</i><br>
+    <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.</i><br></i><br>
     </td>
     <td>Concluimos</td>
   </tr>
