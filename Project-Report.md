@@ -88,19 +88,19 @@
 
 - [Reporte de Proyecto](#reporte-de-proyecto)
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-  - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-  - [**2025-1**](#2025-1)
-    - [**Curso:**](#curso)
-  - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-    - [**NRC:**](#nrc)
-    - [2947](#2947)
-    - [**Profesor:**](#profesor)
-    - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-  - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-    - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-    - [Producto: **FeedGuard**](#producto-feedguard)
-  - [**Integrantes del equipo**](#integrantes-del-equipo)
-  - [**Abril 2025**](#abril-2025)
+    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+    - [**2025-1**](#2025-1)
+      - [**Curso:**](#curso)
+    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+      - [**NRC:**](#nrc)
+      - [2947](#2947)
+      - [**Profesor:**](#profesor)
+      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+      - [Producto: **FeedGuard**](#producto-feedguard)
+    - [**Integrantes del equipo**](#integrantes-del-equipo)
+    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -134,6 +134,7 @@
       - [4. Tecnología, percepción y adopción](#4-tecnología-percepción-y-adopción)
     - [📝 Datos complementarios a recolectar](#-datos-complementarios-a-recolectar)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas-1)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [2.3. Needfinding](#23-needfinding)
       - [2.3.1. User Personas](#231-user-personas)
@@ -144,8 +145,12 @@
     - [2.4. Ubiquitous Language](#24-ubiquitous-language)
   - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [To-Be Scenario Mapping – Juan Pérez](#to-be-scenario-mapping--juan-pérez)
+    - [To-Be Scenario Mapping – Bryan Díaz](#to-be-scenario-mapping--bryan-díaz)
     - [3.2. User Stories](#32-user-stories)
     - [3.3. Impact Mapping](#33-impact-mapping)
+      - [Impact Mapping – Juan Pérez (Piscicultor rural, tradicional)](#impact-mapping--juan-pérez-piscicultor-rural-tradicional)
+      - [Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)](#impact-mapping--bryan-díaz-piscicultor-técnico-innovador)
     - [3.4. Product Backlog](#34-product-backlog)
   - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
     - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
@@ -186,7 +191,7 @@
     Avellaneda Ramos, Carlos Edward<br>
     <i>TB1</i><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1</i><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
     Flores Avalos, Diego<br>
     <i>TB1</i><br>
     Garcia Rodriguez, Gabriel Stefano<br>
@@ -204,7 +209,7 @@
     Avellaneda Ramos, Carlos Edward<br>
     <i>TB1</i><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1</i><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
     Flores Avalos, Diego<br>
     <i>TB1</i><br>
     Garcia Rodriguez, Gabriel Stefano<br>
