@@ -297,11 +297,10 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     Mi nombre es Vittorio Marcelo Eduardo Espinoza y soy alumno de la carrera de ingeniería de software en la UPC. Soy una persona persistente y honesta que trata realizar su trabajo de manera correcta, así como tengo conocimientos en programación como C++ y Java Spring.
     </td>
   </tr>
-  
   <tr>
     <td><img src="Assets\diegoflorez.png" width="200"/></td>
     <td>
-    Flores Avalos, Diego
+    Mi nombre es Diego Flores, tengo conocimientos de lenguajes de programación C++, Python, HTML y CSS. Frontend: Vue. Backend: Flask. Me interesa el área de desarrollo web y soy proactivo y me gusta trabajar en equipo.
     </td>
   </tr>
   <tr>
@@ -313,7 +312,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
   <tr>
     <td> <img src="./Assets/GabrielMartel.jpg" width="200"/></td>
     <td>
-    MartelZevallos, Gabriel Aristoteles
+      Mi nombre es Gabriel Martel, tengo conocimientos de lenguajes de programación JavaScript, TypeScript, Python, HTML y CSS. Frontend: React. Me interesa el área de Data Science y cuento con habilidades de liderazgo y trabajo en equipo.
     </td>
   </tr>
   <tr>
