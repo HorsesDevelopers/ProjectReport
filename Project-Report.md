@@ -98,21 +98,6 @@
 
 ### Tabla de contenidos
 
-- [Reporte de Proyecto](#reporte-de-proyecto)
-- [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-    - [**2025-1**](#2025-1)
-      - [**Curso:**](#curso)
-    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-      - [**NRC:**](#nrc)
-      - [2947](#2947)
-      - [**Profesor:**](#profesor)
-      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-      - [Producto: **FeedGuard**](#producto-feedguard)
-    - [**Integrantes del equipo**](#integrantes-del-equipo)
-    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
