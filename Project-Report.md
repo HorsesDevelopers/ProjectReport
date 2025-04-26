@@ -39,6 +39,14 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"></td>
+      <td align="center">Eduardo Espinoza, Vittorio Marcelo</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Flores Avalos, Diego</td>
+    </tr>
+    <tr>
       <td align="center">U202121584</td>
       <td align="center">Martel Zevallos, Gabriel</td>
     </tr>
@@ -80,7 +88,7 @@
     <td>1.0.0</td>
     <td>18:04/2025</td>
     <td>Todos los miembros del grupo</td>
-    <td>Se realizaron las entrevistas, user persona y  user stories.</td>
+    <td>Se realizaron los capítulos I, II, III y  IV.</td>
   </tr>
 </table>
 
@@ -203,6 +211,8 @@
     <i>TB1</i><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
+    Martel Zevallos, Gabriel<br>
+    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
@@ -222,6 +232,8 @@
     <i>TB1</i><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
+    Martel Zevallos, Gabriel<br>
+    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
