@@ -77,10 +77,10 @@
     <th>Descripción de modificación</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>1.0.0</td>
+    <td>18:04/2025</td>
+    <td>Todos los miembros del grupo</td>
+    <td>Se realizaron las entrevistas, user persona y  user stories.</td>
   </tr>
 </table>
 
