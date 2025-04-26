@@ -206,9 +206,9 @@
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
-    <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.</i><br></i><br>
+    <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.  Nos comunicamos eficientemte al comunicar nuestras ideas para el diseño de las entrevistas y así identificarlas falencias actuales que poseen los piscicultores.</i><br></i><br>
     </td>
-    <td>Concluimos</td>
+    <td>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.</td>
   </tr>
   <tr>
     <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
@@ -225,9 +225,9 @@
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
-    <i>TB1</i><br>
+    <i>TB1: Para esta entrega realice el análisis de competidores y las entrevistas. Lo que me ayudó a comprender mejor la situación actual del usuario y así mejorar el Needfinding.</i><br>
     </td>
-    <td>Concluimos</td>
+    <td> TB1: Concluimos que la incorporación de soluciones IoT es fundamental para el sector acuícola. Si se les ayuda a automatizar y que no requieran un sobre esfuerzo. Se centrarían más en la gestión y administración adecuada de su negocio.</td>
   </tr>
 </table>
 
