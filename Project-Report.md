@@ -303,6 +303,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     Mi nombre es Vittorio Marcelo Eduardo Espinoza y soy alumno de la carrera de ingeniería de software en la UPC. Soy una persona persistente y honesta que trata realizar su trabajo de manera correcta, así como tengo conocimientos en programación como C++ y Java Spring.
     </td>
   </tr>
+  
   <tr>
     <td><img src="Assets\diegoFlores.jpg" width="200"/></td>
     <td>
@@ -940,11 +941,6 @@ Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
 ## Capítulo III: Requirements Specification
 
-> **💬 Enunciado:** Esta sección permite que el equipo realice en base al análisis de la información
-> obtenida en las investigaciones, la especificación de los requisitos de los productos
-> digitales. La sección inicia con una introducción e incluye secciones internas para el
-> To-Be Scenario Mapping, los User Stories, Impact Map y Product Backlog.
-
 ### 3.1. To-Be Scenario Mapping
 
 En esta sección se presentan los **To-Be Scenario Mapping** elaborados para cada uno de los segmentos objetivo identificados: **Juan Pérez** (piscicultor rural, tradicional) y **Bryan Díaz** (piscicultor técnico, innovador).  
@@ -1003,7 +999,6 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         - Como desarrollador, deseo asegurar la validación de la información ingresada por el usuario.
       </td>
     </tr>
-    
     <tr>
       <td>EP03</td>
       <td>Monitoreo Ambiental en Tiempo Real</td>
@@ -1326,15 +1321,6 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
 
 ### 3.4. Product Backlog
 
-> **💬 Enunciado:** Los User Stories deben incluir su estimación y priorización en el Product Backlog.
-> Debe utilizar la herramienta indicada para el Product Backlog. Adicionalmente debe
-> elaborar en este documento una tabla con la siguiente estructura. Adicionalmente debe incluir una captura y una referencia de URL del enlace público
-> para el product backlog en la herramienta indicada. Recuerde que en el Product
-> Backlog, el orden lo determina el valor para el negocio. Elaborar un product backlog
-> colocando al inicio User Stories ligados a la seguridad o autenticación, por ejemplo,
-> se considera incorrecto. Considere que los User Stories relacionados con el sitio web
-> estático (Landing Page) requieren considerarse desde el primer sprint.
-
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
     <th># Orden</th>
@@ -1356,33 +1342,129 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
 
 ### 4.1. Strategic-Level Domain-Driven Design
 
-> **💬 Enunciado:** En esta sección el equipo introduce y explica el proceso realizado para las decisiones de nivel estratégico aplicando Domain-Driven Design.<br> Bounded Contexts<br> `--En esta sección el equipo explica y evidencia el proceso para descomponer el sistema en subconjuntos con límites naturales o Bounded Contexts. Para ello debe aplicar las herramientas de EvenStorming y Bounded Context Canvas
-
 #### 4.1.1. EventStorming
-
-> **💬 Enunciado:** En esta sección el equipo explica y evidencia el proceso de EventStorming, con el fin de plantear una primera aproximación al modelado de nivel general para el dominio del problema, buscando a partir de ahí identificar el mayor nivel de detalle posible.
-> Es recomendable que el equipo organice la sesión de EventStorming con una duración entre 1 – 2 horas, a fin de concentrar esfuerzos y no extender el proceso de forma innecesaria. La sección inicia con una introducción y explicación de las actividades realizadas en la sesión de EventStorming, e incluye capturas de lo elaborado en la herramienta indicada.
 
 ##### 4.1.1.1. Candidate Context Discovery
 
-> **💬 Enunciado:** En esta sección el equipo, a partir del dominio modelado como EventStorm, explica y evidencia el proceso realizado para la sesión de Candidate Context Discovery, en la que se busca identificar los bounded contexts. Puede aplicar las técnicas de startwith-value (Identificar las partes core del dominio que tienen el mayor valor para el negocio), start-with-simple (Crear modelos simples, pero con propósito, descomponiendo el timeline en steps secuenciales), ó look-for-pivotal-events (Buscar eventos clave del negocio que indiquen cambios de estado entre diferentes partes del proceso de negocio). La sesión de Candidate Context Discovery no debería durar más de 2 horas. Utilice para el proceso la herramienta indicada. Complemente la explicación con capturas en imagen de los cambios progresivos del EventStorm.
+Durante la sesión de EventStorming realizada, se llevó a cabo un proceso de análisis para descubrir los **Bounded Contexts** naturales del sistema FeedGuard.  
+Se utilizó la técnica **start-with-value**, priorizando aquellas partes del dominio que representan el mayor valor para el negocio, como la alimentación automática basada en parámetros ambientales críticos.
+
+<img src="Assets\EventStorming\Untitled - Frame 2.jpg">
+
+<img src="Assets\EventStorming\Untitled - Frame 3.jpg">
+
+<img src="Assets\EventStorming\Untitled - Frame 5.jpg">
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
-> **💬 Enunciado:** En esta sección, el equipo explica y evidencia el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver los casos que se presentan en el negocio para los usuarios del sistema. Para ello debe aplicar la técnica de visualización Domain Storytelling. Complemente la explicación con capturas en imágenes de los diagramas de Domain Storytelling elaborados.
+Posteriormente, se trabajó en la visualización de los **flujos de mensajes** entre los bounded contexts identificados.
+
+Se identificaron los siguientes principales flujos de colaboración:
+
+- **Monitoring Context** captura datos de sensores en tiempo real y notifica a:
+
+  - **Alerting Context** si los valores exceden los límites críticos.
+  - **Feeding Context** para ajustar dinámicamente el plan de alimentación basado en las condiciones del agua.
+
+- **Alerting Context** genera alertas y las transmite hacia:
+
+  - **User Interface Context**, que muestra la alerta al usuario final.
+
+- **Farm Management Context** proporciona la configuración inicial (granja, estanques, especies) que utilizan los otros contextos como referencia operacional.
+
+Estos flujos definen las dependencias y puntos de integración entre las partes del sistema, reforzando la independencia y el aislamiento de responsabilidades que busca Domain-Driven Design.
 
 ##### 4.1.1.3. Bounded Context Canvases
 
-> **💬 Enunciado:** En esta sección el equipo diseña sus candidate bounded contexts, detallando los criterios de diseño. El equipo debe ir seleccionando cada bounded context, por orden de importancia, para elaborar su Bounded Context Canvas. La elaboración del Bounded Context Canvas debe seguir un proceso iterativo con los pasos de Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Capability Layering (si aplica), Dependencies Capture, y Design Critique.
+A continuación, se presenta el resumen de los **Bounded Context Canvases** elaborados para cada contexto identificado:
+
+<img src="Assets\EventStorming\Untitled - Frame 6.jpg">
+
+#### Monitoring Context
+
+- **Propósito**:  
+  Capturar, procesar y almacenar datos ambientales críticos como oxígeno disuelto, temperatura y pH provenientes de sensores instalados en la piscigranja.
+
+- **Responsabilidades**:
+
+  - Recibir datos de sensores en intervalos configurables.
+  - Verificar si los datos cumplen los parámetros esperados.
+  - Actualizar los registros históricos de calidad del agua.
+  - Disparar eventos hacia otros contextos en caso de condiciones anómalas.
+
+- **Entidades principales**:
+  - Sensor
+  - Estanque
+  - Datos de calidad de agua
+
+#### Alerting Context
+
+- **Propósito**:  
+  Detectar automáticamente condiciones ambientales críticas y generar notificaciones oportunas a los usuarios para tomar acciones correctivas.
+
+- **Responsabilidades**:
+
+  - Evaluar continuamente los datos ambientales recibidos.
+  - Comparar con los umbrales configurados para cada especie de pez.
+  - Generar y registrar alertas ambientales.
+  - Notificar al usuario vía Mobile App o correo electrónico.
+
+- **Entidades principales**:
+  - Alerta
+  - Notificación
+
+#### Feeding Context
+
+- **Propósito**:  
+  Gestionar la planificación y ejecución automática del proceso de alimentación, optimizando la cantidad de alimento suministrado según condiciones ambientales y configuraciones del usuario.
+
+- **Responsabilidades**:
+
+  - Permitir a los usuarios definir planes de alimentación.
+  - Activar alimentadores automáticos en función de horarios y parámetros ambientales.
+  - Adaptar dinámicamente las cantidades suministradas si las condiciones no son óptimas.
+
+- **Entidades principales**:
+  - Alimentador
+  - Plan de alimentación
+  - Evento de dosificación de alimento
+
+#### Farm Management Context
+
+- **Propósito**:  
+  Administrar los recursos físicos y organizativos de la piscigranja, como estanques, especies de peces y configuraciones generales.
+
+- **Responsabilidades**:
+
+  - Registrar nuevas granjas y estanques.
+  - Configurar parámetros ambientales ideales por especie.
+  - Asociar sensores y alimentadores a cada unidad de cultivo.
+  - Mantener actualizada la información del usuario y la operación.
+
+- **Entidades principales**:
+  - Granja
+  - Estanque
+  - Usuario
+
+#### User Interface Context
+
+- **Propósito**:  
+  Presentar de forma clara, accesible y amigable toda la información crítica del sistema a los piscicultores y técnicos, facilitando la gestión de su operación desde dispositivos móviles o web.
+
+- **Responsabilidades**:
+
+  - Mostrar en tiempo real los valores de calidad del agua y estado de alimentación.
+  - Mostrar alertas críticas de manera priorizada.
+  - Permitir configurar parámetros de operación y alimentación.
+  - Brindar acceso a históricos y reportes analíticos.
+
+- **Entidades principales**:
+  - Dashboard de monitoreo
+  - Gestor de alertas
 
 #### 4.1.2. Context Mapping
 
-> **💬 Enunciado:** En esta sección el equipo explica y evidencia el proceso de elaboración de un conjunto de contexts maps (visualizaciones de las relaciones estructurales entre bounded contexts). Para ello el equipo revisa información recolectada y la utiliza para producir los diseños candidatos. Se recomienda en el proceso incluir preguntas como: “¿qué pasaría si movemos este capability a otro bounded context?”, “¿qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?”, “¿qué pasaría si partimos el bounded context en múltiples
-> bounded contexts?”, “¿qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?”, “¿qué pasaría si duplicamos una 16/41 V1.0 funcionalidad para romper la dependencia?”, “¿qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?”, “¿qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?”. Debe finalizar este proceso discutiendo cada alternativa de context mapping a fin de llegar a la mejor aproximación. Es importante que el equipo considere los patrones de relaciones entre Bounded Contexts establecidos en Domain-Driven Design, como Anti-corruption Layer, Conformist, Customer/Supplier ó Shared Kernel.
-
 #### 4.1.3. Software Architecture
-
-> **💬 Enunciado:** En esta sección el equipo presenta y explica la representación, aplicando C4 Model y utilizando la herramienta indicada, de la Arquitectura de Software para la solución. Aquí se realiza una introducción y se incluye como secciones internas Software Architecture Context Level Diagram y Software Architecture Container Level Diagrams.
 
 ##### 4.1.3.1. System Landscape Diagram
 
@@ -1442,39 +1524,21 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-> **💬 Enunciado:** En este capítulo el equipo explica y presenta su propuesta para la perspectiva táctica del diseño de la solución de software. Aquí se incluye una sección interna por cada bounded context.
-
 #### 4.2.X. Bounded Context: \<Bounded Context Name\>
-
-> **💬 Enunciado:** En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario, explicando para cada una su nombre, propósito y la documentación de atributos y métodos considerados, junto con las relaciones entre ellas.
 
 ##### 4.2.X.1. Domain Layer
 
-> **💬 Enunciado:** En esta capa el equipo explica por medio de qué clases representará el core de la aplicación y las reglas de negocio que pertenecen al dominio para el bounded context. Aquí el equipo presenta clases de categorías como Entities, Value Objects, Aggregates, Factories, Domain Services, o abstracciones representadas por interfaces como en el caso de Repositories.
-
 ##### 4.2.X.2. Interface Layer
-
-> **💬 Enunciado:** En esta sección el equipo introduce, presenta y explica las clases que forman parte de Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
 
 ##### 4.2.X.3. Application Layer
 
-> **💬 Enunciado:** En esta sección el equipo explica a través de qué clases se maneja los flujos de procesos del negocio. En esta sección debe evidenciarse que se considera los 17/41 capabilities de la aplicación en relación al bounded context. Aquí debe considerarse clases del tipo Command Handlers e Event Handlers.
-
 ##### 4.2.X.4. Infrastructure Layer
-
-> **💬 Enunciado:** En esta capa el equipo presenta aquellas clases que acceden a servicios externos como databases, messaging systems o email services. Es en esta capa que se ubica la implementación de Repositories para las interfaces definidas en Domain Layer. Algo similar ocurre con interfaces definidas para MessageBrokers.
 
 ##### 4.2.X.5. Component Level Diagrams
 
-> **💬 Enunciado:** En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model para cada uno de los Containers considerados para el bounded context. En estos diagramas el equipo busca reflejar la descomposición de cada Container para identificar los bloques estructurales principales y sus interacciones. Un Component Diagram debe mostrar cómo un container está conformado por components, qué son cada uno de dichos components, sus responsabilidades y los detalles de implementación/tecnología. Utilice la herramienta indicada para la elaboración del diagrama.
-
 ##### 4.2.X.6. Code Level Diagrams
 
-> **💬 Enunciado:** En esta sección, el equipo presenta y explica los diagramas que presentan un mayor detalle sobre la implementación de componentes en el bounded context. Aquí se incluye como secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram.
-
 ###### 4.2.X.6.1. Domain Layer Class Diagrams
-
-> **💬 Enunciado:** En esta sección el equipo presenta el Class Diagram de UML para las clases del Domain Layer en el bounded context. El nivel de detalle debe incluir además de las clases, interfaces, enumeraciones y sus relaciones, los miembros para cada clase, incluyendo atributos, métodos y el scope en cada caso (private, public, protected). Las relaciones deben incluir la calificación con nombres, la dirección (cuando aplica) y la multiplicidad. Utilice para la elaboración del diagrama la herramienta indicada.
 
 ###### 4.2.X.6.2. Database Design Diagram
 
