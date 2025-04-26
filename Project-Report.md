@@ -171,7 +171,8 @@
         - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
           - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
           - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
-
+    - [Conclusiones](#conclusiones)
+    - [Bibliografía](#bibliografia)
 ---
 
 ## Student Outcome
@@ -1385,3 +1386,16 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 ###### 4.2.X.6.2. Database Design Diagram
 
 > **💬 Enunciado:** En esta sección el equipo presenta y explica el Database Diagram que incluye los objetos de base de datos que permitirán la persistencia de información para los objetos del bounded context. Para el caso de un almacenamiento en base de datos relacional, aquí debe especificarse tablas, columnas, constraints (por ejemplo, primary, foreign key) y evidenciarse las relaciones en
+
+
+# Conclusiones 
+
+* TB1: Concluimos que exisate una alta necesita de herramientas que integren el monitoreo y registro de manera centralizada. Detectamos que los piscicultores valoran la posibilidad de unificar la información recolectada por todos los dispositivos que usan en cuanto al perfil técnico. Ya identificamos la necesidad de obtener datos precisos sobre el oxígeno, temperatura del agua y los niveles de amonio; puesto que es perjudicial no incluirlas en la solución.
+
+# Bibliografía
+
+# Anexos
+
+- Needfinding (user journey ap, as-is, empathy mapping ): https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+- Deployment Diagrams: https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
+
