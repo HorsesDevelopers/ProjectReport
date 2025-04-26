@@ -991,6 +991,35 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
   - Como desarrollador, deseo asegurar que la landing page cargue rápidamente y sea accesible desde cualquier dispositivo.
 </td>
     </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Onboarding de Usuario y Configuración de Granja</td>
+      <td>
+        <strong>Descripción:</strong> Como nuevo usuario, deseo poder registrarme fácilmente en la plataforma FeedGuard y configurar la información básica de mi piscigranja (nombre, ubicación, número de estanques, especies de peces) para comenzar a utilizar el sistema.<br><br>
+        Como técnico de campo, deseo poder agregar y configurar los dispositivos IoT (sensores, alimentadores) asociados a cada estanque para que la plataforma pueda recopilar datos y enviar comandos.<br><br>
+        Como administrador, deseo tener herramientas para gestionar las cuentas de usuario y la información general de las piscigranjas.<br><br>
+        <strong>Technical Stories:</strong><br>
+        - Como desarrollador, deseo implementar un flujo de registro y login seguro para nuevos usuarios.<br>
+        - Como desarrollador, deseo crear interfaces para la configuración de la información de la granja y los estanques.<br>
+        - Como desarrollador, deseo implementar la lógica para asociar dispositivos IoT específicos a estanques.<br>
+        - Como desarrollador, deseo asegurar la validación de la información ingresada por el usuario.
+      </td>
+    </tr>
+    
+    <tr>
+      <td>EP03</td>
+      <td>Monitoreo Ambiental en Tiempo Real</td>
+      <td>
+        <strong>Descripción:</strong> Como piscicultor, deseo poder visualizar en tiempo real los datos de los sensores ambientales de mis estanques (oxígeno disuelto, temperatura, pH, etc.) para estar informado de las condiciones del agua.<br><br>
+        Como técnico de campo, deseo poder acceder a gráficos históricos de los parámetros ambientales para identificar tendencias y posibles problemas.<br><br>
+        Como usuario, deseo recibir alertas automáticas cuando los parámetros ambientales se salgan de los rangos óptimos definidos para mis especies.<br><br>
+        <strong>Technical Stories:</strong><br>
+        - Como desarrollador, deseo implementar la recepción y almacenamiento de datos de los sensores IoT en tiempo real.<br>
+        - Como desarrollador, deseo crear interfaces visuales (tableros, gráficos) para mostrar los datos ambientales en tiempo real e históricos.<br>
+        - Como desarrollador, deseo implementar la lógica para la definición de reglas de alerta basadas en rangos de parámetros.<br>
+        - Como desarrollador, deseo implementar el sistema de notificaciones (push, email) para enviar alertas a los usuarios.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -1093,6 +1122,107 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
   </td>
   <td>EP01</td>
 </tr>
+<tr>
+  <td>HU06</td>
+  <td>Registro Seguro de Usuario</td>
+  <td>Como nuevo usuario, quiero registrarme en la plataforma con mi correo electrónico y contraseña de forma segura para poder acceder a las funcionalidades de FeedGuard.</td>
+  <td>
+    <strong>Scenario 1:</strong> Registro exitoso<br>
+    GIVEN un nuevo usuario con un correo válido y una contraseña segura<br>
+    WHEN completa el formulario de registro y lo envía<br>
+    THEN su cuenta se crea correctamente y puede acceder a la plataforma.<br><br>
+    <strong>Scenario 2:</strong> Registro fallido<br>
+    GIVEN un usuario que ingresa datos inválidos (correo no válido o contraseña débil)<br>
+    WHEN intenta registrarse<br>
+    THEN el sistema muestra mensajes de error claros indicando cómo corregir los datos.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>HU07</td>
+  <td>Configuración Inicial de la Granja</td>
+  <td>Como técnico de campo, quiero configurar los detalles de mi granja, incluyendo el nombre, ubicación y número de estanques para poder organizar mis dispositivos y datos.</td>
+  <td>
+    <strong>Scenario 1:</strong> Configuración completa<br>
+    GIVEN un técnico que accede por primera vez a la plataforma<br>
+    WHEN completa los datos de su granja y guarda la configuración<br>
+    THEN los estanques quedan registrados y visibles en su tablero.<br><br>
+    <strong>Scenario 2:</strong> Datos incompletos<br>
+    GIVEN un técnico que omite campos obligatorios<br>
+    WHEN intenta guardar<br>
+    THEN el sistema le indica qué campos debe completar.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>HU08</td>
+  <td>Vinculación de Dispositivos IoT</td>
+  <td>Como técnico, quiero vincular cada sensor y alimentador IoT específico a un estanque dentro de la plataforma para que los datos y las acciones se asocien correctamente.</td>
+  <td>
+    <strong>Scenario 1:</strong> Vinculación exitosa<br>
+    GIVEN un técnico con dispositivos IoT previamente configurados<br>
+    WHEN selecciona un estanque y asigna un dispositivo<br>
+    THEN el dispositivo queda vinculado y comienza a transmitir datos.<br><br>
+    <strong>Scenario 2:</strong> Error en vinculación<br>
+    GIVEN un dispositivo que ya está vinculado a otro estanque<br>
+    WHEN se intenta vincular de nuevo<br>
+    THEN el sistema notifica que el dispositivo ya está en uso y no permite duplicación.
+  </td>
+  <td>EP02</td>
+</tr>
+<tr>
+  <td>HU09</td>
+  <td>Visualización de Parámetros en Tiempo Real</td>
+  <td>Como piscicultor, quiero ver los valores actuales de oxígeno disuelto, temperatura y pH para cada uno de mis estanques en un panel principal para tener una visión general rápida de las condiciones.</td>
+  <td>
+    <strong>Scenario 1:</strong> Panel actualizado<br>
+    GIVEN un piscicultor en su tablero principal<br>
+    WHEN consulta el estado de sus estanques<br>
+    THEN ve en tiempo real los valores actuales de los parámetros para cada estanque.<br><br>
+    <strong>Scenario 2:</strong> Falta de datos<br>
+    GIVEN una pérdida de conexión temporal con un sensor<br>
+    WHEN intenta ver los valores<br>
+    THEN el sistema indica que los datos están temporalmente no disponibles.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>HU10</td>
+  <td>Gráficos Históricos de Parámetros Ambientales</td>
+  <td>Como técnico, quiero visualizar gráficos históricos de los parámetros ambientales durante las últimas 24 horas para identificar fluctuaciones o tendencias inusuales.</td>
+  <td>
+    <strong>Scenario 1:</strong> Análisis de datos<br>
+    GIVEN un técnico en el módulo de monitoreo<br>
+    WHEN selecciona un estanque<br>
+    THEN puede ver gráficos con la evolución de temperatura, oxígeno y pH de las últimas 24 horas.<br><br>
+    <strong>Scenario 2:</strong> Rangos anormales<br>
+    GIVEN que existen variaciones inusuales en los datos<br>
+    WHEN se visualizan los gráficos<br>
+    THEN el sistema destaca automáticamente los valores fuera del rango normal.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>HU11</td>
+  <td>Alertas por Parámetros Fuera de Rango</td>
+  <td>Como usuario, quiero definir rangos óptimos para cada parámetro ambiental por especie de pez y recibir una notificación si alguno de los valores se sale de ese rango para poder tomar medidas correctivas.</td>
+  <td>
+    <strong>Scenario 1:</strong> Configuración de alertas<br>
+    GIVEN un usuario que ha ingresado los rangos óptimos por especie<br>
+    WHEN un parámetro se desvía<br>
+    THEN el sistema le envía una notificación instantánea.<br><br>
+    <strong>Scenario 2:</strong> Personalización de rangos<br>
+    GIVEN un usuario con múltiples especies<br>
+    WHEN configura los rangos para cada estanque<br>
+    THEN puede personalizar los umbrales según la especie presente.
+  </td>
+  <td>EP03</td>
+</tr>
+
 </table>
 
 ### 3.3. Impact Mapping
