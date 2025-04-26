@@ -291,7 +291,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
   <tr>
     <td><img src="Assets\CarlosAvellaneda.jpg" width="200"/></td>
     <td>
-    Avellaneda Ramos, Carlos Edward
+     Mi nombre es Carlos Avellaneda Ramos, estudiante de la carrera de ingeniería de software, en la UPC. Actualmente, manejo con soltura Java y TypeScript. Además, me divierto creando mods para juegos en Lua y también tengo experiencia con Python y C++.
     </td>
   </tr>
   <tr>
