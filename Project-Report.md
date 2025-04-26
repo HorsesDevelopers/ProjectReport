@@ -4,7 +4,7 @@
 
 # **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
-<img src="Assets/UPCPng.png" width=50%" style="text-align: center;"/>
+<img src="Assets/UPCPng.png"/>
 
 ### **Facultad de Ingeniería - Carrera de Ingeniería de Software**
 
