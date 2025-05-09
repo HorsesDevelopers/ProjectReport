@@ -41,7 +41,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"></td>
+      <td align="center">U20231B547</td>
       <td align="center">Eduardo Espinoza, Vittorio Marcelo</td>
     </tr>
     <tr>
@@ -100,6 +100,21 @@
 
 ### Tabla de contenidos
 
+- [Reporte de Proyecto](#reporte-de-proyecto)
+- [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
+    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+    - [**2025-1**](#2025-1)
+      - [**Curso:**](#curso)
+    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+      - [**NRC:**](#nrc)
+      - [2947](#2947)
+      - [**Profesor:**](#profesor)
+      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+      - [Producto: **FeedGuard**](#producto-feedguard)
+    - [**Integrantes del equipo**](#integrantes-del-equipo)
+    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -157,12 +172,23 @@
         - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
         - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
         - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [Monitoring Context](#monitoring-context)
+      - [Alerting Context](#alerting-context)
+      - [Feeding Context](#feeding-context)
+      - [Farm Management Context](#farm-management-context)
+      - [User Interface Context](#user-interface-context)
       - [4.1.2. Context Mapping](#412-context-mapping)
       - [4.1.3. Software Architecture](#413-software-architecture)
         - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
         - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
         - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
         - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
+  - [Alerting Bounded Context](#alerting-bounded-context)
+  - [Farm Management Bounded Context](#farm-management-bounded-context)
+  - [Feeding Bounded Context](#feeding-bounded-context)
+  - [Monitoring Bounded Context](#monitoring-bounded-context)
+  - [User Interface Bounded Context](#user-interface-bounded-context)
+    - [link de structurizr](#link-de-structurizr)
     - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
       - [4.2.X. Bounded Context: \<Bounded Context Name\>](#42x-bounded-context-bounded-context-name)
         - [4.2.X.1. Domain Layer](#42x1-domain-layer)
@@ -173,8 +199,6 @@
         - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
           - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
           - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
-    - [Conclusiones](#conclusiones)
-    - [Bibliografía](#bibliografia)
 
 ---
 
@@ -372,114 +396,113 @@ Frente a esta problemática, se evidencia una clara oportunidad de mejora median
 
 #### 1.2.2. Lean UX Process
 
+En esta parte, explicamos el proceso de Lean UX que utilizamos para desarrollar la solución FeedGuard. Se detallan los problemas, asunciones, hipótesis y el enfoque general que guía nuestra propuesta tecnológica centrada en el usuario dentro del sector acuícola.
+
 ##### 1.2.2.1. Lean UX Problem Statements
 
-**Domain:**
-Acuicultura semiindustrial (crianza de peces en sistemas controlados, en zonas rurales o periurbanas).
+**Problem Statement 1:**
+En los sistemas acuícolas semiindustriales del Perú, el proceso de alimentación sigue siendo mayormente manual, dependiente de la experiencia del operario y desconectado de los parámetros ambientales del agua. Esto genera ineficiencias como la sobrealimentación o subalimentación, afectando negativamente la salud de los peces y reduciendo la rentabilidad. Los sistemas actuales no ofrecen una solución automatizada, asequible y adaptada a las condiciones reales de los pequeños piscicultores. FeedGuard abordará esta brecha mediante una solución IoT que automatiza la alimentación basándose en datos en tiempo real. Sabremos que hemos tenido éxito cuando los productores reporten una reducción significativa en el desperdicio de alimento y una mejora en la tasa de conversión alimenticia.
 
-**Customer Segments:**
-Productores acuícolas semiindustriales, técnicos de campo, cooperativas pesqueras pequeñas, y eventualmente proveedores de tecnología para acuicultura.
-
-**Pain Points:**
-
-Alimentación ineficiente (sobre o subalimentación).
-
-Falta de monitoreo continuo de calidad del agua.
-
-Procesos manuales propensos a errores humanos.
-
-Pérdida económica por desperdicio de alimento.
-
-Crecimiento lento y enfermedades en los peces por malas prácticas.
-
-**Gap:**
-No existen soluciones integradas, accesibles y adaptables a entornos semiindustriales que automaticen la alimentación y el monitoreo ambiental en tiempo real.
-
-**Visión / Strategy:**
-Desarrollar un sistema inteligente que automatice la dosificación de alimento en función de parámetros ambientales del agua y del comportamiento de los peces, conectando sensores IoT con una plataforma de análisis de datos.
-
-**Initial Segment:**
-Piscicultores semiindustriales con entre 2 y 10 estanques operativos, localizados en zonas rurales con acceso a conectividad básica.
+**Problem Statement 2:**
+Actualmente, los pequeños productores acuícolas carecen de herramientas tecnológicas que integren monitoreo ambiental con decisiones operativas automatizadas. Esta desconexión impide detectar condiciones adversas como niveles bajos de oxígeno o altos niveles de amonio a tiempo, comprometiendo la salud del cultivo. Lo que los productos actuales no logran resolver es la combinación entre accesibilidad, automatización inteligente y diseño centrado en el usuario. Nuestra solución integrará sensorización ambiental y automatización para garantizar condiciones óptimas antes, durante y después de la alimentación. Sabremos que hemos tenido éxito cuando observemos una mejora en la supervivencia y crecimiento de los peces, y un aumento en la satisfacción de los usuarios por la facilidad de uso y resultados alcanzados.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
-- Los productores acuícolas tienen acceso mínimo a conexión a internet o redes móviles.
+**Business Outcomes:**
 
-- Están dispuestos a invertir en soluciones tecnológicas si estas aseguran ahorro en alimento y mejoran el crecimiento de los peces.
+- Creemos que los productores acuícolas necesitan una solución tecnológica que automatice y optimice la alimentación de los peces basada en datos ambientales.
 
-- La variabilidad en la alimentación está generando pérdidas económicas en más del 20% de los ciclos productivos.
+- Estas necesidades pueden resolverse mediante una plataforma IoT integrada con sensores, actuadores y una interfaz intuitiva para el control remoto o automático.
 
-- La introducción de una solución de fácil uso puede ser adoptada sin capacitación extensa si cuenta con interfaz intuitiva.
+- Nuestros clientes iniciales son piscicultores semiindustriales en zonas rurales o periurbanas que buscan mejorar sus resultados productivos sin aumentar significativamente sus costos operativos.
 
-- Los parámetros más críticos para la alimentación son el oxígeno disuelto y los compuestos nitrogenados.
+- El valor principal que ofrecen nuestras soluciones es el ahorro en alimento, la mejora en la salud de los peces y la facilidad de implementación.
+
+- Beneficios adicionales incluyen: monitoreo remoto, reducción del trabajo manual, y soporte técnico.
+
+- Llegaremos a nuestros clientes mediante demostraciones en campo, alianzas con asociaciones piscícolas y difusión en redes técnicas y ferias tecnológicas del sector agropecuario.
+
+- Nuestra monetización se basará en ventas directas del dispositivo FeedGuard, modelos de suscripción para mantenimiento remoto y analítica avanzada.
+
+- Nuestra competencia incluye alimentadores automáticos básicos, empresas de automatización industrial costosa y métodos tradicionales empíricos.
+
+- Nos diferenciamos porque ofrecemos una solución adaptada al contexto rural, de bajo costo, modular y basada en datos reales.
+
+- Los mayores riesgos son: resistencia al cambio tecnológico, desconfianza en nuevas tecnologías y fallas técnicas en ambientes rurales.
+
+- Reduciremos estos riesgos mediante pruebas piloto, capacitación práctica y soporte técnico continuo.
+
+- Sabremos que tenemos éxito cuando los piscicultores reporten una mejora en su productividad y recomienden nuestra solución a sus pares.
+
+**User Outcomes:**
+
+**¿Quiénes serán nuestros usuarios?**
+
+- Piscicultores semiindustriales que trabajan en zonas rurales o periurbanas.
+
+- Técnicos jóvenes e innovadores que buscan implementar nuevas tecnologías en sus unidades de cultivo.
+
+**¿Dónde encaja nuestro producto en su vida o trabajo?**
+
+FeedGuard se integra en la rutina diaria de alimentación y monitoreo, permitiendo una operación más eficiente y menos demandante en tiempo y esfuerzo.
+
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+
+**Problemas:** 
+Dificultad en adopción tecnológica inicial; entornos sin conectividad estable; desconocimiento técnico.
+
+**Soluciones:** 
+Interfaz amigable, modo offline, materiales de capacitación visual, soporte técnico local y remoto.
+
+**¿Cómo y cuándo es usado nuestro producto?**
+
+Es utilizado durante las rutinas de alimentación y monitoreo diario, y en cualquier momento cuando el usuario desea revisar el estado del sistema o los parámetros del agua.
+
+**¿Qué características son importantes?**
+
+- Interfaz visual e intuitiva.
+
+- Alertas automáticas ante condiciones críticas del agua.
+
+- Historial de datos y reportes accesibles.
+
+- Control manual o automático de la alimentación.
+
+- ¿Cómo debe verse y comportarse nuestro producto?
+
+- El diseño debe inspirar confianza, mostrar profesionalismo y ser percibido como fácil de usar.
+
+- Debe comportarse de forma confiable, con respuestas rápidas y una integración fluida entre sensores, actuadores y plataforma de visualización.
+
+**Features:**
+
+Desde la cuenta del usuario técnico:
+
+- Acceso en tiempo real a parámetros del agua y estado de alimentación.
+
+- Configuración personalizada de horarios y condiciones de alimentación.
+
+- Visualización de históricos y reportes de desempeño.
+
+Desde la cuenta del productor básico:
+
+- Encendido/apagado simple del sistema.
+
+- Alertas visuales o auditivas sobre anomalías detectadas.
+
+- Recomendaciones prácticas automatizadas en lenguaje accesible.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis general:**
-Creemos que los productores acuícolas semiindustriales adoptarán un sistema de alimentación inteligente si este les permite ahorrar alimento, mejorar el crecimiento de los peces y reducir el trabajo manual.
+- Creemos que al ofrecer un sistema automatizado de alimentación que se adapte a condiciones reales del agua, los productores acuícolas reducirán el desperdicio de alimento y mejorarán la tasa de conversión alimenticia. Sabremos que esto es cierto si observamos una reducción de al menos 20% en el uso de alimento y un aumento del 15% en el peso promedio de los peces.
 
-**Hipótesis específicas:**
+- Creemos que al facilitar una interfaz intuitiva y soporte técnico cercano, los productores semiindustriales superarán la barrera tecnológica y adoptarán FeedGuard como herramienta cotidiana. Sabremos que esto es cierto si más del 70% de los usuarios iniciales continúan usando el sistema después de tres meses y lo recomiendan a otros.
 
-Si automatizamos la dosificación de alimento en función del oxígeno disuelto, entonces reduciremos el desperdicio de alimento en al menos un 20%.
-
-Si mostramos alertas sobre condiciones críticas del agua en tiempo real, entonces los técnicos podrán tomar decisiones más informadas, reduciendo la mortalidad de peces.
-
-Si ofrecemos una interfaz amigable basada en iconos y visualizaciones simples, entonces los usuarios podrán utilizar el sistema sin requerir capacitación formal.
-
-Si el sistema demuestra beneficios medibles en el primer mes, entonces los usuarios recomendarán su uso a otros piscicultores locales.
+- Creemos que al integrar monitoreo ambiental en tiempo real con alertas automatizadas, los productores podrán evitar condiciones críticas que afecten a sus cultivos. Sabremos que esto es cierto si se reporta una reducción de eventos de mortalidad o enfermedades atribuibles a condiciones del agua en al menos un 30%.
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<table border="1" cellspacing="0" cellpadding="5">
-  <tr>
-    <th colspan="4">Lean UX Canvas</th>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Business Problem</strong><br> 
-      Los productores acuícolas semiindustriales enfrentan pérdidas económicas por sobrealimentación y deterioro del agua debido a prácticas manuales sin automatización.
-    </td>
-    <td colspan="2"><strong>Business Outcomes</strong><br>
-      - Reducción de desperdicio de alimento (20%)<br>
-      - Mejora en crecimiento y salud de los peces<br>
-      - Reducción de tareas manuales<br>
-      - Incremento en la rentabilidad por ciclo productivo
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>Users</strong><br>
-      Piscicultores semiindustriales con entre 2 y 10 estanques, y técnicos de campo responsables del monitoreo y alimentación.
-    </td>
-    <td colspan="2"><strong>User Outcomes & Benefits</strong><br>
-      - Reducción de trabajo manual<br>
-      - Toma de decisiones basadas en datos<br>
-      - Menor mortalidad<br>
-      - Mayor tasa de conversión alimenticia
-    </td>
-  </tr>
-  <tr>
-    <td colspan="4"><strong>Solutions</strong><br>
-      - Sistema de sensores IoT<br>
-      - Algoritmo de dosificación automática de alimento<br>
-      - Interfaz móvil/web sencilla<br>
-      - Alertas ambientales automatizadas<br>
-      - Plataforma conectada a la nube con operación offline temporal
-    </td>
-  </tr>
-  <tr>
-    <td colspan="4"><strong>Hypotheses</strong><br>
-      Creemos que la reducción del desperdicio de alimento será posible si los piscicultores obtienen alertas personalizadas y automatización del proceso de alimentación mediante sensores IoT integrados a una plataforma inteligente.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>What's the most important thing we need to learn first?</strong><br>
-      ¿Los usuarios confiarán en la automatización para dosificar el alimento? <br>
-      Riesgo: Si no confían, no usarán el sistema.
-    </td>
-    <td colspan="2"><strong>What's the least amount of work we need to do to learn the next most important thing?</strong><br>
-      Probar un piloto funcional en un estanque real con sensores, dosificador y visualización básica para evaluar ahorro de alimento y aceptación del usuario.
-    </td>
-  </tr>
-</table>
+<img src="Assets\LeanUxCanvas.png"/>
 
 ### 1.3. Segmentos objetivo
 
