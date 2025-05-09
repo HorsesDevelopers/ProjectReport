@@ -793,6 +793,29 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 |Departamento|Lima, Peru|
 |Duración 13:45-17:55| Alberto es un pisciultor experimentado que ya posee dispositivos de monitoreo para sus piscigranjas. Cría salmon en agua salada, carpas y tilapias. Con uno de sus dispositivos de Arduino, él ya puede saber la cantidad exacta de alimento que les va a proveer, con los demás registra el nivel de oxígeno, amonio y de residuos que perjudiquen a su cultivo; esto lo ayuda a decidir cuando hay un cambio de agua en sus piscigranjas. Utiliza Whatsapp e Instagram para el contacto con proveedores y para realizar sus ventas. Se encuentra interesado en usar una aplicación que reúna todas las características que sus dispositivos indican. El desearía que la aplicación posea una sección donde pueda colocar sus anotaciones. Estaría dispuesto a invertir 50 soles mensuales para una solución que reúna todas las características de sus ya existentes dispositivos Arduino. |
 
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Rosa Nuñez**|
+|:-|:-|
+|Edad|24 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+|Duración 17:55-23:40| Rosa es una piscicultora cuya piscigranja se encuentra en Junín. Para sus cultivos de salmón, ella trabaja con dos personas para la administración de 3 estanques. Ella no posee experiencia previa puesto a que es un negocio familiar, alimenta a los peces dependiendo del tamaño del pez y a veces, no lo hace. Posee un dispensador automático para la alimentación, también para la salud del agua de los estanques utiliza un medido portátil. Hubieron ocasiones donde sus peces morían debido a falta de oxígeno. Cuando hace calor o llueve se complica el mantener una excelente calidad del agua. Utiliza Whatsapp para el contacto externo como ventas. Ella quisiera que hubiera una sección de notificaciones en la aplicación que utilize.|
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Sebastian Vargas**|
+|:-|:-|
+|Edad|26 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+|Duración 23:40- 29:22| Sebastian Vargas tiene 26 años, es un pisciultor experimentado que ya posee dispositivos de monitoreo para sus piscigranjas. Cría salmon en agua salada y carpas en 6 estanques. Se dedica al rubro hace 3 años, hay 3 personas que trabajan con él, su experiencia como tecnico apicultor le permitió entrar a la apicultura. Alimenta a sus peces 3 veces al día: 7am, 1 pm y 5:30pm. Para saber la cantidad de alimento utiliza una biomasa estimada, cuando no puede alimentar en el horaio previsto cuenta con un dispensador automático.A veces se le tapa la boquilla del dosificador, para saber el estado de los peces observa la velocidad de consumo y residuos en el estanque. Utiliza Whatsapp e Instagram para el contacto con proveedores y para realizar sus ventas. Se encuentra interesado en usar una aplicación que reúna todas las características que sus dispositivos indican. El desearía que la aplicación posea una sección donde pueda colocar sus anotaciones. Estaría dispuesto a invertir 50 soles mensuales para una solución que reúna todas las características de sus ya existentes dispositivos Arduino. |
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Bryan Palma**|
+|:-|:-|
+|Edad|25 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+|Duración 29:22-34:29| Bryan Palma es un pisciultor  de 25 años experimentado puesto que ya cuenta con dispositivos que lo ayudan en su pisigranja. Cría salmon en agua salada y tilapia roja en 3 estanques, cada uno con su dispensador y aireación. Con uno de sus dispositivos de Arduino, él ya puede saber la cantidad exacta de alimento que les va a proveer, con los demás registra el nivel de oxígeno, amonio y de residuos que perjudiquen a su cultivo; esto lo ayuda a decidir cuando hay un cambio de agua en sus piscigranjas. Utiliza Whatsapp para la relación con los proveedores, Facebook para ventas locales, Youtube para aprender y Drive para el registro de la producción. Se encuentra interesado en usar una aplicación que posea un dashboard con indicadores de alerta y conectividad estable. El desearía que la aplicación posea una sección donde pueda colocar sus anotaciones. Estaría dispuesto a invertir 65 soles mensuales para una solución que reúna todas las características de sus ya existentes dispositivos Arduino. |
 
 #### 2.2.3. Análisis de entrevistas
 
