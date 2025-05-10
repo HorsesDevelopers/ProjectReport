@@ -1344,11 +1344,33 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
 Durante la sesión de EventStorming realizada, se llevó a cabo un proceso de análisis para descubrir los **Bounded Contexts** naturales del sistema FeedGuard.  
 Se utilizó la técnica **start-with-value**, priorizando aquellas partes del dominio que representan el mayor valor para el negocio, como la alimentación automática basada en parámetros ambientales críticos.
 
-<img src="Assets\EventStorming\Untitled - Frame 2.jpg">
+#### Unstructured Exploration
 
-<img src="Assets\EventStorming\Untitled - Frame 3.jpg">
+<img src="Assets\EventStorming\Unstructured Exploration.png">
 
-<img src="Assets\EventStorming\Untitled - Frame 5.jpg">
+#### Timelines
+
+<img src="Assets\EventStorming\timelines.png">
+
+#### BC-IAM
+
+<img src="Assets\EventStorming\BC-IAM.png">
+
+#### BC-Schedule Planning
+
+<img src="Assets\EventStorming\BC-SchedulePlanning.png">
+
+#### BC-Feeding
+
+<img src="Assets\EventStorming\BC-Feeding.png">
+
+#### BC-Device Managment
+
+<img src="Assets\EventStorming\BC-DeviceManagment.png">
+
+#### BC-Communication
+
+<img src="Assets\EventStorming\BC-Communication.png">
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
@@ -1373,91 +1395,31 @@ Estos flujos definen las dependencias y puntos de integración entre las partes 
 
 A continuación, se presenta el resumen de los **Bounded Context Canvases** elaborados para cada contexto identificado:
 
-<img src="Assets\EventStorming\Untitled - Frame 6.jpg">
+#### BC Canvas-IAM
 
-#### Monitoring Context
+<img src="Assets\EventStorming\BCC-IAM.png">
 
-- **Propósito**:  
-  Capturar, procesar y almacenar datos ambientales críticos como oxígeno disuelto, temperatura y pH provenientes de sensores instalados en la piscigranja.
+#### BC Canvas-Schedule Planning
 
-- **Responsabilidades**:
+<img src="Assets\EventStorming\BCC-SchedulePlanning.png">
 
-  - Recibir datos de sensores en intervalos configurables.
-  - Verificar si los datos cumplen los parámetros esperados.
-  - Actualizar los registros históricos de calidad del agua.
-  - Disparar eventos hacia otros contextos en caso de condiciones anómalas.
+#### BC Canvas-Feeding
 
-- **Entidades principales**:
-  - Sensor
-  - Estanque
-  - Datos de calidad de agua
+<img src="Assets\EventStorming\BCC-Feeding.png">
 
-#### Alerting Context
+#### BC Canvas-Device Managment
 
-- **Propósito**:  
-  Detectar automáticamente condiciones ambientales críticas y generar notificaciones oportunas a los usuarios para tomar acciones correctivas.
+<img src="Assets\EventStorming\BCC-DeviceManagment.png">
 
-- **Responsabilidades**:
+#### BC Canvas-Communication
 
-  - Evaluar continuamente los datos ambientales recibidos.
-  - Comparar con los umbrales configurados para cada especie de pez.
-  - Generar y registrar alertas ambientales.
-  - Notificar al usuario vía Mobile App o correo electrónico.
-
-- **Entidades principales**:
-  - Alerta
-  - Notificación
-
-#### Feeding Context
-
-- **Propósito**:  
-  Gestionar la planificación y ejecución automática del proceso de alimentación, optimizando la cantidad de alimento suministrado según condiciones ambientales y configuraciones del usuario.
-
-- **Responsabilidades**:
-
-  - Permitir a los usuarios definir planes de alimentación.
-  - Activar alimentadores automáticos en función de horarios y parámetros ambientales.
-  - Adaptar dinámicamente las cantidades suministradas si las condiciones no son óptimas.
-
-- **Entidades principales**:
-  - Alimentador
-  - Plan de alimentación
-  - Evento de dosificación de alimento
-
-#### Farm Management Context
-
-- **Propósito**:  
-  Administrar los recursos físicos y organizativos de la piscigranja, como estanques, especies de peces y configuraciones generales.
-
-- **Responsabilidades**:
-
-  - Registrar nuevas granjas y estanques.
-  - Configurar parámetros ambientales ideales por especie.
-  - Asociar sensores y alimentadores a cada unidad de cultivo.
-  - Mantener actualizada la información del usuario y la operación.
-
-- **Entidades principales**:
-  - Granja
-  - Estanque
-  - Usuario
-
-#### User Interface Context
-
-- **Propósito**:  
-  Presentar de forma clara, accesible y amigable toda la información crítica del sistema a los piscicultores y técnicos, facilitando la gestión de su operación desde dispositivos móviles o web.
-
-- **Responsabilidades**:
-
-  - Mostrar en tiempo real los valores de calidad del agua y estado de alimentación.
-  - Mostrar alertas críticas de manera priorizada.
-  - Permitir configurar parámetros de operación y alimentación.
-  - Brindar acceso a históricos y reportes analíticos.
-
-- **Entidades principales**:
-  - Dashboard de monitoreo
-  - Gestor de alertas
+<img src="Assets\EventStorming\BCC-Communication.png">
 
 #### 4.1.2. Context Mapping
+
+A continuación, se presenta el context mapping elaborado para nuestra solución. Este representa el cómo se comportan y colaboran los BC entre sí y de qué depende que esto suceda.
+
+<img src="Assets\EventStorming\ContextMapping.png">
 
 #### 4.1.3. Software Architecture
 
@@ -1536,3 +1498,41 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 ###### 4.2.X.6.1. Domain Layer Class Diagrams
 
 ###### 4.2.X.6.2. Database Design Diagram
+
+## Capítulo V: Solution UI/UX Design
+### 5.1. Style Guidelines.
+#### 5.1.1. General Style Guidelines.
+#### 5.1.2. Web, Mobile and IoT Style Guidelines.
+### 5.2. Information Architecture.
+#### 5.2.1. Organization Systems.
+#### 5.2.2. Labeling Systems.
+#### 5.2.3. SEO Tags and Meta Tags
+#### 5.2.4. Searching Systems.
+#### 5.2.5. Navigation Systems.
+### 5.3. Landing Page UI Design.
+#### 5.3.1. Landing Page Wireframe.
+#### 5.3.2. Landing Page Mock-up.
+### 5.4. Applications UX/UI Design.
+#### 5.4.1. Applications Wireframes.
+#### 5.4.2. Applications Wireflow Diagrams.
+#### 5.4.2. Applications Mock-ups.
+#### 5.4.3. Applications User Flow Diagrams.
+### 5.5. Applications Prototyping.
+
+## Capítulo VI: Product Implementation, Validation & Deployment
+### 6.1. Software Configuration Management.
+#### 6.1.1. Software Development Environment Configuration.
+#### 6.1.2. Source Code Management.
+#### 6.1.3. Source Code Style Guide & Conventions.
+#### 6.1.4. Software Deployment Configuration.
+### 6.2. Landing Page, Services & Applications Implementation.
+#### 6.2.1. Sprint n
+##### 6.2.1.1. Sprint Planning n.
+##### 6.2.1.2. Aspect Leaders and Collaborators.
+##### 6.2.1.3. Sprint Backlog n.
+##### 6.2.1.4. Development Evidence for Sprint Review.
+##### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+##### 6.2.1.6. Execution Evidence for Sprint Review.
+##### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+##### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+##### 6.2.1.9. Team Collaboration Insights during Sprint.
