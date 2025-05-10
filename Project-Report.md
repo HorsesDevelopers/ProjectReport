@@ -1521,10 +1521,177 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 ### 6.1. Software Configuration Management.
-#### 6.1.1. Software Development Environment Configuration.
+
+En esta sección describimos los productos de software que hemos usado en el proyecto.
+
+#### 6.1.1. Software Development Environment Configuration
+
+- **Project Management**  
+  [Github](https://github.com/)  
+  Es donde organizamos el proyecto. Aquí está la organización, la cual contiene 4 repositorios: Informe, Landing Page, Frontend y Backend.
+
+- **Requirements Management**  
+  [Pivotal Tracker](https://www.pivotaltracker.com/)  
+  Es un software que usamos para gestionar los proyectos y establecer las historias de usuario del proyecto.
+
+- **Product UX/UI Design**  
+  [UXPressia](https://uxpressia.com/)  
+  Acá diseñamos las User Persona, User Journey Mapping y Empathy Mapping.
+
+  [Figma](https://www.figma.com/es-es/)  
+  Acá hicimos los diseños de la landing page y de la aplicación web (wireframes, mockups y prototipos).
+
+- **Software Development**  
+  - **Git:** Es un software de control de versiones para desarrollar el proyecto.  
+  - **Github:** Es un sistema de control de versiones de Git.  
+  - **HTML5:** Lenguaje de marcado para estructurar la página.  
+  - **CSS3:** Lenguaje de hojas de estilo en cascada para dar estilo y atractivo visual a la página.  
+  - **JavaScript:** Lenguaje de programación que genera interactividad y dinamismo en el sitio web.  
+  - **VSCode:** Editor de código fuente para el desarrollo de la landing page.  
+  - **Angular:** Framework utilizado para el desarrollo frontend de la aplicación web.
+
+- **Software Deployment**  
+  - **Github Pages:** Plataforma para desplegar la landing page.
+
 #### 6.1.2. Source Code Management.
+
+Utilizamos Github como plataforma, así como un sistema de control de versiones.
+
+Para ello se creó una organización para el proyecto del equipo. En esta organización, se crearon 4 repositorios, los cuales corresponden al informe del proyecto, la landing page, el frontend y el backend.
+
+- Organización del proyecto: https://github.com/HorsesDevelopers
+- Informe: https://github.com/HorsesDevelopers/ProjectReport
+- Landing page: https://github.com/HorsesDevelopers/Landing-Page
+- Frontend: https://github.com/HorsesDevelopers/frontend
+- Backend: https://github.com/HorsesDevelopers/backend
+
+Usamos **Gitflow** para tener un mejor manejo del código en el proyecto. En Gitflow se establecieron dos ramas principales:
+
+- **main**: Contiene la versión final del informe y de la landing page.
+- **develop**: Se usa para realizar cambios y nuevas funcionalidades sin afectar la rama principal.
+
+Además, utilizamos ramas temporales **feature** para desarrollar nuevas funciones sin impactar las ramas principales. En nuestro caso, dividimos las ramas feature por capítulos del informe, nombrándolas como `feature/Chapter#`, donde `#` representa el número del capítulo trabajado.
+
+---
+
+### Semantic Versioning 2.0.0
+
+Según [Semantic Versioning 2.0.0](https://semver.org/), los releases se nombran de la siguiente manera:
+
+- **MAJOR version**: Cuando se realizan cambios incompatibles en la API.
+- **MINOR version**: Cuando se agregan funcionalidades compatibles con versiones anteriores.
+- **PATCH version**: Cuando se corrigen errores compatibles con versiones anteriores.
+
+---
+
+### Conventional Commits
+
+Para los mensajes de commit aplicamos la convención [Conventional Commits](https://www.conventionalcommits.org/):
+
+```
+<type>[optional scope]: <description>
+```
+
+- `<type>`: Indica la clase de commit (ejemplos: `fix`, `feat`, `build`, `chore`, `docs`, `refactor`, etc.).
+- `[optional scope]`: Alcance del commit (opcional).
+- `<description>`: Descripción detallada del commit y las acciones realizadas.
+
 #### 6.1.3. Source Code Style Guide & Conventions.
+
+En este apartado se indicarán las referencias que adoptaremos para nombrar elementos y algunas convenciones que emplearemos durante el desarrollo del proyecto utilizando Angular, Spring Boot y Flutter con Dart:
+
+---
+
+### HTML
+
+- Utilizar letras en minúscula para nombrar elementos y atributos.
+- Colocar siempre entre comillas los valores de los atributos, especialmente si contienen espacios.
+- Especificar los atributos `alt`, `width` y `height` para las imágenes.
+- No usar espacios en blanco alrededor del signo `=`.
+- Usar cuatro espacios de sangría.
+- No omitir nunca el elemento `<title></title>`.
+- Eliminar los espacios en blanco finales.
+- Usar la sintaxis de HTML5.
+- Evitar el uso innecesario de atributos `id`. En su lugar, usar atributos `class` para estilos y el atributo `data` para scripts.
+- Usar una nueva línea para cada elemento de bloque, lista o tabla, y aplicar sangría a cada elemento secundario.
+
+**Referencias:**
+- [HTML5 Syntax - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+---
+
+### CSS
+
+- Usar nombres de clase genéricos o significativos, que representen el propósito del elemento.
+- Separar las palabras en nombres de clases con un guión (`-`) cuando el nombre tenga más de una palabra.
+- Incluir siempre el número cero inicial en los valores decimales. Ejemplo: `font-size: 0.7em`.
+- Preferir la notación hexadecimal de 3 caracteres cuando sea posible.
+- Evitar el uso de la declaración `!important`. En su lugar, usar la especificidad del selector.
+- Usar punto y coma (`;`) al final de cada declaración.
+- Colocar un espacio después de los dos puntos (`:`) en el nombre de la propiedad.
+- Preferir las comillas simples (`' '`) sobre las dobles (`" "`) para selectores de atributos y valores de propiedades.
+
+**Referencia:** [Google CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#CSS)
+
+---
+
+### TypeScript con Angular
+
+- Usar camelCase para nombrar funciones, métodos, variables, propiedades de objetos y al definir instancias de objetos mediante constructores.
+- Usar PascalCase para nombrar clases.
+- Utilizar UPPERCASE para nombrar constantes como `PI`.
+- Aplicar la herencia utilizando `extends`.
+- Usar operadores de igualdad estricta (`===`) y desigualdad estricta (`!==`) en lugar de los operadores de igualdad simple (`==`) y desigualdad simple (`!=`).
+- Mantener espacios en blanco alrededor de los operadores (`=`, `+`, `-`, `*`, `/`) y después de las comas.
+- Terminar cada declaración con un punto y coma (`;`).
+
+**Referencias:**
+- [Angular Style Guide](https://angular.io/guide/styleguide)
+- [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+
+---
+
+### Java con Spring Boot
+
+- Usar camelCase para nombrar métodos y variables.
+- Usar PascalCase para nombrar clases y interfaces.
+- Preferir los tipos de datos primitivos sobre sus contrapartes de objetos cuando sea posible. Ejemplo: usar `int` en lugar de `Integer`.
+- Utilizar la anotación `@Autowired` para la inyección de dependencias.
+- Usar `@GetMapping`, `@PostMapping`, `@PutMapping`, y `@DeleteMapping` para mapear las solicitudes HTTP a los métodos del controlador.
+- Organizar las aplicaciones en paquetes que reflejen su funcionalidad.
+- Utilizar Lombok para minimizar el código repetitivo de getters, setters y constructores.
+
+**Referencias:**
+- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+- [Java Nut and Bolts](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
+
+---
+
+### Flutter con Dart
+
+- Usar camelCase para nombrar variables, funciones y métodos.
+- Usar PascalCase para nombrar clases, widgets y enums.
+- Utilizar UPPERCASE_WITH_UNDERSCORES para constantes.
+- Mantener una estructura de carpetas clara y modular, separando widgets, modelos, servicios y utilidades.
+- Preferir el uso de `const` y `final` cuando sea posible para mejorar el rendimiento y la inmutabilidad.
+- Usar sangría de dos espacios, siguiendo la convención oficial de Dart.
+- Evitar el uso de variables globales; preferir la inyección de dependencias y el uso de providers o gestores de estado.
+- Documentar las clases y métodos públicos utilizando comentarios de documentación (`///`).
+- Terminar cada declaración con un punto y coma (`;`).
+
+**Referencias:**
+- [Effective Dart: Style](https://dart.dev/guides/language/effective-dart/style)
+- [Flutter Style Guide](https://docs.flutter.dev/development/tools/formatting)
+
 #### 6.1.4. Software Deployment Configuration.
+
+Para desplegar la landing page, se usará **Github Pages**, herramienta que nos permitirá desplegar la página a partir de un repositorio.
+
+Para ello, creamos el repositorio de la landing page, luego configuramos aquel repositorio en el que se desplegará la landing page, subimos los archivos con su respectivo commit y copiamos el nombre del repositorio que se encuentra en la página de configuración. Ya estaría listo para visualizarse en el navegador.
+
+Adicionalmente, el frontend principal de la aplicación será desplegado utilizando **Netlify**, una plataforma que permite publicar aplicaciones web modernas de manera sencilla y eficiente. Para esto, se conecta el repositorio del frontend a Netlify, se configura el build command y el directorio de salida, y tras cada push a la rama principal, Netlify realiza el despliegue automático, generando una URL pública para acceder a la aplicación.
+
 ### 6.2. Landing Page, Services & Applications Implementation.
 #### 6.2.1. Sprint n
 ##### 6.2.1.1. Sprint Planning n.
