@@ -45,7 +45,7 @@
       <td align="center">Eduardo Espinoza, Vittorio Marcelo</td>
     </tr>
     <tr>
-      <td align="center"></td>
+      <td align="center">U20221B394</td>
       <td align="center">Flores Avalos, Diego</td>
     </tr>
     <tr>
@@ -102,19 +102,19 @@
 
 - [Reporte de Proyecto](#reporte-de-proyecto)
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-    - [**2025-1**](#2025-1)
-      - [**Curso:**](#curso)
-    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-      - [**NRC:**](#nrc)
-      - [2947](#2947)
-      - [**Profesor:**](#profesor)
-      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-      - [Producto: **FeedGuard**](#producto-feedguard)
-    - [**Integrantes del equipo**](#integrantes-del-equipo)
-    - [**Abril 2025**](#abril-2025)
+  - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+  - [**2025-1**](#2025-1)
+    - [**Curso:**](#curso)
+  - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+    - [**NRC:**](#nrc)
+    - [2947](#2947)
+    - [**Profesor:**](#profesor)
+    - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+  - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+    - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+    - [Producto: **FeedGuard**](#producto-feedguard)
+  - [**Integrantes del equipo**](#integrantes-del-equipo)
+  - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -326,7 +326,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     </td>
   </tr>
   <tr>
-    <td><img src="Assets\diegoflorez.png" width="200"/></td>
+    <td><img src="Assets\diegoFlores.jpg" width="200"/></td>
     <td>
     Mi nombre es Diego Flores, tengo conocimientos de lenguajes de programación C++, Python, HTML y CSS. Frontend: Vue. Backend: Flask. Me interesa el área de desarrollo web y soy proactivo y me gusta trabajar en equipo.
     </td>
@@ -354,6 +354,7 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
 ### 1.2. Solution Profile
 
 #### 1.2.1. Antecedentes y problemática
+
 #### The 5 W’s and 2 H’s
 
 - **Who (¿Quiénes están involucrados?)**  
@@ -448,10 +449,10 @@ FeedGuard se integra en la rutina diaria de alimentación y monitoreo, permitien
 
 **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
-**Problemas:** 
+**Problemas:**
 Dificultad en adopción tecnológica inicial; entornos sin conectividad estable; desconocimiento técnico.
 
-**Soluciones:** 
+**Soluciones:**
 Interfaz amigable, modo offline, materiales de capacitación visual, soporte técnico local y remoto.
 
 **¿Cómo y cuándo es usado nuestro producto?**
@@ -535,7 +536,6 @@ Características demográficas y técnicas:
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
-
 
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
@@ -657,7 +657,7 @@ Características demográficas y técnicas:
 
 A partir del análisis competitivo realizado, se logró identificar las fortalezas, debilidades, oportunidades y amenzas destacadas en los competidores. A continuación, se brindará tanto estrategias como tácticas para alcanzar esta meta:
 
-**Fortalezas de nuestros competidores:** 
+**Fortalezas de nuestros competidores:**
 
 - Integración de tecnología inteligente con una marga global por detrás.
 - Solución especializada y eficiente para la alimentación.
@@ -666,28 +666,29 @@ A partir del análisis competitivo realizado, se logró identificar las fortalez
 **Estrategias y tácticas a nuestras fortalezas:**
 
 **Estrategias:**
+
 - Consolidación de características: Se puede desarrollar tecnología que abarque en conjunto lo que ofrecen los competidores.
 - Construcción de una comunidad: Se fomentaría una unión mediante una comunidad, los usuarios podrían acceder a contenido educativo que otros publican.
 - Ampliar segmento objetivo: No limitarnos a negocios de piscicultura, sino a usuarios que inician en este ámbito.
 
-**Tácticas:** 
+**Tácticas:**
+
 - Crear foros de comunidad.
 - Colaboración con tiendas online de cuidado de peces.
 - Sistema de recompensas.
 
-**Debilidades de nuestros competidores:** 
+**Debilidades de nuestros competidores:**
 
 - Algunos pueden ser percibidos como caros debido a su costo excesivo mensual, llegando hasta los 80 dólares.
 - Curva de aprendizaje pronunciada debido a su logística compleja.
-  
+
 **Estrategias y tácticas a nuestras debilidades:**
-**Estrategias:** 
+**Estrategias:**
 
 - Simplicidad: Ofrecer simplicidad y facilidad de uso para que la aplicación no posea una curva de aprendizaje pronunciada.
 - Soporte: Ofrecer servicio al cliente
 - Calidad-precio: Disminuir precio para acceder a la aplicación, distribuirlo entre las características que brinda.
-- 
-**Tácticas:**
+- **Tácticas:**
 
 - Crear tutoriales de uso y conceptos sobre la piscicultura
 - Desarrollar alianzas con tiendas de mascotas locales
@@ -697,13 +698,13 @@ A partir del análisis competitivo realizado, se logró identificar las fortalez
 
 - Creciente interés en hogares inteligentes.
 - Monitoreo avanzado y modificable que se le proporciona a los usuarios.
-  
+
 **Estrategias y tácticas a nuestras oportunidades:**
-**Estrategias:** 
+**Estrategias:**
 
 - Compra/venta de productos: Se pueden ofrecer productos como pesceras a nivel de usuarios especializados.
 - Anticipación de tendencias y conceptos: Se puede identificar las nuevas tendencias y promoverlas en la plataforma.
-  
+
 **Tácticas:**
 
 - Integrar asistentes de voz e IA.
@@ -714,15 +715,16 @@ A partir del análisis competitivo realizado, se logró identificar las fortalez
 
 - Competencia entre marcas de acuarios innovando en la tecnología, crecimiento de la IA, variedad de costos en el mercado.
 - Competencia tanto online como en el mercado retail.
-  
+
 **Estrategias y tácticas a nuestras amenazas:**
-**Estrategias:** 
+**Estrategias:**
 
 - Adaptabilidad: Debemos ser capaces de ajustar la oferta, limitar lo esencial a la plataforma.
 - Seguridad: Se debe incluir un sistema de seguridad eficiente.
 - Disponibilidad: Debe utilizarse con normalidad sin resaltar defectos por parte del sistema.
-  
+
 **Tácticas:**
+
 - Implementar un sistema de recompensa.
 - Establecernos como la plataforma que monitorea todos los aspectos.
 
@@ -838,17 +840,17 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 |Edad|25 años|
 |Profesión|Psicicultor|
 |Departamento|Lima, Peru|
-|Duración 29:22-34:29| Bryan Palma es un pisciultor  de 25 años experimentado puesto que ya cuenta con dispositivos que lo ayudan en su pisigranja. Cría salmon en agua salada y tilapia roja en 3 estanques, cada uno con su dispensador y aireación. Con uno de sus dispositivos de Arduino, él ya puede saber la cantidad exacta de alimento que les va a proveer, con los demás registra el nivel de oxígeno, amonio y de residuos que perjudiquen a su cultivo; esto lo ayuda a decidir cuando hay un cambio de agua en sus piscigranjas. Utiliza Whatsapp para la relación con los proveedores, Facebook para ventas locales, Youtube para aprender y Drive para el registro de la producción. Se encuentra interesado en usar una aplicación que posea un dashboard con indicadores de alerta y conectividad estable. El desearía que la aplicación posea una sección donde pueda colocar sus anotaciones. Estaría dispuesto a invertir 65 soles mensuales para una solución que reúna todas las características de sus ya existentes dispositivos Arduino. |
+|Duración 29:22-34:29| Bryan Palma es un pisciultor de 25 años experimentado puesto que ya cuenta con dispositivos que lo ayudan en su pisigranja. Cría salmon en agua salada y tilapia roja en 3 estanques, cada uno con su dispensador y aireación. Con uno de sus dispositivos de Arduino, él ya puede saber la cantidad exacta de alimento que les va a proveer, con los demás registra el nivel de oxígeno, amonio y de residuos que perjudiquen a su cultivo; esto lo ayuda a decidir cuando hay un cambio de agua en sus piscigranjas. Utiliza Whatsapp para la relación con los proveedores, Facebook para ventas locales, Youtube para aprender y Drive para el registro de la producción. Se encuentra interesado en usar una aplicación que posea un dashboard con indicadores de alerta y conectividad estable. El desearía que la aplicación posea una sección donde pueda colocar sus anotaciones. Estaría dispuesto a invertir 65 soles mensuales para una solución que reúna todas las características de sus ya existentes dispositivos Arduino. |
 
 #### 2.2.3. Análisis de entrevistas
 
 **Piscicultor técnico**
 
-El 100% de los piscicultores rurales indicaron que le gista la acuicultura y como es su principal fuente de ingresos. El 100% reconoció que la tecnología será clave para la automatización de procesos. Se presentó interés en conseguir una aplicación, con tal de que abarque todas las funcionalidades dentro del sistema  de monitoreo.
+El 100% de los piscicultores rurales indicaron que le gista la acuicultura y como es su principal fuente de ingresos. El 100% reconoció que la tecnología será clave para la automatización de procesos. Se presentó interés en conseguir una aplicación, con tal de que abarque todas las funcionalidades dentro del sistema de monitoreo.
 
 **Piscicultor rural**
 
-Entre los piscicultres entrevistado, el 80% indica que los acuicultores rurales entrevistados mencionaron que le gusta relizar monitoreo. Solo 20% de los entrevistados ha utillizado sensores electrónicos para controlar parámetros físicos. A pesar de la carga, el 100% de los piscicultors expresó interés en la solución total. Que la herramienta incluya una función del registro y anotaciones para poder  tener control de los parámetros. Finalmente el 100% estaria dispuesto a invertir como mínimo 40 soles mensuales.
+Entre los piscicultres entrevistado, el 80% indica que los acuicultores rurales entrevistados mencionaron que le gusta relizar monitoreo. Solo 20% de los entrevistados ha utillizado sensores electrónicos para controlar parámetros físicos. A pesar de la carga, el 100% de los piscicultors expresó interés en la solución total. Que la herramienta incluya una función del registro y anotaciones para poder tener control de los parámetros. Finalmente el 100% estaria dispuesto a invertir como mínimo 40 soles mensuales.
 
 ### 2.3. Needfinding
 
@@ -868,18 +870,17 @@ Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidade
 
 #### 2.3.2. User Task Matrix
 
-| Task Matrix                                                         | Piscicultores rural Frecuencia | Piscicultores rural Importancia | Piscicultores técnico Frecuencia | Piscicultores técnico Importancia |
-|----------------------------------------------------------------|:------------------------:|:-----------------------:|:------------------------:|:-----------------------:|
-| 1. Aumentar la eficiencia de su operación                      |           Alta           | Alta                    | Alta                     | Alta                    |
-| 2. Monitorear niveles de la piscigranja                        |           Alta           | Alta                   | Alta                     | Media                   |
-| 3. Reducir el desperdicio de recursos                          |           Alta           | Alta                   | Alta                     | Alta                    |
-| 4. Anotar actividades y datos sobre su trabajo                 |           Media           | Alta                    | Alta                     | Alta                    |
-| 5. Contar la cantidad de cultivos que posee                    |           Media           | Alta                    | Media                    | Media                   |
-| 6. Monitorear el ciclo de vida del cultivo completo en la piscigranja|           Alta           | Alta                   | Alta                     | Alta                    |
-| 7. Tomar decisiones en base a datos brindados                  |           Media           | Alta                    | Alta                    | Alta                   |
-| 8. Estar alerta en caso de escasez o excedente de recursos     |           Alta           | Alta                    | Media                    | Alta                   |
-| 9. Intentar automatizar el proceso                             |           Baja           | Media                    | Alta                    | Alta                   |
-
+| Task Matrix                                                           | Piscicultores rural Frecuencia | Piscicultores rural Importancia | Piscicultores técnico Frecuencia | Piscicultores técnico Importancia |
+| --------------------------------------------------------------------- | :----------------------------: | :-----------------------------: | :------------------------------: | :-------------------------------: |
+| 1. Aumentar la eficiencia de su operación                             |              Alta              |              Alta               |               Alta               |               Alta                |
+| 2. Monitorear niveles de la piscigranja                               |              Alta              |              Alta               |               Alta               |               Media               |
+| 3. Reducir el desperdicio de recursos                                 |              Alta              |              Alta               |               Alta               |               Alta                |
+| 4. Anotar actividades y datos sobre su trabajo                        |             Media              |              Alta               |               Alta               |               Alta                |
+| 5. Contar la cantidad de cultivos que posee                           |             Media              |              Alta               |              Media               |               Media               |
+| 6. Monitorear el ciclo de vida del cultivo completo en la piscigranja |              Alta              |              Alta               |               Alta               |               Alta                |
+| 7. Tomar decisiones en base a datos brindados                         |             Media              |              Alta               |               Alta               |               Alta                |
+| 8. Estar alerta en caso de escasez o excedente de recursos            |              Alta              |              Alta               |              Media               |               Alta                |
+| 9. Intentar automatizar el proceso                                    |              Baja              |              Media              |               Alta               |               Alta                |
 
 - **Juan** prioriza tareas manuales como la dosificación y supervisión visual, con poco uso de registros o análisis digital.
 - **Bryan**, en cambio, tiene una visión más analítica: mide constantemente, registra sus datos y busca optimizar con base en evidencia técnica.
@@ -887,15 +888,15 @@ Estos arquetipos nos permiten modelar comportamientos, motivaciones y necesidade
 También se observa que **Bryan valora mucho la automatización y el uso de sensores**, mientras que **Juan necesita confianza y simplicidad** para adoptar nuevas herramientas.
 
 **Piscicultores rurales**
-Los piscicultores rurales priorizan la eficiencia operativa, el monitoreo constante de las  condiciones de la granja y la reducción de desperdicio de recursos. También se observa un alto valor otorgado a registrar actividades y datos. Aunque la automatización no esta entre su foco principal, muestra interés en la toma de decisiones a partir de datos.
+Los piscicultores rurales priorizan la eficiencia operativa, el monitoreo constante de las condiciones de la granja y la reducción de desperdicio de recursos. También se observa un alto valor otorgado a registrar actividades y datos. Aunque la automatización no esta entre su foco principal, muestra interés en la toma de decisiones a partir de datos.
 
 **Piscicultores técnicos**
 
 Los piscicultores técnicos, por otro lado, muestran un enfoque más avanzado y estratégico en la gestión de sus operaciones. Junto con la eficiencia, valoran altamente la automatización de procesos y el uso de datos para la toma de decisiones. Aunque el monitoreo constante sigue siendo frecuente, su importancia rapida más en los aspectos técnicos y analíticos. La anotación de datos son prácticas clave en este segmento.
 
-
 #### 2.3.3. User Journey Mapping
-Se construyeron los **User Journey Maps** (estado actual - *As-Is*) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
+
+Se construyeron los **User Journey Maps** (estado actual - _As-Is_) para cada User Persona. A continuación, se resumen las fases clave del proceso diario:
 
 **Piscicultores rurales**
 
@@ -909,7 +910,6 @@ Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
 Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
-
 #### 2.3.4. Empathy Mapping
 
 **Piscicultores rurales**
@@ -917,7 +917,6 @@ Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 <img src="Assets/miro_empathy1.jpg"/>
 
 Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
-
 
 **Piscicultores técnicos**
 
@@ -935,30 +934,27 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 
 Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
-
 **Piscicultores técnicos**
 
 <img src="Assets/miro_asis2.jpg"/>
 
 Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
 
-
 ### 2.4. Ubiquitous Language
 
-|Término (inglés)|Término (español)|Definición|
-|-|-|-|
-|Fish Farmer|Piscicultor|Persona responsable por la gestión de la piscigranja.|
-|Fish Farm|Piscigranja|Instalación acuícola (natural o artificial) destinada a la crianza de organismos marinos.|
-|Pond|Estanque|Donde se cultivan los organismos marinos.|
-|Fish Stock|Cultivo de peces|Total de organismos marinos que estan siendo criados en un estanque.|
-|Feeding time|Tiempo de alimentación|Momento determinado del día en el que se alimenta a los organismos marinos.|
-|Feed distribution|Distribución de alimento|Acción de repartir el alimento para organismos marinos sobre el estanque.|
-|Water Quality|Calidad del agua|Medición de las condiciones del agua, considerando oxígeno, pH, temperatura y químicos que afectan la salud de los peces.|
-|Contamined water|Agua contaminada|Agua que no es adecuada para los peces debido a los desechos o químicos.|
-|Oxygen level|Nivel de oxígeno|Cantidad de oxígeno disuelto en el agua.|
-|Ammonia level|Nivel de amoniaco|Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.|
-|Daily routine|Rutina diaria|Actividades realizadas o por realizar en un día en la piscigranja.|
-
+| Término (inglés)  | Término (español)        | Definición                                                                                                                |
+| ----------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Fish Farmer       | Piscicultor              | Persona responsable por la gestión de la piscigranja.                                                                     |
+| Fish Farm         | Piscigranja              | Instalación acuícola (natural o artificial) destinada a la crianza de organismos marinos.                                 |
+| Pond              | Estanque                 | Donde se cultivan los organismos marinos.                                                                                 |
+| Fish Stock        | Cultivo de peces         | Total de organismos marinos que estan siendo criados en un estanque.                                                      |
+| Feeding time      | Tiempo de alimentación   | Momento determinado del día en el que se alimenta a los organismos marinos.                                               |
+| Feed distribution | Distribución de alimento | Acción de repartir el alimento para organismos marinos sobre el estanque.                                                 |
+| Water Quality     | Calidad del agua         | Medición de las condiciones del agua, considerando oxígeno, pH, temperatura y químicos que afectan la salud de los peces. |
+| Contamined water  | Agua contaminada         | Agua que no es adecuada para los peces debido a los desechos o químicos.                                                  |
+| Oxygen level      | Nivel de oxígeno         | Cantidad de oxígeno disuelto en el agua.                                                                                  |
+| Ammonia level     | Nivel de amoniaco        | Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.                     |
+| Daily routine     | Rutina diaria            | Actividades realizadas o por realizar en un día en la piscigranja.                                                        |
 
 ## Capítulo III: Requirements Specification
 
@@ -983,6 +979,7 @@ A continuación, se presenta el To-Be Scenario Mapping para cada segmento objeti
 Los User Stories sirven para describir de manera más detallada las diferentes funciones de la aplicación, adaptándolas a las necesidades y prioridades de los usuarios. Estas historias también capturan el propósito de uso de las personas, brindando una comprensión más completa de cómo se relacionan con la aplicación y qué esperan lograr con ella.
 
 **Epic Stories**
+
 <table>
   <thead>
     <tr>
@@ -1035,7 +1032,6 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     </tr>
   </tbody>
 </table>
-
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -1318,7 +1314,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 En esta sección se presentan los **Impact Mapping** desarrollados para cada uno de los segmentos objetivo identificados: **Juan Pérez** (piscicultor rural, tradicional) y **Bryan Díaz** (piscicultor técnico, innovador).  
 El Impact Mapping fue clave para alinear las funcionalidades de FeedGuard con los objetivos estratégicos del proyecto, permitiendo visualizar de manera clara cómo las acciones y cambios de comportamiento de cada usuario contribuyen al logro de los resultados esperados.
 
-El proceso de construcción de estos mapas incluyó sesiones colaborativas de análisis, identificación de objetivos, actores, impactos y entregables clave, asegurando que cada funcionalidad propuesta responda a necesidades reales detectadas en la investigación.  
+El proceso de construcción de estos mapas incluyó sesiones colaborativas de análisis, identificación de objetivos, actores, impactos y entregables clave, asegurando que cada funcionalidad propuesta responda a necesidades reales detectadas en la investigación.
 
 A continuación, se presentan los Impact Mapping para cada segmento objetivo, facilitando la comparación de los caminos de valor y el impacto esperado de la solución en cada perfil de usuario.
 
@@ -1352,21 +1348,19 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Domain-Driven Design
+
 #### 4.1.1. EventStorming
+
 ##### 4.1.1.1. Candidate Context Discovery
 
 Durante la sesión de EventStorming realizada, se llevó a cabo un proceso de análisis para descubrir los **Bounded Contexts** naturales del sistema FeedGuard.  
 Se utilizó la técnica **start-with-value**, priorizando aquellas partes del dominio que representan el mayor valor para el negocio, como la alimentación automática basada en parámetros ambientales críticos.
-
 
 <img src="Assets\EventStorming\Untitled - Frame 2.jpg">
 
 <img src="Assets\EventStorming\Untitled - Frame 3.jpg">
 
 <img src="Assets\EventStorming\Untitled - Frame 5.jpg">
-
-
-
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
@@ -1375,18 +1369,20 @@ Posteriormente, se trabajó en la visualización de los **flujos de mensajes** e
 Se identificaron los siguientes principales flujos de colaboración:
 
 - **Monitoring Context** captura datos de sensores en tiempo real y notifica a:
+
   - **Alerting Context** si los valores exceden los límites críticos.
   - **Feeding Context** para ajustar dinámicamente el plan de alimentación basado en las condiciones del agua.
 
 - **Alerting Context** genera alertas y las transmite hacia:
+
   - **User Interface Context**, que muestra la alerta al usuario final.
 
 - **Farm Management Context** proporciona la configuración inicial (granja, estanques, especies) que utilizan los otros contextos como referencia operacional.
 
 Estos flujos definen las dependencias y puntos de integración entre las partes del sistema, reforzando la independencia y el aislamiento de responsabilidades que busca Domain-Driven Design.
 
-
 ##### 4.1.1.3. Bounded Context Canvases
+
 A continuación, se presenta el resumen de los **Bounded Context Canvases** elaborados para cada contexto identificado:
 
 <img src="Assets\EventStorming\Untitled - Frame 6.jpg">
@@ -1394,9 +1390,10 @@ A continuación, se presenta el resumen de los **Bounded Context Canvases** elab
 #### Monitoring Context
 
 - **Propósito**:  
-Capturar, procesar y almacenar datos ambientales críticos como oxígeno disuelto, temperatura y pH provenientes de sensores instalados en la piscigranja.
+  Capturar, procesar y almacenar datos ambientales críticos como oxígeno disuelto, temperatura y pH provenientes de sensores instalados en la piscigranja.
 
 - **Responsabilidades**:
+
   - Recibir datos de sensores en intervalos configurables.
   - Verificar si los datos cumplen los parámetros esperados.
   - Actualizar los registros históricos de calidad del agua.
@@ -1410,9 +1407,10 @@ Capturar, procesar y almacenar datos ambientales críticos como oxígeno disuelt
 #### Alerting Context
 
 - **Propósito**:  
-Detectar automáticamente condiciones ambientales críticas y generar notificaciones oportunas a los usuarios para tomar acciones correctivas.
+  Detectar automáticamente condiciones ambientales críticas y generar notificaciones oportunas a los usuarios para tomar acciones correctivas.
 
 - **Responsabilidades**:
+
   - Evaluar continuamente los datos ambientales recibidos.
   - Comparar con los umbrales configurados para cada especie de pez.
   - Generar y registrar alertas ambientales.
@@ -1425,9 +1423,10 @@ Detectar automáticamente condiciones ambientales críticas y generar notificaci
 #### Feeding Context
 
 - **Propósito**:  
-Gestionar la planificación y ejecución automática del proceso de alimentación, optimizando la cantidad de alimento suministrado según condiciones ambientales y configuraciones del usuario.
+  Gestionar la planificación y ejecución automática del proceso de alimentación, optimizando la cantidad de alimento suministrado según condiciones ambientales y configuraciones del usuario.
 
 - **Responsabilidades**:
+
   - Permitir a los usuarios definir planes de alimentación.
   - Activar alimentadores automáticos en función de horarios y parámetros ambientales.
   - Adaptar dinámicamente las cantidades suministradas si las condiciones no son óptimas.
@@ -1440,9 +1439,10 @@ Gestionar la planificación y ejecución automática del proceso de alimentació
 #### Farm Management Context
 
 - **Propósito**:  
-Administrar los recursos físicos y organizativos de la piscigranja, como estanques, especies de peces y configuraciones generales.
+  Administrar los recursos físicos y organizativos de la piscigranja, como estanques, especies de peces y configuraciones generales.
 
 - **Responsabilidades**:
+
   - Registrar nuevas granjas y estanques.
   - Configurar parámetros ambientales ideales por especie.
   - Asociar sensores y alimentadores a cada unidad de cultivo.
@@ -1456,9 +1456,10 @@ Administrar los recursos físicos y organizativos de la piscigranja, como estanq
 #### User Interface Context
 
 - **Propósito**:  
-Presentar de forma clara, accesible y amigable toda la información crítica del sistema a los piscicultores y técnicos, facilitando la gestión de su operación desde dispositivos móviles o web.
+  Presentar de forma clara, accesible y amigable toda la información crítica del sistema a los piscicultores y técnicos, facilitando la gestión de su operación desde dispositivos móviles o web.
 
 - **Responsabilidades**:
+
   - Mostrar en tiempo real los valores de calidad del agua y estado de alimentación.
   - Mostrar alertas críticas de manera priorizada.
   - Permitir configurar parámetros de operación y alimentación.
@@ -1470,9 +1471,7 @@ Presentar de forma clara, accesible y amigable toda la información crítica del
 
 #### 4.1.2. Context Mapping
 
-
 #### 4.1.3. Software Architecture
-
 
 ##### 4.1.3.1. System Landscape Diagram
 
@@ -1489,17 +1488,17 @@ En esencia, la AquaSense Platform se sitúa como un sistema central que ayuda a 
 
 El diagrama de contenedores de la **AquaSense Platform** desglosa la arquitectura interna del sistema. El contenedor central es la **AquaSense Platform**, que alberga varios contenedores clave:
 
-* La **Mobile App** proporciona la interfaz de usuario principal para los productores y técnicos.
-* La **API Application** actúa como la puerta de enlace central, gestionando la comunicación entre la Mobile App y los bounded contexts.
-* Varios **Bounded Contexts** organizan la lógica de negocio en dominios específicos:
-  * **Feeding Bounded Context** gestiona la alimentación automatizada.
-  * **Monitoring Bounded Context** maneja la ingesta y el procesamiento de datos de sensores.
-  * **Farm Management Bounded Context** almacena la información de las granjas, usuarios y configuraciones.
-  * **Alerting Bounded Context** gestiona las reglas y el envío de notificaciones.
-  * **User Interface Bounded Context** maneja la presentación de la interfaz de usuario.
-* El **Data Analytics Service** procesa los datos para generar insights.
-* Los **IoT Devices** son los sensores y actuadores desplegados en las granjas.
-* La **Relational Database** almacena todos los datos persistentes del sistema.
+- La **Mobile App** proporciona la interfaz de usuario principal para los productores y técnicos.
+- La **API Application** actúa como la puerta de enlace central, gestionando la comunicación entre la Mobile App y los bounded contexts.
+- Varios **Bounded Contexts** organizan la lógica de negocio en dominios específicos:
+  - **Feeding Bounded Context** gestiona la alimentación automatizada.
+  - **Monitoring Bounded Context** maneja la ingesta y el procesamiento de datos de sensores.
+  - **Farm Management Bounded Context** almacena la información de las granjas, usuarios y configuraciones.
+  - **Alerting Bounded Context** gestiona las reglas y el envío de notificaciones.
+  - **User Interface Bounded Context** maneja la presentación de la interfaz de usuario.
+- El **Data Analytics Service** procesa los datos para generar insights.
+- Los **IoT Devices** son los sensores y actuadores desplegados en las granjas.
+- La **Relational Database** almacena todos los datos persistentes del sistema.
 
 Estos contenedores interactúan entre sí para proporcionar las funcionalidades de la plataforma, desde la recopilación de datos de los IoT Devices hasta la presentación de información y el control de la alimentación a través de la Mobile App, todo orquestado por la API Application y la lógica de negocio encapsulada en los Bounded Contexts.
 ![ContextDiagram](Assets/c4/containers-diagram.png)
@@ -1507,46 +1506,45 @@ Estos contenedores interactúan entre sí para proporcionar las funcionalidades 
 ##### 4.1.3.4. Deployment Diagrams
 
 ## Alerting Bounded Context
+
 ![ContextDiagram](Assets/c4/BC1.png)
+
 ## Farm Management Bounded Context
+
 ![ContextDiagram](Assets/c4/BC2.png)
+
 ## Feeding Bounded Context
+
 ![ContextDiagram](Assets/c4/BC3.png)
-##  Monitoring Bounded Context
+
+## Monitoring Bounded Context
+
 ![ContextDiagram](Assets/c4/BC4.png)
+
 ## User Interface Bounded Context
+
 ![ContextDiagram](Assets/c4/BC5.png)
 
 ### link de structurizr
 
 https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
-
 ### 4.2. Tactical-Level Domain-Driven Design
-
 
 #### 4.2.X. Bounded Context: \<Bounded Context Name\>
 
-
 ##### 4.2.X.1. Domain Layer
-
 
 ##### 4.2.X.2. Interface Layer
 
-
 ##### 4.2.X.3. Application Layer
-
 
 ##### 4.2.X.4. Infrastructure Layer
 
-
 ##### 4.2.X.5. Component Level Diagrams
-
 
 ##### 4.2.X.6. Code Level Diagrams
 
-
 ###### 4.2.X.6.1. Domain Layer Class Diagrams
-
 
 ###### 4.2.X.6.2. Database Design Diagram
