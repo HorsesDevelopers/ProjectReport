@@ -900,29 +900,21 @@ Se construyeron los **User Journey Maps** (estado actual - _As-Is_) para cada Us
 
 **Piscicultores rurales**
 
-<img src="Assets/miro_user_journey_map_rural.jpg"/>
-
-Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+<img src="Assets\UserJourneyMaps\JourneyMapUserJuan.png"/>
 
 **Piscicultores técnicos**
 
-<img src="Assets/miro_user_journey_map_tec.jpg"/>
-
-Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+<img src="Assets\UserJourneyMaps\JourneyMapUserBryan.png"/>
 
 #### 2.3.4. Empathy Mapping
 
 **Piscicultores rurales**
 
-<img src="Assets/miro_empathy1.jpg"/>
-
-Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+<img src="Assets\EmphatyMaps\JuanEmpathyMap.png"/>
 
 **Piscicultores técnicos**
 
-<img src="Assets/miro_empathy2.jpg"/>
-
-Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+<img src="Assets\EmphatyMaps\BryanEmpathyMap.png"/>
 
 #### 2.3.5. As-is Scenario Mapping
 
@@ -930,15 +922,11 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 
 **Piscicultores rurales**
 
-<img src="Assets/miro_asis1.jpg"/>
-
-Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+<img src="Assets\As-IsMapping\Juan-AsIs.jpg"/>
 
 **Piscicultores técnicos**
 
-<img src="Assets/miro_asis2.jpg"/>
-
-Link: https://miro.com/app/board/uXjVI-Kzxf8=/?share_link_id=977489618547
+<img src="Assets\As-IsMapping\Bryan-AsIs.jpg"/>
 
 ### 2.4. Ubiquitous Language
 
