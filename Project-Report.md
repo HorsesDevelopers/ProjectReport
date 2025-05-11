@@ -1251,7 +1251,7 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
 > Backlog, el orden lo determina el valor para el negocio. Elaborar un product backlog
 > colocando al inicio User Stories ligados a la seguridad o autenticación, por ejemplo,
 > se considera incorrecto. Considere que los User Stories relacionados con el sitio web
-> estático (Landing Page) requieren considerarse desde el primer sprint.
+> estático (Landing Page) requieren co nsiderarse desde el primer sprint.
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -1306,43 +1306,64 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
 
 ##### 4.1.3.2. Context Level Diagrams
 
-El diagrama de contexto de AquaSense Technologies ilustra la interacción entre su AquaSense Platform y las entidades externas que la rodean. Los principales actores (Personas) que interactúan con la plataforma son los Productores Acuícolas, quienes la utilizan para monitorear sus granjas, gestionar la alimentación y recibir alertas, y los Técnicos de Campo, que también interactúan para supervisar las operaciones y responder a las alertas.
+El sistema AquaSense actúa como núcleo central que ofrece servicios digitales enfocados en el monitoreo y gestión de cultivos acuícolas, permitiendo a los usuarios obtener datos de sensores, programar actividades, y comunicarse de manera eficiente.
 
-La AquaSense Platform se comunica con varios Sistemas de Software Externos para enriquecer su funcionalidad. Obtiene datos meteorológicos del Weather Service y datos de calidad del agua (si utilizan sensores de terceros) del Water Quality Sensor Cloud. La conectividad para los dispositivos IoT se proporciona a través de la Cellular Network. En el futuro, podría haber una integración con un Fish Feed Management System de proveedores o de los propios productores.
+1. **Aquaculture Farmer (Productor Acuícola)**
+  - Utiliza el sistema para monitorear las condiciones de los estanques, programar la alimentación y recibir notificaciones en tiempo real.
+  - Interactúa principalmente a través de la aplicación móvil y web.
 
-En esencia, la AquaSense Platform se sitúa como un sistema central que ayuda a los productores acuícolas a optimizar sus operaciones al integrar datos del entorno, automatizar procesos clave y proporcionar información valiosa a través de una interfaz de usuario accesible.
+2. **Field Technician (Técnico de Campo)**
+  - Realiza la configuración de sensores y monitorea su funcionamiento en el lugar de cultivo.
+  - Utiliza principalmente la aplicación móvil para tareas de mantenimiento y revisión de datos.
+
+
 ![ContextDiagram](Assets/c4/context-diagram.png)
 
 ##### 4.1.3.3. Container Level Diagrams
 
-El diagrama de contenedores de la **AquaSense Platform** desglosa la arquitectura interna del sistema. El contenedor central es la **AquaSense Platform**, que alberga varios contenedores clave:
+1. **Mobile App**
+  - Aplicación móvil desarrollada en Kotlin.
+  - Permite a los usuarios (agricultores y técnicos) monitorear condiciones, gestionar la alimentación y recibir notificaciones desde cualquier lugar.
 
-* La **Mobile App** proporciona la interfaz de usuario principal para los productores y técnicos.
-* La **API Application** actúa como la puerta de enlace central, gestionando la comunicación entre la Mobile App y los bounded contexts.
-* Varios **Bounded Contexts** organizan la lógica de negocio en dominios específicos:
-  * **Feeding Bounded Context** gestiona la alimentación automatizada.
-  * **Monitoring Bounded Context** maneja la ingesta y el procesamiento de datos de sensores.
-  * **Farm Management Bounded Context** almacena la información de las granjas, usuarios y configuraciones.
-  * **Alerting Bounded Context** gestiona las reglas y el envío de notificaciones.
-  * **User Interface Bounded Context** maneja la presentación de la interfaz de usuario.
-* El **Data Analytics Service** procesa los datos para generar insights.
-* Los **IoT Devices** son los sensores y actuadores desplegados en las granjas.
-* La **Relational Database** almacena todos los datos persistentes del sistema.
+2. **Web App**
+  - Aplicación web desarrollada en Angular 17.
+  - Dirigida a usuarios que prefieren trabajar desde escritorio, principalmente para la gestión de datos y generación de reportes.
 
-Estos contenedores interactúan entre sí para proporcionar las funcionalidades de la plataforma, desde la recopilación de datos de los IoT Devices hasta la presentación de información y el control de la alimentación a través de la Mobile App, todo orquestado por la API Application y la lógica de negocio encapsulada en los Bounded Contexts.
+3. **API Gateway**
+  - Componente central que expone endpoints RESTful y gestiona todas las solicitudes provenientes de la app móvil y web.
+  - Implementado en Java con Spring Boot.
+  - Sirve de punto de entrada único al backend, facilitando el control, seguridad y mantenimiento.
+
+4. **Relational Database**
+  - Base de datos relacional implementada en PostgreSQL.
+  - Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
+  - Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
+
 ![ContextDiagram](Assets/c4/containers-diagram.png)
 
 ##### 4.1.3.4. Deployment Diagrams
 
-## Alerting Bounded Context
+El backend está dividido en varios contextos delimitados (Bounded Contexts) siguiendo principios de **Domain-Driven Design**:
+
+## Identify and access Bounded Context
+- Módulo de autenticación y autorización de usuarios.
+
 ![ContextDiagram](Assets/c4/BC1.png)
-## Farm Management Bounded Context
+## Communication Bounded Context
+- Gestión de alertas y reportes entre los devices y los usuarios.
+
 ![ContextDiagram](Assets/c4/BC2.png)
-## Feeding Bounded Context
+## Device Management Bounded Context
+- Administración de sensores y dispositivos de campo.
+
 ![ContextDiagram](Assets/c4/BC3.png)
-##  Monitoring Bounded Context
+##  Feeding Bounded Context
+- Gestión de la programación de alimentación.
+
 ![ContextDiagram](Assets/c4/BC4.png)
-## User Interface Bounded Context
+## Schedule Management Bounded Context
+- Manejo de información sobre estanques, granjas y horarios de alimentación.
+
 ![ContextDiagram](Assets/c4/BC5.png)
 
 ### link de structurizr
