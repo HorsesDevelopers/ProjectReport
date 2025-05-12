@@ -1507,9 +1507,51 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
 ## Capítulo V: Solution UI/UX Design
 ### 5.1. Style Guidelines.
+
+Esta sección define las pautas de estilo para el producto. Se centra en la identidad visual de la marca, tipografía que identifiquen y transmitan profesionalismo al usuario.
+
 #### 5.1.1. General Style Guidelines.
+
+**Branding:**
+La identidad visual se contruye sobre una paleta moderna que denota profesionalismo moderno. Siendo el color primario #377BFF que transmite confianza, accesibilidad y dinamismo. Mientras que el color #2C2F33 aporta estabilidad y contraste. El uso de blancos y negros suaves garantiza una experiencia limpia y moderna.
+
+
+
+**Typography:**
+La tipografía es Sora, elegida por su alta legibilidad y modernismo. Utilizaremos tanto Medium como Bold para ejercer jerarquías visuales claras.
+
+
+
+**Icons:**
+Se utilizan íconos lineales para asegurar una comprensión inmediata, especialmente en interfaces táctiles puesto que implementamos una aplicación móvil.
+
+
+
+**Buttons:**
+Se utilizan los colores #377BFF y #FFFFFF para el contraste, adicionalmente los estados hover usan un azul oscuro #00A97B y disabled una ligera claridad #a3e9d6.
+
+
+
+**Placeholders:**
+Los textos en placeholder se muestran en #A0A0A0.
+
+
+
 #### 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+**Responsive design:**
+Toda la interfaz se encuentra diseñada de forma responsiva, es capaz de adaptarse fluidamente tanto a móviles, tablets y desktops.
+
+**IoT Considerations**
+Respecto al dispositivo IoT, consideramos establecer un color oscuro para la tipografía.
+
+**Hover and Active States:**
+Se busca que el usuario identifique el estado actual de las acciones que puede realizar, e aquí que separamos los estados hover, active y disabled para que su retroalimentación sea clara.
+
 ### 5.2. Information Architecture.
+
+Esta sección detalla las decisiones que estructuran y organizan la información dentro del producto, optimizando la accesbilidad y consideración de heurísticas.
+
 #### 5.2.1. Organization Systems.
 #### 5.2.2. Labeling Systems.
 #### 5.2.3. SEO Tags and Meta Tags
