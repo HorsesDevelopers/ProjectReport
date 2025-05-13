@@ -1339,7 +1339,7 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
   - Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
   - Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
 
-![ContextDiagram](Assets/c4/containers-diagram.png)
+![ContainerDiagram](Assets/c4/containers-diagram.png)
 
 ##### 4.1.3.4. Deployment Diagrams
 
@@ -1348,23 +1348,23 @@ El backend está dividido en varios contextos delimitados (Bounded Contexts) sig
 ## Identify and access Bounded Context
 - Módulo de autenticación y autorización de usuarios.
 
-![ContextDiagram](Assets/c4/BC1.png)
+![BC1](Assets/c4/BC1.png)
 ## Communication Bounded Context
 - Gestión de alertas y reportes entre los devices y los usuarios.
 
-![ContextDiagram](Assets/c4/BC2.png)
+![BC2](Assets/c4/BC2.png)
 ## Device Management Bounded Context
 - Administración de sensores y dispositivos de campo.
 
-![ContextDiagram](Assets/c4/BC3.png)
+![BC3](Assets/c4/BC3.png)
 ##  Feeding Bounded Context
 - Gestión de la programación de alimentación.
 
-![ContextDiagram](Assets/c4/BC4.png)
+![BC4](Assets/c4/BC4.png)
 ## Schedule Management Bounded Context
 - Manejo de información sobre estanques, granjas y horarios de alimentación.
 
-![ContextDiagram](Assets/c4/BC5.png)
+![BC5](Assets/c4/BC5.png)
 
 ### link de structurizr
 
@@ -1613,9 +1613,9 @@ Responsabilidades:
   
     - Columnas: notification_id, user_id, created_at, is_read
 
-#### 4.2.2. Bounded Context: \<Feeding\>
+#### 4.2.3. Bounded Context: \<Device Management\>
 
-##### 4.2.2.1. Domain Layer
+##### 4.2.3.1. Domain Layer
 
 - **Entity: Device**
   - Propósito: Representa un dispositivo IoT (sensor o alimentador) asociado a un estanque.
@@ -1690,13 +1690,13 @@ Responsabilidades:
   - SensorRepository
     - Interface para acceder a los datos de los sensores.
 
-##### 4.2.2.2. Interface Layer
+##### 4.2.3.2. Interface Layer
 
 - **Controller: Device Controller**
   - Controlador que expone los endpoints para la gestión de dispositivos, sensores y alimentadores.
   - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
 
-##### 4.2.2.3. Application Layer
+##### 4.2.3.3. Application Layer
 
 - **Service: Sensor Service**
   - Lógica de negocio para gestionar sensores.
@@ -1715,7 +1715,7 @@ Responsabilidades:
   - ConfigurationCommandHandler
   - DispenserCommandHandler
 
-##### 4.2.2.4. Infrastructure Layer
+##### 4.2.3.4. Infrastructure Layer
 
 - **Repositories:**
 
@@ -1737,7 +1737,7 @@ Responsabilidades:
 
   - Seguridad: JWT para autenticación
 
-##### 4.2.2.5. Component Level Diagrams
+##### 4.2.3.5. Component Level Diagrams
 
 Incluye:
 
@@ -1759,7 +1759,7 @@ Responsabilidades:
 
 - Repositories acceden a datos
 
-##### 4.2.2.6. Code Level Diagrams
+##### 4.2.3.6. Code Level Diagrams
 
 - Bounded Context Domain Layer Class Diagram:
 
@@ -1786,9 +1786,9 @@ Responsabilidades:
   - Tabla registered_dispensers
     - Columnas: dispenser_id, pond_id, created_at
 
-#### 4.2.2. Bounded Context: \<Feeding Management\>
+#### 4.2.4. Bounded Context: \<Feeding Management\>
 
-##### 4.2.2.1. Domain Layer
+##### 4.2.4.1. Domain Layer
 
 - **Entity: Scheduled Feeding**
   - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
@@ -1807,13 +1807,13 @@ Responsabilidades:
   - FeedingDataRepository
     - Interface para acceder a los datos de la alimentación.
 
-##### 4.2.2.2. Interface Layer
+##### 4.2.4.2. Interface Layer
 
 - **Controller: Feeding Schedule Controller**
   - Controlador que expone los endpoints para la gestión de horarios de alimentación.
     - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
 
-##### 4.2.2.3. Application Layer
+##### 4.2.4.3. Application Layer
 
 - **Service: Feeding Schedule Service**
   - Lógica de negocio para gestionar horarios de alimentación.
@@ -1822,7 +1822,7 @@ Responsabilidades:
 - **Command Handlers (implícitos en los servicios)**
   - FeedingScheduleCommandHandler
 
-##### 4.2.2.4. Infrastructure Layer
+##### 4.2.4.4. Infrastructure Layer
 
 - **Repositories:**
 
@@ -1840,7 +1840,7 @@ Responsabilidades:
 
   - Seguridad: JWT para autenticación
 
-##### 4.2.2.5. Component Level Diagrams
+##### 4.2.4.5. Component Level Diagrams
 
 Incluye:
 
@@ -1858,7 +1858,7 @@ Responsabilidades:
 
 - Repositories acceden a datos
 
-##### 4.2.2.6. Code Level Diagrams
+##### 4.2.4.6. Code Level Diagrams
 
 - Bounded Context Domain Layer Class Diagram:
 
@@ -1870,6 +1870,226 @@ Responsabilidades:
 
   - Tabla feeding
     - Columnas: id, name, schedule
+
+#### 4.2.5. Bounded Context: \<Schedule Management\>
+
+##### 4.2.5.1. Domain Layer
+
+- **Entity: Pond**
+  - Propósito: Representa un estanque acuícola donde se cultivan peces.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - ubication: String – Ubicación del estanque.
+      - name: String – Nombre del estanque.
+      - created_at: Date – Fecha de creación del estanque.
+      - updated_at: Date – Fecha de la última actualización del estanque.
+      - schdule_feeding_id: UUID – Identificador del horario de alimentación asociado al estanque.
+      - user_id: UUID – Identificador del usuario propietario del estanque.
+    - Métodos:
+      - createPond(): void – Crea un nuevo estanque.
+      - updatePond(): void – Actualiza la información del estanque.
+      - deletePond(): void – Elimina un estanque.
+      - getPondDetails(): Pond – Devuelve los detalles del estanque.
+      - getPondFeedingSchedule(): List< Feeding > – Devuelve la lista de horarios de alimentación asociados al estanque.
+      - getPondSensors(): List< Sensor > – Devuelve la lista de sensores asociados al estanque.
+      - getPondDispensers(): List< Dispenser > – Devuelve la lista de dispensadores asociados al estanque.
+      - getPondReports(): List< Report > – Devuelve la lista de reportes asociados al estanque.
+      - getPondNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas al estanque.
+      - getPondUsers(): List< User > – Devuelve la lista de usuarios asociados al estanque.
+
+- **Entity: Fish**
+  - Propósito: Representa un pez cultivado en el estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - weight: Float – Peso del pez.
+      - length: Float – Longitud del pez.
+      - fish_type: String – Tipo de pez.
+      - age: Integer – Edad del pez.
+
+    - Métodos:
+      - createFish(): void – Crea un nuevo pez.
+      - updateFish(): void – Actualiza la información del pez.
+      - deleteFish(): void – Elimina un pez.
+      - getFishDetails(): Fish – Devuelve los detalles del pez.
+
+- **Entity: Pond_Fish**
+  - Propósito: Representa la relación entre un estanque y los peces cultivados en él.
+    - Atributos:
+      - pond_id: UUID – Identificador del estanque asociado.
+      - fish_id: UUID – Identificador del pez asociado.
+      - created_at: Date – Fecha de creación del registro.
+      - updated_at: Date – Fecha de la última actualización del registro.
+      
+    - Métodos:
+      - getPondFish(): List< Fish > – Devuelve la lista de peces asociados a un estanque.
+      - getFishPonds(): List< Pond > – Devuelve la lista de estanques asociados a un pez.
+
+- **Entity: Meal**
+  - Propósito: Representa una comida para los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - name: String – Nombre de la comida.
+      - description: String – Descripción de la comida.
+    - Métodos:
+      - createMeal(): void – Crea una nueva comida.
+      - updateMeal(): void – Actualiza la información de la comida.
+      - deleteMeal(): void – Elimina una comida.
+      - getMealDetails(): Meal – Devuelve los detalles de la comida.
+      - addIngredient(): void – Agrega un ingrediente a la comida.
+      - removeIngredient(): void – Elimina un ingrediente de la comida.
+
+- **Entity: Meal_Ingredient**
+  - Propósito: Representa la relación entre una comida y sus ingredientes.
+    - Atributos:
+      - meal_id: UUID – Identificador de la comida asociada.
+      - ingredient_id: UUID – Identificador del ingrediente asociado.
+      - amount: Float – Cantidad del ingrediente en la comida.
+    - Métodos:
+      - getMealIngredients(): List< Ingredient > – Devuelve la lista de ingredientes asociados a una comida.
+      - getIngredientMeals(): List< Meal > – Devuelve la lista de comidas asociadas a un ingrediente.
+
+- **Entity: Ingredient**
+  - Propósito: Representa un ingrediente utilizado en la comida de los peces.
+    - Atributos:
+      - id: UUID – Identificador único del ingrediente.
+      - name: String – Nombre del ingrediente.
+      - description: String – Descripción del ingrediente.
+    - Métodos:
+      - createIngredient(): void – Crea un nuevo ingrediente.
+      - updateIngredient(): void – Actualiza la información del ingrediente.
+      - deleteIngredient(): void – Elimina un ingrediente.
+      - getIngredientDetails(): Ingredient – Devuelve los detalles del ingrediente.
+
+- **Entity: Meal_Schedule**
+  - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del schdule.
+      - meal_id: UUID – Identificador de la comida asociada.
+      - hour: String – Hora programada para la alimentación.
+      - day: String – Día programado para la alimentación.
+      - amount: Float – Cantidad de comida a dispensar.
+    - Métodos:
+      - createMealSchedule(): void – Crea un nuevo horario de alimentación.
+      - updateMealSchedule(): void – Actualiza el horario de alimentación.
+      - deleteMealSchedule(): void – Elimina un horario de alimentación.
+      - getMealScheduleDetails(): MealSchedule – Devuelve los detalles del horario de alimentación.
+      - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
+    
+- **Repository Interface**
+  - PondRepository
+    - Interface para acceder a los datos de los estanques.
+  - MealRepository
+    - Interface para acceder a los datos de las comidas.
+  - FishRepository
+    - Interface para acceder a los datos de los peces.
+
+##### 4.2.3.2. Interface Layer
+
+- **Controller: Schedule Controller**
+  - Controlador que expone los endpoints para la gestión de estanques, peces y comidas.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.3.3. Application Layer
+
+- **Service: Meals Service**
+  - Lógica de negocio para gestionar comidas.
+  - Permite crear, actualizar y eliminar comidas, así como asociarlas a estanques.
+
+- **Service: Schedule Service**
+  - Lógica de negocio para gestionar dispositivos y alimentadores.
+  - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
+
+- **Service: Feeding Data Service**
+  - Lógica de negocio para gestionar horarios de alimentación.
+  - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
+
+- **Command Handlers (implícitos en los servicios)**
+  - PondCommandHandler
+  - FishCommandHandler
+  - MealCommandHandler
+
+##### 4.2.3.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - PondRepositoryImpl
+
+    - Implementa el acceso a la tabla de ponds en la base de datos PostgreSQL.
+
+  - FishRepositoryImpl
+
+    - Implementa el acceso a la tabla de fish en la base de datos PostgreSQL.
+
+  - MealRepositoryImpl
+  
+    - Implementa el acceso a la tabla de meals en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.3.5. Component Level Diagrams
+
+Incluye:
+
+- Schedule Controller
+
+- Meals Service
+- Schedule Service
+- Feeding Data Service
+
+- PondRepository
+
+- FishRepository
+
+- MealRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.3.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Pond, Fish y Meal como entidades principales
+
+  - Interfaces PondRepository, FishRepository y MealRepository
+
+  - Clase Pond_Fish y Meal_Ingredient como entidades de relación
+  
+  - Clase Meal_Schedule como entidad de programación
+
+- Bounded Context Database Diagram:
+
+    - Tabla ponds
+        - Columnas: id, ubication, name, created_at, updated_at, schdule_feeding_id, user_id
+    
+    - Tabla fish
+        - Columnas: id, weight, length, fish_type, age
+    
+    - Tabla meals
+        - Columnas: id, name, description
+    
+    - Tabla meal_schedule
+        - Columnas: id, meal_id, hour, day, amount
+    
+    - Tabla pond_fish
+        - Columnas: pond_id, fish_id, created_at, updated_at
+    
+    - Tabla meal_ingredient
+        - Columnas: meal_id, ingredient_id, amount
+
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
