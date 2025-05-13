@@ -1881,16 +1881,135 @@ En este sección, se presentará un mock-up de la landing page, que incluirá un
 <img src="Assets\Landing page.png">
 
 ### 5.4. Applications UX/UI Design.
+Esta sección presenta la propuesta visual y de interacción de la aplicación FeedGuard, diseñada para piscicultores rurales y técnicos. Se aplicaron principios de diseño inclusivo, jerarquías claras, navegación intuitiva y consistencia visual, alineados con el design system definido en la sección 5.1.
 
 #### 5.4.1. Applications Wireframes.
+Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se detallan las vistas clave para los dos perfiles de usuario:
+
+- Dashboard principal: Muestra KPIs críticos (oxígeno, temperatura, pH) con íconos accesibles y etiquetas claras.
+<br>
+
+![Dashboard](image.png)
+ - Configuración de estanques: Incluye campos con placeholders descriptivos y validación en tiempo real.
+
+ ![alt text](image-1.png)
+
+ - Alerta de parámetros fuera de rango: Diseñada con jerarquía visual clara (color de alerta, ícono y texto).
+
+ ![alt text](image-3.png)
+
+Todos los wireframes priorizan legibilidad, accesibilidad táctil y flujo lógico de navegación. El diseño inclusivo fue garantizado con contraste suficiente, etiquetas textuales e iconografía lineal.
 
 #### 5.4.2. Applications Wireflow Diagrams.
+Se elaboraron wireflows considerando los principales objetivos de los User Personas.
 
-#### 5.4.2. Applications Mock-ups.
+Wireflow 1: Juan Pérez – Activación de alerta y respuesta
 
-#### 5.4.3. Applications User Flow Diagrams.
+ - User goal: Responder ante una caída de oxígeno detectada.
+
+ - Flujo: Login → Dashboard → Alerta emergente → Vista de detalles → Recomendación automática → Confirmación de acción
+
+Wireflow 2: 
+ - User goal:
+
+#### 5.4.3. Applications Mock-ups.
+Los mock-ups de FeedGuard fueron desarrollados en Figma, incorporando los colores (#377BFF, #2C2F33), tipografía Sora y botones con estados hover y disabled. Se utilizaron íconos lineales y espaciados generosos para asegurar una interfaz amigable.
+
+ - Pantalla de monitoreo: KPIs con indicadores visuales y umbrales definidos por usuario.
+
+ - Pantalla de configuración: Flujo dividido por pasos, con validaciones inline.
+
+ - Pantalla de recomendaciones: Gráficos y sugerencias automatizadas con opción de confirmación manual.
+
+El diseño sigue una arquitectura de información basada en jerarquías y agrupamiento lógico, con etiquetas claras en todas las secciones.
+
+
+
+#### 5.4.4. Applications User Flow Diagrams.
+> Enunciado: Esta sección presenta la propuesta de User Flows. Debe considerarse un User Flow
+para cada User goal, considerando los User Persona para cada aplicación que forma
+parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
+cuales se derivan. Debe recordarse que en el User Flow se incluyen los Mock-ups de
+las vistas o pantallas de las aplicaciones, junto con los flujos que constituyen la ruta
+esperada (happy path) y las rutas alternativas (unhappy paths). Utilizar para los User
+Flows las herramientas indicadas. Cada User Flow diagram requiere que se redacte el
+User goal y se complemente con una explicación de los flujos y condiciones
+especificados.
+
+Los user flows se derivan de los wireflows y modelan rutas completas, incluyendo paths felices y alternativos.
+
+ - User Flow 1: Juan Pérez – Monitoreo y respuesta a eventos
+
+ - Flujo: Inicio → Dashboard → Alerta → Confirmación de acción → Retorno a dashboard
+
+Unhappy path: Usuario no reconoce la alerta → Sistema reenvía notificación → Usuario accede desde histórico
+
+ - User Flow 2: Bryan Díaz – Automatización de alimentación
+
+ - Flujo: Inicio → Dashboard → Historial de parámetros → Activar algoritmo de recomendación → Confirmación
+
+Unhappy path: Usuario rechaza recomendación → Reconfigura parámetros manualmente
+
+Estos flujos incorporan los mock-ups reales y representan la arquitectura de interacción esperada para cada tipo de usuario.
+
+
 
 ### 5.5. Applications Prototyping.
+> Enunciado: Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
+simulación de interacción y navegación, acorde con la propuesta de paths de User
+Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
+principales criterios para las decisiones de interacción. Es importante evidenciar la
+relación con las decisiones de arquitectura de información, en particular sobre el
+sistema de navegación y los tipos de interacciones seleccionadas. Para cada caso
+debe incluirse 1 screenshot de video y un enlace a un video subido a Microsoft
+Stream para cada aplicación, en el que se demuestre y explique los principales flujos
+de interacción que cubren los prototipos.
+
+Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y Mobile Web. Se desarrollaron simulaciones de navegación en Figma, alineadas con los User Flows definidos previamente. Los prototipos permiten validar la experiencia del usuario y simular las interacciones clave desde la perspectiva de cada User Persona.
+
+#### 🧭 Criterios para las decisiones de interacción
+
+- **Jerarquía visual clara**: se emplean tamaños, colores y espaciado para dirigir la atención.
+- **Simplicidad en navegación**: rutas optimizadas con un promedio de tres clics por flujo.
+- **Retroalimentación inmediata**: uso de loaders, estados de botones e indicadores visuales.
+- **Diseño inclusivo**: contraste adecuado, íconos comprensibles y etiquetas textuales.
+- **Arquitectura de información consistente**: navegación lateral, breadcrumbs y categorización temática.
+
+#### 🗂️ Sistema de navegación
+
+- **Menú lateral**: accesos rápidos a módulos como Mis Estanques, Parámetros, Reportes.
+- **Barra superior**: alertas y perfil del usuario.
+- **Interacciones**: scroll responsivo, pop-ups para acciones críticas, hover states y mensajes de confirmación.
+
+#### 🔁 Tipos de interacciones seleccionadas
+
+- **Transiciones suaves entre vistas** (usando slide y fade).
+- **Modal para alertas** críticas del sistema.
+- **Componentes responsivos** para navegación desde dispositivos móviles y escritorio.
+
+#### 🎯 Prototipos presentados
+
+- 📱 *Juan Pérez* – Usuario tradicional
+  - Flujo: Respuesta ante alerta por caída de oxígeno.
+  - Interacción: Recibe alerta → visualiza parámetros → toma acción → confirma respuesta.
+
+- 📲 *Bryan Díaz* – Usuario técnico
+  - Flujo: Automatización de alimentación basada en datos históricos.
+  - Interacción: Consulta gráficos → recibe recomendación → activa modo automático.
+
+#### 🖼️ Capturas
+
+- **Screenshot** – Flujo de alerta crítica (Juan Pérez)
+- **Screenshot** – Flujo de recomendación automática (Bryan Díaz)
+
+#### 🎥 Enlaces a videos en Microsoft Stream
+
+- [Video Prototipo – Juan Pérez](https://upcedupe-my.sharepoint.com/...)  
+- [Video Prototipo – Bryan Díaz](https://upcedupe-my.sharepoint.com/...)
+
+---
+
+Estos prototipos evidencian la alineación entre diseño, arquitectura de información y experiencia de usuario, permitiendo validar funcionalidades antes del desarrollo final.
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
