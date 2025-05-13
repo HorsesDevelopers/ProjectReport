@@ -1553,10 +1553,60 @@ Se busca que el usuario identifique el estado actual de las acciones que puede r
 Esta sección detalla las decisiones que estructuran y organizan la información dentro del producto, optimizando la accesbilidad y consideración de heurísticas.
 
 #### 5.2.1. Organization Systems.
+
+En nuestro producto, los encabezados en las secciones no esenciales de la aplicación proporcionan un resumen claro del contenido de la vista actual para los usuarios. Las secciones del panel de control están etiquetadas, lo que facilita la navegación del usuario. Las secciones principales incluyen: Home, My Ponds, Communication y Schedule. Para los reportes, se emplea una estructura que utiliza datos como fechas, usuarios y estado del dispositivo.
+
 #### 5.2.2. Labeling Systems.
+
+Las etiquetas son claras y directas. Se priorizan términos familiares y sencillos para el usuario objetivo. Además, todas las tarjetas incluyen títulos para identificar su contenido, y el sidebar muestra etiquetas textuales para las vistas principales. 
+
 #### 5.2.3. SEO Tags and Meta Tags
+
+Las meta etiquetas indican información codificada que llevan a convertirse en metadatos. Estas no son visualizadas en los sitios web puesto que son leídos por los navegadores para facilitar la búsqueda web.
+
+**Título:** 
+
+```html
+    <title>FeedGuardLandingPage</title>
+```
+**Codificación de carácteres:**
+
+Esta etiqueta ayudará a que muestre correctamente los caracteres especiales en la página.
+
+```html
+    <meta charset="UTF-8">
+```
+**Descripción:**
+
+Esta meta etiqueta nos sirve para proporcionar un resumen del contenido de la página web. Aquí debemos dar una breve información de lo que se puede visualizar en la página.
+
+```html
+    <meta name="description" content="FeedGuard is an IoT solution that helps apiculture farmers."/>
+```
+**Palabras clave:**
+
+En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
+
+```html
+    <meta name="keywords" content="process, management, solution, register, ponds"/>
+```
+**Meta Author:**
+Esta etiqueta registra la información de los autores del producto.
+
+```html
+    <meta name="author" content="Aquasense"/>
+```
+
 #### 5.2.4. Searching Systems.
+
+La solución incluye un sistema de búsqueda que permite encontrar lo que desea facilmente dentro de la aplicación web o móvil. Usa filtros como tipo, fecha o categoría de pez. 
+
 #### 5.2.5. Navigation Systems.
+
+La navegación es simple e intuitiva. Se emplea una barra de navegación tanto en la aplicación web como móvil. De igual manera se tiene rápido acceso a secciones relevantes en un tiempo de navegación corto. Se utilizarán textos en los íconos para ayudar a comprender la función de cada uno.
+
+
+
 ### 5.3. Landing Page UI Design.
 #### 5.3.1. Landing Page Wireframe.
 #### 5.3.2. Landing Page Mock-up.
