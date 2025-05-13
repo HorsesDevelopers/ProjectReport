@@ -1613,7 +1613,7 @@ Responsabilidades:
   
     - Columnas: notification_id, user_id, created_at, is_read
 
-#### 4.2.2. Bounded Context: \<Device\>
+#### 4.2.2. Bounded Context: \<Feeding\>
 
 ##### 4.2.2.1. Domain Layer
 
@@ -1785,6 +1785,91 @@ Responsabilidades:
 
   - Tabla registered_dispensers
     - Columnas: dispenser_id, pond_id, created_at
+
+#### 4.2.2. Bounded Context: \<Feeding Management\>
+
+##### 4.2.2.1. Domain Layer
+
+- **Entity: Scheduled Feeding**
+  - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - name: String - Nombre del horario.
+      - Schedule: MealScheduleId[] – Identificador del horario de alimentación.
+    - Métodos:
+      - createMealSchedule(): void – Crea un nuevo horario de alimentación.
+      - updateMealSchedule(): void – Actualiza el horario de alimentación.
+      - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
+      - deleteMealSchedule(): void – Elimina un horario de alimentación.
+      - getFeedingSchedule(): List< Feeding > – Devuelve la lista de horarios de alimentación.
+
+- **Repository Interface**
+  - FeedingDataRepository
+    - Interface para acceder a los datos de la alimentación.
+
+##### 4.2.2.2. Interface Layer
+
+- **Controller: Feeding Schedule Controller**
+  - Controlador que expone los endpoints para la gestión de horarios de alimentación.
+    - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.2.3. Application Layer
+
+- **Service: Feeding Schedule Service**
+  - Lógica de negocio para gestionar horarios de alimentación.
+  - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
+
+- **Command Handlers (implícitos en los servicios)**
+  - FeedingScheduleCommandHandler
+
+##### 4.2.2.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - FeedingDataRepositoryImpl
+
+    - Implementa el acceso a la tabla de feeding en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.2.5. Component Level Diagrams
+
+Incluye:
+
+- Feeding Schedule Controller
+
+- Feeding Schedule Service
+
+- FeedingDataRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.2.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Scheduled Feeding como entidad principal
+
+  - Interfaces FeedingDataRepository
+
+- Bounded Context Database Diagram:
+
+  - Tabla feeding
+    - Columnas: id, name, schedule
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
