@@ -1024,6 +1024,17 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         - Como desarrollador, deseo implementar el sistema de notificaciones (push, email) para enviar alertas a los usuarios.
       </td>
     </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Analytics y Reportes</td>
+      <td>
+        <strong>Descripción:</strong> Como piscicultor y técnico de FeedGuard, deseo disponer de herramientas de análisis y generación de reportes para evaluar el desempeño de mis estanques y facilitar la toma de decisiones basadas en datos. Este epic abarca la creación de dashboards interactivos, programación de informes automáticos y exportación de datos para análisis externo.<br><br>
+        <strong>Technical Stories:</strong><br>
+        - Como desarrollador, quiero diseñar e implementar un servicio RESTful “/api/v1/analytics/dashboard” que agregue y devuelva KPIs, para alimentar el dashboard interactivo.<br>
+        -  Como desarrollador, quiero exponer un endpoint “/api/v1/analytics/export” que permita la exportación de datos en formatos CSV y JSON.<br>
+        - Como desarrollador, quiero crear un microservicio de programación de tareas que ejecute generación de reportes (PDF/CSV).<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -1300,6 +1311,86 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     THEN puedo marcarla como “Resuelta” o “Ignorada” y agregar comentarios.
   </td>
   <td>EP03</td>
+</tr>
+<tr>
+  <td>HU17</td>
+  <td>Dashboard de Indicadores Clave</td>
+  <td>Como piscicultor Quiero acceder a un dashboard con KPIs críticos (tasa de conversión alimenticia, mortalidad, consumo diario) Para monitorizar rápidamente la salud y productividad de mis estanques.</td>
+  <td>
+    <strong>Scenario 1:</strong>Visualización de KPIs<br>
+    GIVEN que el servicio de dashboard está disponible<br>
+    WHEN accedo a la sección “Dashboard”<br>
+    THEN la plataforma muestra tarjetas con KPIs actualizados.<br><br>
+    <strong>Scenario 2:</strong>Filtros dinámicos<br>
+    GIVEN múltiples estanques registrados<br>
+    WHEN aplico filtro por estanque o rango de fechass<br>
+    THEN el dashboard actualiza los KPIs según la selección.
+  </td>
+  <td>EP04</td>
+</tr>
+<tr>
+  <td>HU18</td>
+  <td>Visualización de Anomalías Detectadas</td>
+  <td>Como piscicultor Quiero ver en el dashboard las anomalías detectadas (picos de amonio, caídas de oxígeno) resaltadas Para actuar de inmediato.</td>
+  <td>
+    <strong>Scenario 1:</strong>Detección y marcado<br>
+    GIVEN que un valor está fuera del rango<br>
+    WHEN ocurre la lectura<br>
+    THEN el indicador cambia de color y aparece alerta en el gráfico.<br><br>
+    <strong>Scenario 2:</strong>Historial de anomalías<br>
+    GIVEN existen varias incidencias la semana pasada<br>
+    WHEN accedo a “Anomalías”<br>
+    THEN veo una lista con fecha, tipo de evento y estado.
+  </td>
+  <td>EP04</td>
+</tr>
+<tr>
+  <td>HU19</td>
+  <td>Comparación de Rendimiento entre Estanques</td>
+  <td>Como field technician Quiero comparar métricas de dos o más estanques en un mismo gráfico Para identificar cuáles requieren ajustes.</td>
+  <td>
+    <strong>Scenario 1:</strong>Selección múltiple<br>
+    GIVEN que tengo al menos dos estanques<br>
+    WHEN selecciono ambos y clic en “Comparar”<br>
+    THEN se muestra un gráfico de líneas con cada serie identificada.<br><br>
+    <strong>Scenario 2:</strong>Interacción con la leyenda<br>
+    GIVEN el gráfico generado<br>
+    WHEN paso el cursor sobre una serie<br>
+    THEN esa línea se resalta y muestra tooltip con valores detallados.
+  </td>
+  <td>EP04</td>
+</tr>
+<tr>
+  <td>HU20</td>
+  <td>Comparación Histórica Año a Año</td>
+  <td>Como piscicultor Quiero comparar datos anuales de los mismos períodos de años anteriores Para evaluar el crecimiento interanual y tomar decisiones estratégicas.</td>
+  <td>
+    <strong>Scenario 1:</strong>Selección de años<br>
+    GIVEN hay datos de mínimo 2 años<br>
+    WHEN selecciono dos rangos del mismo mes en años diferentes<br>
+    THEN se genera un gráfico de columnas lado a lado mostrando los valores comparados.<br><br>
+    <strong>Scenario 2:</strong>Exportación de comparación<br>
+    GIVEN el gráfico generado<br>
+    WHEN clic en “Exportar CSV”<br>
+    THEN se descarga un archivo con columnas: fecha, valor año N, valor año N–1.
+  </td>
+  <td>EP04</td>
+</tr>
+<tr>
+  <td>HU21</td>
+  <td>Configuración de Umbrales para KPIs Personalizados</td>
+  <td>Como técnico de campo Quiero poder definir umbrales personalizados para cualquier KPI del dashboard Para adaptar el monitoreo a condiciones específicas de mi cultivo.</td>
+  <td>
+    <strong>Scenario 1:</strong>Definir nuevo umbral<br>
+    GIVEN accedo a “Dashboard -> Configuración de KPIs”<br>
+    WHEN creo un umbral para “Consumo diario > 50 kg”<br>
+    THEN el sistema guarda la regla y activa la detección.<br><br>
+    <strong>Scenario 2:</strong>Eliminación de umbral<br>
+    GIVEN un umbral que ya no necesito<br>
+    WHEN clic en “Eliminar” junto a la regla<br>
+    THEN el KPI deja de evaluarse contra esa condición y el umbral desaparece de la lista.
+  </td>
+  <td>EP04</td>
 </tr>
 </table>
 
