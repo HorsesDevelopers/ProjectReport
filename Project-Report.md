@@ -822,8 +822,6 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 
 #### 2.2.2. Registro de entrevistas
 
-#### 2.2.2. Registro de entrevistas
-
 **Entrevista a piscicultores**
 |**Nombre del entrevistado**|**Sebastian Pacheco**|
 |:-|:-|
@@ -1447,16 +1445,156 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
   <tr>
     <th># Orden</th>
     <th>User Story Id</th>
-    <th>Titulo</th>
-    <th>Descripcion</th>
+    <th>Título</th>
+    <th>Descripción</th>
     <th>Story Points<br>(1/2/3/5/8)</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>1</td>
+    <td>HU1</td>
+    <td>Visualización de Servicios Destacados</td>
+    <td>Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>HU2</td>
+    <td>Testimonios de Usuarios Satisfechos</td>
+    <td>Como piscicultor, quiero leer testimonios de otros usuarios satisfechos en la landing page para sentirme más confiado al considerar la solución, lo que me ayudará a tomar una decisión informada.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>HU3</td>
+    <td>Acceso Rápido a Funcionalidades Clave</td>
+    <td>Como piscicultor, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>HU4</td>
+    <td>Información Clara y Concisa sobre FeedGuard</td>
+    <td>Como piscicultor, quiero encontrar una descripción clara y concisa de FeedGuard en la landing page para entender de qué se trata la solución sin complicaciones.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>HU5</td>
+    <td>Diseño Atractivo y Responsivo</td>
+    <td>Como piscicultor, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>HU06</td>
+    <td>Registro Seguro de Usuario</td>
+    <td>Como nuevo usuario, quiero registrarme en la plataforma con mi correo electrónico y contraseña de forma segura para poder acceder a las funcionalidades de FeedGuard.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>HU07</td>
+    <td>Configuración Inicial de la Granja</td>
+    <td>Como técnico de campo, quiero configurar los detalles de mi granja, incluyendo el nombre, ubicación y número de estanques para poder organizar mis dispositivos y datos.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>HU08</td>
+    <td>Vinculación de Dispositivos IoT</td>
+    <td>Como técnico, quiero vincular cada sensor y alimentador IoT específico a un estanque dentro de la plataforma para que los datos y las acciones se asocien correctamente.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>HU09</td>
+    <td>Visualización de Parámetros en Tiempo Real</td>
+    <td>Como piscicultor, quiero ver los valores actuales de oxígeno disuelto, temperatura y pH para cada uno de mis estanques en un panel principal para tener una visión general rápida de las condiciones.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>HU10</td>
+    <td>Gráficos Históricos de Parámetros Ambientales</td>
+    <td>Como técnico, quiero visualizar gráficos históricos de los parámetros ambientales durante las últimas 24 horas para identificar fluctuaciones o tendencias inusuales.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>HU11</td>
+    <td>Alertas por Parámetros Fuera de Rango</td>
+    <td>Como usuario, quiero definir rangos óptimos para cada parámetro ambiental por especie de pez y recibir una notificación si alguno de los valores se sale de ese rango para poder tomar medidas correctivas.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>HU12</td>
+    <td>Recomendaciones de Alimentación Basadas en Tendencias Históricas</td>
+    <td>Como piscicultor quiero recibir recomendaciones automáticas de dosificación de alimento basadas en el análisis de datos históricos de crecimiento y consumo para optimizar la alimentación y maximizar la tasa de conversión alimenticia.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>HU13</td>
+    <td>Mantenimiento Predictivo de Equipos IoT</td>
+    <td>Como técnico de campo quiero recibir alertas tempranas de posibles fallos o calibraciones necesarias en sensores y alimentadores para programar mantenimiento antes de que ocurra una interrupción.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>HU14</td>
+    <td>Gestión Avanzada de Roles y Permisos</td>
+    <td>Como administrador de FeedGuard quiero asignar distintos roles (piscicultor, técnico, auditor) con permisos específicos sobre módulos de la plataforma para controlar el acceso y asegurar la integridad de los datos.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>HU15</td>
+    <td>Exportación de Reportes para Análisis Externo</td>
+    <td>Como piscicultor o técnico quiero exportar mis datos de parámetros y alimentación en formatos CSV o PDF para analizarlos con herramientas externas o compartirlos con consultores.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>HU16</td>
+    <td>Configuración de Alertas por Tendencias y Predicciones</td>
+    <td>Como piscicultor semiindustrial quiero definir alertas no solo por umbrales puntuales, sino también por cambios porcentuales y predicciones de riesgo para anticiparme a variaciones críticas en la calidad del agua.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>HU17</td>
+    <td>Dashboard de Indicadores Clave</td>
+    <td>Como piscicultor quiero acceder a un dashboard con KPIs críticos (tasa de conversión alimenticia, mortalidad, consumo diario) para monitorizar rápidamente la salud y productividad de mis estanques.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>HU18</td>
+    <td>Visualización de Anomalías Detectadas</td>
+    <td>Como piscicultor quiero ver en el dashboard las anomalías detectadas (picos de amonio, caídas de oxígeno) resaltadas para actuar de inmediato.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>HU19</td>
+    <td>Comparación de Rendimiento entre Estanques</td>
+    <td>Como field technician quiero comparar métricas de dos o más estanques en un mismo gráfico para identificar cuáles requieren ajustes.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>HU20</td>
+    <td>Comparación Histórica Año a Año</td>
+    <td>Como piscicultor quiero comparar datos anuales de los mismos períodos de años anteriores para evaluar el crecimiento interanual y tomar decisiones estratégicas.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>HU21</td>
+    <td>Configuración de Umbrales para KPIs Personalizados</td>
+    <td>Como técnico de campo quiero poder definir umbrales personalizados para cualquier KPI del dashboard para adaptar el monitoreo a condiciones específicas de mi cultivo.</td>
+    <td>3</td>
   </tr>
 </table>
 
@@ -1935,13 +2073,172 @@ Adicionalmente, el frontend principal de la aplicación será desplegado utiliza
 
 ### 6.2. Landing Page, Services & Applications Implementation.
 
-#### 6.2.1. Sprint n
+#### 6.2.1. Sprint 1
 
-##### 6.2.1.1. Sprint Planning n.
+##### 6.2.1.1. Sprint Planning 1.
+
+Para este primer sprint nos enfocaremos en los tasks para la
+elaboración del Landing Page y la primera version del Frontend. Nos dividiremos entre nosotros cada una de las tareas identificadas para el sprint.
+<table>
+<tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="9">Sprint 1</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-05-13</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">10:38 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord y Google Meet</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Gabriel Garcia</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Gabriel Garcia, Diego Flores, Salvador Chamorro, Héctor Rentería, Bryan Espejo</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n – 1 Review Summary</td>
+    <td colspan="8">En esta sección se planteó el desarrollo del Landing Page y la primera versión del Frontend para FeedGuard.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n – 1 Retrospective Summary</td>
+    <td colspan="8">El equipo identificó aciertos en la colaboración y áreas de mejora en la integración del diseño y desarrollo del Landing Page y Frontend.</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Goal</td>
+    <td colspan="8">Nuestro enfoque está en entregar una Landing Page completa y la primera versión funcional del Frontend de FeedGuard.<br>
+        Creemos que esto permitirá a los usuarios conocer el producto, explorar sus beneficios y acceder a la plataforma.<br>
+        Esto se confirmará cuando la Landing Page y el Frontend estén desplegados y accesibles públicamente mostrando la información principal y opciones de navegación.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n Velocity</td>
+    <td colspan="8">20 story points</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">20 Story Points</td>
+</tr>
+</table>
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators.
 
-##### 6.2.1.3. Sprint Backlog n.
+
+
+##### 6.2.1.3. Sprint Backlog 1.
+
+<table>
+<tr>
+    <th colspan="3">Sprint #</th>
+    <th colspan="10">Sprint 1</th>
+</tr>
+<tr>
+    <td colspan="3">User Story</td>
+    <td colspan="10">Work-Item/Task</td>
+</tr>
+<tr>
+    <td>Id</td>
+    <td colspan="2">Title</td>
+    <td>Id</td>
+    <td colspan="2">Title</td>
+    <td colspan="3">Description</td>
+    <td>Estimation</td>
+    <td colspan="2">Assigned To</td>
+    <td>Status (To-do / InProcess / To-Review / Done)</td>
+</tr>
+<tr>
+    <td>HU1</td>
+    <td colspan="2">Visualización de Servicios Destacados</td>
+    <td>T1</td>
+    <td colspan="2">Diseñar sección de servicios destacados en la landing page</td>
+    <td colspan="3">Crear y maquetar la sección que muestre los servicios principales de FeedGuard en la landing page.</td>
+    <td>3</td>
+    <td colspan="2">Gabriel Garcia</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU2</td>
+    <td colspan="2">Testimonios de Usuarios Satisfechos</td>
+    <td>T2</td>
+    <td colspan="2">Implementar sección de testimonios</td>
+    <td colspan="3">Desarrollar la sección de testimonios reales de usuarios en la landing page.</td>
+    <td>2</td>
+    <td colspan="2">Diego Flores</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU3</td>
+    <td colspan="2">Acceso Rápido a Funcionalidades Clave</td>
+    <td>T3</td>
+    <td colspan="2">Agregar accesos rápidos en la landing page</td>
+    <td colspan="3">Diseñar botones o enlaces para funcionalidades clave como registro y contacto.</td>
+    <td>2</td>
+    <td colspan="2">David Rivas</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU4</td>
+    <td colspan="2">Información Clara y Concisa sobre FeedGuard</td>
+    <td>T4</td>
+    <td colspan="2">Redactar y mostrar descripción clara del producto</td>
+    <td colspan="3">Crear contenido y sección que explique FeedGuard de manera simple y directa.</td>
+    <td>2</td>
+    <td colspan="2">David Rivas</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU5</td>
+    <td colspan="2">Diseño Atractivo y Responsivo</td>
+    <td>T5</td>
+    <td colspan="2">Aplicar diseño responsivo y atractivo a la landing page</td>
+    <td colspan="3">Asegurar que la landing page sea visualmente atractiva y se adapte a cualquier dispositivo.</td>
+    <td>3</td>
+    <td colspan="2">Gabriel Garcia</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU06</td>
+    <td colspan="2">Registro Seguro de Usuario</td>
+    <td>T6</td>
+    <td colspan="2">Implementar formulario de registro seguro</td>
+    <td colspan="3">Desarrollar el formulario de registro de usuario con validaciones de seguridad.</td>
+    <td>3</td>
+    <td colspan="2">Vittorio Eduardo</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU07</td>
+    <td colspan="2">Configuración Inicial de la Granja</td>
+    <td>T7</td>
+    <td colspan="2">Crear módulo de configuración inicial</td>
+    <td colspan="3">Permitir al usuario ingresar datos básicos de su granja tras el registro.</td>
+    <td>2</td>
+    <td colspan="2">Gabriel Martel</td>
+    <td>To-do</td>
+</tr>
+<tr>
+    <td>HU08</td>
+    <td colspan="2">Vinculación de Dispositivos IoT</td>
+    <td>T8</td>
+    <td colspan="2">Desarrollar interfaz para vincular dispositivos IoT</td>
+    <td colspan="3">Permitir al usuario asociar sensores y alimentadores a estanques desde el frontend.</td>
+    <td>3</td>
+    <td colspan="2">Charlie Avellaneda</td>
+    <td>To-do</td>
+</tr>
+</table>
 
 ##### 6.2.1.4. Development Evidence for Sprint Review.
 
@@ -1954,3 +2251,32 @@ Adicionalmente, el frontend principal de la aplicación será desplegado utiliza
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+## Conclusiones
+#### Conclusiones y recomendaciones.
+
+El desarrollo del proyecto FeedGuard permitió al equipo aplicar metodologías ágiles y enfoques modernos de ingeniería de software para resolver una problemática real en el sector acuícola. La integración de tecnologías IoT, automatización y monitoreo en tiempo real demostró ser una solución viable para optimizar la alimentación y el control ambiental en piscigranjas semiindustriales. El trabajo colaborativo, la comunicación constante y la asignación clara de roles fueron factores clave para cumplir los objetivos del sprint y entregar una primera versión funcional de la landing page y el frontend. Además, la validación temprana con usuarios y la iteración continua permitieron ajustar la solución a las necesidades reales del usuario final.
+
+- Continuar con la validación y retroalimentación de los usuarios para asegurar que las siguientes versiones del producto respondan a sus necesidades y expectativas.
+- Mantener el enfoque en la colaboración interdisciplinaria y la comunicación efectiva dentro del equipo para afrontar los siguientes retos técnicos y de negocio.
+- Priorizar la automatización de pruebas y la documentación técnica para facilitar el mantenimiento y escalabilidad del sistema.
+- Explorar nuevas funcionalidades basadas en el análisis de datos recolectados, como recomendaciones inteligentes y mantenimiento predictivo.
+- Considerar alianzas estratégicas con actores del sector acuícola para impulsar la adopción y el impacto de FeedGuard en el mercado.
+
+### Bibliografía
+
+- Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.markdownguide.org/
+
+- Gothelf, J (2016). _Lean UX, 2nd Edition_. O'reilly. Recuperado de: https://learning.oreilly.com/library/view/lean-ux-2nd/9781491953594/foreword01.html
+
+- Material 3 Design Kit | Figma. (s. f.). Figma. https://www.figma.com/community/file/1035203688168086460/material-3-design-kit
+
+- Kane, J. (2013). Manual de tipografía: Nueva edición. Editorial GG.
+
+## Anexos
+
+- Video entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e831_upc_edu_pe/EU50bQBP4zhIoBj3MkcMCwsBnqQq6FpDVFsV35YFJWXVJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pKyMyB]
+
+- Video TB1:
+
+- Video TP1:
