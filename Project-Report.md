@@ -1373,40 +1373,390 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-> **💬 Enunciado:** En este capítulo el equipo explica y presenta su propuesta para la perspectiva táctica del diseño de la solución de software. Aquí se incluye una sección interna por cada bounded context.
+#### 4.2.1. Bounded Context: \<Access and Identify\>
 
-#### 4.2.X. Bounded Context: \<Bounded Context Name\>
+##### 4.2.1.1. Domain Layer
 
-> **💬 Enunciado:** En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario, explicando para cada una su nombre, propósito y la documentación de atributos y métodos considerados, junto con las relaciones entre ellas.
+- **Entity: User**
+  - Propósito: Representa a un usuario del sistema, que puede ser un Farmer o un Technician, y que tiene acceso a las funcionalidades del sistema según su rol.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - username: String – Nombre de usuario único.
+      - password: String – Contraseña cifrada.
+      - role: Enum – Rol del usuario: puede ser FARMER o TECHNICIAN.
+    - Métodos:
+      - createUser(): void – Crea un nuevo usuario.
+      - updateUser(): void – Actualiza la información del usuario.
+      - deleteUser(): void – Elimina un usuario.
+      - authenticate(): boolean – Verifica las credenciales del usuario.
+      - getUserDetails(): User – Devuelve los detalles del usuario.
+- **Repository Interface**
+    - farmerRepository
+      - Interface para acceder a los datos del usuario con rol de Farmer.
+    - TechnicianRepository
+      - Interface para acceder a los datos del usuario con rol de Technician.
 
-##### 4.2.X.1. Domain Layer
+##### 4.2.1.2. Interface Layer
 
-> **💬 Enunciado:** En esta capa el equipo explica por medio de qué clases representará el core de la aplicación y las reglas de negocio que pertenecen al dominio para el bounded context. Aquí el equipo presenta clases de categorías como Entities, Value Objects, Aggregates, Factories, Domain Services, o abstracciones representadas por interfaces como en el caso de Repositories.
+- **Controller: Identify and Access Controller**
+  - Controlador que expone los endpoints para el inicio de sesión (/login) y el registro (/register).
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con tokens de autenticación o mensajes de error.
 
-##### 4.2.X.2. Interface Layer
+##### 4.2.1.3. Application Layer
 
-> **💬 Enunciado:** En esta sección el equipo introduce, presenta y explica las clases que forman parte de Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
+- **Service: Login Service**
+  - Lógica de negocio para autenticar usuarios.
+  - Valida credenciales, genera y retorna tokens JWT o equivalentes.
 
-##### 4.2.X.3. Application Layer
+- **Service: Register Service**
+  - Lógica de negocio para registrar nuevos usuarios (Farmer o Technician).
+  - Verifica que el username no esté en uso, almacena la contraseña de forma segura (hashing), y persiste el nuevo usuario.
 
-> **💬 Enunciado:** En esta sección el equipo explica a través de qué clases se maneja los flujos de procesos del negocio. En esta sección debe evidenciarse que se considera los 17/41 capabilities de la aplicación en relación al bounded context. Aquí debe considerarse clases del tipo Command Handlers e Event Handlers.
+- **Command Handlers (implícitos en los servicios)**
+  - LoginCommandHandler
+  - RegisterCommandHandler.
+##### 4.2.1.4. Infrastructure Layer
 
-##### 4.2.X.4. Infrastructure Layer
+- **Repositories:**
 
-> **💬 Enunciado:** En esta capa el equipo presenta aquellas clases que acceden a servicios externos como databases, messaging systems o email services. Es en esta capa que se ubica la implementación de Repositories para las interfaces definidas en Domain Layer. Algo similar ocurre con interfaces definidas para MessageBrokers.
+  - FarmerRepositoryImpl
 
-##### 4.2.X.5. Component Level Diagrams
+    - Implementa el acceso a la tabla de farmers en la base de datos PostgreSQL.
 
-> **💬 Enunciado:** En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model para cada uno de los Containers considerados para el bounded context. En estos diagramas el equipo busca reflejar la descomposición de cada Container para identificar los bloques estructurales principales y sus interacciones. Un Component Diagram debe mostrar cómo un container está conformado por components, qué son cada uno de dichos components, sus responsabilidades y los detalles de implementación/tecnología. Utilice la herramienta indicada para la elaboración del diagrama.
+  - TechnicianRepositoryImpl
 
-##### 4.2.X.6. Code Level Diagrams
+    - Implementa el acceso a la tabla de technicians en la base de datos PostgreSQL.
 
-> **💬 Enunciado:** En esta sección, el equipo presenta y explica los diagramas que presentan un mayor detalle sobre la implementación de componentes en el bounded context. Aquí se incluye como secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram.
+- **Tecnología:**
 
-###### 4.2.X.6.1. Domain Layer Class Diagrams
+  - Framework: Angular 17
 
-> **💬 Enunciado:** En esta sección el equipo presenta el Class Diagram de UML para las clases del Domain Layer en el bounded context. El nivel de detalle debe incluir además de las clases, interfaces, enumeraciones y sus relaciones, los miembros para cada clase, incluyendo atributos, métodos y el scope en cada caso (private, public, protected). Las relaciones deben incluir la calificación con nombres, la dirección (cuando aplica) y la multiplicidad. Utilice para la elaboración del diagrama la herramienta indicada.
+  - Backend: Java / Spring Boot
 
-###### 4.2.X.6.2. Database Design Diagram
+  - Base de datos: PostgreSQL
 
-> **💬 Enunciado:** En esta sección el equipo presenta y explica el Database Diagram que incluye los objetos de base de datos que permitirán la persistencia de información para los objetos del bounded context. Para el caso de un almacenamiento en base de datos relacional, aquí debe especificarse tablas, columnas, constraints (por ejemplo, primary, foreign key) y evidenciarse las relaciones en
+  - Seguridad: JWT para autenticación
+
+##### 4.2.1.5. Component Level Diagrams
+
+Incluye:
+
+  - Identify and Access Controller
+
+  - Login Service
+
+  - Register Service
+
+  - FarmerRepository
+
+  - TechnicianRepository
+
+Responsabilidades:
+
+  - Controller maneja los endpoints
+
+  - Services ejecutan lógica de negocio
+
+  - Repositories acceden a datos
+
+##### 4.2.1.6. Code Level Diagrams
+
+  - Bounded Context Domain Layer Class Diagram:
+
+    - Clase User como entidad principal
+
+    - Interfaces FarmerRepository y TechnicianRepository
+
+  - Bounded Context Database Diagram:
+
+    - Tabla users (o tablas separadas: farmers, technicians)
+
+      - Columnas: id, username, password, role, created_at
+
+
+#### 4.2.2. Bounded Context: \<Communication\>
+
+##### 4.2.2.1. Domain Layer
+
+- **Entity: Report**
+  - Propósito: Representa un reporte generado por el sistema, que puede incluir alertas o estados sobre condiciones ambientales.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - type: String - Tipo de reporte (alerta, estado, etc.).
+      - title: String – Título del reporte.
+      - information: String – Información detallada del reporte.
+      - pond_id: UUID – Identificador del estanque asociado al reporte.
+    - Métodos:
+      - createReport(): void – Crea un nuevo reporte.
+      - updateReport(): void – Actualiza la información del reporte.
+      - deleteReport(): void – Elimina un reporte.
+
+- **Entity: User_Report**
+  - Propósito: Representa la relación entre un usuario y un reporte, indicando qué reportes han sido generados o asignados a un usuario específico.
+    - Atributos:
+      - report_id: UUID – Identificador único del reporte.
+      - user_id: UUID – Identificador único del usuario.
+      - created_at: Date – Fecha de creación del reporte.
+    - Métodos:
+      - getUserReports(): List< Report > – Devuelve la lista de reportes asociados a un usuario.
+
+- **Entity: Notifcation**
+  - Propósito: Representa una notificación enviada a un usuario, que puede incluir alertas o información relevante sobre el estado de los estanques.
+    - Atributos:
+      - id: UUID – Identificador único de la notificación.
+      - title: String – Título de la notificación.
+      - description: String – Descripción detallada de la notificación.
+      - pond_id: UUID – Identificador del estanque asociado a la notificación.
+    - Métodos:
+      - createNotification(): void – Crea una nueva notificación.
+      - deleteNotification(): void – Elimina una notificación.
+
+- **Entity: User_Notification**
+  - Propósito: Representa la relación entre un usuario y una notificación, indicando qué notificaciones han sido enviadas o asignadas a un usuario específico.
+    - Atributos:
+      - notification_id: UUID – Identificador único de la notificación.
+      - user_id: UUID – Identificador único del usuario.
+      - created_at: Date – Fecha de creación del reporte.
+      - is_read: boolean – Indica si la notificación ha sido leída por el usuario.
+    - Métodos:
+      - getUserNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas a un usuario.
+
+- **Repository Interface**
+  - NotificationRepository
+    - Interface para acceder a los datos de las notificaciones.
+  - ReportRepository
+    - Interface para acceder a los datos de los reportes.
+
+##### 4.2.2.2. Interface Layer
+
+- **Controller: Communication Controller**
+  - Controlador que expone los endpoints para la gestión de reportes y notificaciones.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.2.3. Application Layer
+
+- **Service: Communication Service**
+  - Lógica de negocio para gestionar reportes y notificaciones.
+  - Permite crear, actualizar y eliminar reportes y notificaciones, así como asociarlos a usuarios.
+
+- **Command Handlers (implícitos en los servicios)**
+  - NotificationCommandHandler
+  - ReportCommandHandler
+
+##### 4.2.2.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - NotificationRepositoryImpl
+
+    - Implementa el acceso a la tabla de notifications en la base de datos PostgreSQL.
+
+  - ReportRepositoryImpl
+
+    - Implementa el acceso a la tabla de reports en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.2.5. Component Level Diagrams
+
+Incluye:
+
+- Communication Controller
+
+- Communication Service
+
+- NotificationRepository
+
+- ReportRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.2.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Report y Notification como entidad principal
+
+  - Interfaces NotificationRepository y ReportRepository
+
+  - Clase User_Report y User_Notification como entidades de relación
+
+- Bounded Context Database Diagram:
+
+  - Tabla reports
+
+    - Columnas: id, type, title, information, pond_id
+
+  - Tabla notifications
+
+    - Columnas: id, title, description, pond_id
+
+  - Tabla user_reports
+  
+    - Columnas: report_id, user_id, created_at
+  
+  - Tabla user_notifications
+  
+    - Columnas: notification_id, user_id, created_at, is_read
+
+#### 4.2.2. Bounded Context: \<Communication\>
+
+##### 4.2.2.1. Domain Layer
+
+- **Entity: Report**
+  - Propósito: Representa un reporte generado por el sistema, que puede incluir alertas o estados sobre condiciones ambientales.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - type: String - Tipo de reporte (alerta, estado, etc.).
+      - title: String – Título del reporte.
+      - information: String – Información detallada del reporte.
+      - pond_id: UUID – Identificador del estanque asociado al reporte.
+    - Métodos:
+      - createReport(): void – Crea un nuevo reporte.
+      - updateReport(): void – Actualiza la información del reporte.
+      - deleteReport(): void – Elimina un reporte.
+
+- **Entity: User_Report**
+  - Propósito: Representa la relación entre un usuario y un reporte, indicando qué reportes han sido generados o asignados a un usuario específico.
+    - Atributos:
+      - report_id: UUID – Identificador único del reporte.
+      - user_id: UUID – Identificador único del usuario.
+      - created_at: Date – Fecha de creación del reporte.
+    - Métodos:
+      - getUserReports(): List< Report > – Devuelve la lista de reportes asociados a un usuario.
+
+- **Entity: Notifcation**
+  - Propósito: Representa una notificación enviada a un usuario, que puede incluir alertas o información relevante sobre el estado de los estanques.
+    - Atributos:
+      - id: UUID – Identificador único de la notificación.
+      - title: String – Título de la notificación.
+      - description: String – Descripción detallada de la notificación.
+      - pond_id: UUID – Identificador del estanque asociado a la notificación.
+    - Métodos:
+      - createNotification(): void – Crea una nueva notificación.
+      - deleteNotification(): void – Elimina una notificación.
+
+- **Entity: User_Notification**
+  - Propósito: Representa la relación entre un usuario y una notificación, indicando qué notificaciones han sido enviadas o asignadas a un usuario específico.
+    - Atributos:
+      - notification_id: UUID – Identificador único de la notificación.
+      - user_id: UUID – Identificador único del usuario.
+      - created_at: Date – Fecha de creación del reporte.
+      - is_read: boolean – Indica si la notificación ha sido leída por el usuario.
+    - Métodos:
+      - getUserNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas a un usuario.
+
+- **Repository Interface**
+  - NotificationRepository
+    - Interface para acceder a los datos de las notificaciones.
+  - ReportRepository
+    - Interface para acceder a los datos de los reportes.
+
+##### 4.2.2.2. Interface Layer
+
+- **Controller: Communication Controller**
+  - Controlador que expone los endpoints para la gestión de reportes y notificaciones.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.2.3. Application Layer
+
+- **Service: Communication Service**
+  - Lógica de negocio para gestionar reportes y notificaciones.
+  - Permite crear, actualizar y eliminar reportes y notificaciones, así como asociarlos a usuarios.
+
+- **Command Handlers (implícitos en los servicios)**
+  - NotificationCommandHandler
+  - ReportCommandHandler
+
+##### 4.2.2.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - NotificationRepositoryImpl
+
+    - Implementa el acceso a la tabla de notifications en la base de datos PostgreSQL.
+
+  - ReportRepositoryImpl
+
+    - Implementa el acceso a la tabla de reports en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.2.5. Component Level Diagrams
+
+Incluye:
+
+- Communication Controller
+
+- Communication Service
+
+- NotificationRepository
+
+- ReportRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.2.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Report y Notification como entidad principal
+
+  - Interfaces NotificationRepository y ReportRepository
+
+  - Clase User_Report y User_Notification como entidades de relación
+
+- Bounded Context Database Diagram:
+
+  - Tabla reports
+
+    - Columnas: id, type, title, information, pond_id
+
+  - Tabla notifications
+
+    - Columnas: id, title, description, pond_id
+
+  - Tabla user_reports
+
+    - Columnas: report_id, user_id, created_at
+
+  - Tabla user_notifications
+
+    - Columnas: notification_id, user_id, created_at, is_read
+
+
+###### 4.3.1 Domain Layer Class Diagrams
+
+![ContextDiagram](Assets/c4/BC5.png)
+
+###### 4.3.2 Database Design Diagram
+
+![ContextDiagram](Assets/c4/BC5.png)
