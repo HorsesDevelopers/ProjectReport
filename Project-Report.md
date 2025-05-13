@@ -1380,22 +1380,23 @@ Se utilizó la técnica **start-with-value**, priorizando aquellas partes del do
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
-Posteriormente, se trabajó en la visualización de los **flujos de mensajes** entre los bounded contexts identificados.
+A continuación se presenta el message flow para la comunicación entre bounded context.
 
-Se identificaron los siguientes principales flujos de colaboración:
+<img src="Assets\Message-Flow\MF1.png" >
 
-- **Monitoring Context** captura datos de sensores en tiempo real y notifica a:
+<img src="Assets\Message-Flow\MF2.png" >
 
-  - **Alerting Context** si los valores exceden los límites críticos.
-  - **Feeding Context** para ajustar dinámicamente el plan de alimentación basado en las condiciones del agua.
+<img src="Assets\Message-Flow\MF3.png" >
 
-- **Alerting Context** genera alertas y las transmite hacia:
+<img src="Assets\Message-Flow\MF4.png" >
 
-  - **User Interface Context**, que muestra la alerta al usuario final.
+<img src="Assets\Message-Flow\MF5.png" >
 
-- **Farm Management Context** proporciona la configuración inicial (granja, estanques, especies) que utilizan los otros contextos como referencia operacional.
+<img src="Assets\Message-Flow\MF6.png" >
 
-Estos flujos definen las dependencias y puntos de integración entre las partes del sistema, reforzando la independencia y el aislamiento de responsabilidades que busca Domain-Driven Design.
+<img src="Assets\Message-Flow\MF7.png" >
+
+<img src="Assets\Message-Flow\MF8.png" >
 
 ##### 4.1.1.3. Bounded Context Canvases
 
@@ -1506,6 +1507,7 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 ###### 4.2.X.6.2. Database Design Diagram
 
 ## Capítulo V: Solution UI/UX Design
+
 ### 5.1. Style Guidelines.
 
 Esta sección define las pautas de estilo para el producto. Se centra en la identidad visual de la marca, tipografía que identifiquen y transmitan profesionalismo al usuario.
@@ -1515,27 +1517,17 @@ Esta sección define las pautas de estilo para el producto. Se centra en la iden
 **Branding:**
 La identidad visual se contruye sobre una paleta moderna que denota profesionalismo moderno. Siendo el color primario #377BFF que transmite confianza, accesibilidad y dinamismo. Mientras que el color #2C2F33 aporta estabilidad y contraste. El uso de blancos y negros suaves garantiza una experiencia limpia y moderna.
 
-
-
 **Typography:**
 La tipografía es Sora, elegida por su alta legibilidad y modernismo. Utilizaremos tanto Medium como Bold para ejercer jerarquías visuales claras.
-
-
 
 **Icons:**
 Se utilizan íconos lineales para asegurar una comprensión inmediata, especialmente en interfaces táctiles puesto que implementamos una aplicación móvil.
 
-
-
 **Buttons:**
 Se utilizan los colores #377BFF y #FFFFFF para el contraste, adicionalmente los estados hover usan un azul oscuro #00A97B y disabled una ligera claridad #a3e9d6.
 
-
-
 **Placeholders:**
 Los textos en placeholder se muestran en #A0A0A0.
-
-
 
 #### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
@@ -1558,66 +1550,83 @@ En nuestro producto, los encabezados en las secciones no esenciales de la aplica
 
 #### 5.2.2. Labeling Systems.
 
-Las etiquetas son claras y directas. Se priorizan términos familiares y sencillos para el usuario objetivo. Además, todas las tarjetas incluyen títulos para identificar su contenido, y el sidebar muestra etiquetas textuales para las vistas principales. 
+Las etiquetas son claras y directas. Se priorizan términos familiares y sencillos para el usuario objetivo. Además, todas las tarjetas incluyen títulos para identificar su contenido, y el sidebar muestra etiquetas textuales para las vistas principales.
 
 #### 5.2.3. SEO Tags and Meta Tags
 
 Las meta etiquetas indican información codificada que llevan a convertirse en metadatos. Estas no son visualizadas en los sitios web puesto que son leídos por los navegadores para facilitar la búsqueda web.
 
-**Título:** 
+**Título:**
 
 ```html
-    <title>FeedGuardLandingPage</title>
+<title>FeedGuardLandingPage</title>
 ```
+
 **Codificación de carácteres:**
 
 Esta etiqueta ayudará a que muestre correctamente los caracteres especiales en la página.
 
 ```html
-    <meta charset="UTF-8">
+<meta charset="UTF-8" />
 ```
+
 **Descripción:**
 
 Esta meta etiqueta nos sirve para proporcionar un resumen del contenido de la página web. Aquí debemos dar una breve información de lo que se puede visualizar en la página.
 
 ```html
-    <meta name="description" content="FeedGuard is an IoT solution that helps apiculture farmers."/>
+<meta
+  name="description"
+  content="FeedGuard is an IoT solution that helps apiculture farmers."
+/>
 ```
+
 **Palabras clave:**
 
 En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
 
 ```html
-    <meta name="keywords" content="process, management, solution, register, ponds"/>
+<meta
+  name="keywords"
+  content="process, management, solution, register, ponds"
+/>
 ```
+
 **Meta Author:**
 Esta etiqueta registra la información de los autores del producto.
 
 ```html
-    <meta name="author" content="Aquasense"/>
+<meta name="author" content="Aquasense" />
 ```
 
 #### 5.2.4. Searching Systems.
 
-La solución incluye un sistema de búsqueda que permite encontrar lo que desea facilmente dentro de la aplicación web o móvil. Usa filtros como tipo, fecha o categoría de pez. 
+La solución incluye un sistema de búsqueda que permite encontrar lo que desea facilmente dentro de la aplicación web o móvil. Usa filtros como tipo, fecha o categoría de pez.
 
 #### 5.2.5. Navigation Systems.
 
 La navegación es simple e intuitiva. Se emplea una barra de navegación tanto en la aplicación web como móvil. De igual manera se tiene rápido acceso a secciones relevantes en un tiempo de navegación corto. Se utilizarán textos en los íconos para ayudar a comprender la función de cada uno.
 
-
-
 ### 5.3. Landing Page UI Design.
+
 #### 5.3.1. Landing Page Wireframe.
+
 #### 5.3.2. Landing Page Mock-up.
+
 ### 5.4. Applications UX/UI Design.
+
 #### 5.4.1. Applications Wireframes.
+
 #### 5.4.2. Applications Wireflow Diagrams.
+
 #### 5.4.2. Applications Mock-ups.
+
 #### 5.4.3. Applications User Flow Diagrams.
+
 ### 5.5. Applications Prototyping.
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
+
 ### 6.1. Software Configuration Management.
 
 En esta sección describimos los productos de software que hemos usado en el proyecto.
@@ -1639,16 +1648,17 @@ En esta sección describimos los productos de software que hemos usado en el pro
   [Figma](https://www.figma.com/es-es/)  
   Acá hicimos los diseños de la landing page y de la aplicación web (wireframes, mockups y prototipos).
 
-- **Software Development**  
-  - **Git:** Es un software de control de versiones para desarrollar el proyecto.  
-  - **Github:** Es un sistema de control de versiones de Git.  
-  - **HTML5:** Lenguaje de marcado para estructurar la página.  
-  - **CSS3:** Lenguaje de hojas de estilo en cascada para dar estilo y atractivo visual a la página.  
-  - **JavaScript:** Lenguaje de programación que genera interactividad y dinamismo en el sitio web.  
-  - **VSCode:** Editor de código fuente para el desarrollo de la landing page.  
+- **Software Development**
+
+  - **Git:** Es un software de control de versiones para desarrollar el proyecto.
+  - **Github:** Es un sistema de control de versiones de Git.
+  - **HTML5:** Lenguaje de marcado para estructurar la página.
+  - **CSS3:** Lenguaje de hojas de estilo en cascada para dar estilo y atractivo visual a la página.
+  - **JavaScript:** Lenguaje de programación que genera interactividad y dinamismo en el sitio web.
+  - **VSCode:** Editor de código fuente para el desarrollo de la landing page.
   - **Angular:** Framework utilizado para el desarrollo frontend de la aplicación web.
 
-- **Software Deployment**  
+- **Software Deployment**
   - **Github Pages:** Plataforma para desplegar la landing page.
 
 #### 6.1.2. Source Code Management.
@@ -1714,6 +1724,7 @@ En este apartado se indicarán las referencias que adoptaremos para nombrar elem
 - Usar una nueva línea para cada elemento de bloque, lista o tabla, y aplicar sangría a cada elemento secundario.
 
 **Referencias:**
+
 - [HTML5 Syntax - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
@@ -1745,6 +1756,7 @@ En este apartado se indicarán las referencias que adoptaremos para nombrar elem
 - Terminar cada declaración con un punto y coma (`;`).
 
 **Referencias:**
+
 - [Angular Style Guide](https://angular.io/guide/styleguide)
 - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
@@ -1761,6 +1773,7 @@ En este apartado se indicarán las referencias que adoptaremos para nombrar elem
 - Utilizar Lombok para minimizar el código repetitivo de getters, setters y constructores.
 
 **Referencias:**
+
 - [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 - [Java Nut and Bolts](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
@@ -1779,6 +1792,7 @@ En este apartado se indicarán las referencias que adoptaremos para nombrar elem
 - Terminar cada declaración con un punto y coma (`;`).
 
 **Referencias:**
+
 - [Effective Dart: Style](https://dart.dev/guides/language/effective-dart/style)
 - [Flutter Style Guide](https://docs.flutter.dev/development/tools/formatting)
 
@@ -1791,13 +1805,23 @@ Para ello, creamos el repositorio de la landing page, luego configuramos aquel r
 Adicionalmente, el frontend principal de la aplicación será desplegado utilizando **Netlify**, una plataforma que permite publicar aplicaciones web modernas de manera sencilla y eficiente. Para esto, se conecta el repositorio del frontend a Netlify, se configura el build command y el directorio de salida, y tras cada push a la rama principal, Netlify realiza el despliegue automático, generando una URL pública para acceder a la aplicación.
 
 ### 6.2. Landing Page, Services & Applications Implementation.
+
 #### 6.2.1. Sprint n
+
 ##### 6.2.1.1. Sprint Planning n.
+
 ##### 6.2.1.2. Aspect Leaders and Collaborators.
+
 ##### 6.2.1.3. Sprint Backlog n.
+
 ##### 6.2.1.4. Development Evidence for Sprint Review.
+
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
 ##### 6.2.1.6. Execution Evidence for Sprint Review.
+
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
 ##### 6.2.1.9. Team Collaboration Insights during Sprint.
