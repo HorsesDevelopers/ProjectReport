@@ -2093,8 +2093,8 @@ Responsabilidades:
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
-![ContextDiagram](Assets/c4/BC5.png)
+![uml](Assets/UMLAndFisicalDatabase/uml.png)
 
 ###### 4.3.2 Database Design Diagram
 
-![ContextDiagram](Assets/c4/BC5.png)
+![ContextDiagram](Assets/UMLAndFisicalDatabase/database.png)
