@@ -1613,86 +1613,119 @@ Responsabilidades:
   
     - Columnas: notification_id, user_id, created_at, is_read
 
-#### 4.2.2. Bounded Context: \<Communication\>
+#### 4.2.2. Bounded Context: \<Device\>
 
 ##### 4.2.2.1. Domain Layer
 
-- **Entity: Report**
-  - Propósito: Representa un reporte generado por el sistema, que puede incluir alertas o estados sobre condiciones ambientales.
+- **Entity: Device**
+  - Propósito: Representa un dispositivo IoT (sensor o alimentador) asociado a un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
-      - type: String - Tipo de reporte (alerta, estado, etc.).
-      - title: String – Título del reporte.
-      - information: String – Información detallada del reporte.
-      - pond_id: UUID – Identificador del estanque asociado al reporte.
+      - name: String - Nombre del dispositivo.
+      - description: String – Descripción del dispositivo.
+      - is_registered: boolean – Indica si el dispositivo está registrado en el sistema.
+      - status: String – Estado actual del dispositivo (activo, inactivo, error).
     - Métodos:
-      - createReport(): void – Crea un nuevo reporte.
-      - updateReport(): void – Actualiza la información del reporte.
-      - deleteReport(): void – Elimina un reporte.
+      - updateInformation(): void – Actualiza la información del dispositivo.
+      - deleteDevice(): void – Elimina un dispositivo.
+      - getDeviceStatus(): String – Devuelve el estado actual del dispositivo.
+      - getDeviceData(): List< Data > – Devuelve los datos históricos del dispositivo.
+      - isRegistered(): boolean – Verifica si el dispositivo está registrado.
 
-- **Entity: User_Report**
-  - Propósito: Representa la relación entre un usuario y un reporte, indicando qué reportes han sido generados o asignados a un usuario específico.
+- **Entity: Sensor**
+  - Propósito: Representa un sensor IoT que mide parámetros ambientales en un estanque.
     - Atributos:
-      - report_id: UUID – Identificador único del reporte.
-      - user_id: UUID – Identificador único del usuario.
-      - created_at: Date – Fecha de creación del reporte.
+      - id: UUID – Identificador único del usuario.
+      - device_id: UUID – Identificador del dispositivo asociado.
+      - oxygen_level: Float – Nivel de oxígeno disuelto.
+      - temperature: Float – Temperatura del agua.
+      - ph: Float – Nivel de pH.
+      
     - Métodos:
-      - getUserReports(): List< Report > – Devuelve la lista de reportes asociados a un usuario.
+      - createSensor(): void – Crea un nuevo sensor.
+      - updateSensor(): void – Actualiza la información del sensor.
+      - getSensorData(): List< Data > – Devuelve los datos históricos del sensor.
 
-- **Entity: Notifcation**
-  - Propósito: Representa una notificación enviada a un usuario, que puede incluir alertas o información relevante sobre el estado de los estanques.
+- **Entity: Dispenser**
+  - Propósito: Representa un alimentador IoT que controla la alimentación de los peces en un estanque.
     - Atributos:
-      - id: UUID – Identificador único de la notificación.
-      - title: String – Título de la notificación.
-      - description: String – Descripción detallada de la notificación.
-      - pond_id: UUID – Identificador del estanque asociado a la notificación.
+      - id: UUID – Identificador único del usuario.
+      - device_id: UUID – Identificador del dispositivo asociado.
+      - food_capacity: Float – Capacidad de alimento del dispensador.
+      - is_empty: boolean – Indica si el dispensador está vacío.
+      - is_programmed: boolean – Indica si el dispensador está programado.
+      - is_working: boolean – Indica si el dispensador está funcionando correctamente.
     - Métodos:
-      - createNotification(): void – Crea una nueva notificación.
-      - deleteNotification(): void – Elimina una notificación.
+      - createDispenser(): void – Crea un nuevo dispensador.
+      - updateDispenser(): void – Actualiza la información del dispensador.
+      - programDispenser(): void – Programa el dispensador para una alimentación específica.
+      - startDispenser(): void – Inicia el dispensador.
+      - stopDispenser(): void – Detiene el dispensador.
+      - getDispenserStatus(): String – Devuelve el estado actual del dispensador.
+      - isWorking(): boolean – Verifica si el dispensador está funcionando correctamente.
+      - isEmpty(): boolean – Verifica si el dispensador está vacío.
+      - isProgrammed(): boolean – Verifica si el dispensador está programado.
 
-- **Entity: User_Notification**
-  - Propósito: Representa la relación entre un usuario y una notificación, indicando qué notificaciones han sido enviadas o asignadas a un usuario específico.
+- **Entity: Registered_Dispenser**
+  - Propósito: Representa la relación entre un dispensador y un estanque, indicando qué dispensadores están registrados en el sistema.
     - Atributos:
-      - notification_id: UUID – Identificador único de la notificación.
-      - user_id: UUID – Identificador único del usuario.
-      - created_at: Date – Fecha de creación del reporte.
-      - is_read: boolean – Indica si la notificación ha sido leída por el usuario.
+      - dispenser_id: UUID – Identificador del dispensador asociado.
+      - pond_id: UUID – Identificador del estanque asociado.
+      - created_at: Date – Fecha de creación del registro.
     - Métodos:
-      - getUserNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas a un usuario.
+      - getRegisteredDispensers(): List< Dispenser > – Devuelve la lista de dispensadores registrados en el sistema.
+
+- **Entity: Registered_Sensors**
+  - Propósito: Representa la relación entre un sensor y un estanque, indicando qué sensores están registrados en el sistema.
+    - Atributos:
+      - sensor_id: UUID – Identificador del sensor asociado.
+      - pond_id: UUID – Identificador del estanque asociado.
+      - created_at: Date – Fecha de creación del registro.
+    - Métodos:
+      - getRegisteredSensors(): List< Sensor > – Devuelve la lista de sensores registrados en el sistema.
 
 - **Repository Interface**
-  - NotificationRepository
-    - Interface para acceder a los datos de las notificaciones.
-  - ReportRepository
-    - Interface para acceder a los datos de los reportes.
+  - DeviceRepository
+    - Interface para acceder a los datos de los dispositivos.
+  - SensorRepository
+    - Interface para acceder a los datos de los sensores.
 
 ##### 4.2.2.2. Interface Layer
 
-- **Controller: Communication Controller**
-  - Controlador que expone los endpoints para la gestión de reportes y notificaciones.
+- **Controller: Device Controller**
+  - Controlador que expone los endpoints para la gestión de dispositivos, sensores y alimentadores.
   - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
 
 ##### 4.2.2.3. Application Layer
 
-- **Service: Communication Service**
-  - Lógica de negocio para gestionar reportes y notificaciones.
-  - Permite crear, actualizar y eliminar reportes y notificaciones, así como asociarlos a usuarios.
+- **Service: Sensor Service**
+  - Lógica de negocio para gestionar sensores.
+  - Permite crear, actualizar y eliminar sensores, así como asociarlos a estanques.
+
+- **Service: Configuration Service**
+  - Lógica de negocio para gestionar dispositivos y alimentadores.
+  - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
+
+- **Service: Dispenser Service**
+  - Lógica de negocio para gestionar dispensadores.
+  - Permite crear, actualizar y eliminar dispensadores, así como asociarlos a estanques.
 
 - **Command Handlers (implícitos en los servicios)**
-  - NotificationCommandHandler
-  - ReportCommandHandler
+  - SensorCommandHandler
+  - ConfigurationCommandHandler
+  - DispenserCommandHandler
 
 ##### 4.2.2.4. Infrastructure Layer
 
 - **Repositories:**
 
-  - NotificationRepositoryImpl
+  - DeviceRepositoryImpl
 
-    - Implementa el acceso a la tabla de notifications en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de devices en la base de datos PostgreSQL.
 
-  - ReportRepositoryImpl
+  - SensorRepositoryImpl
 
-    - Implementa el acceso a la tabla de reports en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de sensors en la base de datos PostgreSQL.
 
 - **Tecnología:**
 
@@ -1708,13 +1741,15 @@ Responsabilidades:
 
 Incluye:
 
-- Communication Controller
+- Device Controller
 
-- Communication Service
+- Sensor Service
+- Configuration Service
+- Dispenser Service
 
-- NotificationRepository
+- SensorRepository
 
-- ReportRepository
+- DispenserRepository
 
 Responsabilidades:
 
@@ -1728,30 +1763,28 @@ Responsabilidades:
 
 - Bounded Context Domain Layer Class Diagram:
 
-  - Clase Report y Notification como entidad principal
+  - Clase Device, Sensor y Dispenser como entidades principales
 
-  - Interfaces NotificationRepository y ReportRepository
+  - Interfaces DeviceRepository y SensorRepository
 
-  - Clase User_Report y User_Notification como entidades de relación
+  - Clase Registered_Dispenser y Registered_Sensors como entidades de relación
 
 - Bounded Context Database Diagram:
 
-  - Tabla reports
+  - Tabla devices
+    - Columnas: id, name, description, is_registered, status
 
-    - Columnas: id, type, title, information, pond_id
+  - Tabla sensors
+    - Columnas: id, device_id, oxygen_level, temperature, ph
 
-  - Tabla notifications
+  - Tabla dispensers
+    - Columnas: id, device_id, food_capacity, is_empty, is_programmed, is_working
+  
+  - Tabla registered_sensors
+    - Columnas: sensor_id, pond_id, created_at
 
-    - Columnas: id, title, description, pond_id
-
-  - Tabla user_reports
-
-    - Columnas: report_id, user_id, created_at
-
-  - Tabla user_notifications
-
-    - Columnas: notification_id, user_id, created_at, is_read
-
+  - Tabla registered_dispensers
+    - Columnas: dispenser_id, pond_id, created_at
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
