@@ -8,7 +8,7 @@
 
 ### **Facultad de Ingeniería - Carrera de Ingeniería de Software**
 
-### **2025-1**
+### **2025-10**
 
 #### **Curso:**
 
@@ -58,7 +58,7 @@
     </tr>
     <tr>
       <td align="center">201923994</td>
-      <td align="center">Avellaneda Ramos, Carlo</td>
+      <td align="center">Avellaneda Ramos, Carlos</td>
     </tr>
     <tr>
       <td align="center">20191E831</td>
@@ -88,10 +88,40 @@
   </tr>
   <tr>
     <td>1.0.0</td>
-    <td>18:04/2025</td>
-    <td>Todos los miembros del grupo</td>
-    <td>Se realizaron los capítulos I, II, III y  IV.</td>
+    <td>15/04/2025</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>- Primera verison<br>- Creación del informe<br>- Creación de los branch<br>- Creación del esquema de cada Capitulo</td>
   </tr>
+  <tr>
+    <td>2.0.0</td>
+    <td>20/04/2025</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>- Actualizar el Capitulo 1 con todos los puntos hechos del mismo
+<br>- Actualizar el Capitulo 2 con todos los puntos hechos del mismo
+<br>- Agregar la caratula con toda la informacion solicitada</td>
+  </tr>
+  <tr>
+    <td>3.0.0</td>
+    <td>25/04/2025</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>- Actualizar los puntos necesario segun criterio discutido en la reunion
+<br>- Actualizar el Capitulo 4 con todos los puntos hechos del mismo
+  </tr>
+  <tr>
+    <td>4.0.0</td>
+    <td>02/05/2025</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>- Actualizar los puntos necesario segun criterio discutido en la reunion
+    <br>- Corregir algunas aspectos mencionados por el profesor
+    <br>- Actulizar los puntos pendientes a falta de historial de commits</tr>
+  <tr>
+    <td>5.0.0</td>
+    <td>13/05/2025</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>- Realizar la primera versión del Frontend
+    <br>- Realizar la primera versión del Landing Page
+    <br>- Actualizar el Capitulo 5 con todos los puntos hechos del mismo
+    <br>- Actualizar el Capitulo 6 con todos los puntos hechos del mismo</tr>
 </table>
 
 ## Project Report Collaboration Insights
@@ -1702,7 +1732,15 @@ La navegación es simple e intuitiva. Se emplea una barra de navegación tanto e
 
 #### 5.3.1. Landing Page Wireframe.
 
+En este sección, se incluirá un esquema visual preliminar (wireframe) de la landing page de la aplicación. El wireframe mostrará la distribución básica de los elementos clave, como el título principal, los botones de acción, el menú de navegación y cualquier contenido destacado.
+
+<img src="Assets\Landing page wireframe.png">
+
 #### 5.3.2. Landing Page Mock-up.
+
+En este sección, se presentará un mock-up de la landing page, que incluirá un diseño más detallado y cercano a la versión final de la aplicación. A diferencia del wireframe, el mock-up incorporará colores, tipografías, imágenes, y elementos visuales reales.
+
+<img src="Assets\Landing page.png">
 
 ### 5.4. Applications UX/UI Design.
 
