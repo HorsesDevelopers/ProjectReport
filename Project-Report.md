@@ -3058,6 +3058,72 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators.
 
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Communication BC Leader (L) / Collaborator (C)</th>
+    <th>Identify and Acces BC Leader (L) / Collaborator (C)</th>
+    <th>Device Management BC Leader (L) / Collaborator (C)</th>
+    <th>Schedule Planning BC Leader (L) / Collaborator (C)</th>
+    <th>Feeding BC Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Eduardo Espinoza, Vittorio Marcelo</td>
+    <td>VittorioEdu</td>
+    <td>L</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Flores Avalos, Diego</td>
+    <td>DiegoFA04</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Martel Zevallos, Gabriel</td>
+    <td>GabrielMarllos</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>L</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Garcia Rodriguez, Gabriel</td>
+    <td>Gabotw</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Avellaneda Ramos, Carlos</td>
+    <td>carlosAvellanedaRamos</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Rivas Sarango, David Alejandro</td>
+    <td>dars2002</td>
+    <td>...</td>
+    <td>L</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+</table>
+
 ##### 6.2.1.3. Sprint Backlog 1.
 
 <table>
