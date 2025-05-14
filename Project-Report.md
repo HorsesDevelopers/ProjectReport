@@ -1693,53 +1693,65 @@ A continuación, se presenta el context mapping elaborado para nuestra solución
 
 ##### 4.1.3.2. Context Level Diagrams
 
-El diagrama de contexto de AquaSense Technologies ilustra la interacción entre su AquaSense Platform y las entidades externas que la rodean. Los principales actores (Personas) que interactúan con la plataforma son los Productores Acuícolas, quienes la utilizan para monitorear sus granjas, gestionar la alimentación y recibir alertas, y los Técnicos de Campo, que también interactúan para supervisar las operaciones y responder a las alertas.
+El sistema AquaSense actúa como núcleo central que ofrece servicios digitales enfocados en el monitoreo y gestión de cultivos acuícolas, permitiendo a los usuarios obtener datos de sensores, programar actividades, y comunicarse de manera eficiente.
 
-La AquaSense Platform se comunica con varios Sistemas de Software Externos para enriquecer su funcionalidad. Obtiene datos meteorológicos del Weather Service y datos de calidad del agua (si utilizan sensores de terceros) del Water Quality Sensor Cloud. La conectividad para los dispositivos IoT se proporciona a través de la Cellular Network. En el futuro, podría haber una integración con un Fish Feed Management System de proveedores o de los propios productores.
+1. **Aquaculture Farmer (Productor Acuícola)**
+  - Utiliza el sistema para monitorear las condiciones de los estanques, programar la alimentación y recibir notificaciones en tiempo real.
+  - Interactúa principalmente a través de la aplicación móvil y web.
 
-En esencia, la AquaSense Platform se sitúa como un sistema central que ayuda a los productores acuícolas a optimizar sus operaciones al integrar datos del entorno, automatizar procesos clave y proporcionar información valiosa a través de una interfaz de usuario accesible.
+2. **Field Technician (Técnico de Campo)**
+  - Realiza la configuración de sensores y monitorea su funcionamiento en el lugar de cultivo.
+  - Utiliza principalmente la aplicación móvil para tareas de mantenimiento y revisión de datos.
+
+
 ![ContextDiagram](Assets/c4/context-diagram.png)
 
 ##### 4.1.3.3. Container Level Diagrams
 
-El diagrama de contenedores de la **AquaSense Platform** desglosa la arquitectura interna del sistema. El contenedor central es la **AquaSense Platform**, que alberga varios contenedores clave:
+1. **Mobile App**
+  - Aplicación móvil desarrollada en Kotlin.
+  - Permite a los usuarios (agricultores y técnicos) monitorear condiciones, gestionar la alimentación y recibir notificaciones desde cualquier lugar.
 
-- La **Mobile App** proporciona la interfaz de usuario principal para los productores y técnicos.
-- La **API Application** actúa como la puerta de enlace central, gestionando la comunicación entre la Mobile App y los bounded contexts.
-- Varios **Bounded Contexts** organizan la lógica de negocio en dominios específicos:
-  - **Feeding Bounded Context** gestiona la alimentación automatizada.
-  - **Monitoring Bounded Context** maneja la ingesta y el procesamiento de datos de sensores.
-  - **Farm Management Bounded Context** almacena la información de las granjas, usuarios y configuraciones.
-  - **Alerting Bounded Context** gestiona las reglas y el envío de notificaciones.
-  - **User Interface Bounded Context** maneja la presentación de la interfaz de usuario.
-- El **Data Analytics Service** procesa los datos para generar insights.
-- Los **IoT Devices** son los sensores y actuadores desplegados en las granjas.
-- La **Relational Database** almacena todos los datos persistentes del sistema.
+2. **Web App**
+  - Aplicación web desarrollada en Angular 17.
+  - Dirigida a usuarios que prefieren trabajar desde escritorio, principalmente para la gestión de datos y generación de reportes.
 
-Estos contenedores interactúan entre sí para proporcionar las funcionalidades de la plataforma, desde la recopilación de datos de los IoT Devices hasta la presentación de información y el control de la alimentación a través de la Mobile App, todo orquestado por la API Application y la lógica de negocio encapsulada en los Bounded Contexts.
-![ContextDiagram](Assets/c4/containers-diagram.png)
+3. **API Gateway**
+  - Componente central que expone endpoints RESTful y gestiona todas las solicitudes provenientes de la app móvil y web.
+  - Implementado en Java con Spring Boot.
+  - Sirve de punto de entrada único al backend, facilitando el control, seguridad y mantenimiento.
+
+4. **Relational Database**
+  - Base de datos relacional implementada en PostgreSQL.
+  - Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
+  - Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
+
+![ContainerDiagram](Assets/c4/containers-diagram.png)
 
 ##### 4.1.3.4. Deployment Diagrams
 
-## Alerting Bounded Context
+El backend está dividido en varios contextos delimitados (Bounded Contexts) siguiendo principios de **Domain-Driven Design**:
 
-![ContextDiagram](Assets/c4/BC1.png)
+## Identify and access Bounded Context
+- Módulo de autenticación y autorización de usuarios.
 
-## Farm Management Bounded Context
+![BC1](Assets/c4/BC1.png)
+## Communication Bounded Context
+- Gestión de alertas y reportes entre los devices y los usuarios.
 
-![ContextDiagram](Assets/c4/BC2.png)
+![BC2](Assets/c4/BC2.png)
+## Device Management Bounded Context
+- Administración de sensores y dispositivos de campo.
 
-## Feeding Bounded Context
+![BC3](Assets/c4/BC3.png)
+##  Feeding Bounded Context
+- Gestión de la programación de alimentación.
 
-![ContextDiagram](Assets/c4/BC3.png)
+![BC4](Assets/c4/BC4.png)
+## Schedule Management Bounded Context
+- Manejo de información sobre estanques, granjas y horarios de alimentación.
 
-## Monitoring Bounded Context
-
-![ContextDiagram](Assets/c4/BC4.png)
-
-## User Interface Bounded Context
-
-![ContextDiagram](Assets/c4/BC5.png)
+![BC5](Assets/c4/BC5.png)
 
 ### link de structurizr
 
@@ -1747,23 +1759,731 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X. Bounded Context: \<Bounded Context Name\>
+#### 4.2.1. Bounded Context: \<Access and Identify\>
 
-##### 4.2.X.1. Domain Layer
+##### 4.2.1.1. Domain Layer
 
-##### 4.2.X.2. Interface Layer
+- **Entity: User**
+  - Propósito: Representa a un usuario del sistema, que puede ser un Farmer o un Technician, y que tiene acceso a las funcionalidades del sistema según su rol.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - username: String – Nombre de usuario único.
+      - password: String – Contraseña cifrada.
+      - role: Enum – Rol del usuario: puede ser FARMER o TECHNICIAN.
+    - Métodos:
+      - createUser(): void – Crea un nuevo usuario.
+      - updateUser(): void – Actualiza la información del usuario.
+      - deleteUser(): void – Elimina un usuario.
+      - authenticate(): boolean – Verifica las credenciales del usuario.
+      - getUserDetails(): User – Devuelve los detalles del usuario.
+- **Repository Interface**
+    - farmerRepository
+      - Interface para acceder a los datos del usuario con rol de Farmer.
+    - TechnicianRepository
+      - Interface para acceder a los datos del usuario con rol de Technician.
 
-##### 4.2.X.3. Application Layer
+##### 4.2.1.2. Interface Layer
 
-##### 4.2.X.4. Infrastructure Layer
+- **Controller: Identify and Access Controller**
+  - Controlador que expone los endpoints para el inicio de sesión (/login) y el registro (/register).
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con tokens de autenticación o mensajes de error.
 
-##### 4.2.X.5. Component Level Diagrams
+##### 4.2.1.3. Application Layer
 
-##### 4.2.X.6. Code Level Diagrams
+- **Service: Login Service**
+  - Lógica de negocio para autenticar usuarios.
+  - Valida credenciales, genera y retorna tokens JWT o equivalentes.
 
-###### 4.2.X.6.1. Domain Layer Class Diagrams
+- **Service: Register Service**
+  - Lógica de negocio para registrar nuevos usuarios (Farmer o Technician).
+  - Verifica que el username no esté en uso, almacena la contraseña de forma segura (hashing), y persiste el nuevo usuario.
 
-###### 4.2.X.6.2. Database Design Diagram
+- **Command Handlers (implícitos en los servicios)**
+  - LoginCommandHandler
+  - RegisterCommandHandler.
+##### 4.2.1.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - FarmerRepositoryImpl
+
+    - Implementa el acceso a la tabla de farmers en la base de datos PostgreSQL.
+
+  - TechnicianRepositoryImpl
+
+    - Implementa el acceso a la tabla de technicians en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.1.5. Component Level Diagrams
+
+Incluye:
+
+  - Identify and Access Controller
+
+  - Login Service
+
+  - Register Service
+
+  - FarmerRepository
+
+  - TechnicianRepository
+
+Responsabilidades:
+
+  - Controller maneja los endpoints
+
+  - Services ejecutan lógica de negocio
+
+  - Repositories acceden a datos
+
+##### 4.2.1.6. Code Level Diagrams
+
+  - Bounded Context Domain Layer Class Diagram:
+
+    - Clase User como entidad principal
+
+    - Interfaces FarmerRepository y TechnicianRepository
+
+  - Bounded Context Database Diagram:
+
+    - Tabla users (o tablas separadas: farmers, technicians)
+
+      - Columnas: id, username, password, role, created_at
+
+
+#### 4.2.2. Bounded Context: \<Communication\>
+
+##### 4.2.2.1. Domain Layer
+
+- **Entity: Report**
+  - Propósito: Representa un reporte generado por el sistema, que puede incluir alertas o estados sobre condiciones ambientales.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - type: String - Tipo de reporte (alerta, estado, etc.).
+      - title: String – Título del reporte.
+      - information: String – Información detallada del reporte.
+      - pond_id: UUID – Identificador del estanque asociado al reporte.
+    - Métodos:
+      - createReport(): void – Crea un nuevo reporte.
+      - updateReport(): void – Actualiza la información del reporte.
+      - deleteReport(): void – Elimina un reporte.
+
+- **Entity: User_Report**
+  - Propósito: Representa la relación entre un usuario y un reporte, indicando qué reportes han sido generados o asignados a un usuario específico.
+    - Atributos:
+      - report_id: UUID – Identificador único del reporte.
+      - user_id: UUID – Identificador único del usuario.
+      - created_at: Date – Fecha de creación del reporte.
+    - Métodos:
+      - getUserReports(): List< Report > – Devuelve la lista de reportes asociados a un usuario.
+
+- **Entity: Notifcation**
+  - Propósito: Representa una notificación enviada a un usuario, que puede incluir alertas o información relevante sobre el estado de los estanques.
+    - Atributos:
+      - id: UUID – Identificador único de la notificación.
+      - title: String – Título de la notificación.
+      - description: String – Descripción detallada de la notificación.
+      - pond_id: UUID – Identificador del estanque asociado a la notificación.
+    - Métodos:
+      - createNotification(): void – Crea una nueva notificación.
+      - deleteNotification(): void – Elimina una notificación.
+
+- **Entity: User_Notification**
+  - Propósito: Representa la relación entre un usuario y una notificación, indicando qué notificaciones han sido enviadas o asignadas a un usuario específico.
+    - Atributos:
+      - notification_id: UUID – Identificador único de la notificación.
+      - user_id: UUID – Identificador único del usuario.
+      - created_at: Date – Fecha de creación del reporte.
+      - is_read: boolean – Indica si la notificación ha sido leída por el usuario.
+    - Métodos:
+      - getUserNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas a un usuario.
+
+- **Repository Interface**
+  - NotificationRepository
+    - Interface para acceder a los datos de las notificaciones.
+  - ReportRepository
+    - Interface para acceder a los datos de los reportes.
+
+##### 4.2.2.2. Interface Layer
+
+- **Controller: Communication Controller**
+  - Controlador que expone los endpoints para la gestión de reportes y notificaciones.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.2.3. Application Layer
+
+- **Service: Communication Service**
+  - Lógica de negocio para gestionar reportes y notificaciones.
+  - Permite crear, actualizar y eliminar reportes y notificaciones, así como asociarlos a usuarios.
+
+- **Command Handlers (implícitos en los servicios)**
+  - NotificationCommandHandler
+  - ReportCommandHandler
+
+##### 4.2.2.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - NotificationRepositoryImpl
+
+    - Implementa el acceso a la tabla de notifications en la base de datos PostgreSQL.
+
+  - ReportRepositoryImpl
+
+    - Implementa el acceso a la tabla de reports en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.2.5. Component Level Diagrams
+
+Incluye:
+
+- Communication Controller
+
+- Communication Service
+
+- NotificationRepository
+
+- ReportRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.2.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Report y Notification como entidad principal
+
+  - Interfaces NotificationRepository y ReportRepository
+
+  - Clase User_Report y User_Notification como entidades de relación
+
+- Bounded Context Database Diagram:
+
+  - Tabla reports
+
+    - Columnas: id, type, title, information, pond_id
+
+  - Tabla notifications
+
+    - Columnas: id, title, description, pond_id
+
+  - Tabla user_reports
+  
+    - Columnas: report_id, user_id, created_at
+  
+  - Tabla user_notifications
+  
+    - Columnas: notification_id, user_id, created_at, is_read
+
+#### 4.2.3. Bounded Context: \<Device Management\>
+
+##### 4.2.3.1. Domain Layer
+
+- **Entity: Device**
+  - Propósito: Representa un dispositivo IoT (sensor o alimentador) asociado a un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - name: String - Nombre del dispositivo.
+      - description: String – Descripción del dispositivo.
+      - is_registered: boolean – Indica si el dispositivo está registrado en el sistema.
+      - status: String – Estado actual del dispositivo (activo, inactivo, error).
+    - Métodos:
+      - updateInformation(): void – Actualiza la información del dispositivo.
+      - deleteDevice(): void – Elimina un dispositivo.
+      - getDeviceStatus(): String – Devuelve el estado actual del dispositivo.
+      - getDeviceData(): List< Data > – Devuelve los datos históricos del dispositivo.
+      - isRegistered(): boolean – Verifica si el dispositivo está registrado.
+
+- **Entity: Sensor**
+  - Propósito: Representa un sensor IoT que mide parámetros ambientales en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - device_id: UUID – Identificador del dispositivo asociado.
+      - oxygen_level: Float – Nivel de oxígeno disuelto.
+      - temperature: Float – Temperatura del agua.
+      - ph: Float – Nivel de pH.
+      
+    - Métodos:
+      - createSensor(): void – Crea un nuevo sensor.
+      - updateSensor(): void – Actualiza la información del sensor.
+      - getSensorData(): List< Data > – Devuelve los datos históricos del sensor.
+
+- **Entity: Dispenser**
+  - Propósito: Representa un alimentador IoT que controla la alimentación de los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - device_id: UUID – Identificador del dispositivo asociado.
+      - food_capacity: Float – Capacidad de alimento del dispensador.
+      - is_empty: boolean – Indica si el dispensador está vacío.
+      - is_programmed: boolean – Indica si el dispensador está programado.
+      - is_working: boolean – Indica si el dispensador está funcionando correctamente.
+    - Métodos:
+      - createDispenser(): void – Crea un nuevo dispensador.
+      - updateDispenser(): void – Actualiza la información del dispensador.
+      - programDispenser(): void – Programa el dispensador para una alimentación específica.
+      - startDispenser(): void – Inicia el dispensador.
+      - stopDispenser(): void – Detiene el dispensador.
+      - getDispenserStatus(): String – Devuelve el estado actual del dispensador.
+      - isWorking(): boolean – Verifica si el dispensador está funcionando correctamente.
+      - isEmpty(): boolean – Verifica si el dispensador está vacío.
+      - isProgrammed(): boolean – Verifica si el dispensador está programado.
+
+- **Entity: Registered_Dispenser**
+  - Propósito: Representa la relación entre un dispensador y un estanque, indicando qué dispensadores están registrados en el sistema.
+    - Atributos:
+      - dispenser_id: UUID – Identificador del dispensador asociado.
+      - pond_id: UUID – Identificador del estanque asociado.
+      - created_at: Date – Fecha de creación del registro.
+    - Métodos:
+      - getRegisteredDispensers(): List< Dispenser > – Devuelve la lista de dispensadores registrados en el sistema.
+
+- **Entity: Registered_Sensors**
+  - Propósito: Representa la relación entre un sensor y un estanque, indicando qué sensores están registrados en el sistema.
+    - Atributos:
+      - sensor_id: UUID – Identificador del sensor asociado.
+      - pond_id: UUID – Identificador del estanque asociado.
+      - created_at: Date – Fecha de creación del registro.
+    - Métodos:
+      - getRegisteredSensors(): List< Sensor > – Devuelve la lista de sensores registrados en el sistema.
+
+- **Repository Interface**
+  - DeviceRepository
+    - Interface para acceder a los datos de los dispositivos.
+  - SensorRepository
+    - Interface para acceder a los datos de los sensores.
+
+##### 4.2.3.2. Interface Layer
+
+- **Controller: Device Controller**
+  - Controlador que expone los endpoints para la gestión de dispositivos, sensores y alimentadores.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.3.3. Application Layer
+
+- **Service: Sensor Service**
+  - Lógica de negocio para gestionar sensores.
+  - Permite crear, actualizar y eliminar sensores, así como asociarlos a estanques.
+
+- **Service: Configuration Service**
+  - Lógica de negocio para gestionar dispositivos y alimentadores.
+  - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
+
+- **Service: Dispenser Service**
+  - Lógica de negocio para gestionar dispensadores.
+  - Permite crear, actualizar y eliminar dispensadores, así como asociarlos a estanques.
+
+- **Command Handlers (implícitos en los servicios)**
+  - SensorCommandHandler
+  - ConfigurationCommandHandler
+  - DispenserCommandHandler
+
+##### 4.2.3.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - DeviceRepositoryImpl
+
+    - Implementa el acceso a la tabla de devices en la base de datos PostgreSQL.
+
+  - SensorRepositoryImpl
+
+    - Implementa el acceso a la tabla de sensors en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.3.5. Component Level Diagrams
+
+Incluye:
+
+- Device Controller
+
+- Sensor Service
+- Configuration Service
+- Dispenser Service
+
+- SensorRepository
+
+- DispenserRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.3.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Device, Sensor y Dispenser como entidades principales
+
+  - Interfaces DeviceRepository y SensorRepository
+
+  - Clase Registered_Dispenser y Registered_Sensors como entidades de relación
+
+- Bounded Context Database Diagram:
+
+  - Tabla devices
+    - Columnas: id, name, description, is_registered, status
+
+  - Tabla sensors
+    - Columnas: id, device_id, oxygen_level, temperature, ph
+
+  - Tabla dispensers
+    - Columnas: id, device_id, food_capacity, is_empty, is_programmed, is_working
+  
+  - Tabla registered_sensors
+    - Columnas: sensor_id, pond_id, created_at
+
+  - Tabla registered_dispensers
+    - Columnas: dispenser_id, pond_id, created_at
+
+#### 4.2.4. Bounded Context: \<Feeding Management\>
+
+##### 4.2.4.1. Domain Layer
+
+- **Entity: Scheduled Feeding**
+  - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - name: String - Nombre del horario.
+      - Schedule: MealScheduleId[] – Identificador del horario de alimentación.
+    - Métodos:
+      - createMealSchedule(): void – Crea un nuevo horario de alimentación.
+      - updateMealSchedule(): void – Actualiza el horario de alimentación.
+      - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
+      - deleteMealSchedule(): void – Elimina un horario de alimentación.
+      - getFeedingSchedule(): List< Feeding > – Devuelve la lista de horarios de alimentación.
+
+- **Repository Interface**
+  - FeedingDataRepository
+    - Interface para acceder a los datos de la alimentación.
+
+##### 4.2.4.2. Interface Layer
+
+- **Controller: Feeding Schedule Controller**
+  - Controlador que expone los endpoints para la gestión de horarios de alimentación.
+    - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.4.3. Application Layer
+
+- **Service: Feeding Schedule Service**
+  - Lógica de negocio para gestionar horarios de alimentación.
+  - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
+
+- **Command Handlers (implícitos en los servicios)**
+  - FeedingScheduleCommandHandler
+
+##### 4.2.4.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - FeedingDataRepositoryImpl
+
+    - Implementa el acceso a la tabla de feeding en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.4.5. Component Level Diagrams
+
+Incluye:
+
+- Feeding Schedule Controller
+
+- Feeding Schedule Service
+
+- FeedingDataRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.4.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Scheduled Feeding como entidad principal
+
+  - Interfaces FeedingDataRepository
+
+- Bounded Context Database Diagram:
+
+  - Tabla feeding
+    - Columnas: id, name, schedule
+
+#### 4.2.5. Bounded Context: \<Schedule Management\>
+
+##### 4.2.5.1. Domain Layer
+
+- **Entity: Pond**
+  - Propósito: Representa un estanque acuícola donde se cultivan peces.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - ubication: String – Ubicación del estanque.
+      - name: String – Nombre del estanque.
+      - created_at: Date – Fecha de creación del estanque.
+      - updated_at: Date – Fecha de la última actualización del estanque.
+      - schdule_feeding_id: UUID – Identificador del horario de alimentación asociado al estanque.
+      - user_id: UUID – Identificador del usuario propietario del estanque.
+    - Métodos:
+      - createPond(): void – Crea un nuevo estanque.
+      - updatePond(): void – Actualiza la información del estanque.
+      - deletePond(): void – Elimina un estanque.
+      - getPondDetails(): Pond – Devuelve los detalles del estanque.
+      - getPondFeedingSchedule(): List< Feeding > – Devuelve la lista de horarios de alimentación asociados al estanque.
+      - getPondSensors(): List< Sensor > – Devuelve la lista de sensores asociados al estanque.
+      - getPondDispensers(): List< Dispenser > – Devuelve la lista de dispensadores asociados al estanque.
+      - getPondReports(): List< Report > – Devuelve la lista de reportes asociados al estanque.
+      - getPondNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas al estanque.
+      - getPondUsers(): List< User > – Devuelve la lista de usuarios asociados al estanque.
+
+- **Entity: Fish**
+  - Propósito: Representa un pez cultivado en el estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - weight: Float – Peso del pez.
+      - length: Float – Longitud del pez.
+      - fish_type: String – Tipo de pez.
+      - age: Integer – Edad del pez.
+
+    - Métodos:
+      - createFish(): void – Crea un nuevo pez.
+      - updateFish(): void – Actualiza la información del pez.
+      - deleteFish(): void – Elimina un pez.
+      - getFishDetails(): Fish – Devuelve los detalles del pez.
+
+- **Entity: Pond_Fish**
+  - Propósito: Representa la relación entre un estanque y los peces cultivados en él.
+    - Atributos:
+      - pond_id: UUID – Identificador del estanque asociado.
+      - fish_id: UUID – Identificador del pez asociado.
+      - created_at: Date – Fecha de creación del registro.
+      - updated_at: Date – Fecha de la última actualización del registro.
+      
+    - Métodos:
+      - getPondFish(): List< Fish > – Devuelve la lista de peces asociados a un estanque.
+      - getFishPonds(): List< Pond > – Devuelve la lista de estanques asociados a un pez.
+
+- **Entity: Meal**
+  - Propósito: Representa una comida para los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del usuario.
+      - name: String – Nombre de la comida.
+      - description: String – Descripción de la comida.
+    - Métodos:
+      - createMeal(): void – Crea una nueva comida.
+      - updateMeal(): void – Actualiza la información de la comida.
+      - deleteMeal(): void – Elimina una comida.
+      - getMealDetails(): Meal – Devuelve los detalles de la comida.
+      - addIngredient(): void – Agrega un ingrediente a la comida.
+      - removeIngredient(): void – Elimina un ingrediente de la comida.
+
+- **Entity: Meal_Ingredient**
+  - Propósito: Representa la relación entre una comida y sus ingredientes.
+    - Atributos:
+      - meal_id: UUID – Identificador de la comida asociada.
+      - ingredient_id: UUID – Identificador del ingrediente asociado.
+      - amount: Float – Cantidad del ingrediente en la comida.
+    - Métodos:
+      - getMealIngredients(): List< Ingredient > – Devuelve la lista de ingredientes asociados a una comida.
+      - getIngredientMeals(): List< Meal > – Devuelve la lista de comidas asociadas a un ingrediente.
+
+- **Entity: Ingredient**
+  - Propósito: Representa un ingrediente utilizado en la comida de los peces.
+    - Atributos:
+      - id: UUID – Identificador único del ingrediente.
+      - name: String – Nombre del ingrediente.
+      - description: String – Descripción del ingrediente.
+    - Métodos:
+      - createIngredient(): void – Crea un nuevo ingrediente.
+      - updateIngredient(): void – Actualiza la información del ingrediente.
+      - deleteIngredient(): void – Elimina un ingrediente.
+      - getIngredientDetails(): Ingredient – Devuelve los detalles del ingrediente.
+
+- **Entity: Meal_Schedule**
+  - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
+    - Atributos:
+      - id: UUID – Identificador único del schdule.
+      - meal_id: UUID – Identificador de la comida asociada.
+      - hour: String – Hora programada para la alimentación.
+      - day: String – Día programado para la alimentación.
+      - amount: Float – Cantidad de comida a dispensar.
+    - Métodos:
+      - createMealSchedule(): void – Crea un nuevo horario de alimentación.
+      - updateMealSchedule(): void – Actualiza el horario de alimentación.
+      - deleteMealSchedule(): void – Elimina un horario de alimentación.
+      - getMealScheduleDetails(): MealSchedule – Devuelve los detalles del horario de alimentación.
+      - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
+    
+- **Repository Interface**
+  - PondRepository
+    - Interface para acceder a los datos de los estanques.
+  - MealRepository
+    - Interface para acceder a los datos de las comidas.
+  - FishRepository
+    - Interface para acceder a los datos de los peces.
+
+##### 4.2.3.2. Interface Layer
+
+- **Controller: Schedule Controller**
+  - Controlador que expone los endpoints para la gestión de estanques, peces y comidas.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+##### 4.2.3.3. Application Layer
+
+- **Service: Meals Service**
+  - Lógica de negocio para gestionar comidas.
+  - Permite crear, actualizar y eliminar comidas, así como asociarlas a estanques.
+
+- **Service: Schedule Service**
+  - Lógica de negocio para gestionar dispositivos y alimentadores.
+  - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
+
+- **Service: Feeding Data Service**
+  - Lógica de negocio para gestionar horarios de alimentación.
+  - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
+
+- **Command Handlers (implícitos en los servicios)**
+  - PondCommandHandler
+  - FishCommandHandler
+  - MealCommandHandler
+
+##### 4.2.3.4. Infrastructure Layer
+
+- **Repositories:**
+
+  - PondRepositoryImpl
+
+    - Implementa el acceso a la tabla de ponds en la base de datos PostgreSQL.
+
+  - FishRepositoryImpl
+
+    - Implementa el acceso a la tabla de fish en la base de datos PostgreSQL.
+
+  - MealRepositoryImpl
+  
+    - Implementa el acceso a la tabla de meals en la base de datos PostgreSQL.
+
+- **Tecnología:**
+
+  - Framework: Angular 17
+
+  - Backend: Java / Spring Boot
+
+  - Base de datos: PostgreSQL
+
+  - Seguridad: JWT para autenticación
+
+##### 4.2.3.5. Component Level Diagrams
+
+Incluye:
+
+- Schedule Controller
+
+- Meals Service
+- Schedule Service
+- Feeding Data Service
+
+- PondRepository
+
+- FishRepository
+
+- MealRepository
+
+Responsabilidades:
+
+- Controller maneja los endpoints
+
+- Services ejecutan lógica de negocio
+
+- Repositories acceden a datos
+
+##### 4.2.3.6. Code Level Diagrams
+
+- Bounded Context Domain Layer Class Diagram:
+
+  - Clase Pond, Fish y Meal como entidades principales
+
+  - Interfaces PondRepository, FishRepository y MealRepository
+
+  - Clase Pond_Fish y Meal_Ingredient como entidades de relación
+  
+  - Clase Meal_Schedule como entidad de programación
+
+- Bounded Context Database Diagram:
+
+    - Tabla ponds
+        - Columnas: id, ubication, name, created_at, updated_at, schdule_feeding_id, user_id
+    
+    - Tabla fish
+        - Columnas: id, weight, length, fish_type, age
+    
+    - Tabla meals
+        - Columnas: id, name, description
+    
+    - Tabla meal_schedule
+        - Columnas: id, meal_id, hour, day, amount
+    
+    - Tabla pond_fish
+        - Columnas: pond_id, fish_id, created_at, updated_at
+    
+    - Tabla meal_ingredient
+        - Columnas: meal_id, ingredient_id, amount
+
+
+###### 4.3.1 Domain Layer Class Diagrams
+
+![uml](Assets/UMLAndFisicalDatabase/uml.png)
+
+###### 4.3.2 Database Design Diagram
+
+![ContextDiagram](Assets/UMLAndFisicalDatabase/database.png)
 
 ## Capítulo V: Solution UI/UX Design
 
