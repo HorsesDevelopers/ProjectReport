@@ -132,19 +132,19 @@
 
 - [Reporte de Proyecto](#reporte-de-proyecto)
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-  - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-  - [**2025-1**](#2025-1)
-    - [**Curso:**](#curso)
-  - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-    - [**NRC:**](#nrc)
-    - [2947](#2947)
-    - [**Profesor:**](#profesor)
-    - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-  - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-    - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-    - [Producto: **FeedGuard**](#producto-feedguard)
-  - [**Integrantes del equipo**](#integrantes-del-equipo)
-  - [**Abril 2025**](#abril-2025)
+    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+    - [**2025-10**](#2025-10)
+      - [**Curso:**](#curso)
+    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+      - [**NRC:**](#nrc)
+      - [2947](#2947)
+      - [**Profesor:**](#profesor)
+      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+      - [Producto: **FeedGuard**](#producto-feedguard)
+    - [**Integrantes del equipo**](#integrantes-del-equipo)
+    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -178,7 +178,6 @@
       - [4. Tecnología, percepción y adopción](#4-tecnología-percepción-y-adopción)
     - [📝 Datos complementarios a recolectar](#-datos-complementarios-a-recolectar)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas-1)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [2.3. Needfinding](#23-needfinding)
       - [2.3.1. User Personas](#231-user-personas)
@@ -197,27 +196,73 @@
       - [Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)](#impact-mapping--bryan-díaz-piscicultor-técnico-innovador)
     - [3.4. Product Backlog](#34-product-backlog)
   - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [4.1. Strategic-Level Domain-Driven Design.](#41-strategic-level-domain-driven-design)
-      - [4.1.1. EventStorming.](#411-eventstorming)
-        - [4.1.1.1. Candidate Context Discovery.](#4111-candidate-context-discovery)
-        - [4.1.1.2. Domain Message Flows Modeling.](#4112-domain-message-flows-modeling)
-        - [4.1.1.3. Bounded Context Canvases.](#4113-bounded-context-canvases)
-      - [4.1.2. Context Mapping.](#412-context-mapping)
-      - [4.1.3. Software Architecture.](#413-software-architecture)
-        - [4.1.3.1. Software Architecture System Landscape Diagram.](#4131-software-architecture-system-landscape-diagram)
-        - [4.1.3.2. Software Architecture Context Level Diagrams.](#4132-software-architecture-context-level-diagrams)
-        - [4.1.3.3. Software Architecture Container Level Diagrams.](#4133-software-architecture-container-level-diagrams)
-        - [4.1.3.4. Software Architecture Deployment Diagrams.](#4134-software-architecture-deployment-diagrams)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+      - [4.1.1. EventStorming](#411-eventstorming)
+        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [Unstructured Exploration](#unstructured-exploration)
+      - [Timelines](#timelines)
+      - [BC-IAM](#bc-iam)
+      - [BC-Schedule Planning](#bc-schedule-planning)
+      - [BC-Feeding](#bc-feeding)
+      - [BC-Device Managment](#bc-device-managment)
+      - [BC-Communication](#bc-communication)
+        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [BC Canvas-IAM](#bc-canvas-iam)
+      - [BC Canvas-Schedule Planning](#bc-canvas-schedule-planning)
+      - [BC Canvas-Feeding](#bc-canvas-feeding)
+      - [BC Canvas-Device Managment](#bc-canvas-device-managment)
+      - [BC Canvas-Communication](#bc-canvas-communication)
+      - [4.1.2. Context Mapping](#412-context-mapping)
+      - [4.1.3. Software Architecture](#413-software-architecture)
+        - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
+        - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
+        - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
+        - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
+  - [Identify and access Bounded Context](#identify-and-access-bounded-context)
+  - [Communication Bounded Context](#communication-bounded-context)
+  - [Device Management Bounded Context](#device-management-bounded-context)
+  - [Feeding Bounded Context](#feeding-bounded-context)
+  - [Schedule Management Bounded Context](#schedule-management-bounded-context)
+    - [link de structurizr](#link-de-structurizr)
     - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-      - [4.2.1. Bounded Context: &lt;Bounded Context Name&gt;](#42x-bounded-context-bounded-context-name)
-        - [4.2.1.1. Domain Layer.](#42x1-domain-layer)
-        - [4.2.1.2. Interface Layer.](#42x2-interface-layer)
-        - [4.2.1.3. Application Layer.](#42x3-application-layer)
-        - [4.2.1.4. Infrastructure Layer.](#42x4-infrastructure-layer)
-        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.](#42x5-bounded-context-software-architecture-component-level-diagrams)
-        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.](#42x6-bounded-context-software-architecture-code-level-diagrams)
-          - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.](#42x61-bounded-context-domain-layer-class-diagrams)
-          - [4.2.1.6.2. Bounded Context Database Design Diagram.](#42x62-bounded-context-database-design-diagram)
+      - [4.2.1. Bounded Context: \<Access and Identify\>](#421-bounded-context-access-and-identify)
+        - [4.2.1.1. Domain Layer](#4211-domain-layer)
+        - [4.2.1.2. Interface Layer](#4212-interface-layer)
+        - [4.2.1.3. Application Layer](#4213-application-layer)
+        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+        - [4.2.1.5. Component Level Diagrams](#4215-component-level-diagrams)
+        - [4.2.1.6. Code Level Diagrams](#4216-code-level-diagrams)
+      - [4.2.2. Bounded Context: \<Communication\>](#422-bounded-context-communication)
+        - [4.2.2.1. Domain Layer](#4221-domain-layer)
+        - [4.2.2.2. Interface Layer](#4222-interface-layer)
+        - [4.2.2.3. Application Layer](#4223-application-layer)
+        - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+        - [4.2.2.5. Component Level Diagrams](#4225-component-level-diagrams)
+        - [4.2.2.6. Code Level Diagrams](#4226-code-level-diagrams)
+      - [4.2.3. Bounded Context: \<Device Management\>](#423-bounded-context-device-management)
+        - [4.2.3.1. Domain Layer](#4231-domain-layer)
+        - [4.2.3.2. Interface Layer](#4232-interface-layer)
+        - [4.2.3.3. Application Layer](#4233-application-layer)
+        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+        - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams)
+        - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams)
+      - [4.2.4. Bounded Context: \<Feeding Management\>](#424-bounded-context-feeding-management)
+        - [4.2.4.1. Domain Layer](#4241-domain-layer)
+        - [4.2.4.2. Interface Layer](#4242-interface-layer)
+        - [4.2.4.3. Application Layer](#4243-application-layer)
+        - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+        - [4.2.4.5. Component Level Diagrams](#4245-component-level-diagrams)
+        - [4.2.4.6. Code Level Diagrams](#4246-code-level-diagrams)
+      - [4.2.5. Bounded Context: \<Schedule Management\>](#425-bounded-context-schedule-management)
+        - [4.2.5.1. Domain Layer](#4251-domain-layer)
+        - [4.2.3.2. Interface Layer](#4232-interface-layer-1)
+        - [4.2.3.3. Application Layer](#4233-application-layer-1)
+        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer-1)
+        - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams-1)
+        - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams-1)
+          - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
+          - [4.3.2 Database Design Diagram](#432-database-design-diagram)
   - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
     - [5.1. Style Guidelines.](#51-style-guidelines)
       - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
@@ -234,29 +279,42 @@
     - [5.4. Applications UX/UI Design.](#54-applications-uxui-design)
       - [5.4.1. Applications Wireframes.](#541-applications-wireframes)
       - [5.4.2. Applications Wireflow Diagrams.](#542-applications-wireflow-diagrams)
-      - [5.4.2. Applications Mock-ups.](#542-applications-mock-ups)
-      - [5.4.3. Applications User Flow Diagrams.](#543-applications-user-flow-diagrams)
+      - [5.4.3. Applications Mock-ups.](#543-applications-mock-ups)
+      - [5.4.4. Applications User Flow Diagrams.](#544-applications-user-flow-diagrams)
     - [5.5. Applications Prototyping.](#55-applications-prototyping)
-  - [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+      - [🧭 Criterios para las decisiones de interacción](#-criterios-para-las-decisiones-de-interacción)
+      - [🗂️ Sistema de navegación](#️-sistema-de-navegación)
+      - [🔁 Tipos de interacciones seleccionadas](#-tipos-de-interacciones-seleccionadas)
+      - [🎯 Prototipos presentados](#-prototipos-presentados)
+      - [🖼️ Capturas](#️-capturas)
+      - [🎥 Enlaces a videos en Microsoft Stream](#-enlaces-a-videos-en-microsoft-stream)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
     - [6.1. Software Configuration Management.](#61-software-configuration-management)
-      - [6.1.1. Software Development Environment Configuration.](#611-software-development-environment-configuration)
+      - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
       - [6.1.2. Source Code Management.](#612-source-code-management)
-      - [6.1.3. Source Code Style Guide & Conventions.](#613-source-code-style-guide--conventions)
+    - [Semantic Versioning 2.0.0](#semantic-versioning-200)
+    - [Conventional Commits](#conventional-commits)
+      - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [TypeScript con Angular](#typescript-con-angular)
+    - [Java con Spring Boot](#java-con-spring-boot)
+    - [Flutter con Dart](#flutter-con-dart)
       - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
-    - [6.2. Landing Page, Services & Applications Implementation.](#62-landing-page-services--applications-implementation)
-      - [6.2.1. Sprint 1](#62x-sprint-n)
-        - [6.2.1.1. Sprint Planning 1.](#62x1-sprint-planning-n)
-        - [6.2.1.2. Aspect Leaders and Collaborators.](#62x2-aspect-leaders-and-collaborators)
-        - [6.2.1.3. Sprint Backlog 1.](#62x3-sprint-backlog-n)
-        - [6.2.1.4. Development Evidence for Sprint Review.](#62x4-development-evidence-for-sprint-review)
-        - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#62x5-testing-suite-evidence-for-sprint-review)
-        - [6.2.1.6. Execution Evidence for Sprint Review.](#62x6-execution-evidence-for-sprint-review)
-        - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#62x7-services-documentation-evidence-for-sprint-review)
-        - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#62x8-software-deployment-evidence-for-sprint-review)
-        - [6.2.1.9. Team Collaboration Insights during Sprint.](#62x9-team-collaboration-insights-during-sprint)
+    - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+        - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
+        - [6.2.1.2. Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
+        - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
+        - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
+        - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+        - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+        - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
+        - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
-    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Bibliografía](#bibliografía)
+      - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+    - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
 
 ---
@@ -2684,20 +2742,50 @@ Esta sección presenta la propuesta visual y de interacción de la aplicación F
 
 #### 5.4.1. Applications Wireframes.
 
-Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se detallan las vistas clave para los dos perfiles de usuario:
+Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se detallan las vistas para los dos perfiles de usuario:
 
-- Dashboard principal: Muestra KPIs críticos (oxígeno, temperatura, pH) con íconos accesibles y etiquetas claras.
-  <br>
+- Registro e inicio de sesion: sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
 
-![Dashboard](image.png)
+<img src="Assets\Wireframes\W1.png">
+<img src="Assets\Wireframes\W2.png">
 
-- Configuración de estanques: Incluye campos con placeholders descriptivos y validación en tiempo real.
+- Dashboard principal: Muestra KPIs importantes con íconos accesibles y etiquetas claras.
 
-![alt text](image-1.png)
+<img src="Assets\Wireframes\W3.png">
 
-- Alerta de parámetros fuera de rango: Diseñada con jerarquía visual clara (color de alerta, ícono y texto).
+- Mis estanques: Seccion donde el usuario podrá añadir sus estanques y añadirle información relevante como peces, sensores y comida.
 
-![alt text](image-3.png)
+<img src="Assets\Wireframes\W4.png">
+<img src="Assets\Wireframes\W5.png">
+<img src="Assets\Wireframes\W6.png">
+<img src="Assets\Wireframes\W7.png">
+<img src="Assets\Wireframes\W8.png">
+
+- Horarios: Forma de programar las horas de alimentación para los peces en los diferentes estanques.
+
+<img src="Assets\Wireframes\W9.png">
+<img src="Assets\Wireframes\W10.png">
+
+- Alerta de parámetros fuera de rango: Diseñada con una jerarquía visual clara para una mejor vista de la prioridad.
+
+<img src="Assets\Wireframes\W11.png">
+<img src="Assets\Wireframes\W12.png">
+
+- Staff: Aqui aparece toda la información de todos los miembros del staff.
+
+<img src="Assets\Wireframes\W13.png">
+<img src="Assets\Wireframes\W14.png">
+<img src="Assets\Wireframes\W15.png">
+
+- Comunicaciones: En esta parte se visualiza todas las notificaciones mandadas al usuario así como una forma de crear alertas nuevas.
+
+<img src="Assets\Wireframes\W16.png">
+<img src="Assets\Wireframes\W17.png">
+
+- Dispositivos: Ventana para crear y visualizar dispositivos con los detalles y el status en el que se encuentran
+
+<img src="Assets\Wireframes\W18.png">
+<img src="Assets\Wireframes\W19.png">
 
 Todos los wireframes priorizan legibilidad, accesibilidad táctil y flujo lógico de navegación. El diseño inclusivo fue garantizado con contraste suficiente, etiquetas textuales e iconografía lineal.
 
