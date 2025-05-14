@@ -286,7 +286,6 @@
       - [🗂️ Sistema de navegación](#️-sistema-de-navegación)
       - [🔁 Tipos de interacciones seleccionadas](#-tipos-de-interacciones-seleccionadas)
       - [🎯 Prototipos presentados](#-prototipos-presentados)
-      - [🖼️ Capturas](#️-capturas)
       - [🎥 Enlaces a videos en Microsoft Stream](#-enlaces-a-videos-en-microsoft-stream)
   - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
     - [6.1. Software Configuration Management.](#61-software-configuration-management)
@@ -336,7 +335,8 @@
     Trabajamos como equipo, liderando la dirección y aportando la ejecución técnica para modelar AquaSense.
     </i><br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
+    <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br><br>
     Flores Avalos, Diego<br>
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
     <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
@@ -357,7 +357,8 @@
     <i>TB1: Creamos un entorno colaborativo y alcanzamos el objetivo de construir el modelo C4 mediante tareas planificadas y comunicación abierta.
     </i><br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
+    <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br><br>
     Flores Avalos, Diego<br>
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
     <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
@@ -2644,6 +2645,8 @@ Se utilizan los colores #377BFF y #FFFFFF para el contraste, adicionalmente los 
 **Placeholders:**
 Los textos en placeholder se muestran en #A0A0A0.
 
+<img src="Assets\Style.png">
+
 #### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
 **Responsive design:**
@@ -2742,7 +2745,7 @@ Esta sección presenta la propuesta visual y de interacción de la aplicación F
 
 #### 5.4.1. Applications Wireframes.
 
-Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se detallan las vistas para los dos perfiles de usuario:
+Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se muestran las vistas de la aplicación web:
 
 - Registro e inicio de sesion: sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
 
@@ -2805,13 +2808,89 @@ Wireflow 2:
 
 #### 5.4.3. Applications Mock-ups.
 
-Los mock-ups de FeedGuard fueron desarrollados en Figma, incorporando los colores (#377BFF, #2C2F33), tipografía Sora y botones con estados hover y disabled. Se utilizaron íconos lineales y espaciados generosos para asegurar una interfaz amigable.
+Los mock-ups de FeedGuard fueron desarrollados en Figma, incorporando los colores correspondientes, tipografía Sora y botones con estados hover y disabled. Se utilizaron íconos lineales y espaciados generosos para asegurar una interfaz amigable. A continuación, se muestran las vistas de la aplicación web y mobil:
 
-- Pantalla de monitoreo: KPIs con indicadores visuales y umbrales definidos por usuario.
+**Aplicación web:**
 
-- Pantalla de configuración: Flujo dividido por pasos, con validaciones inline.
+- Registro e inicio de sesion: sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
 
-- Pantalla de recomendaciones: Gráficos y sugerencias automatizadas con opción de confirmación manual.
+<img src="Assets\Mockups\M1.png">
+<img src="Assets\Mockups\M2.png">
+
+- Dashboard principal: Muestra KPIs importantes con íconos accesibles y etiquetas claras.
+
+<img src="Assets\Mockups\M3.png">
+
+- Mis estanques: Seccion donde el usuario podrá añadir sus estanques y añadirle información relevante como peces, sensores y comida.
+
+<img src="Assets\Mockups\M4.png">
+<img src="Assets\Mockups\M5.png">
+<img src="Assets\Mockups\M6.png">
+<img src="Assets\Mockups\M7.png">
+<img src="Assets\Mockups\M8.png">
+
+- Horarios: Forma de programar las horas de alimentación para los peces en los diferentes estanques.
+
+<img src="Assets\Mockups\M9.png">
+<img src="Assets\Mockups\M10.png">
+
+- Alerta de parámetros fuera de rango: Diseñada con una jerarquía visual clara para una mejor vista de la prioridad.
+
+<img src="Assets\Mockups\M11.png">
+<img src="Assets\Mockups\M12.png">
+
+- Staff: Aqui aparece toda la información de todos los miembros del staff.
+
+<img src="Assets\Mockups\M13.png">
+<img src="Assets\Mockups\M14.png">
+<img src="Assets\Mockups\M15.png">
+
+- Comunicaciones: En esta parte se visualiza todas las notificaciones mandadas al usuario así como una forma de crear alertas nuevas.
+
+<img src="Assets\Mockups\M16.png">
+<img src="Assets\Mockups\M17.png">
+
+- Dispositivos: Ventana para crear y visualizar dispositivos con los detalles y el status en el que se encuentran.
+
+<img src="Assets\Mockups\M18.png">
+<img src="Assets\Mockups\M19.png">
+
+**Aplicación móbil:**
+
+- Registro e inicio de sesion: sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
+
+<img src="Assets\Mockups\Android1.png">
+<img src="Assets\Mockups\Android2.png">
+
+- Dashboard principal: Muestra una vista compacta de las opciones principales de la aplicación, así como una forma de descargar un reporte del estado actual.
+
+<img src="Assets\Mockups\Android3.png">
+
+- Mis estanques: Seccion donde el usuario podrá ver sus estanques, información de cada uno y podrá compararlos mediante una tabla de líneas.
+
+<img src="Assets\Mockups\Android4.png">
+<img src="Assets\Mockups\Android5.png">
+<img src="Assets\Mockups\Android6.png">
+
+- Dispositivos: Ventana para visualizar los dispositivos y sus status en el que se encuentran. así como una forma de calibrarlos si es necesario.
+
+<img src="Assets\Mockups\Android7.png">
+
+- Notificaciones: En esta parte se visualizará todas las notificaciones mandadas al usuario.
+
+<img src="Assets\Mockups\Android8.png">
+
+- Tareas: Aquí el usuario podrá verificar todas las tareas pendientes que tiene y marcar si ya están hechas.
+
+<img src="Assets\Mockups\Android9.png">
+
+- Configuración: Sección donde el usuario podrá editar la información de la granja como el nombre, la ubicación y los estanques.
+
+<img src="Assets\Mockups\Android10.png">
+
+- Menú: Barra desplazable donde se podrá acceder a cualquier opción de la plataforma o cerrar sesión.
+
+<img src="Assets\Mockups\Android11.png">
 
 El diseño sigue una arquitectura de información basada en jerarquías y agrupamiento lógico, con etiquetas claras en todas las secciones.
 
@@ -2845,16 +2924,6 @@ Estos flujos incorporan los mock-ups reales y representan la arquitectura de int
 
 ### 5.5. Applications Prototyping.
 
-> Enunciado: Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
-> simulación de interacción y navegación, acorde con la propuesta de paths de User
-> Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
-> principales criterios para las decisiones de interacción. Es importante evidenciar la
-> relación con las decisiones de arquitectura de información, en particular sobre el
-> sistema de navegación y los tipos de interacciones seleccionadas. Para cada caso
-> debe incluirse 1 screenshot de video y un enlace a un video subido a Microsoft
-> Stream para cada aplicación, en el que se demuestre y explique los principales flujos
-> de interacción que cubren los prototipos.
-
 Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y Mobile Web. Se desarrollaron simulaciones de navegación en Figma, alineadas con los User Flows definidos previamente. Los prototipos permiten validar la experiencia del usuario y simular las interacciones clave desde la perspectiva de cada User Persona.
 
 #### 🧭 Criterios para las decisiones de interacción
@@ -2879,19 +2948,14 @@ Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y M
 
 #### 🎯 Prototipos presentados
 
-- 📱 _Juan Pérez_ – Usuario tradicional
+- 📱 Usuario tradicional
 
   - Flujo: Respuesta ante alerta por caída de oxígeno.
   - Interacción: Recibe alerta → visualiza parámetros → toma acción → confirma respuesta.
 
-- 📲 _Bryan Díaz_ – Usuario técnico
+- 📲 Usuario técnico
   - Flujo: Automatización de alimentación basada en datos históricos.
   - Interacción: Consulta gráficos → recibe recomendación → activa modo automático.
-
-#### 🖼️ Capturas
-
-- **Screenshot** – Flujo de alerta crítica (Juan Pérez)
-- **Screenshot** – Flujo de recomendación automática (Bryan Díaz)
 
 #### 🎥 Enlaces a videos en Microsoft Stream
 
