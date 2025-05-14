@@ -249,9 +249,10 @@
     Trabajamos como equipo, liderando la dirección y aportando la ejecución técnica para modelar AquaSense.
     </i><br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br><br>
     Flores Avalos, Diego<br>
-    <i>TB1</i><br>
+    <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
+    <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
     Martel Zevallos, Gabriel<br>
@@ -270,9 +271,10 @@
     <i>TB1: Creamos un entorno colaborativo y alcanzamos el objetivo de construir el modelo C4 mediante tareas planificadas y comunicación abierta.
     </i><br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br><br>
     Flores Avalos, Diego<br>
-    <i>TB1</i><br>
+    <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
+    <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
     Martel Zevallos, Gabriel<br>
@@ -1696,35 +1698,40 @@ A continuación, se presenta el context mapping elaborado para nuestra solución
 El sistema AquaSense actúa como núcleo central que ofrece servicios digitales enfocados en el monitoreo y gestión de cultivos acuícolas, permitiendo a los usuarios obtener datos de sensores, programar actividades, y comunicarse de manera eficiente.
 
 1. **Aquaculture Farmer (Productor Acuícola)**
-  - Utiliza el sistema para monitorear las condiciones de los estanques, programar la alimentación y recibir notificaciones en tiempo real.
-  - Interactúa principalmente a través de la aplicación móvil y web.
+
+- Utiliza el sistema para monitorear las condiciones de los estanques, programar la alimentación y recibir notificaciones en tiempo real.
+- Interactúa principalmente a través de la aplicación móvil y web.
 
 2. **Field Technician (Técnico de Campo)**
-  - Realiza la configuración de sensores y monitorea su funcionamiento en el lugar de cultivo.
-  - Utiliza principalmente la aplicación móvil para tareas de mantenimiento y revisión de datos.
 
+- Realiza la configuración de sensores y monitorea su funcionamiento en el lugar de cultivo.
+- Utiliza principalmente la aplicación móvil para tareas de mantenimiento y revisión de datos.
 
 ![ContextDiagram](Assets/c4/context-diagram.png)
 
 ##### 4.1.3.3. Container Level Diagrams
 
 1. **Mobile App**
-  - Aplicación móvil desarrollada en Kotlin.
-  - Permite a los usuarios (agricultores y técnicos) monitorear condiciones, gestionar la alimentación y recibir notificaciones desde cualquier lugar.
+
+- Aplicación móvil desarrollada en Kotlin.
+- Permite a los usuarios (agricultores y técnicos) monitorear condiciones, gestionar la alimentación y recibir notificaciones desde cualquier lugar.
 
 2. **Web App**
-  - Aplicación web desarrollada en Angular 17.
-  - Dirigida a usuarios que prefieren trabajar desde escritorio, principalmente para la gestión de datos y generación de reportes.
+
+- Aplicación web desarrollada en Angular 17.
+- Dirigida a usuarios que prefieren trabajar desde escritorio, principalmente para la gestión de datos y generación de reportes.
 
 3. **API Gateway**
-  - Componente central que expone endpoints RESTful y gestiona todas las solicitudes provenientes de la app móvil y web.
-  - Implementado en Java con Spring Boot.
-  - Sirve de punto de entrada único al backend, facilitando el control, seguridad y mantenimiento.
+
+- Componente central que expone endpoints RESTful y gestiona todas las solicitudes provenientes de la app móvil y web.
+- Implementado en Java con Spring Boot.
+- Sirve de punto de entrada único al backend, facilitando el control, seguridad y mantenimiento.
 
 4. **Relational Database**
-  - Base de datos relacional implementada en PostgreSQL.
-  - Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
-  - Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
+
+- Base de datos relacional implementada en PostgreSQL.
+- Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
+- Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
 
 ![ContainerDiagram](Assets/c4/containers-diagram.png)
 
@@ -1733,22 +1740,31 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
 El backend está dividido en varios contextos delimitados (Bounded Contexts) siguiendo principios de **Domain-Driven Design**:
 
 ## Identify and access Bounded Context
+
 - Módulo de autenticación y autorización de usuarios.
 
 ![BC1](Assets/c4/BC1.png)
+
 ## Communication Bounded Context
+
 - Gestión de alertas y reportes entre los devices y los usuarios.
 
 ![BC2](Assets/c4/BC2.png)
+
 ## Device Management Bounded Context
+
 - Administración de sensores y dispositivos de campo.
 
 ![BC3](Assets/c4/BC3.png)
-##  Feeding Bounded Context
+
+## Feeding Bounded Context
+
 - Gestión de la programación de alimentación.
 
 ![BC4](Assets/c4/BC4.png)
+
 ## Schedule Management Bounded Context
+
 - Manejo de información sobre estanques, granjas y horarios de alimentación.
 
 ![BC5](Assets/c4/BC5.png)
@@ -1777,10 +1793,10 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
       - authenticate(): boolean – Verifica las credenciales del usuario.
       - getUserDetails(): User – Devuelve los detalles del usuario.
 - **Repository Interface**
-    - farmerRepository
-      - Interface para acceder a los datos del usuario con rol de Farmer.
-    - TechnicianRepository
-      - Interface para acceder a los datos del usuario con rol de Technician.
+  - farmerRepository
+    - Interface para acceder a los datos del usuario con rol de Farmer.
+  - TechnicianRepository
+    - Interface para acceder a los datos del usuario con rol de Technician.
 
 ##### 4.2.1.2. Interface Layer
 
@@ -1791,16 +1807,19 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 ##### 4.2.1.3. Application Layer
 
 - **Service: Login Service**
+
   - Lógica de negocio para autenticar usuarios.
   - Valida credenciales, genera y retorna tokens JWT o equivalentes.
 
 - **Service: Register Service**
+
   - Lógica de negocio para registrar nuevos usuarios (Farmer o Technician).
   - Verifica que el username no esté en uso, almacena la contraseña de forma segura (hashing), y persiste el nuevo usuario.
 
 - **Command Handlers (implícitos en los servicios)**
   - LoginCommandHandler
   - RegisterCommandHandler.
+
 ##### 4.2.1.4. Infrastructure Layer
 
 - **Repositories:**
@@ -1827,44 +1846,44 @@ https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
 
 Incluye:
 
-  - Identify and Access Controller
+- Identify and Access Controller
 
-  - Login Service
+- Login Service
 
-  - Register Service
+- Register Service
 
-  - FarmerRepository
+- FarmerRepository
 
-  - TechnicianRepository
+- TechnicianRepository
 
 Responsabilidades:
 
-  - Controller maneja los endpoints
+- Controller maneja los endpoints
 
-  - Services ejecutan lógica de negocio
+- Services ejecutan lógica de negocio
 
-  - Repositories acceden a datos
+- Repositories acceden a datos
 
 ##### 4.2.1.6. Code Level Diagrams
 
-  - Bounded Context Domain Layer Class Diagram:
+- Bounded Context Domain Layer Class Diagram:
 
-    - Clase User como entidad principal
+  - Clase User como entidad principal
 
-    - Interfaces FarmerRepository y TechnicianRepository
+  - Interfaces FarmerRepository y TechnicianRepository
 
-  - Bounded Context Database Diagram:
+- Bounded Context Database Diagram:
 
-    - Tabla users (o tablas separadas: farmers, technicians)
+  - Tabla users (o tablas separadas: farmers, technicians)
 
-      - Columnas: id, username, password, role, created_at
-
+    - Columnas: id, username, password, role, created_at
 
 #### 4.2.2. Bounded Context: \<Communication\>
 
 ##### 4.2.2.1. Domain Layer
 
 - **Entity: Report**
+
   - Propósito: Representa un reporte generado por el sistema, que puede incluir alertas o estados sobre condiciones ambientales.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -1878,6 +1897,7 @@ Responsabilidades:
       - deleteReport(): void – Elimina un reporte.
 
 - **Entity: User_Report**
+
   - Propósito: Representa la relación entre un usuario y un reporte, indicando qué reportes han sido generados o asignados a un usuario específico.
     - Atributos:
       - report_id: UUID – Identificador único del reporte.
@@ -1887,6 +1907,7 @@ Responsabilidades:
       - getUserReports(): List< Report > – Devuelve la lista de reportes asociados a un usuario.
 
 - **Entity: Notifcation**
+
   - Propósito: Representa una notificación enviada a un usuario, que puede incluir alertas o información relevante sobre el estado de los estanques.
     - Atributos:
       - id: UUID – Identificador único de la notificación.
@@ -1898,6 +1919,7 @@ Responsabilidades:
       - deleteNotification(): void – Elimina una notificación.
 
 - **Entity: User_Notification**
+
   - Propósito: Representa la relación entre un usuario y una notificación, indicando qué notificaciones han sido enviadas o asignadas a un usuario específico.
     - Atributos:
       - notification_id: UUID – Identificador único de la notificación.
@@ -1922,6 +1944,7 @@ Responsabilidades:
 ##### 4.2.2.3. Application Layer
 
 - **Service: Communication Service**
+
   - Lógica de negocio para gestionar reportes y notificaciones.
   - Permite crear, actualizar y eliminar reportes y notificaciones, así como asociarlos a usuarios.
 
@@ -1992,11 +2015,11 @@ Responsabilidades:
     - Columnas: id, title, description, pond_id
 
   - Tabla user_reports
-  
+
     - Columnas: report_id, user_id, created_at
-  
+
   - Tabla user_notifications
-  
+
     - Columnas: notification_id, user_id, created_at, is_read
 
 #### 4.2.3. Bounded Context: \<Device Management\>
@@ -2004,6 +2027,7 @@ Responsabilidades:
 ##### 4.2.3.1. Domain Layer
 
 - **Entity: Device**
+
   - Propósito: Representa un dispositivo IoT (sensor o alimentador) asociado a un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -2019,6 +2043,7 @@ Responsabilidades:
       - isRegistered(): boolean – Verifica si el dispositivo está registrado.
 
 - **Entity: Sensor**
+
   - Propósito: Representa un sensor IoT que mide parámetros ambientales en un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -2026,13 +2051,13 @@ Responsabilidades:
       - oxygen_level: Float – Nivel de oxígeno disuelto.
       - temperature: Float – Temperatura del agua.
       - ph: Float – Nivel de pH.
-      
     - Métodos:
       - createSensor(): void – Crea un nuevo sensor.
       - updateSensor(): void – Actualiza la información del sensor.
       - getSensorData(): List< Data > – Devuelve los datos históricos del sensor.
 
 - **Entity: Dispenser**
+
   - Propósito: Representa un alimentador IoT que controla la alimentación de los peces en un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -2053,6 +2078,7 @@ Responsabilidades:
       - isProgrammed(): boolean – Verifica si el dispensador está programado.
 
 - **Entity: Registered_Dispenser**
+
   - Propósito: Representa la relación entre un dispensador y un estanque, indicando qué dispensadores están registrados en el sistema.
     - Atributos:
       - dispenser_id: UUID – Identificador del dispensador asociado.
@@ -2062,6 +2088,7 @@ Responsabilidades:
       - getRegisteredDispensers(): List< Dispenser > – Devuelve la lista de dispensadores registrados en el sistema.
 
 - **Entity: Registered_Sensors**
+
   - Propósito: Representa la relación entre un sensor y un estanque, indicando qué sensores están registrados en el sistema.
     - Atributos:
       - sensor_id: UUID – Identificador del sensor asociado.
@@ -2085,14 +2112,17 @@ Responsabilidades:
 ##### 4.2.3.3. Application Layer
 
 - **Service: Sensor Service**
+
   - Lógica de negocio para gestionar sensores.
   - Permite crear, actualizar y eliminar sensores, así como asociarlos a estanques.
 
 - **Service: Configuration Service**
+
   - Lógica de negocio para gestionar dispositivos y alimentadores.
   - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
 
 - **Service: Dispenser Service**
+
   - Lógica de negocio para gestionar dispensadores.
   - Permite crear, actualizar y eliminar dispensadores, así como asociarlos a estanques.
 
@@ -2158,15 +2188,19 @@ Responsabilidades:
 - Bounded Context Database Diagram:
 
   - Tabla devices
+
     - Columnas: id, name, description, is_registered, status
 
   - Tabla sensors
+
     - Columnas: id, device_id, oxygen_level, temperature, ph
 
   - Tabla dispensers
+
     - Columnas: id, device_id, food_capacity, is_empty, is_programmed, is_working
-  
+
   - Tabla registered_sensors
+
     - Columnas: sensor_id, pond_id, created_at
 
   - Tabla registered_dispensers
@@ -2177,6 +2211,7 @@ Responsabilidades:
 ##### 4.2.4.1. Domain Layer
 
 - **Entity: Scheduled Feeding**
+
   - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -2202,6 +2237,7 @@ Responsabilidades:
 ##### 4.2.4.3. Application Layer
 
 - **Service: Feeding Schedule Service**
+
   - Lógica de negocio para gestionar horarios de alimentación.
   - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
 
@@ -2262,6 +2298,7 @@ Responsabilidades:
 ##### 4.2.5.1. Domain Layer
 
 - **Entity: Pond**
+
   - Propósito: Representa un estanque acuícola donde se cultivan peces.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -2284,8 +2321,11 @@ Responsabilidades:
       - getPondUsers(): List< User > – Devuelve la lista de usuarios asociados al estanque.
 
 - **Entity: Fish**
+
   - Propósito: Representa un pez cultivado en el estanque.
+
     - Atributos:
+
       - id: UUID – Identificador único del usuario.
       - weight: Float – Peso del pez.
       - length: Float – Longitud del pez.
@@ -2299,18 +2339,19 @@ Responsabilidades:
       - getFishDetails(): Fish – Devuelve los detalles del pez.
 
 - **Entity: Pond_Fish**
+
   - Propósito: Representa la relación entre un estanque y los peces cultivados en él.
     - Atributos:
       - pond_id: UUID – Identificador del estanque asociado.
       - fish_id: UUID – Identificador del pez asociado.
       - created_at: Date – Fecha de creación del registro.
       - updated_at: Date – Fecha de la última actualización del registro.
-      
     - Métodos:
       - getPondFish(): List< Fish > – Devuelve la lista de peces asociados a un estanque.
       - getFishPonds(): List< Pond > – Devuelve la lista de estanques asociados a un pez.
 
 - **Entity: Meal**
+
   - Propósito: Representa una comida para los peces en un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
@@ -2325,6 +2366,7 @@ Responsabilidades:
       - removeIngredient(): void – Elimina un ingrediente de la comida.
 
 - **Entity: Meal_Ingredient**
+
   - Propósito: Representa la relación entre una comida y sus ingredientes.
     - Atributos:
       - meal_id: UUID – Identificador de la comida asociada.
@@ -2335,6 +2377,7 @@ Responsabilidades:
       - getIngredientMeals(): List< Meal > – Devuelve la lista de comidas asociadas a un ingrediente.
 
 - **Entity: Ingredient**
+
   - Propósito: Representa un ingrediente utilizado en la comida de los peces.
     - Atributos:
       - id: UUID – Identificador único del ingrediente.
@@ -2360,7 +2403,6 @@ Responsabilidades:
       - deleteMealSchedule(): void – Elimina un horario de alimentación.
       - getMealScheduleDetails(): MealSchedule – Devuelve los detalles del horario de alimentación.
       - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
-    
 - **Repository Interface**
   - PondRepository
     - Interface para acceder a los datos de los estanques.
@@ -2378,14 +2420,17 @@ Responsabilidades:
 ##### 4.2.3.3. Application Layer
 
 - **Service: Meals Service**
+
   - Lógica de negocio para gestionar comidas.
   - Permite crear, actualizar y eliminar comidas, así como asociarlas a estanques.
 
 - **Service: Schedule Service**
+
   - Lógica de negocio para gestionar dispositivos y alimentadores.
   - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
 
 - **Service: Feeding Data Service**
+
   - Lógica de negocio para gestionar horarios de alimentación.
   - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
 
@@ -2407,7 +2452,7 @@ Responsabilidades:
     - Implementa el acceso a la tabla de fish en la base de datos PostgreSQL.
 
   - MealRepositoryImpl
-  
+
     - Implementa el acceso a la tabla de meals en la base de datos PostgreSQL.
 
 - **Tecnología:**
@@ -2453,29 +2498,33 @@ Responsabilidades:
   - Interfaces PondRepository, FishRepository y MealRepository
 
   - Clase Pond_Fish y Meal_Ingredient como entidades de relación
-  
+
   - Clase Meal_Schedule como entidad de programación
 
 - Bounded Context Database Diagram:
 
-    - Tabla ponds
-        - Columnas: id, ubication, name, created_at, updated_at, schdule_feeding_id, user_id
-    
-    - Tabla fish
-        - Columnas: id, weight, length, fish_type, age
-    
-    - Tabla meals
-        - Columnas: id, name, description
-    
-    - Tabla meal_schedule
-        - Columnas: id, meal_id, hour, day, amount
-    
-    - Tabla pond_fish
-        - Columnas: pond_id, fish_id, created_at, updated_at
-    
-    - Tabla meal_ingredient
-        - Columnas: meal_id, ingredient_id, amount
+  - Tabla ponds
 
+    - Columnas: id, ubication, name, created_at, updated_at, schdule_feeding_id, user_id
+
+  - Tabla fish
+
+    - Columnas: id, weight, length, fish_type, age
+
+  - Tabla meals
+
+    - Columnas: id, name, description
+
+  - Tabla meal_schedule
+
+    - Columnas: id, meal_id, hour, day, amount
+
+  - Tabla pond_fish
+
+    - Columnas: pond_id, fish_id, created_at, updated_at
+
+  - Tabla meal_ingredient
+    - Columnas: meal_id, ingredient_id, amount
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
@@ -2601,89 +2650,93 @@ En este sección, se presentará un mock-up de la landing page, que incluirá un
 <img src="Assets\Landing page.png">
 
 ### 5.4. Applications UX/UI Design.
+
 Esta sección presenta la propuesta visual y de interacción de la aplicación FeedGuard, diseñada para piscicultores rurales y técnicos. Se aplicaron principios de diseño inclusivo, jerarquías claras, navegación intuitiva y consistencia visual, alineados con el design system definido en la sección 5.1.
 
 #### 5.4.1. Applications Wireframes.
+
 Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se detallan las vistas clave para los dos perfiles de usuario:
 
 - Dashboard principal: Muestra KPIs críticos (oxígeno, temperatura, pH) con íconos accesibles y etiquetas claras.
-<br>
+  <br>
 
 ![Dashboard](image.png)
- - Configuración de estanques: Incluye campos con placeholders descriptivos y validación en tiempo real.
 
- ![alt text](image-1.png)
+- Configuración de estanques: Incluye campos con placeholders descriptivos y validación en tiempo real.
 
- - Alerta de parámetros fuera de rango: Diseñada con jerarquía visual clara (color de alerta, ícono y texto).
+![alt text](image-1.png)
 
- ![alt text](image-3.png)
+- Alerta de parámetros fuera de rango: Diseñada con jerarquía visual clara (color de alerta, ícono y texto).
+
+![alt text](image-3.png)
 
 Todos los wireframes priorizan legibilidad, accesibilidad táctil y flujo lógico de navegación. El diseño inclusivo fue garantizado con contraste suficiente, etiquetas textuales e iconografía lineal.
 
 #### 5.4.2. Applications Wireflow Diagrams.
+
 Se elaboraron wireflows considerando los principales objetivos de los User Personas.
 
 Wireflow 1: Juan Pérez – Activación de alerta y respuesta
 
- - User goal: Responder ante una caída de oxígeno detectada.
+- User goal: Responder ante una caída de oxígeno detectada.
 
- - Flujo: Login → Dashboard → Alerta emergente → Vista de detalles → Recomendación automática → Confirmación de acción
+- Flujo: Login → Dashboard → Alerta emergente → Vista de detalles → Recomendación automática → Confirmación de acción
 
-Wireflow 2: 
- - User goal:
+Wireflow 2:
+
+- User goal:
 
 #### 5.4.3. Applications Mock-ups.
+
 Los mock-ups de FeedGuard fueron desarrollados en Figma, incorporando los colores (#377BFF, #2C2F33), tipografía Sora y botones con estados hover y disabled. Se utilizaron íconos lineales y espaciados generosos para asegurar una interfaz amigable.
 
- - Pantalla de monitoreo: KPIs con indicadores visuales y umbrales definidos por usuario.
+- Pantalla de monitoreo: KPIs con indicadores visuales y umbrales definidos por usuario.
 
- - Pantalla de configuración: Flujo dividido por pasos, con validaciones inline.
+- Pantalla de configuración: Flujo dividido por pasos, con validaciones inline.
 
- - Pantalla de recomendaciones: Gráficos y sugerencias automatizadas con opción de confirmación manual.
+- Pantalla de recomendaciones: Gráficos y sugerencias automatizadas con opción de confirmación manual.
 
 El diseño sigue una arquitectura de información basada en jerarquías y agrupamiento lógico, con etiquetas claras en todas las secciones.
 
-
-
 #### 5.4.4. Applications User Flow Diagrams.
+
 > Enunciado: Esta sección presenta la propuesta de User Flows. Debe considerarse un User Flow
-para cada User goal, considerando los User Persona para cada aplicación que forma
-parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
-cuales se derivan. Debe recordarse que en el User Flow se incluyen los Mock-ups de
-las vistas o pantallas de las aplicaciones, junto con los flujos que constituyen la ruta
-esperada (happy path) y las rutas alternativas (unhappy paths). Utilizar para los User
-Flows las herramientas indicadas. Cada User Flow diagram requiere que se redacte el
-User goal y se complemente con una explicación de los flujos y condiciones
-especificados.
+> para cada User goal, considerando los User Persona para cada aplicación que forma
+> parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
+> cuales se derivan. Debe recordarse que en el User Flow se incluyen los Mock-ups de
+> las vistas o pantallas de las aplicaciones, junto con los flujos que constituyen la ruta
+> esperada (happy path) y las rutas alternativas (unhappy paths). Utilizar para los User
+> Flows las herramientas indicadas. Cada User Flow diagram requiere que se redacte el
+> User goal y se complemente con una explicación de los flujos y condiciones
+> especificados.
 
 Los user flows se derivan de los wireflows y modelan rutas completas, incluyendo paths felices y alternativos.
 
- - User Flow 1: Juan Pérez – Monitoreo y respuesta a eventos
+- User Flow 1: Juan Pérez – Monitoreo y respuesta a eventos
 
- - Flujo: Inicio → Dashboard → Alerta → Confirmación de acción → Retorno a dashboard
+- Flujo: Inicio → Dashboard → Alerta → Confirmación de acción → Retorno a dashboard
 
 Unhappy path: Usuario no reconoce la alerta → Sistema reenvía notificación → Usuario accede desde histórico
 
- - User Flow 2: Bryan Díaz – Automatización de alimentación
+- User Flow 2: Bryan Díaz – Automatización de alimentación
 
- - Flujo: Inicio → Dashboard → Historial de parámetros → Activar algoritmo de recomendación → Confirmación
+- Flujo: Inicio → Dashboard → Historial de parámetros → Activar algoritmo de recomendación → Confirmación
 
 Unhappy path: Usuario rechaza recomendación → Reconfigura parámetros manualmente
 
 Estos flujos incorporan los mock-ups reales y representan la arquitectura de interacción esperada para cada tipo de usuario.
 
-
-
 ### 5.5. Applications Prototyping.
+
 > Enunciado: Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
-simulación de interacción y navegación, acorde con la propuesta de paths de User
-Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
-principales criterios para las decisiones de interacción. Es importante evidenciar la
-relación con las decisiones de arquitectura de información, en particular sobre el
-sistema de navegación y los tipos de interacciones seleccionadas. Para cada caso
-debe incluirse 1 screenshot de video y un enlace a un video subido a Microsoft
-Stream para cada aplicación, en el que se demuestre y explique los principales flujos
-de interacción que cubren los prototipos.
+> simulación de interacción y navegación, acorde con la propuesta de paths de User
+> Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
+> principales criterios para las decisiones de interacción. Es importante evidenciar la
+> relación con las decisiones de arquitectura de información, en particular sobre el
+> sistema de navegación y los tipos de interacciones seleccionadas. Para cada caso
+> debe incluirse 1 screenshot de video y un enlace a un video subido a Microsoft
+> Stream para cada aplicación, en el que se demuestre y explique los principales flujos
+> de interacción que cubren los prototipos.
 
 Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y Mobile Web. Se desarrollaron simulaciones de navegación en Figma, alineadas con los User Flows definidos previamente. Los prototipos permiten validar la experiencia del usuario y simular las interacciones clave desde la perspectiva de cada User Persona.
 
@@ -2709,11 +2762,12 @@ Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y M
 
 #### 🎯 Prototipos presentados
 
-- 📱 *Juan Pérez* – Usuario tradicional
+- 📱 _Juan Pérez_ – Usuario tradicional
+
   - Flujo: Respuesta ante alerta por caída de oxígeno.
   - Interacción: Recibe alerta → visualiza parámetros → toma acción → confirma respuesta.
 
-- 📲 *Bryan Díaz* – Usuario técnico
+- 📲 _Bryan Díaz_ – Usuario técnico
   - Flujo: Automatización de alimentación basada en datos históricos.
   - Interacción: Consulta gráficos → recibe recomendación → activa modo automático.
 
@@ -2724,7 +2778,7 @@ Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y M
 
 #### 🎥 Enlaces a videos en Microsoft Stream
 
-- [Video Prototipo – Juan Pérez](https://upcedupe-my.sharepoint.com/...)  
+- [Video Prototipo – Juan Pérez](https://upcedupe-my.sharepoint.com/...)
 - [Video Prototipo – Bryan Díaz](https://upcedupe-my.sharepoint.com/...)
 
 ---
@@ -2918,6 +2972,7 @@ Adicionalmente, el frontend principal de la aplicación será desplegado utiliza
 
 Para este primer sprint nos enfocaremos en los tasks para la
 elaboración del Landing Page y la primera version del Frontend. Nos dividiremos entre nosotros cada una de las tareas identificadas para el sprint.
+
 <table>
 <tr>
     <th colspan="5">Sprint #</th>
@@ -2973,8 +3028,6 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 </table>
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators.
-
-
 
 ##### 6.2.1.3. Sprint Backlog 1.
 
@@ -3092,6 +3145,7 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 ##### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 ## Conclusiones
+
 #### Conclusiones y recomendaciones.
 
 El desarrollo del proyecto FeedGuard permitió al equipo aplicar metodologías ágiles y enfoques modernos de ingeniería de software para resolver una problemática real en el sector acuícola. La integración de tecnologías IoT, automatización y monitoreo en tiempo real demostró ser una solución viable para optimizar la alimentación y el control ambiental en piscigranjas semiindustriales. El trabajo colaborativo, la comunicación constante y la asignación clara de roles fueron factores clave para cumplir los objetivos del sprint y entregar una primera versión funcional de la landing page y el frontend. Además, la validación temprana con usuarios y la iteración continua permitieron ajustar la solución a las necesidades reales del usuario final.
