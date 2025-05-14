@@ -2895,8 +2895,8 @@ Esta sección presenta los prototipos interactivos de FeedGuard para Desktop y M
 
 #### 🎥 Enlaces a videos en Microsoft Stream
 
-- [Video Prototipo – Juan Pérez](https://upcedupe-my.sharepoint.com/...)
-- [Video Prototipo – Bryan Díaz](https://upcedupe-my.sharepoint.com/...)
+- [Video Prototipo Web App](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121584_upc_edu_pe/EYZCPCBjJ5pLgf4Yd8sM7_cBeQWAcLo3MfE3LKYbM56DCA?e=nBIjdI)
+- [Video Prototipo Mobile App](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121584_upc_edu_pe/EQwtQx4QbMNKndph1RVMl5EB-Sx3kdUdynNlafJVBOFtvw?e=2atLbC&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJjOTc1MjUyMC0yZmY4LTQ0NDgtYjk4ZC0wNmZjYmI4Y2Y0YWIifX0%3D)
 
 ---
 
