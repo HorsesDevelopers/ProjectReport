@@ -197,38 +197,67 @@
       - [Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)](#impact-mapping--bryan-díaz-piscicultor-técnico-innovador)
     - [3.4. Product Backlog](#34-product-backlog)
   - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-      - [4.1.1. EventStorming](#411-eventstorming)
-        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-      - [Monitoring Context](#monitoring-context)
-      - [Alerting Context](#alerting-context)
-      - [Feeding Context](#feeding-context)
-      - [Farm Management Context](#farm-management-context)
-      - [User Interface Context](#user-interface-context)
-      - [4.1.2. Context Mapping](#412-context-mapping)
-      - [4.1.3. Software Architecture](#413-software-architecture)
-        - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
-        - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
-        - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
-        - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
-  - [Alerting Bounded Context](#alerting-bounded-context)
-  - [Farm Management Bounded Context](#farm-management-bounded-context)
-  - [Feeding Bounded Context](#feeding-bounded-context)
-  - [Monitoring Bounded Context](#monitoring-bounded-context)
-  - [User Interface Bounded Context](#user-interface-bounded-context)
-    - [link de structurizr](#link-de-structurizr)
+    - [4.1. Strategic-Level Domain-Driven Design.](#41-strategic-level-domain-driven-design)
+      - [4.1.1. EventStorming.](#411-eventstorming)
+        - [4.1.1.1. Candidate Context Discovery.](#4111-candidate-context-discovery)
+        - [4.1.1.2. Domain Message Flows Modeling.](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases.](#4113-bounded-context-canvases)
+      - [4.1.2. Context Mapping.](#412-context-mapping)
+      - [4.1.3. Software Architecture.](#413-software-architecture)
+        - [4.1.3.1. Software Architecture System Landscape Diagram.](#4131-software-architecture-system-landscape-diagram)
+        - [4.1.3.2. Software Architecture Context Level Diagrams.](#4132-software-architecture-context-level-diagrams)
+        - [4.1.3.3. Software Architecture Container Level Diagrams.](#4133-software-architecture-container-level-diagrams)
+        - [4.1.3.4. Software Architecture Deployment Diagrams.](#4134-software-architecture-deployment-diagrams)
     - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-      - [4.2.X. Bounded Context: \<Bounded Context Name\>](#42x-bounded-context-bounded-context-name)
-        - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-        - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-        - [4.2.X.3. Application Layer](#42x3-application-layer)
-        - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-        - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
-        - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
-          - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
-          - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
+      - [4.2.1. Bounded Context: &lt;Bounded Context Name&gt;](#42x-bounded-context-bounded-context-name)
+        - [4.2.1.1. Domain Layer.](#42x1-domain-layer)
+        - [4.2.1.2. Interface Layer.](#42x2-interface-layer)
+        - [4.2.1.3. Application Layer.](#42x3-application-layer)
+        - [4.2.1.4. Infrastructure Layer.](#42x4-infrastructure-layer)
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.](#42x5-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.](#42x6-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.](#42x61-bounded-context-domain-layer-class-diagrams)
+          - [4.2.1.6.2. Bounded Context Database Design Diagram.](#42x62-bounded-context-database-design-diagram)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [5.1. Style Guidelines.](#51-style-guidelines)
+      - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+      - [5.1.2. Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+    - [5.2. Information Architecture.](#52-information-architecture)
+      - [5.2.1. Organization Systems.](#521-organization-systems)
+      - [5.2.2. Labeling Systems.](#522-labeling-systems)
+      - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+      - [5.2.4. Searching Systems.](#524-searching-systems)
+      - [5.2.5. Navigation Systems.](#525-navigation-systems)
+    - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
+      - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+      - [5.3.2. Landing Page Mock-up.](#532-landing-page-mock-up)
+    - [5.4. Applications UX/UI Design.](#54-applications-uxui-design)
+      - [5.4.1. Applications Wireframes.](#541-applications-wireframes)
+      - [5.4.2. Applications Wireflow Diagrams.](#542-applications-wireflow-diagrams)
+      - [5.4.2. Applications Mock-ups.](#542-applications-mock-ups)
+      - [5.4.3. Applications User Flow Diagrams.](#543-applications-user-flow-diagrams)
+    - [5.5. Applications Prototyping.](#55-applications-prototyping)
+  - [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [6.1. Software Configuration Management.](#61-software-configuration-management)
+      - [6.1.1. Software Development Environment Configuration.](#611-software-development-environment-configuration)
+      - [6.1.2. Source Code Management.](#612-source-code-management)
+      - [6.1.3. Source Code Style Guide & Conventions.](#613-source-code-style-guide--conventions)
+      - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
+    - [6.2. Landing Page, Services & Applications Implementation.](#62-landing-page-services--applications-implementation)
+      - [6.2.1. Sprint 1](#62x-sprint-n)
+        - [6.2.1.1. Sprint Planning 1.](#62x1-sprint-planning-n)
+        - [6.2.1.2. Aspect Leaders and Collaborators.](#62x2-aspect-leaders-and-collaborators)
+        - [6.2.1.3. Sprint Backlog 1.](#62x3-sprint-backlog-n)
+        - [6.2.1.4. Development Evidence for Sprint Review.](#62x4-development-evidence-for-sprint-review)
+        - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#62x5-testing-suite-evidence-for-sprint-review)
+        - [6.2.1.6. Execution Evidence for Sprint Review.](#62x6-execution-evidence-for-sprint-review)
+        - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#62x7-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#62x8-software-deployment-evidence-for-sprint-review)
+        - [6.2.1.9. Team Collaboration Insights during Sprint.](#62x9-team-collaboration-insights-during-sprint)
+  - [Conclusiones](#conclusiones)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ---
 
@@ -254,11 +283,10 @@
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
     <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
-    <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
+    <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, user stories</i><br>
+    <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br><br>
     Martel Zevallos, Gabriel<br>
-    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
-    MartelZevallos, Gabriel Aristoteles<br>
-    <i>TB1</i><br>
+    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br><br>
     Rivas Sarango, David Alejandro<br>
     <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.  Nos comunicamos eficientemte al comunicar nuestras ideas para el diseño de las entrevistas y así identificarlas falencias actuales que poseen los piscicultores.</i><br></i><br>
     </td>
@@ -277,6 +305,7 @@
     <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
+    <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br><br>
     Martel Zevallos, Gabriel<br>
     <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
     MartelZevallos, Gabriel Aristoteles<br>
@@ -1453,38 +1482,38 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
   </tr>
   <tr>
     <td>1</td>
-    <td>HU1</td>
-    <td>Visualización de Servicios Destacados</td>
-    <td>Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.</td>
+    <td>HU09</td>
+    <td>Visualización de Parámetros en Tiempo Real</td>
+    <td>Como piscicultor, quiero ver los valores actuales de oxígeno disuelto, temperatura y pH para cada uno de mis estanques en un panel principal para tener una visión general rápida de las condiciones.</td>
     <td>3</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>HU2</td>
-    <td>Testimonios de Usuarios Satisfechos</td>
-    <td>Como piscicultor, quiero leer testimonios de otros usuarios satisfechos en la landing page para sentirme más confiado al considerar la solución, lo que me ayudará a tomar una decisión informada.</td>
-    <td>2</td>
+    <td>HU11</td>
+    <td>Alertas por Parámetros Fuera de Rango</td>
+    <td>Como usuario, quiero definir rangos óptimos para cada parámetro ambiental por especie de pez y recibir una notificación si alguno de los valores se sale de ese rango para poder tomar medidas correctivas.</td>
+    <td>3</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>HU3</td>
-    <td>Acceso Rápido a Funcionalidades Clave</td>
-    <td>Como piscicultor, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.</td>
-    <td>2</td>
+    <td>HU12</td>
+    <td>Recomendaciones de Alimentación Basadas en Tendencias Históricas</td>
+    <td>Como piscicultor quiero recibir recomendaciones automáticas de dosificación de alimento basadas en el análisis de datos históricos de crecimiento y consumo para optimizar la alimentación y maximizar la tasa de conversión alimenticia.</td>
+    <td>5</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>HU4</td>
-    <td>Información Clara y Concisa sobre FeedGuard</td>
-    <td>Como piscicultor, quiero encontrar una descripción clara y concisa de FeedGuard en la landing page para entender de qué se trata la solución sin complicaciones.</td>
-    <td>2</td>
+    <td>HU08</td>
+    <td>Vinculación de Dispositivos IoT</td>
+    <td>Como técnico, quiero vincular cada sensor y alimentador IoT específico a un estanque dentro de la plataforma para que los datos y las acciones se asocien correctamente.</td>
+    <td>3</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>HU5</td>
-    <td>Diseño Atractivo y Responsivo</td>
-    <td>Como piscicultor, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
-    <td>3</td>
+    <td>HU07</td>
+    <td>Configuración Inicial de la Granja</td>
+    <td>Como técnico de campo, quiero configurar los detalles de mi granja, incluyendo el nombre, ubicación y número de estanques para poder organizar mis dispositivos y datos.</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>6</td>
@@ -1495,107 +1524,107 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
   </tr>
   <tr>
     <td>7</td>
-    <td>HU07</td>
-    <td>Configuración Inicial de la Granja</td>
-    <td>Como técnico de campo, quiero configurar los detalles de mi granja, incluyendo el nombre, ubicación y número de estanques para poder organizar mis dispositivos y datos.</td>
-    <td>2</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>HU08</td>
-    <td>Vinculación de Dispositivos IoT</td>
-    <td>Como técnico, quiero vincular cada sensor y alimentador IoT específico a un estanque dentro de la plataforma para que los datos y las acciones se asocien correctamente.</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>HU09</td>
-    <td>Visualización de Parámetros en Tiempo Real</td>
-    <td>Como piscicultor, quiero ver los valores actuales de oxígeno disuelto, temperatura y pH para cada uno de mis estanques en un panel principal para tener una visión general rápida de las condiciones.</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>10</td>
     <td>HU10</td>
     <td>Gráficos Históricos de Parámetros Ambientales</td>
     <td>Como técnico, quiero visualizar gráficos históricos de los parámetros ambientales durante las últimas 24 horas para identificar fluctuaciones o tendencias inusuales.</td>
     <td>3</td>
   </tr>
   <tr>
-    <td>11</td>
-    <td>HU11</td>
-    <td>Alertas por Parámetros Fuera de Rango</td>
-    <td>Como usuario, quiero definir rangos óptimos para cada parámetro ambiental por especie de pez y recibir una notificación si alguno de los valores se sale de ese rango para poder tomar medidas correctivas.</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>HU12</td>
-    <td>Recomendaciones de Alimentación Basadas en Tendencias Históricas</td>
-    <td>Como piscicultor quiero recibir recomendaciones automáticas de dosificación de alimento basadas en el análisis de datos históricos de crecimiento y consumo para optimizar la alimentación y maximizar la tasa de conversión alimenticia.</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>13</td>
+    <td>8</td>
     <td>HU13</td>
     <td>Mantenimiento Predictivo de Equipos IoT</td>
     <td>Como técnico de campo quiero recibir alertas tempranas de posibles fallos o calibraciones necesarias en sensores y alimentadores para programar mantenimiento antes de que ocurra una interrupción.</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>14</td>
-    <td>HU14</td>
-    <td>Gestión Avanzada de Roles y Permisos</td>
-    <td>Como administrador de FeedGuard quiero asignar distintos roles (piscicultor, técnico, auditor) con permisos específicos sobre módulos de la plataforma para controlar el acceso y asegurar la integridad de los datos.</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>HU15</td>
-    <td>Exportación de Reportes para Análisis Externo</td>
-    <td>Como piscicultor o técnico quiero exportar mis datos de parámetros y alimentación en formatos CSV o PDF para analizarlos con herramientas externas o compartirlos con consultores.</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>16</td>
+    <td>9</td>
     <td>HU16</td>
     <td>Configuración de Alertas por Tendencias y Predicciones</td>
     <td>Como piscicultor semiindustrial quiero definir alertas no solo por umbrales puntuales, sino también por cambios porcentuales y predicciones de riesgo para anticiparme a variaciones críticas en la calidad del agua.</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>17</td>
+    <td>10</td>
     <td>HU17</td>
     <td>Dashboard de Indicadores Clave</td>
     <td>Como piscicultor quiero acceder a un dashboard con KPIs críticos (tasa de conversión alimenticia, mortalidad, consumo diario) para monitorizar rápidamente la salud y productividad de mis estanques.</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>18</td>
+    <td>11</td>
     <td>HU18</td>
     <td>Visualización de Anomalías Detectadas</td>
     <td>Como piscicultor quiero ver en el dashboard las anomalías detectadas (picos de amonio, caídas de oxígeno) resaltadas para actuar de inmediato.</td>
     <td>3</td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>12</td>
     <td>HU19</td>
     <td>Comparación de Rendimiento entre Estanques</td>
     <td>Como field technician quiero comparar métricas de dos o más estanques en un mismo gráfico para identificar cuáles requieren ajustes.</td>
     <td>3</td>
   </tr>
   <tr>
-    <td>20</td>
+    <td>13</td>
     <td>HU20</td>
     <td>Comparación Histórica Año a Año</td>
     <td>Como piscicultor quiero comparar datos anuales de los mismos períodos de años anteriores para evaluar el crecimiento interanual y tomar decisiones estratégicas.</td>
     <td>3</td>
   </tr>
   <tr>
-    <td>21</td>
+    <td>14</td>
     <td>HU21</td>
     <td>Configuración de Umbrales para KPIs Personalizados</td>
     <td>Como técnico de campo quiero poder definir umbrales personalizados para cualquier KPI del dashboard para adaptar el monitoreo a condiciones específicas de mi cultivo.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>HU14</td>
+    <td>Gestión Avanzada de Roles y Permisos</td>
+    <td>Como administrador de FeedGuard quiero asignar distintos roles (piscicultor, técnico, auditor) con permisos específicos sobre módulos de la plataforma para controlar el acceso y asegurar la integridad de los datos.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>HU15</td>
+    <td>Exportación de Reportes para Análisis Externo</td>
+    <td>Como piscicultor o técnico quiero exportar mis datos de parámetros y alimentación en formatos CSV o PDF para analizarlos con herramientas externas o compartirlos con consultores.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>HU1</td>
+    <td>Visualización de Servicios Destacados</td>
+    <td>Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>HU2</td>
+    <td>Testimonios de Usuarios Satisfechos</td>
+    <td>Como piscicultor, quiero leer testimonios de otros usuarios satisfechos en la landing page para sentirme más confiado al considerar la solución, lo que me ayudará a tomar una decisión informada.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>HU3</td>
+    <td>Acceso Rápido a Funcionalidades Clave</td>
+    <td>Como piscicultor, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>HU4</td>
+    <td>Información Clara y Concisa sobre FeedGuard</td>
+    <td>Como piscicultor, quiero encontrar una descripción clara y concisa de FeedGuard en la landing page para entender de qué se trata la solución sin complicaciones.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>HU5</td>
+    <td>Diseño Atractivo y Responsivo</td>
+    <td>Como piscicultor, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
     <td>3</td>
   </tr>
 </table>
