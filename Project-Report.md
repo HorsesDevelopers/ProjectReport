@@ -2884,16 +2884,6 @@ El diseño sigue una arquitectura de información basada en jerarquías y agrupa
 
 #### 5.4.4. Applications User Flow Diagrams.
 
-> Enunciado: Esta sección presenta la propuesta de User Flows. Debe considerarse un User Flow
-> para cada User goal, considerando los User Persona para cada aplicación que forma
-> parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
-> cuales se derivan. Debe recordarse que en el User Flow se incluyen los Mock-ups de
-> las vistas o pantallas de las aplicaciones, junto con los flujos que constituyen la ruta
-> esperada (happy path) y las rutas alternativas (unhappy paths). Utilizar para los User
-> Flows las herramientas indicadas. Cada User Flow diagram requiere que se redacte el
-> User goal y se complemente con una explicación de los flujos y condiciones
-> especificados.
-
 Los user flows se derivan de los wireflows y modelan rutas completas, incluyendo paths felices y alternativos.
 
 **User Flow 1: Monitoreo y respuesta a eventos**
