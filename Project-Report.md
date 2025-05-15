@@ -130,176 +130,176 @@
 
 ### Tabla de contenidos
 
-  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [Contenido](#contenido)
-    - [Tabla de contenidos](#tabla-de-contenidos)
-  - [Student Outcome](#student-outcome)
-  - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [The 5 W’s and 2 H’s](#the-5-ws-and-2-hs)
-    - [Descripción de la problemática](#descripción-de-la-problemática)
-      - [1.2.2. Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [🎯 Objetivo de la entrevista](#-objetivo-de-la-entrevista)
-    - [📋 Guía de preguntas](#-guía-de-preguntas)
-      - [1. Datos personales y productivos](#1-datos-personales-y-productivos)
-      - [2. Proceso de alimentación actual](#2-proceso-de-alimentación-actual)
-      - [3. Monitoreo ambiental y toma de decisiones](#3-monitoreo-ambiental-y-toma-de-decisiones)
-      - [4. Tecnología, percepción y adopción](#4-tecnología-percepción-y-adopción)
-    - [📝 Datos complementarios a recolectar](#-datos-complementarios-a-recolectar)
-      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-      - [2.3.1. User Personas](#231-user-personas)
-      - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [To-Be Scenario Mapping – Juan Pérez](#to-be-scenario-mapping--juan-pérez)
-    - [To-Be Scenario Mapping – Bryan Díaz](#to-be-scenario-mapping--bryan-díaz)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-      - [Impact Mapping – Juan Pérez (Piscicultor rural, tradicional)](#impact-mapping--juan-pérez-piscicultor-rural-tradicional)
-      - [Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)](#impact-mapping--bryan-díaz-piscicultor-técnico-innovador)
-    - [3.4. Product Backlog](#34-product-backlog)
-  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-      - [4.1.1. EventStorming](#411-eventstorming)
-        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [Unstructured Exploration](#unstructured-exploration)
-      - [Timelines](#timelines)
-      - [BC-IAM](#bc-iam)
-      - [BC-Schedule Planning](#bc-schedule-planning)
-      - [BC-Feeding](#bc-feeding)
-      - [BC-Device Managment](#bc-device-managment)
-      - [BC-Communication](#bc-communication)
-        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-      - [BC Canvas-IAM](#bc-canvas-iam)
-      - [BC Canvas-Schedule Planning](#bc-canvas-schedule-planning)
-      - [BC Canvas-Feeding](#bc-canvas-feeding)
-      - [BC Canvas-Device Managment](#bc-canvas-device-managment)
-      - [BC Canvas-Communication](#bc-canvas-communication)
-      - [4.1.2. Context Mapping](#412-context-mapping)
-      - [4.1.3. Software Architecture](#413-software-architecture)
-        - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
-        - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
-        - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
-        - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
-  - [Identify and access Bounded Context](#identify-and-access-bounded-context)
-  - [Communication Bounded Context](#communication-bounded-context)
-  - [Device Management Bounded Context](#device-management-bounded-context)
-  - [Feeding Bounded Context](#feeding-bounded-context)
-  - [Schedule Management Bounded Context](#schedule-management-bounded-context)
-    - [link de structurizr](#link-de-structurizr)
-    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-      - [4.2.1. Bounded Context: \<Access and Identify\>](#421-bounded-context-access-and-identify)
-        - [4.2.1.1. Domain Layer](#4211-domain-layer)
-        - [4.2.1.2. Interface Layer](#4212-interface-layer)
-        - [4.2.1.3. Application Layer](#4213-application-layer)
-        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-        - [4.2.1.5. Component Level Diagrams](#4215-component-level-diagrams)
-        - [4.2.1.6. Code Level Diagrams](#4216-code-level-diagrams)
-      - [4.2.2. Bounded Context: \<Communication\>](#422-bounded-context-communication)
-        - [4.2.2.1. Domain Layer](#4221-domain-layer)
-        - [4.2.2.2. Interface Layer](#4222-interface-layer)
-        - [4.2.2.3. Application Layer](#4223-application-layer)
-        - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
-        - [4.2.2.5. Component Level Diagrams](#4225-component-level-diagrams)
-        - [4.2.2.6. Code Level Diagrams](#4226-code-level-diagrams)
-      - [4.2.3. Bounded Context: \<Device Management\>](#423-bounded-context-device-management)
-        - [4.2.3.1. Domain Layer](#4231-domain-layer)
-        - [4.2.3.2. Interface Layer](#4232-interface-layer)
-        - [4.2.3.3. Application Layer](#4233-application-layer)
-        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
-        - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams)
-        - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams)
-      - [4.2.4. Bounded Context: \<Feeding Management\>](#424-bounded-context-feeding-management)
-        - [4.2.4.1. Domain Layer](#4241-domain-layer)
-        - [4.2.4.2. Interface Layer](#4242-interface-layer)
-        - [4.2.4.3. Application Layer](#4243-application-layer)
-        - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
-        - [4.2.4.5. Component Level Diagrams](#4245-component-level-diagrams)
-        - [4.2.4.6. Code Level Diagrams](#4246-code-level-diagrams)
-      - [4.2.5. Bounded Context: \<Schedule Management\>](#425-bounded-context-schedule-management)
-        - [4.2.5.1. Domain Layer](#4251-domain-layer)
-        - [4.2.3.2. Interface Layer](#4232-interface-layer-1)
-        - [4.2.3.3. Application Layer](#4233-application-layer-1)
-        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer-1)
-        - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams-1)
-        - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams-1)
-          - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
-          - [4.3.2 Database Design Diagram](#432-database-design-diagram)
-  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-    - [5.1. Style Guidelines.](#51-style-guidelines)
-      - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
-      - [5.1.2. Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
-    - [5.2. Information Architecture.](#52-information-architecture)
-      - [5.2.1. Organization Systems.](#521-organization-systems)
-      - [5.2.2. Labeling Systems.](#522-labeling-systems)
-      - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-      - [5.2.4. Searching Systems.](#524-searching-systems)
-      - [5.2.5. Navigation Systems.](#525-navigation-systems)
-    - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
-      - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
-      - [5.3.2. Landing Page Mock-up.](#532-landing-page-mock-up)
-    - [5.4. Applications UX/UI Design.](#54-applications-uxui-design)
-      - [5.4.1. Applications Wireframes.](#541-applications-wireframes)
-      - [5.4.2. Applications Wireflow Diagrams.](#542-applications-wireflow-diagrams)
-      - [5.4.3. Applications Mock-ups.](#543-applications-mock-ups)
-      - [5.4.4. Applications User Flow Diagrams.](#544-applications-user-flow-diagrams)
-    - [5.5. Applications Prototyping.](#55-applications-prototyping)
-      - [🧭 Criterios para las decisiones de interacción](#-criterios-para-las-decisiones-de-interacción)
-      - [🗂️ Sistema de navegación](#️-sistema-de-navegación)
-      - [🔁 Tipos de interacciones seleccionadas](#-tipos-de-interacciones-seleccionadas)
-      - [🎯 Prototipos presentados](#-prototipos-presentados)
-      - [🎥 Enlaces a videos en Microsoft Stream](#-enlaces-a-videos-en-microsoft-stream)
-  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
-    - [6.1. Software Configuration Management.](#61-software-configuration-management)
-      - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-      - [6.1.2. Source Code Management.](#612-source-code-management)
-    - [Semantic Versioning 2.0.0](#semantic-versioning-200)
-    - [Conventional Commits](#conventional-commits)
-      - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [TypeScript con Angular](#typescript-con-angular)
-    - [Java con Spring Boot](#java-con-spring-boot)
-    - [Flutter con Dart](#flutter-con-dart)
-      - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
-    - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
-      - [6.2.1. Sprint 1](#621-sprint-1)
-        - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
-        - [6.2.1.2. Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
-        - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
-        - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
-        - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
-        - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
-        - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
-        - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
-        - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
-  - [Conclusiones](#conclusiones)
-      - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-    - [Bibliografía](#bibliografía)
-  - [Anexos](#anexos)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [The 5 W’s and 2 H’s](#the-5-ws-and-2-hs)
+  - [Descripción de la problemática](#descripción-de-la-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [🎯 Objetivo de la entrevista](#-objetivo-de-la-entrevista)
+  - [📋 Guía de preguntas](#-guía-de-preguntas)
+    - [1. Datos personales y productivos](#1-datos-personales-y-productivos)
+    - [2. Proceso de alimentación actual](#2-proceso-de-alimentación-actual)
+    - [3. Monitoreo ambiental y toma de decisiones](#3-monitoreo-ambiental-y-toma-de-decisiones)
+    - [4. Tecnología, percepción y adopción](#4-tecnología-percepción-y-adopción)
+  - [📝 Datos complementarios a recolectar](#-datos-complementarios-a-recolectar)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [To-Be Scenario Mapping – Juan Pérez](#to-be-scenario-mapping--juan-pérez)
+  - [To-Be Scenario Mapping – Bryan Díaz](#to-be-scenario-mapping--bryan-díaz)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Impact Mapping – Juan Pérez (Piscicultor rural, tradicional)](#impact-mapping--juan-pérez-piscicultor-rural-tradicional)
+    - [Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)](#impact-mapping--bryan-díaz-piscicultor-técnico-innovador)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+    - [Unstructured Exploration](#unstructured-exploration)
+    - [Timelines](#timelines)
+    - [BC-IAM](#bc-iam)
+    - [BC-Schedule Planning](#bc-schedule-planning)
+    - [BC-Feeding](#bc-feeding)
+    - [BC-Device Managment](#bc-device-managment)
+    - [BC-Communication](#bc-communication)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [BC Canvas-IAM](#bc-canvas-iam)
+    - [BC Canvas-Schedule Planning](#bc-canvas-schedule-planning)
+    - [BC Canvas-Feeding](#bc-canvas-feeding)
+    - [BC Canvas-Device Managment](#bc-canvas-device-managment)
+    - [BC Canvas-Communication](#bc-canvas-communication)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. System Landscape Diagram](#4131-system-landscape-diagram)
+      - [4.1.3.2. Context Level Diagrams](#4132-context-level-diagrams)
+      - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
+      - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
+- [Identify and access Bounded Context](#identify-and-access-bounded-context)
+- [Communication Bounded Context](#communication-bounded-context)
+- [Device Management Bounded Context](#device-management-bounded-context)
+- [Feeding Bounded Context](#feeding-bounded-context)
+- [Schedule Management Bounded Context](#schedule-management-bounded-context)
+  - [link de structurizr](#link-de-structurizr)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.1. Bounded Context: \<Access and Identify\>](#421-bounded-context-access-and-identify)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Component Level Diagrams](#4215-component-level-diagrams)
+      - [4.2.1.6. Code Level Diagrams](#4216-code-level-diagrams)
+    - [4.2.2. Bounded Context: \<Communication\>](#422-bounded-context-communication)
+      - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [4.2.2.5. Component Level Diagrams](#4225-component-level-diagrams)
+      - [4.2.2.6. Code Level Diagrams](#4226-code-level-diagrams)
+    - [4.2.3. Bounded Context: \<Device Management\>](#423-bounded-context-device-management)
+      - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams)
+      - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams)
+    - [4.2.4. Bounded Context: \<Feeding Management\>](#424-bounded-context-feeding-management)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Component Level Diagrams](#4245-component-level-diagrams)
+      - [4.2.4.6. Code Level Diagrams](#4246-code-level-diagrams)
+    - [4.2.5. Bounded Context: \<Schedule Management\>](#425-bounded-context-schedule-management)
+      - [4.2.5.1. Domain Layer](#4251-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer-1)
+      - [4.2.3.3. Application Layer](#4233-application-layer-1)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer-1)
+      - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams-1)
+      - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams-1)
+        - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
+        - [4.3.2 Database Design Diagram](#432-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1. Style Guidelines.](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture.](#52-information-architecture)
+    - [5.2.1. Organization Systems.](#521-organization-systems)
+    - [5.2.2. Labeling Systems.](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems)
+  - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up.](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design.](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes.](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams.](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups.](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams.](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping.](#55-applications-prototyping)
+    - [🧭 Criterios para las decisiones de interacción](#-criterios-para-las-decisiones-de-interacción)
+    - [🗂️ Sistema de navegación](#️-sistema-de-navegación)
+    - [🔁 Tipos de interacciones seleccionadas](#-tipos-de-interacciones-seleccionadas)
+    - [🎯 Prototipos presentados](#-prototipos-presentados)
+    - [🎥 Enlaces a videos en Microsoft Stream](#-enlaces-a-videos-en-microsoft-stream)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management.](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management.](#612-source-code-management)
+  - [Semantic Versioning 2.0.0](#semantic-versioning-200)
+  - [Conventional Commits](#conventional-commits)
+    - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [TypeScript con Angular](#typescript-con-angular)
+  - [Java con Spring Boot](#java-con-spring-boot)
+  - [Flutter con Dart](#flutter-con-dart)
+    - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+  - [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ---
 
@@ -1149,6 +1149,17 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         - Como desarrollador, quiero crear un microservicio de programación de tareas que ejecute generación de reportes (PDF/CSV).<br>
       </td>
     </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Gestión de Alertas y Eventos</td>
+      <td>
+        <strong>Descripción:</strong> Como operador de FeedGuard, deseo un sistema flexible de configuración y manejo de alertas que me permita reaccionar rápidamente ante condiciones críticas en la granja, categorizarlas y controlar su flujo para evitar la sobrecarga de notificaciones.<br><br>
+        <strong>Technical Stories:</strong><br>
+        - TS05-1: Gestión de reglas de alerta vía API REST. Como desarrollador Quiero exponer el endpoint POST /api/v1/alerts/rules y GET/PUT/DELETE /api/v1/alerts/rules/{id} Para permitir a los usuarios crear, leer, actualizar y eliminar reglas de alerta de umbrales y variaciones <br>
+        - TS05-2: Servicio de despacho de notificaciones. Como desarrollador Quiero implementar un servicio que reciba eventos de alerta Para despachar mensajes a canales (email, SMS, push) de forma asincrónica y escalable <br>
+        - TS05-3: Persistencia de eventos de alerta. Como desarrollador Quiero almacenar cada alerta generada en una base de datos Para permitir consultas rápidas por fecha, tipo y estado del evento <br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -1505,6 +1516,86 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     THEN el KPI deja de evaluarse contra esa condición y el umbral desaparece de la lista.
   </td>
   <td>EP04</td>
+</tr>
+<tr>
+  <td>HU22</td>
+  <td>Creación de Reglas de Alerta por Umbral</td>
+  <td>Como piscicultor Quiero definir una regla de alerta para recibir notificaciones cuando el pH caiga por debajo de 6.5 Para actuar inmediatamente y corregir la calidad del agua.</td>
+  <td>
+    <strong>Scenario 1:</strong>Creación de una nueva regla<br>
+    GIVEN estoy en “Alertas > Crear regla”<br>
+    WHEN ingreso parámetro “pH”, condición “< 6.5” y guardo<br>
+    THEN la nueva regla aparece en la lista con estado “Activa”.<br><br>
+    <strong>Scenario 2:</strong>Error en valores inválidos<br>
+    GIVEN existen valores de umbral no numéricos<br>
+    WHEN intento guardar la regla<br>
+    THEN el sistema muestra un mensaje de validación “Ingrese un valor numérico válido”.
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>HU23</td>
+  <td>Creación de Reglas de Alerta por Umbral</td>
+  <td>Como técnico de campo Quiero filtrar la lista de alertas por categoría (alimentación, agua, dispositivo) Para centrarme solo en las notificaciones relevantes a mi tarea actual.</td>
+  <td>
+    <strong>Scenario 1:</strong>Filtro aplicado<br>
+    GIVEN existen múltiples alertas de varios tipos<br>
+    WHEN selecciono la categoría “Dispositivo”<br>
+    THEN solo se muestran alertas relacionadas con sensores y actuadores.<br><br>
+    <strong>Scenario 2:</strong>Restablecer filtro<br>
+    GIVEN existe un filtro activo<br>
+    WHEN pulso “Mostrar todo”<br>
+    THEN reaparecen todas las alertas sin filtrado.
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>HU24</td>
+  <td>Historial de Notificaciones de los Últimos 30 Días</td>
+  <td>Como piscicultor Quiero consultar el historial completo de alertas recibidas en los últimos 30 días Para auditar acciones y analizar tendencias de eventos críticos.</td>
+  <td>
+    <strong>Scenario 1:</strong>Visualizar historial<br>
+    GIVEN tengo alertas en el sistema<br>
+    WHEN accedo a “Historial de Alertas”<br>
+    THEN aparece una tabla con columna Fecha, Tipo, Descripción y Estado.<br><br>
+    <strong>Scenario 2:</strong>Paginación del historial<br>
+    GIVEN existen más de 20 registros<br>
+    WHEN navego a la página 2<br>
+    THEN se muestran los siguientes 20 registros ordenados por fecha descendente.
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>HU25</td>
+  <td>Suscripción a Canales de Notificación</td>
+  <td>Como técnico de campo Quiero elegir el canal (email o SMS) para cada tipo de alerta Para recibir las notificaciones en el medio más conveniente.</td>
+  <td>
+    <strong>Scenario 1:</strong>Configurar canal de envío<br>
+    GIVEN estoy en “Notificaciones > Canales”<br>
+    WHEN selecciono “SMS” para alertas de alimentación<br>
+    THEN todas esas alertas llegan vía SMS a mi número registrado.<br><br>
+    <strong>Scenario 2:</strong>Cambio de canal<br>
+    GIVEN suscripción previa por email<br>
+    WHEN cambio a “Push Notification”<br>
+    THEN el sistema actualiza el método y muestra confirmación “Canal actualizado”.
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>HU26</td>
+  <td>Suscripción a Canales de Notificación</td>
+  <td>Como piscicultor Quiero silenciar temporalmente todas las notificaciones durante la ventana de mantenimiento programado Para evitar falsas alarmas mientras ajusto los dispositivos.</td>
+  <td>
+    <strong>Scenario 1:</strong>Programar silencio<br>
+    GIVEN tengo una ventana de mantenimiento planificada<br>
+    WHEN defino “Silencio” de 10:00 a 12:00<br>
+    THEN no se envían alertas en ese intervalo y el estado de silenciado aparece activo.<br><br>
+    <strong>Scenario 2:</strong>Reactivación automática<br>
+    GIVEN ha pasado la hora 12:00<br>
+    WHEN llega el fin del periodo de silencio<br>
+    THEN el sistema reanuda el envío de alertas y notifica “Modo silencio desactivado”.
+  </td>
+  <td>EP05</td>
 </tr>
 </table>
 
@@ -2898,7 +2989,7 @@ Los user flows se derivan de los wireflows y modelan rutas completas, incluyendo
 
 User Goal: Monitoreo y respuesta a eventos
 
-**User Persona: Juan Perez y Bryan Díaz
+\*\*User Persona: Juan Perez y Bryan Díaz
 
 - Flujo: Dashboard → MySchedule → Formulario de creación de eventos
 
@@ -2908,7 +2999,7 @@ Unhappy path: Usuario no reconoce la alerta → Sistema reenvía notificación �
 
 **User Flow 2: Registrar un estanque de mi piscigranja**
 
-User Goal: Registrar un estanque de mi piscigranja 
+User Goal: Registrar un estanque de mi piscigranja
 
 User Persona: Bryan Díaz y Juan Perez
 
@@ -2916,7 +3007,7 @@ User Persona: Bryan Díaz y Juan Perez
 
 <img src="Assets/userflow2.png"/>
 
-Unhappy path: 
+Unhappy path:
 
 **User Flow 3: Staffing**
 
