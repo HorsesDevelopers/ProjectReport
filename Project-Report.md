@@ -318,7 +318,11 @@
     <i>
     TB1:
     Trabajamos como equipo, liderando la dirección y aportando la ejecución técnica para modelar AquaSense.
-    </i><br><br>
+    </i>
+    <i>
+    TP: Pude apoyar y liderar al crear modelos (C4, UML, base de datos) y mejorar el frontend, facilitando la comprensión y toma de decisiones del equipo.
+    </i>
+    <br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
     <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
     <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br><br>
@@ -342,7 +346,11 @@
     <td>
     Avellaneda Ramos, Carlos Edward<br>
     <i>TB1: Creamos un entorno colaborativo y alcanzamos el objetivo de construir el modelo C4 mediante tareas planificadas y comunicación abierta.
-    </i><br><br>
+    </i>
+    <i>
+    TP: Contribui a un entorno colaborativo creando herramientas visuales y entregables concretos (modelos, diseño frontend), planificando el trabajo y cumpliendo objetivos del proyecto.
+    </i>
+    <br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
     <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
     <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br><br>
