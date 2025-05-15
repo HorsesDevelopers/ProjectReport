@@ -1754,34 +1754,69 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
   </tr>
   <tr>
     <td>17</td>
+    <td>HU22</td>
+    <td>Creación de Reglas de Alerta por Umbral</td>
+    <td>Como piscicultor Quiero definir una regla de alerta para recibir notificaciones cuando el pH caiga por debajo de 6.5 Para actuar inmediatamente y corregir la calidad del agua.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>HU23</td>
+    <td>Creación de Reglas de Alerta por Umbral</td>
+    <td>Como técnico de campo Quiero filtrar la lista de alertas por categoría (alimentación, agua, dispositivo) Para centrarme solo en las notificaciones relevantes a mi tarea actual.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>HU24</td>
+    <td>Historial de Notificaciones de los Últimos 30 Días</td>
+    <td>Como piscicultor Quiero consultar el historial completo de alertas recibidas en los últimos 30 días Para auditar acciones y analizar tendencias de eventos críticos.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>HU25</td>
+    <td>Suscripción a Canales de Notificación</td>
+    <td>Como técnico de campo Quiero elegir el canal (email o SMS) para cada tipo de alerta Para recibir las notificaciones en el medio más conveniente.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>HU26</td>
+    <td>Silenciar Notificaciones en Mantenimiento</td>
+    <td>Como piscicultor Quiero silenciar temporalmente todas las notificaciones durante la ventana de mantenimiento programado Para evitar falsas alarmas mientras ajusto los dispositivos.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>22</td>
     <td>HU1</td>
     <td>Visualización de Servicios Destacados</td>
     <td>Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.</td>
     <td>3</td>
   </tr>
   <tr>
-    <td>18</td>
+    <td>23</td>
     <td>HU2</td>
     <td>Testimonios de Usuarios Satisfechos</td>
     <td>Como piscicultor, quiero leer testimonios de otros usuarios satisfechos en la landing page para sentirme más confiado al considerar la solución, lo que me ayudará a tomar una decisión informada.</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>24</td>
     <td>HU3</td>
     <td>Acceso Rápido a Funcionalidades Clave</td>
     <td>Como piscicultor, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>20</td>
+    <td>25</td>
     <td>HU4</td>
     <td>Información Clara y Concisa sobre FeedGuard</td>
     <td>Como piscicultor, quiero encontrar una descripción clara y concisa de FeedGuard en la landing page para entender de qué se trata la solución sin complicaciones.</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>21</td>
+    <td>26</td>
     <td>HU5</td>
     <td>Diseño Atractivo y Responsivo</td>
     <td>Como piscicultor, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
@@ -3387,10 +3422,10 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
   <tr>
     <td>Flores Avalos, Diego</td>
     <td>DiegoFA04</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
     <td>L</td>
   </tr>
   <tr>
@@ -3535,6 +3570,73 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 </table>
 
 ##### 6.2.1.4. Development Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/Landing-Page</td>
+    <td>main</td>
+    <td>9b71590988d8f9ebbaaa3263448a5ac6dc591f13</td>
+    <td>feat: update and complete landing page.</td>
+    <td>-</td>
+    <td>11/05/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/Landing-PageEs</td>
+    <td>main</td>
+    <td>a56d5baa5cfa400073d666cda467bbe7d0c5f575</td>
+    <td>feat: added landing page spanish</td>
+    <td>-</td>
+    <td>11/05/2025</td>
+  </tr>
+   <tr>
+    <td>HorsesDevelopers/frontend</td>
+    <td>feature/ponds-details</td>
+    <td>5da24c093dc6a022c933fdfb79f2f3208348ea69</td>
+    <td>feat: update bc feeding.</td>
+    <td>-</td>
+    <td>14/05/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/frontend</td>
+    <td>feature/create-schedule</td>
+    <td>e6ccb01a2e290493da849dc92bc323d00270001c</td>
+    <td>feat(schedule): added pending schedule.</td>
+    <td>-</td>
+    <td>14/05/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/frontend</td>
+    <td>feature/create-schedule</td>
+    <td>e6ccb01a2e290493da849dc92bc323d00270001c</td>
+    <td>feat(schedule): added pending schedule.</td>
+    <td>-</td>
+    <td>14/05/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/frontend</td>
+    <td>feature/create-schedule</td>
+    <td>530a80bb729a9a65c08880fd6a67297001bdf3e5</td>
+    <td>feat: Create Communication branch</td>
+    <td>-</td>
+    <td>13/05/2025</td>
+  </tr>
+   <tr>
+    <td>HorsesDevelopers/frontend</td>
+    <td>feature/create-schedule</td>
+    <td>4f852e7990b3bd2fe25986d588be2c7b7886e13a</td>
+    <td>feat(devices): added devices</td>
+    <td>-</td>
+    <td>14/05/2025</td>
+  </tr>
+</table>
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
