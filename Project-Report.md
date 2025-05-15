@@ -3526,16 +3526,17 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
-<dESCRIPCION>
+En esta entrega se inició con la implementación de la landing page y el frontend de Aquasense, dejando evidencia de las historias de usuario trabajadas y culminadas.
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|HorsesDevelopers/Testing||||||15/05/2025|
-|HorsesDevelopers/Testing||||||15/05/2025|
-|HorsesDevelopers/Testing||||||15/05/2025|
-|HorsesDevelopers/Testing||||||15/05/2025|
-|HorsesDevelopers/Testing||||||15/05/2025|
-|HorsesDevelopers/Testing||||||15/05/2025|
+|HorsesDevelopers/Testing|develop|8c44ad|feat US001.feature|feat US001.feature|15/05/2025|
+|HorsesDevelopers/Testing|develop|8ab5c9b|feat: US002.feature|feat: US002.feature|15/05/2025|
+|HorsesDevelopers/Testing|develop|d7718b4|feat(base structure added)|feat(base structure added)|15/05/2025|
+|HorsesDevelopers/Testing|develop|952dd1b|Feat(test): files added|Feat(test): files added|15/05/2025|
+|HorsesDevelopers/Testing|develop|88de9e5|feat: US002,US003,US004,US005|feat: US002,US003,US004,US005|15/05/2025|
+|HorsesDevelopers/Testing|develop|825175|feat: US007|feat: US007|15/05/2025|
+|HorsesDevelopers/Testing|develop|326182b|feat: US024|feat: US024|15/05/2025|
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review.
 
