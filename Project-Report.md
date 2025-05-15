@@ -130,7 +130,7 @@ URL de la organización del proyecto: [https://github.com/HorsesDevelopers]
 
 TB1 Github
 
-<img src="Assets/linsightTB1.PNG"/>
+<img src="Assets/IinsightTB1.PNG"/>
 
 TP Github
 
