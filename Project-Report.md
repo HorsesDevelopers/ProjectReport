@@ -2904,6 +2904,8 @@ User Persona: Juan Perez y Bryan Díaz
 
 - Flujo: Dashboard → MySchedule → Formulario de creación de eventos
 
+<img src="Assets/userflow1.png"/>
+
 Unhappy path: Usuario no reconoce la alerta → Sistema reenvía notificación → Usuario accede desde histórico
 
 - User Flow 2: Registrar un estanque de mi piscigranja
@@ -2914,6 +2916,8 @@ User Persona: Bryan Díaz y Juan Perez
 
 - Flujo: Inicio → Dashboard → My Ponds → Formulario de creación de estanque
 
+<img src="Assets/userflow2.png"/>
+
 Unhappy path: 
 
 - User Flow 3: Staffing 
@@ -2922,6 +2926,8 @@ User Goal: Agregar a mis trabajadores
 User Persona: Juan Perez y Bryan Díaz
 
 - Flujo: Dashboard → Staff → Formulario de creación de staff
+
+<img src="Assets/userflow3.png"/>
 
 Unhappy path: Usuario posee trabajadores → Quiere agregar algunos → Creación fallida
 
@@ -2932,6 +2938,8 @@ User Goal: Agregar un sensor que se encuentra en un estanque
 User Persona: Juan Perez
 
 - Flujo: Dashboard → MyPonds → Sección Sensores → Crear sensor → Formulario de creación de eventos
+
+<img src="Assets/userflow4.png"/>
 
 Unhappy path: Usuario posee sensores que desea registrar en la solución → Registro fallido de sensor
 
