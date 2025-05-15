@@ -2883,15 +2883,44 @@ Todos los wireframes priorizan legibilidad, accesibilidad táctil y flujo lógic
 
 Se elaboraron wireflows considerando los principales objetivos de los User Personas.
 
-Wireflow 1: Juan Pérez – Activación de alerta y respuesta
+**Wireflow 1: Monitoreo y respuesta a eventos**
 
-- User goal: Responder ante una caída de oxígeno detectada.
+User Goal: Monitoreo y respuesta a eventos
 
-- Flujo: Login → Dashboard → Alerta emergente → Vista de detalles → Recomendación automática → Confirmación de acción
+\*\*User Persona: Juan Perez y Bryan Díaz
 
-Wireflow 2:
+- Flujo: Dashboard → MySchedule → Formulario de creación de eventos
 
-- User goal:
+<img src="Assets/wireflow1.png"/>
+
+**Wireflow 2: Registrar un estanque de mi piscigranja**
+
+User Goal: Registrar un estanque de mi piscigranja
+
+User Persona: Bryan Díaz y Juan Perez
+
+- Flujo: Inicio → Dashboard → My Ponds → Formulario de creación de estanque
+
+<img src="Assets/wireflow2.png"/>
+
+**Wireflow 3: Staffing**
+
+User Goal: Agregar a mis trabajadores
+User Persona: Juan Perez y Bryan Díaz
+
+- Flujo: Dashboard → Staff → Formulario de creación de staff
+
+<img src="Assets/wireflow3.png"/>
+
+**Wireflow 4: Sensores**
+
+User Goal: Agregar un sensor que se encuentra en un estanque
+
+User Persona: Juan Perez
+
+- Flujo: Dashboard → MyPonds → Sección Sensores → Crear sensor → Formulario de creación de eventos
+
+<img src="Assets/wireflow4.png"/>
 
 #### 5.4.3. Applications Mock-ups.
 
