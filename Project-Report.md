@@ -3652,13 +3652,58 @@ En esta entrega se inició con la implementación de la landing page y el fronte
 |HorsesDevelopers/Testing|develop|825175|feat: US007|feat: US007|15/05/2025|
 |HorsesDevelopers/Testing|develop|326182b|feat: US024|feat: US024|15/05/2025|
 
-##### 6.2.1.6. Execution Evidence for Sprint Review.
+#### 6.2.1.6. Execution Evidence for Sprint Review.
+
+En este primer sprint se logró implementar la Landing Page y la primera versión funcional del Frontend de FeedGuard. El equipo cumplió con el objetivo de entregar una interfaz inicial que permite a los usuarios conocer el producto, explorar sus beneficios y acceder a las principales funcionalidades de la plataforma. Se desarrollaron las vistas clave, incluyendo el registro de usuario, el dashboard principal, la gestión de estanques y dispositivos, y la visualización de notificaciones.
+
+A continuación, se presentan capturas de pantalla de las principales vistas implementadas:
+
+- **Landing Page**
+  <img src="Assets\Landing page.png" width="600"/>
+
+- **Registro e inicio de sesión**
+  <img src="Assets\frontend-login.png" width="600"/>
+
+- **Dashboard principal**
+  <img src="Assets\homeview.png" width="600"/>
+
+
+Para una demostración completa de la visualización y navegación logradas en este Sprint, revisa el siguiente video:
+
+- Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018627_upc_edu_pe/ETl-UOvO04xFs1WZGUAhUsQBR84GMItJVTWxD4eTFVI13w?e=u7zNZr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
+Debido a que esta entrega no realizamos backend no se puede documentar los endpoints.
+
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
+Para el despliegue del Landing Page, hemos utilizado la herramienta de Github Pages para poder hacer un deployment. Para eso, hemos creado un repositorio donde hemos colocado el código de desarrollo de nuestra Landing Page.
+
+![alt text](Assets\landingpagegithub.png)
+
+Una vez creado el repositorio, entraremos a configuración del repositorio y escogemos el apartado de Pages. Se coloca la información necesaria, como la fuente del branch a utilizar para realizar el deployment. Luego de eso, Github Pages nos brindará el link y desplegará nuestra landing page en la Web.
+
+![alt text](Assets\githubpages.png)
+
+Para el despliegue del Frontend Web app, hemos utilizado la herramienta de Netlify, vincúlandola con nuestro repositorio de GitHub para poder hacer un deployment. Para eso, hemos creado un repositorio donde hemos colocado el código de desarrollo de nuestra Frontend.
+
+![alt text](Assets\frontgithub.png)
+
+Una vez creado el repositorio, entraremos a Netlify, vinculamos el repositorio y lo configuramos. Se coloca la información necesaria, como la fuente del branch a utilizar para realizar el deployment. Luego de eso, Netlify nos confirmará el despliegue, al que podremos ingresar.
+
+![alt text](Assets\netlify.jpg)
+
 ##### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+Para el desarrollo de este primer sprint, la mayoria de los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
+
+commits:
+![alt text](Assets\frontendevidence.png)
+
+contributors:
+![alt text](Assets\contributors.png)
 
 ## Conclusiones
 
