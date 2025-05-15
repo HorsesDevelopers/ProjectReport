@@ -329,7 +329,8 @@
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, user stories</i><br>
     <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br><br>
     Martel Zevallos, Gabriel<br>
-    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br><br>
+    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
+    <i>TP: Coolabore con el desarrollo de los user stories, y ampliamente en el desarrollo del prototipo.</i><br><br>
     Rivas Sarango, David Alejandro<br>
     <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.  Nos comunicamos eficientemte al comunicar nuestras ideas para el diseño de las entrevistas y así identificarlas falencias actuales que poseen los piscicultores.</i><br></i><br>
     <i>TP:<i>Se dialogó la elaboración y decisión de mockups y wireframes de la aplicación.</i><br></i><br>
@@ -353,7 +354,7 @@
     <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br><br>
     Martel Zevallos, Gabriel<br>
     <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
-    MartelZevallos, Gabriel Aristoteles<br>
+    <i>TP: Coolabore con el desarrollo de los user stories, y ampliamente en el desarrollo del prototipo.</i><br><br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
     <i>TB1:<i> Para esta entrega realice el análisis de competidores y las entrevistas. Lo que me ayudó a comprender mejor la situación actual del usuario y así mejorar el Needfinding.</i><br>
