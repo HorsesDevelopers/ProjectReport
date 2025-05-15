@@ -3673,6 +3673,10 @@ A continuación, se presentan capturas de pantalla de las principales vistas imp
 
 Para una demostración completa de la visualización y navegación logradas en este Sprint, revisa el siguiente video:
 
+Enlace del landing Page: [https://horsesdevelopers.github.io/Landing-Page/]
+
+Enlace del frontend: [https://aquasensedev.netlify.app/]
+
 - Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018627_upc_edu_pe/ETl-UOvO04xFs1WZGUAhUsQBR84GMItJVTWxD4eTFVI13w?e=u7zNZr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
 
@@ -3696,7 +3700,7 @@ Para el despliegue del Frontend Web app, hemos utilizado la herramienta de Netli
 
 Una vez creado el repositorio, entraremos a Netlify, vinculamos el repositorio y lo configuramos. Se coloca la información necesaria, como la fuente del branch a utilizar para realizar el deployment. Luego de eso, Netlify nos confirmará el despliegue, al que podremos ingresar.
 
-<img src="Assets\netlify.jpg"/>
+<img src="Assets\netlify.jpg"/> 
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint.
 
@@ -3738,4 +3742,4 @@ El desarrollo del proyecto FeedGuard permitió al equipo aplicar metodologías �
 
 - Video TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018627_upc_edu_pe/EWD4z74FKmRNrc905q0mr7QBzjOH2UqGp_j1CLgUclEu-g?e=pMnEaL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
-- Video TP1:
+- Video TP1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018627_upc_edu_pe/Eb8AhzcVPUFOllAc6beNL28BD2U4qoxMTXmzWLnOTkymyw?e=yANLYZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
