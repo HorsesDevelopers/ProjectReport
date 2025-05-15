@@ -126,6 +126,18 @@
 
 ## Project Report Collaboration Insights
 
+URL de la organización del proyecto: [https://github.com/HorsesDevelopers]
+
+TB1 Github
+
+<img src="Assets/linsightTB1.PNG"/>
+
+TP Github
+
+<img src="Assets/insightTP.PNG"/>
+
+<img src="Assets/insightTP2.PNG"/>
+
 ## Contenido
 
 ### Tabla de contenidos
