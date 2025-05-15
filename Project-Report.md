@@ -2896,17 +2896,44 @@ El diseño sigue una arquitectura de información basada en jerarquías y agrupa
 
 Los user flows se derivan de los wireflows y modelan rutas completas, incluyendo paths felices y alternativos.
 
-- User Flow 1: Juan Pérez – Monitoreo y respuesta a eventos
+- User Flow 1: Monitoreo y respuesta a eventos
 
-- Flujo: Inicio → Dashboard → Alerta → Confirmación de acción → Retorno a dashboard
+User Goal: Monitoreo y respuesta a eventos
+
+User Persona: Juan Perez y Bryan Díaz
+
+- Flujo: Dashboard → MySchedule → Formulario de creación de eventos
 
 Unhappy path: Usuario no reconoce la alerta → Sistema reenvía notificación → Usuario accede desde histórico
 
-- User Flow 2: Bryan Díaz – Automatización de alimentación
+- User Flow 2: Registrar un estanque de mi piscigranja
 
-- Flujo: Inicio → Dashboard → Historial de parámetros → Activar algoritmo de recomendación → Confirmación
+User Goal: Registrar un estanque de mi piscigranja 
 
-Unhappy path: Usuario rechaza recomendación → Reconfigura parámetros manualmente
+User Persona: Bryan Díaz y Juan Perez
+
+- Flujo: Inicio → Dashboard → My Ponds → Formulario de creación de estanque
+
+Unhappy path: 
+
+- User Flow 3: Staffing 
+
+User Goal: Agregar a mis trabajadores
+User Persona: Juan Perez y Bryan Díaz
+
+- Flujo: Dashboard → Staff → Formulario de creación de staff
+
+Unhappy path: Usuario posee trabajadores → Quiere agregar algunos → Creación fallida
+
+- User Flow 4: Sensores
+
+User Goal: Agregar un sensor que se encuentra en un estanque
+
+User Persona: Juan Perez
+
+- Flujo: Dashboard → MyPonds → Sección Sensores → Crear sensor → Formulario de creación de eventos
+
+Unhappy path: Usuario posee sensores que desea registrar en la solución → Registro fallido de sensor
 
 Estos flujos incorporan los mock-ups reales y representan la arquitectura de interacción esperada para cada tipo de usuario.
 
