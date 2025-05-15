@@ -908,6 +908,8 @@ Además de las respuestas a las preguntas, durante cada entrevista se deben regi
 
 #### 2.2.2. Registro de entrevistas
 
+Hemos entrevistado a ambos segmentos objetivos, recopilando información sobre sus datos generales como edad, educación, frecuencia de alimentación y canales digitales usados en su negocio .
+
 **Entrevista a piscicultores**
 |**Nombre del entrevistado**|**Sebastian Pacheco**|
 |:-|:-|
