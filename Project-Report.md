@@ -130,21 +130,6 @@
 
 ### Tabla de contenidos
 
-- [Reporte de Proyecto](#reporte-de-proyecto)
-- [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-    - [**2025-10**](#2025-10)
-      - [**Curso:**](#curso)
-    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-      - [**NRC:**](#nrc)
-      - [2947](#2947)
-      - [**Profesor:**](#profesor)
-      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-      - [Producto: **FeedGuard**](#producto-feedguard)
-    - [**Integrantes del equipo**](#integrantes-del-equipo)
-    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -347,6 +332,7 @@
     <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br><br>
     Rivas Sarango, David Alejandro<br>
     <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.  Nos comunicamos eficientemte al comunicar nuestras ideas para el diseño de las entrevistas y así identificarlas falencias actuales que poseen los piscicultores.</i><br></i><br>
+    <i>TP:<i>Se dialogó la elaboración y decisión de mockups y wireframes de la aplicación.</i><br></i><br>
     </td>
     <td>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.</td>
   </tr>
@@ -370,7 +356,8 @@
     MartelZevallos, Gabriel Aristoteles<br>
     <i>TB1</i><br>
     Rivas Sarango, David Alejandro<br>
-    <i>TB1: Para esta entrega realice el análisis de competidores y las entrevistas. Lo que me ayudó a comprender mejor la situación actual del usuario y así mejorar el Needfinding.</i><br>
+    <i>TB1:<i> Para esta entrega realice el análisis de competidores y las entrevistas. Lo que me ayudó a comprender mejor la situación actual del usuario y así mejorar el Needfinding.</i><br>
+    <i>TP:<i> En esta entrega se realizaron los user stories, style guidelines, message flows y mockups de la aplicación.</i><br></i><br>
     </td>
     <td> TB1: Concluimos que la incorporación de soluciones IoT es fundamental para el sector acuícola. Si se les ayuda a automatizar y que no requieran un sobre esfuerzo. Se centrarían más en la gestión y administración adecuada de su negocio.</td>
   </tr>
