@@ -2734,16 +2734,16 @@ Esta sección presenta la propuesta visual y de interacción de la aplicación F
 
 Los wireframes fueron diseñados utilizando Figma, respetando los principios de claridad, simplicidad y accesibilidad. A continuación, se muestran las vistas de la aplicación web:
 
-- Registro e inicio de sesion: sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
+- **Registro e inicio de sesion:** sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
 
 <img src="Assets\Wireframes\W1.png">
 <img src="Assets\Wireframes\W2.png">
 
-- Dashboard principal: Muestra KPIs importantes con íconos accesibles y etiquetas claras.
+- **Dashboard principal:** Muestra KPIs importantes con íconos accesibles y etiquetas claras.
 
 <img src="Assets\Wireframes\W3.png">
 
-- Mis estanques: Seccion donde el usuario podrá añadir sus estanques y añadirle información relevante como peces, sensores y comida.
+- **Mis estanques:** Seccion donde el usuario podrá añadir sus estanques y añadirle información relevante como peces, sensores y comida.
 
 <img src="Assets\Wireframes\W4.png">
 <img src="Assets\Wireframes\W5.png">
@@ -2751,28 +2751,28 @@ Los wireframes fueron diseñados utilizando Figma, respetando los principios de 
 <img src="Assets\Wireframes\W7.png">
 <img src="Assets\Wireframes\W8.png">
 
-- Horarios: Forma de programar las horas de alimentación para los peces en los diferentes estanques.
+- **Horarios:** Forma de programar las horas de alimentación para los peces en los diferentes estanques.
 
 <img src="Assets\Wireframes\W9.png">
 <img src="Assets\Wireframes\W10.png">
 
-- Alerta de parámetros fuera de rango: Diseñada con una jerarquía visual clara para una mejor vista de la prioridad.
+- **Alerta de parámetros fuera de rango:** Diseñada con una jerarquía visual clara para una mejor vista de la prioridad.
 
 <img src="Assets\Wireframes\W11.png">
 <img src="Assets\Wireframes\W12.png">
 
-- Staff: Aqui aparece toda la información de todos los miembros del staff.
+- **Staff:** Aqui aparece toda la información de todos los miembros del staff.
 
 <img src="Assets\Wireframes\W13.png">
 <img src="Assets\Wireframes\W14.png">
 <img src="Assets\Wireframes\W15.png">
 
-- Comunicaciones: En esta parte se visualiza todas las notificaciones mandadas al usuario así como una forma de crear alertas nuevas.
+- **Comunicaciones:** En esta parte se visualiza todas las notificaciones mandadas al usuario así como una forma de crear alertas nuevas.
 
 <img src="Assets\Wireframes\W16.png">
 <img src="Assets\Wireframes\W17.png">
 
-- Dispositivos: Ventana para crear y visualizar dispositivos con los detalles y el status en el que se encuentran
+- **Dispositivos:** Ventana para crear y visualizar dispositivos con los detalles y el status en el que se encuentran
 
 <img src="Assets\Wireframes\W18.png">
 <img src="Assets\Wireframes\W19.png">
@@ -2804,11 +2804,11 @@ Los mock-ups de FeedGuard fueron desarrollados en Figma, incorporando los colore
 <img src="Assets\Mockups\M1.png">
 <img src="Assets\Mockups\M2.png">
 
-- Dashboard principal: Muestra KPIs importantes con íconos accesibles y etiquetas claras.
+- **Dashboard principal:** Muestra KPIs importantes con íconos accesibles y etiquetas claras.
 
 <img src="Assets\Mockups\M3.png">
 
-- Mis estanques: Seccion donde el usuario podrá añadir sus estanques y añadirle información relevante como peces, sensores y comida.
+- **Mis estanques:** Seccion donde el usuario podrá añadir sus estanques y añadirle información relevante como peces, sensores y comida.
 
 <img src="Assets\Mockups\M4.png">
 <img src="Assets\Mockups\M5.png">
@@ -2816,66 +2816,66 @@ Los mock-ups de FeedGuard fueron desarrollados en Figma, incorporando los colore
 <img src="Assets\Mockups\M7.png">
 <img src="Assets\Mockups\M8.png">
 
-- Horarios: Forma de programar las horas de alimentación para los peces en los diferentes estanques.
+- **Horarios:** Forma de programar las horas de alimentación para los peces en los diferentes estanques.
 
 <img src="Assets\Mockups\M9.png">
 <img src="Assets\Mockups\M10.png">
 
-- Alerta de parámetros fuera de rango: Diseñada con una jerarquía visual clara para una mejor vista de la prioridad.
+- **Alerta de parámetros fuera de rango:** Diseñada con una jerarquía visual clara para una mejor vista de la prioridad.
 
 <img src="Assets\Mockups\M11.png">
 <img src="Assets\Mockups\M12.png">
 
-- Staff: Aqui aparece toda la información de todos los miembros del staff.
+- **Staff:** Aqui aparece toda la información de todos los miembros del staff.
 
 <img src="Assets\Mockups\M13.png">
 <img src="Assets\Mockups\M14.png">
 <img src="Assets\Mockups\M15.png">
 
-- Comunicaciones: En esta parte se visualiza todas las notificaciones mandadas al usuario así como una forma de crear alertas nuevas.
+- **Comunicaciones:** En esta parte se visualiza todas las notificaciones mandadas al usuario así como una forma de crear alertas nuevas.
 
 <img src="Assets\Mockups\M16.png">
 <img src="Assets\Mockups\M17.png">
 
-- Dispositivos: Ventana para crear y visualizar dispositivos con los detalles y el status en el que se encuentran.
+- **Dispositivos:** Ventana para crear y visualizar dispositivos con los detalles y el status en el que se encuentran.
 
 <img src="Assets\Mockups\M18.png">
 <img src="Assets\Mockups\M19.png">
 
-**Aplicación móbil:**
+**Aplicación móvil:**
 
-- Registro e inicio de sesion: sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
+- **Registro e inicio de sesion:** sirve para que el usuario se registre al sistema, inicie sesión y pueda ingresar a nuestra plataforma.
 
 <img src="Assets\Mockups\Android1.png">
 <img src="Assets\Mockups\Android2.png">
 
-- Dashboard principal: Muestra una vista compacta de las opciones principales de la aplicación, así como una forma de descargar un reporte del estado actual.
+- **Dashboard principal:** Muestra una vista compacta de las opciones principales de la aplicación, así como una forma de descargar un reporte del estado actual.
 
 <img src="Assets\Mockups\Android3.png">
 
-- Mis estanques: Seccion donde el usuario podrá ver sus estanques, información de cada uno y podrá compararlos mediante una tabla de líneas.
+- **Mis estanques:** Seccion donde el usuario podrá ver sus estanques, información de cada uno y podrá compararlos mediante una tabla de líneas.
 
 <img src="Assets\Mockups\Android4.png">
 <img src="Assets\Mockups\Android5.png">
 <img src="Assets\Mockups\Android6.png">
 
-- Dispositivos: Ventana para visualizar los dispositivos y sus status en el que se encuentran. así como una forma de calibrarlos si es necesario.
+- **Dispositivos:** Ventana para visualizar los dispositivos y sus status en el que se encuentran. así como una forma de calibrarlos si es necesario.
 
 <img src="Assets\Mockups\Android7.png">
 
-- Notificaciones: En esta parte se visualizará todas las notificaciones mandadas al usuario.
+- **Notificaciones:** En esta parte se visualizará todas las notificaciones mandadas al usuario.
 
 <img src="Assets\Mockups\Android8.png">
 
-- Tareas: Aquí el usuario podrá verificar todas las tareas pendientes que tiene y marcar si ya están hechas.
+- **Tareas:** Aquí el usuario podrá verificar todas las tareas pendientes que tiene y marcar si ya están hechas.
 
 <img src="Assets\Mockups\Android9.png">
 
-- Configuración: Sección donde el usuario podrá editar la información de la granja como el nombre, la ubicación y los estanques.
+- **Configuración:** Sección donde el usuario podrá editar la información de la granja como el nombre, la ubicación y los estanques.
 
 <img src="Assets\Mockups\Android10.png">
 
-- Menú: Barra desplazable donde se podrá acceder a cualquier opción de la plataforma o cerrar sesión.
+- **Menú:** Barra desplazable donde se podrá acceder a cualquier opción de la plataforma o cerrar sesión.
 
 <img src="Assets\Mockups\Android11.png">
 
