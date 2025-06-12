@@ -713,7 +713,7 @@ Características demográficas y técnicas:
            text-align: center; 
            vertical-align: middle;"><strong>Perfil de Producto</strong></td>
     <td colspan="2"><strong>Productos & Servicios</strong></td>
-    <td><strong>La funcionalidad principal viene de la mano con sensores IoT para monitorear oxígeno, temperatura y compuestos dañinos dentro de la pescera.</strong></td>
+    <td><strong>La funcionalidad principal viene de la mano con sensores IoT para monitorear oxígeno, temperatura y pH dentro de la pescera.</strong></td>
     <td><strong>Acuario inteligente con sistema de filtración integrado, iluminación LED, control de temperatura y oxígeno, conectividad WI-FI y aplicación móvil.</strong></td>
     <td><strong>Sistema de alimentación automática de peces en estanques y sistemas de acuicultura.</strong></td>
     <td><strong>Plataforma que maneja el desempeño agrícola incluso de manera local, incluye seguimiento del proceso productivo y reportes en línea.</strong></td>
@@ -1065,6 +1065,7 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 | Oxygen level      | Nivel de oxígeno         | Cantidad de oxígeno disuelto en el agua.                                                                                  |
 | Ammonia level     | Nivel de amoniaco        | Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.                     |
 | Daily routine     | Rutina diaria            | Actividades realizadas o por realizar en un día en la piscigranja.                                                        |
+| pH level          | Nivel de ph              | Medida de la acidez o alcalinidad de una solución, influye en la salud de los peces y organismos acuaticos.                            |
 
 ## Capítulo III: Requirements Specification
 
@@ -1890,7 +1891,7 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
 
 1. **Mobile App**
 
-- Aplicación móvil desarrollada en Kotlin.
+- Aplicación móvil desarrollada en Flutter.
 - Permite a los usuarios (agricultores y técnicos) monitorear condiciones, gestionar la alimentación y recibir notificaciones desde cualquier lugar.
 
 2. **Web App**
