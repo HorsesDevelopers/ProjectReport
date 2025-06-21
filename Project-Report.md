@@ -57,11 +57,11 @@
       <td align="center">Garcia Rodriguez, Gabriel</td>
     </tr>
     <tr>
-      <td align="center">201923994</td>
+      <td align="center">U201923994</td>
       <td align="center">Avellaneda Ramos, Carlos</td>
     </tr>
     <tr>
-      <td align="center">20191E831</td>
+      <td align="center">U20191E831</td>
       <td align="center">Rivas Sarango, David Alejandro</td>
     </tr>
   </tbody>
@@ -122,6 +122,13 @@
     <br>- Realizar la primera versión del Landing Page
     <br>- Actualizar el Capitulo 5 con todos los puntos hechos del mismo
     <br>- Actualizar el Capitulo 6 con todos los puntos hechos del mismo</tr>
+  <tr>
+    <td>6.0.0</td>
+    <td>20/06/2025</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>- Realizar la primera versión del Fog Application
+    <br>- Realizar la primera versión del Edge Application
+    <br>- Corregir algunos aspectos necesarios del informe en general.</tr>
 </table>
 
 ## Project Report Collaboration Insights
@@ -319,10 +326,20 @@ TP Github
         - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
         - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
         - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+        - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
         - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
         - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
         - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+      - [6.2.2. Sprint 2](#622-sprint-2)
+        - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+        - [6.2.2.2. Aspect Leaders and Collaborators.](#6222-aspect-leaders-and-collaborators)
+        - [6.2.2.3. Sprint Backlog 2.](#6223-sprint-backlog-2)
+        - [6.2.2.4. Development Evidence for Sprint Review.](#6224-development-evidence-for-sprint-review)
+        - [6.2.2.5. Testing Suite Evidence for Sprint Review.](#6225-testing-suite-evidence-for-sprint-review)
+        - [6.2.2.6. Execution Evidence for Sprint Review.](#6226-execution-evidence-for-sprint-review)
+        - [6.2.2.7. Services Documentation Evidence for Sprint Review.](#6227-services-documentation-evidence-for-sprint-review)
+        - [6.2.2.8. Software Deployment Evidence for Sprint Review.](#6228-software-deployment-evidence-for-sprint-review)
+        - [6.2.2.9. Team Collaboration Insights during Sprint.](#6229-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
       - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
     - [Bibliografía](#bibliografía)
@@ -1676,6 +1693,69 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     THEN el sistema bloquea la actualización y muestra los errores correspondientes
   </td>
   <td>EP02</td>
+</tr>
+<tr>
+  <td>HU30</td>
+  <td>Inicio de sesión</td>
+  <td>.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
+</tr>
+<tr>
+  <td>HU31</td>
+  <td>Gestión de perfiles</td>
+  <td>.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
+</tr>
+<tr>
+  <td>HU32</td>
+  <td>Gestión de roles</td>
+  <td>.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
+</tr>
+<tr>
+  <td>HU33</td>
+  <td>Visualización de Anomalías Detectadas en móvil</td>
+  <td>Como piscicultor Quiero ver en el dashboard las anomalías detectadas (picos de amonio, caídas de oxígeno) resaltadas Para actuar de inmediato.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
+</tr>
+<tr>
+  <td>HU34</td>
+  <td>Visualización de Anomalías Detectadas en móvil</td>
+  <td>Como técnico de campo Quiero poder definir umbrales personalizados para cualquier KPI del dashboard Para adaptar el monitoreo a condiciones específicas de mi cultivo.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
+</tr>
+<tr>
+  <td>HU35</td>
+  <td>Visualizar el reporte de ciclo de vida de un estanque</td>
+  <td>.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
+</tr>
+<tr>
+  <td>HU36</td>
+  <td>Visualizar el reporte de ciclo de vida de un estanque en movil</td>
+  <td>.</td>
+  <td>
+    .
+  </td>
+  <td>.</td>
 </tr>
 </table>
 
@@ -3718,7 +3798,7 @@ En esta entrega se inició con la implementación de la landing page y el fronte
 |HorsesDevelopers/Testing|develop|825175|feat: US007|feat: US007|15/05/2025|
 |HorsesDevelopers/Testing|develop|326182b|feat: US024|feat: US024|15/05/2025|
 
-#### 6.2.1.6. Execution Evidence for Sprint Review.
+##### 6.2.1.6. Execution Evidence for Sprint Review.
 
 En este primer sprint se logró implementar la Landing Page y la primera versión funcional del Frontend de FeedGuard. El equipo cumplió con el objetivo de entregar una interfaz inicial que permite a los usuarios conocer el producto, explorar sus beneficios y acceder a las principales funcionalidades de la plataforma. Se desarrollaron las vistas clave, incluyendo el registro de usuario, el dashboard principal, la gestión de estanques y dispositivos, y la visualización de notificaciones.
 
@@ -3779,6 +3859,210 @@ commits:
 contributors:
 
 <img src="Assets\contributors.png"/>
+
+#### 6.2.2. Sprint 2
+
+##### 6.2.2.1. Sprint Planning 2.
+
+Para este segundo sprint nos enfocaremos en
+
+<table>
+<tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-06-05</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">9:20 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord y Google Meet</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Gabriel Garcia</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n – 2 Review Summary</td>
+    <td colspan="8">En esta sección se planteó el desarrollo del</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n – 2 Retrospective Summary</td>
+    <td colspan="8">El equipo identificó aciertos en </td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">Nuestro enfoque está en entregar <br>
+        Creemos que esto <br>
+        Esto se confirmará cuando</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="8">story points</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">Story Points</td>
+</tr>
+</table>
+
+##### 6.2.2.2. Aspect Leaders and Collaborators.
+
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Communication BC Leader (L) / Collaborator (C)</th>
+    <th>Identify and Acces BC Leader (L) / Collaborator (C)</th>
+    <th>Device Management BC Leader (L) / Collaborator (C)</th>
+    <th>Schedule Planning BC Leader (L) / Collaborator (C)</th>
+    <th>Feeding BC Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Eduardo Espinoza, Vittorio Marcelo</td>
+    <td>VittorioEdu</td>
+    <td>L</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Flores Avalos, Diego</td>
+    <td>DiegoFA04</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Martel Zevallos, Gabriel</td>
+    <td>GabrielMarllos</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>L</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Garcia Rodriguez, Gabriel</td>
+    <td>Gabotw</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Avellaneda Ramos, Carlos</td>
+    <td>carlosAvellanedaRamos</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Rivas Sarango, David Alejandro</td>
+    <td>dars2002</td>
+    <td>...</td>
+    <td>L</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+</table>
+
+##### 6.2.2.3. Sprint Backlog 2.
+
+<table>
+<tr>
+    <th colspan="3">Sprint #</th>
+    <th colspan="10">Sprint 1</th>
+</tr>
+<tr>
+    <td colspan="3">User Story</td>
+    <td colspan="10">Work-Item/Task</td>
+</tr>
+<tr>
+    <td>Id</td>
+    <td colspan="2">Title</td>
+    <td>Id</td>
+    <td colspan="2">Title</td>
+    <td colspan="3">Description</td>
+    <td>Estimation</td>
+    <td colspan="2">Assigned To</td>
+    <td>Status (To-do / InProcess / To-Review / Done)</td>
+</tr>
+<tr>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>.</td>
+</tr>
+</table>
+
+##### 6.2.2.4. Development Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+  <tr>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+</table>
+
+##### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+En esta entrega se inició con la implementación de ___, dejando evidencia de las historias de usuario trabajadas y culminadas.
+
+##### 6.2.2.6. Execution Evidence for Sprint Review.
+
+##### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+##### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+##### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+Para el desarrollo de este segundo sprint, la mayoria de los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
+
+commits:
+
+
+
+contributors:
+
+
 
 ## Conclusiones
 
