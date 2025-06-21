@@ -361,9 +361,10 @@ TP Github
     <i>TP:Se dialogó la elaboración y decisión de mockups y wireframes de la aplicación.</i><br>
     <i>TB2:Se realizaron los avances de Dashboard and Analytics, donde me encargue de la generación de reportes. Se comunicóo al equipo cuáles serían los KPIs que serían útiles para el usuario final.</i><br><br>
     </td>
-    <td>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.</td>
-    <td> TP: Durante el desarrollo del TP se consolidó un liderazgo compartido mediante la coordinación de tareas técnicas clave como la creación de modelos, diseño visual y planificación del sistema.</td>
-   <td> TB2: el liderazgo en equipo se manifestó a través de la organización por aspectos, donde cada integrante asumió responsabilidad en su módulo y comunicó avances de forma efectiva. Esta estrategia permitió mantener la alineación del equipo, resolver desafíos técnicos de manera coordinada y lograr una integración exitosa entre los distintos componentes del sistema. </td>
+    <td>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.
+      TP: Durante el desarrollo del TP se consolidó un liderazgo compartido mediante la coordinación de tareas técnicas clave como la creación de modelos, diseño visual y planificación del sistema.
+      TB2: el liderazgo en equipo se manifestó a través de la organización por aspectos, donde cada integrante asumió responsabilidad en su módulo y comunicó avances de forma efectiva. Esta estrategia permitió mantener la alineación del equipo, resolver desafíos técnicos de manera coordinada y lograr una integración exitosa entre los distintos componentes del sistema.
+    </td>
   </tr>
   <tr>
     <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
