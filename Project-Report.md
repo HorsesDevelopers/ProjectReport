@@ -338,6 +338,11 @@ TP Github
         - [6.2.2.7. Services Documentation Evidence for Sprint Review.](#6227-services-documentation-evidence-for-sprint-review)
         - [6.2.2.8. Software Deployment Evidence for Sprint Review.](#6228-software-deployment-evidence-for-sprint-review)
         - [6.2.2.9. Team Collaboration Insights during Sprint.](#6229-team-collaboration-insights-during-sprint)
+    - [6.3. Validation Interviews.](#63-validation-interviews)
+      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+      - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+    - [6.4. Video About-the-Product.](#64-video-about-the-product)
   - [Conclusiones](#conclusiones)
       - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
     - [Bibliografía](#bibliografía)
@@ -4344,7 +4349,56 @@ Commits:
 
 Contributors:
 
+### 6.3. Validation Interviews.
+#### 6.3.1. Diseño de Entrevistas.
 
+**Segmento 1: Productores acuícolas semiindustriales rurales**
+
+¿Qué tan útil le pareció la aplicación para llevar un control de la alimentación y crecimiento de sus peces?
+
+¿La información presentada en la aplicación es clara y comprensible para usted? ¿Qué le gustaría que fuera más sencillo?
+
+¿Cómo evalúa la facilidad de uso de la aplicación en condiciones rurales, por ejemplo, con acceso limitado a internet?
+
+¿Qué funciones considera más valiosas para su trabajo diario? ¿Y cuáles no ha utilizado?
+
+¿Siente que la aplicación le ha ayudado a tomar mejores decisiones productivas o financieras? ¿Podría dar un ejemplo?
+
+¿Le ha resultado fácil registrar datos como peso, talla o cantidad de alimento suministrado?
+
+¿Cree que la aplicación se adapta bien a las prácticas acuícolas que usted ya sigue? ¿Qué necesitaría cambiar?
+
+¿Cómo ha sido su experiencia con las alertas o recomendaciones automáticas que ofrece la app?
+
+¿Considera que la aplicación respeta su ritmo de trabajo y nivel de alfabetización digital?
+
+¿Qué le motivaría a usar esta aplicación todos los días? ¿Y qué le haría dejar de usarla?
+
+**Segmento 2: Piscicultores técnicos innovadores**
+
+¿Cómo compara nuestra aplicación con otras herramientas tecnológicas que ya utiliza en su labor acuícola?
+
+¿Qué tan precisas y relevantes le han parecido las recomendaciones basadas en sensores o algoritmos?
+
+¿La aplicación le permite tener una visión completa del rendimiento de su piscigranja? ¿Qué indicadores adicionales le gustaría ver?
+
+¿Ha experimentado con las funcionalidades avanzadas, como la predicción de consumo o análisis de condiciones ambientales?
+
+¿En qué medida le ha permitido automatizar tareas o reducir errores humanos?
+
+¿Qué tan confiable considera el sistema de registro y almacenamiento de datos de la aplicación?
+
+¿Le ha ayudado la app a justificar decisiones ante otros actores (proveedores, inversionistas, técnicos)?
+
+¿Considera que la app permite integrar fácilmente otros dispositivos inteligentes o tecnologías que ya usa?
+
+¿Qué mejoras técnicas o nuevas funcionalidades le harían adoptar esta solución como su principal herramienta de gestión?
+
+¿Recomendaría esta aplicación a otros piscicultores como usted? ¿Qué elementos destacarías en esa recomendación?
+
+#### 6.3.2. Registro de Entrevistas.
+#### 6.3.3. Evaluaciones según heurísticas.
+### 6.4. Video About-the-Product.
 
 ## Conclusiones
 
