@@ -1685,7 +1685,6 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     GIVEN un técnico de campo con cuenta registrada y credenciales válidas<br>
     WHEN ingresa su usuario y contraseña en la app móvil y presiona "Iniciar sesión"<br>
     THEN accede correctamente a su panel con funcionalidades específicas para técnicos<br><br>
-
     <strong>Scenario 2:</strong> Error por credenciales incorrectas<br>
     GIVEN un técnico intentando iniciar sesión<br>
     WHEN ingresa una contraseña incorrecta<br>
