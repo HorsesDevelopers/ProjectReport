@@ -122,7 +122,8 @@
     <td>6.0.0</td>
     <td>20/06/2025</td>
     <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
-    <td>- Realizar la primera versión del Fog Application
+    <td>- Realizar la primera versión del Backend
+    <br>- Realizar la primera versión del Fog Application
     <br>- Realizar la primera versión del Edge Application
     <br>- Corregir algunos aspectos necesarios del informe en general.</tr>
 </table>
@@ -146,6 +147,20 @@ TP Github
 ### Tabla de contenidos
 
 - [Reporte de Proyecto](#reporte-de-proyecto)
+- [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
+    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+    - [**2025-10**](#2025-10)
+      - [**Curso:**](#curso)
+    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+      - [**NRC:**](#nrc)
+      - [2947](#2947)
+      - [**Profesor:**](#profesor)
+      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+      - [Producto: **FeedGuard**](#producto-feedguard)
+    - [**Integrantes del equipo**](#integrantes-del-equipo)
+    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -196,6 +211,7 @@ TP Github
       - [Impact Mapping – Juan Pérez (Piscicultor rural, tradicional)](#impact-mapping--juan-pérez-piscicultor-rural-tradicional)
       - [Impact Mapping – Bryan Díaz (Piscicultor técnico, innovador)](#impact-mapping--bryan-díaz-piscicultor-técnico-innovador)
     - [3.4. Product Backlog](#34-product-backlog)
+  - [](#)
   - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
     - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
       - [4.1.1. EventStorming](#411-eventstorming)
@@ -221,10 +237,11 @@ TP Github
         - [4.1.3.3. Container Level Diagrams](#4133-container-level-diagrams)
         - [4.1.3.4. Deployment Diagrams](#4134-deployment-diagrams)
   - [Identify and access Bounded Context](#identify-and-access-bounded-context)
-  - [Communication Bounded Context](#communication-bounded-context)
-  - [Device Management Bounded Context](#device-management-bounded-context)
-  - [Feeding Bounded Context](#feeding-bounded-context)
-  - [Schedule Management Bounded Context](#schedule-management-bounded-context)
+  - [Dashboard and Analytics Bounded Context](#dashboard-and-analytics-bounded-context)
+  - [Assets and resources Management Bounded Context](#assets-and-resources-management-bounded-context)
+  - [Operation and monitoring Bounded Context](#operation-and-monitoring-bounded-context)
+  - [Design and Planning Management Bounded Context](#design-and-planning-management-bounded-context)
+    - [link de structurizr](#link-de-structurizr)
     - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
       - [4.2.1. Bounded Context: \<Access and Identify\>](#421-bounded-context-access-and-identify)
         - [4.2.1.1. Domain Layer](#4211-domain-layer)
@@ -261,8 +278,8 @@ TP Github
         - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer-1)
         - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams-1)
         - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams-1)
-      - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
-      - [4.3.2 Database Design Diagram](#432-database-design-diagram)
+          - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
+          - [4.3.2 Database Design Diagram](#432-database-design-diagram)
   - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
     - [5.1. Style Guidelines.](#51-style-guidelines)
       - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
@@ -291,7 +308,14 @@ TP Github
     - [6.1. Software Configuration Management.](#61-software-configuration-management)
       - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
       - [6.1.2. Source Code Management.](#612-source-code-management)
+    - [Semantic Versioning 2.0.0](#semantic-versioning-200)
+    - [Conventional Commits](#conventional-commits)
       - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [TypeScript con Angular](#typescript-con-angular)
+    - [Java con Spring Boot](#java-con-spring-boot)
+    - [Flutter con Dart](#flutter-con-dart)
       - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
     - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
       - [6.2.1. Sprint 1](#621-sprint-1)
@@ -347,7 +371,7 @@ TP Github
     Eduardo Espinoza, Vittorio Marcelo<br>
     <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
     <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br>
-    <i>TB2: Como líder de Planning, realize su parte en el fog y notifiqué a mi equipo sobre mis avances.</i><br><br>
+    <i>TB2: Como líder de Planning, realize mi parte en el fog y notifiqué a mi equipo sobre mis avances.</i><br><br>
     Flores Avalos, Diego<br>
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
     <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br>
@@ -376,7 +400,7 @@ TP Github
     TP: Contribuí a un entorno colaborativo creando herramientas visuales y entregables concretos (modelos, diseño frontend), planificando el trabajo y cumpliendo objetivos del proyecto.
     </i>
     <i>
-    TB2: Conseguimos avanzar a través de los micro sprints, planificando las tareas para los miembros del equipo en su respectivo producto y aspecto
+    TB2: Conseguimos avanzar a través de los micro sprints, planificando las tareas para los miembros del equipo en su respectivo producto y aspecto.
     </i>
     <br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
@@ -386,7 +410,7 @@ TP Github
     Flores Avalos, Diego<br>
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
     <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i>
-    <i>TB2: Se realizó el aspecto de Operations and Monitoring, estableci un limite de caracteríisticas iba a consumir y cóomo lo iba a realziar con la información que obtenía del edge.</i><br><br>
+    <i>TB2: Se realizó el aspecto de Operations and Monitoring, establecí un limite de características que iba a consumir y cómo lo iba a realizar con la información que obtenía del edge.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
     <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i>
@@ -4065,40 +4089,40 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU17</td>
     <td colspan="2">Dashboard de Indicadores Clave</td>
     <td>T17</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
+    <td colspan="2">Desarrollar un dashboard con los KPIs críticos</td>
+    <td colspan="3">Implementar un dashboard con indicadores clave que monitorize la salud y productividad de los estanques.</td>
     <td>2</td>
-    <td colspan="2"></td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>HU21</td>
     <td colspan="2">Configuración de Umbrales para KPIs Personalizados</td>
     <td>T21</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
+    <td colspan="2">Crear sección de personalización de KPIs</td>
+    <td colspan="3">Permitir la creación de umbrales personalizados de cualquier KPI para adaptar el monitoreo a condiciones específicas</td>
     <td>3</td>
-    <td colspan="2"></td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>HU27</td>
     <td colspan="2">Creación de un nuevo horario de alimentación</td>
     <td>T27</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
+    <td colspan="2">Diseñar proceso de creación de nuevo horario</td>
+    <td colspan="3">Elaborar formulario para crear un nuevo horario de alimentación para cada estanque, especificando sus parámetros</td>
     <td>3</td>
-    <td colspan="2"></td>
+    <td colspan="2">Vittorio Eduardo</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>HU35</td>
-    <td colspan="2">Visualizar el reporte de ciclo de vida de un estanque</td>
+    <td colspan="2">Visualizar el reporte de ciclo de vida de un estanque en móvil</td>
     <td>T37</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
+    <td colspan="2">Implementar historial del estanque del usuario</td>
+    <td colspan="3">Definir el historial del estanque para tener acceso rápido a la información desde el celular</td>
     <td>2</td>
-    <td colspan="2"></td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 </table>
@@ -4314,11 +4338,11 @@ Para el despliegue del Fog y Edge Application, hemos utilizado ___
 
 Para el desarrollo de este segundo sprint, la mayoria de los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
 
-commits:
+Commits:
 
 
 
-contributors:
+Contributors:
 
 
 
