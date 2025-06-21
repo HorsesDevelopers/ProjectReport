@@ -4002,11 +4002,11 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Velocity</td>
-    <td colspan="8">story points</td>
+    <td colspan="8">24 story points</td>
 </tr>
 <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">Story Points</td>
+    <td colspan="8">24 Story Points</td>
 </tr>
 </table>
 
