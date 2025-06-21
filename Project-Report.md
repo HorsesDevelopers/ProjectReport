@@ -2189,7 +2189,7 @@ El backend está dividido en varios contextos delimitados (Bounded Contexts) sig
 
 ### link de structurizr
 
-https://structurizr.com/share/101696/0bfbd598-12c4-4206-aeea-2a33a2379713
+https://structurizr.com/share/103655/d6dadfa5-3c39-4666-aced-e7fc814ea478
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
