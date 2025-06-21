@@ -4332,6 +4332,12 @@ En este segundo sprint se logró implementar el backend y las primeras versiones
 
 A continuación, se presentan la ejecución de las mismas:
 
+![backned1](Assets/backend/backend.png)
+
+![backned1](Assets/backend/backend-2.png)
+
+![backned1](Assets/backend/backend-3.pn
+
 ##### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
 Se desarrolaron los endpoints necesarios para que el backend sea funcional, dividiendose en diferentes bounded context para una mejor organización al respecto.
@@ -4342,9 +4348,13 @@ Se desarrolaron los endpoints necesarios para que el backend sea funcional, divi
 
 ![backned1](Assets/backend/backend-3.png)
 
+Link backend desplegado: https://backend-production-5e9e.up.railway.app/swagger-ui/index.html
+
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
 Para el despliegue del Fog y Edge Application, hemos utilizado \_\_\_
+
+![Railway](Assets/railway/railway.png)
 
 ##### 6.2.2.9. Team Collaboration Insights during Sprint.
 
@@ -4352,7 +4362,17 @@ Para el desarrollo de este segundo sprint, la mayoria de los miembros del equipo
 
 Commits:
 
+![pulse](Assets/pulse.png)
+
 Contributors:
+
+![contributors](Assets/insights.png)
+
+edge:
+![edgeinsights](Assets/edge-insights.png)
+
+mobile:
+![mobile-insights](Assets/mobile-insights.png)
 
 ### 6.3. Validation Interviews.
 
