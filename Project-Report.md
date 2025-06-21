@@ -1738,22 +1738,6 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr>
 <tr>
   <td>HU34</td>
-  <td>Visualización de Anomalías Detectadas en móvil</td>
-  <td>Como técnico de campo Quiero poder definir umbrales personalizados para cualquier KPI del dashboard Para adaptar el monitoreo a condiciones específicas de mi cultivo.</td>
-  <td>
-    <strong>Scenario 1:</strong> Definición de umbrales exitosa<br>
-    GIVEN un técnico accediendo a la configuración de KPIs<br>
-    WHEN introduce nuevos valores de umbral para pH, oxígeno o temperatura<br>
-    THEN los umbrales se actualizan y se aplican al sistema<br><br>
-    <strong>Scenario 2:</strong> Ingreso de valores inválidos<br>
-    GIVEN el técnico definiendo umbrales<br>
-    WHEN ingresa un valor fuera de rango permitido<br>
-    THEN el sistema muestra un mensaje de validación y no guarda el cambio
-  </td>
-  <td>EP04</td>
-</tr>
-<tr>
-  <td>HU35</td>
   <td>Visualizar el reporte de ciclo de vida de un estanque</td>
   <td>Como piscicultor Quiero ver un reporte con todo el historial de variables, alimentación y eventos Para evaluar el desempeño del cultivo</td>
   <td>
@@ -1769,7 +1753,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
   <td>EP04</td>
 </tr>
 <tr>
-  <td>HU36</td>
+  <td>HU35</td>
   <td>Visualizar el reporte de ciclo de vida de un estanque en móvil</td>
   <td>Como piscicultor Quiero ver desde el celular el historial del estanque Para tener acceso rápido a la información relevante</td>
   <td>
@@ -2011,9 +1995,38 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
   </tr>
   <tr>
     <td>29</td>
-    <td>HU29</td>
-    <td>Edición de un horario existente</td>
-    <td>Como piscicultor, quiero poder editar un horario ya creado, para actualizar sus parámetros en caso de cambios en el cultivo o alimentación.</td>
+    <td>HU33</td>
+    <td>Visualización de Anomalías Detectadas en móvil</td>
+    <td>Como piscicultor Quiero ver en el dashboard las anomalías detectadas (picos de amonio, caídas de oxígeno) resaltadas Para actuar de inmediato..</td>
+    <td>3</td>
+  </tr>
+  --
+  <tr>
+    <td>30</td>
+    <td>HU34</td>
+    <td>Visualizar el reporte de ciclo de vida de un estanque	</td>
+    <td>Como piscicultor Quiero ver un reporte con todo el historial de variables, alimentación y eventos Para evaluar el desempeño del cultivo</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>HU35</td>
+    <td>Visualizar el reporte de ciclo de vida de un estanque en móvil	</td>
+    <td>Como piscicultor Quiero ver desde el celular el historial del estanque Para tener acceso rápido a la información relevante</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>HU28</td>
+    <td>Visualización de los horarios registrados</td>
+    <td>Como piscicultor, quiero ver una lista de los horarios ya creados, para verificar fácilmente la programación de alimentación de cada estanque.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>HU32</td>
+    <td>Gestión de roles en móvil	</td>
+    <td>Como usuario Quiero que el sistema me asigne automáticamente un rol al registrarme Para acceder a las funcionalidades que me corresponden	</td>
     <td>2</td>
   </tr>
 </table>
