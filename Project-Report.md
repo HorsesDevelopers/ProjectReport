@@ -2125,7 +2125,7 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
 - Realiza la configuración de sensores y monitorea su funcionamiento en el lugar de cultivo.
 - Utiliza principalmente la aplicación móvil para tareas de mantenimiento y revisión de datos.
 
-![ContextDiagram](Assets/c4/context-diagram.png)
+<img src="Assets/c41.png"/>
 
 ##### 4.1.3.3. Container Level Diagrams
 
@@ -2151,7 +2151,7 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
 - Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
 - Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
 
-![ContainerDiagram](Assets/c4/containers-diagram.png)
+<img src="Assets/c42.png"/>
 
 ##### 4.1.3.4. Deployment Diagrams
 
@@ -2161,31 +2161,31 @@ El backend está dividido en varios contextos delimitados (Bounded Contexts) sig
 
 - Módulo de autenticación y autorización de usuarios.
 
-![BC1](Assets/c4/BC1.png)
+<img src="Assets/c43.png"/>
 
-## Communication Bounded Context
+## Dashboard and Analytics Bounded Context
 
-- Gestión de alertas y reportes entre los devices y los usuarios.
+- Comparacion histórica para análisis profundo sobre el estado del cultivo.
 
-![BC2](Assets/c4/BC2.png)
+<img src="Assets/c44.png"/>
 
-## Device Management Bounded Context
+## Assets and resources Management Bounded Context
 
 - Administración de sensores y dispositivos de campo.
+- 
+<img src="Assets/c45.png"/>
 
-![BC3](Assets/c4/BC3.png)
+## Operation and monitoring Bounded Context
 
-## Feeding Bounded Context
+- Gestión de la programación de alimentación y operación de los sensores.
 
-- Gestión de la programación de alimentación.
+<img src="Assets/c46_monitoringBC.png"/>
 
-![BC4](Assets/c4/BC4.png)
+## Design and Planning Management Bounded Context
 
-## Schedule Management Bounded Context
+- Manejo de horarios de alimentación, alertas y eventos.
 
-- Manejo de información sobre estanques, granjas y horarios de alimentación.
-
-![BC5](Assets/c4/BC5.png)
+<img src="Assets/c47_planningBC.png"/>
 
 ### link de structurizr
 
