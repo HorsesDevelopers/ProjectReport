@@ -125,7 +125,7 @@
   <tr>
     <td>6.0.0</td>
     <td>20/06/2025</td>
-    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td>Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
     <td>- Realizar la primera versión del Fog Application
     <br>- Realizar la primera versión del Edge Application
     <br>- Corregir algunos aspectos necesarios del informe en general.</tr>
@@ -1967,6 +1967,27 @@ A continuación, se presentan los Impact Mapping para cada segmento objetivo, fa
     <td>Diseño Atractivo y Responsivo</td>
     <td>Como piscicultor, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
     <td>3</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>HU27</td>
+    <td>Creación de un nuevo horario de alimentación</td>
+    <td>Como piscicultor, quiero poder crear un nuevo horario de alimentación para cada estanque, especificando sus parámetros, para automatizar el proceso de alimentación de los peces.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>HU28</td>
+    <td>Visualización de los horarios registrados</td>
+    <td>Como piscicultor, quiero ver una lista de los horarios ya creados, para verificar fácilmente la programación de alimentación de cada estanque.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>HU29</td>
+    <td>Edición de un horario existente</td>
+    <td>Como piscicultor, quiero poder editar un horario ya creado, para actualizar sus parámetros en caso de cambios en el cultivo o alimentación.</td>
+    <td>2</td>
   </tr>
 </table>
 
@@ -3864,7 +3885,7 @@ contributors:
 
 ##### 6.2.2.1. Sprint Planning 2.
 
-Para este segundo sprint nos enfocaremos en
+Para este segundo sprint nos enfocaremos en completar nuestro backend, así como realizar nuestras primeras versiones del Fog Application y Edge Application.
 
 <table>
 <tr>
@@ -3891,24 +3912,24 @@ Para este segundo sprint nos enfocaremos en
 </tr>
 <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+    <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
 </tr>
 <tr>
     <td colspan="5">Sprint n – 2 Review Summary</td>
-    <td colspan="8">En esta sección se planteó el desarrollo del</td>
+    <td colspan="8">En esta sección se planteó el desarrollo del backend, Fog y Edge Application.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint n – 2 Retrospective Summary</td>
-    <td colspan="8">El equipo identificó aciertos en </td>
+    <td colspan="8">El equipo identificó las tareas que teniamos que realizar y pudimos trabajar colaborativamente. </td>
 </tr>
 <tr>
     <td colspan="13">Sprint Goal & User Stories</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Goal</td>
-    <td colspan="8">Nuestro enfoque está en entregar <br>
-        Creemos que esto <br>
-        Esto se confirmará cuando</td>
+    <td colspan="8">Nuestro enfoque está en entregar nuestro backend y las primeras versiones de nuestro Fog Application y Edge Application.<br>
+        Creemos que esto ayudará a demostrar las capacidades de nuestro trabajo de manera más clara.<br>
+        Esto se confirmará cuando tanto el Fog Application como Edge Application se encuentren funcionando lo mejor posible.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Velocity</td>
@@ -3926,20 +3947,20 @@ Para este segundo sprint nos enfocaremos en
   <tr>
     <th>Team Member (Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Communication BC Leader (L) / Collaborator (C)</th>
-    <th>Identify and Acces BC Leader (L) / Collaborator (C)</th>
-    <th>Device Management BC Leader (L) / Collaborator (C)</th>
-    <th>Schedule Planning BC Leader (L) / Collaborator (C)</th>
-    <th>Feeding BC Leader (L) / Collaborator (C)</th>
+    <th>Dashboard and Analitycs BC Leader (L) / Collaborator (C)</th>
+    <th>Identify and Access BC Leader (L) / Collaborator (C)</th>
+    <th>Assets and Resources BC Leader (L) / Collaborator (C)</th>
+    <th>Service Design and Planning BC Leader (L) / Collaborator (C)</th>
+    <th>Operation and Monitoring BC Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Eduardo Espinoza, Vittorio Marcelo</td>
     <td>VittorioEdu</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
     <td>L</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>C</td>
   </tr>
   <tr>
     <td>Flores Avalos, Diego</td>
@@ -3951,19 +3972,10 @@ Para este segundo sprint nos enfocaremos en
     <td>L</td>
   </tr>
   <tr>
-    <td>Martel Zevallos, Gabriel</td>
-    <td>GabrielMarllos</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>L</td>
-    <td>...</td>
-  </tr>
-  <tr>
     <td>Garcia Rodriguez, Gabriel</td>
     <td>Gabotw</td>
     <td>C</td>
-    <td>C</td>
+    <td>L</td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -3980,11 +3992,11 @@ Para este segundo sprint nos enfocaremos en
   <tr>
     <td>Rivas Sarango, David Alejandro</td>
     <td>dars2002</td>
-    <td>...</td>
     <td>L</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
   </tr>
 </table>
 
@@ -3993,7 +4005,7 @@ Para este segundo sprint nos enfocaremos en
 <table>
 <tr>
     <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 1</th>
+    <th colspan="10">Sprint 2</th>
 </tr>
 <tr>
     <td colspan="3">User Story</td>
@@ -4005,19 +4017,49 @@ Para este segundo sprint nos enfocaremos en
     <td>Id</td>
     <td colspan="2">Title</td>
     <td colspan="3">Description</td>
-    <td>Estimation</td>
+    <td>Estimation (Hours)</td>
     <td colspan="2">Assigned To</td>
     <td>Status (To-do / InProcess / To-Review / Done)</td>
 </tr>
 <tr>
-    <td>.</td>
-    <td colspan="2">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
-    <td>.</td>
+    <td>HU17</td>
+    <td colspan="2">Dashboard de Indicadores Clave</td>
+    <td>T17</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td>2</td>
+    <td colspan="2"></td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU21</td>
+    <td colspan="2">Configuración de Umbrales para KPIs Personalizados</td>
+    <td>T21</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td>3</td>
+    <td colspan="2"></td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU27</td>
+    <td colspan="2">Creación de un nuevo horario de alimentación</td>
+    <td>T27</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td>3</td>
+    <td colspan="2"></td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU35</td>
+    <td colspan="2">Visualizar el reporte de ciclo de vida de un estanque</td>
+    <td>T37</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td>2</td>
+    <td colspan="2"></td>
+    <td>Done</td>
 </tr>
 </table>
 
@@ -4033,24 +4075,200 @@ Para este segundo sprint nos enfocaremos en
     <th>Commited on (Date)</th>
   </tr>
   <tr>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>84d5dd07422491596bd804275edfc14af86d42c8</td>
+    <td>first commit</td>
     <td>-</td>
-    <td>.</td>
+    <td>10/05/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>75633fb694a73f9b2950d4ae82e4d3883577659a</td>
+    <td>feat: roles resource send to front</td>
+    <td>-</td>
+    <td>13/05/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>0a3cf05740644de16f8acfdf9c2a0eaca9f504fd</td>
+    <td>feat(assets): sensor data entity</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(assets): command query services and repository</td>
+    <td>96ac25a5516a8ea4725fe610ef71085fcc747d3c</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(assets): device repository</td>
+    <td>b0b64ccd9c49f1ed788e6c3fece200233fbacef9</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(assets): commands and queries</td>
+    <td>accea88dc9d8e0f3b4a3460cef5c40cc28cfc5e7</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(assets): commands and queries implementation</td>
+    <td>564fa2d2df27d805ee71baacce1ef5d729f3f073</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(assets): comment</td>
+    <td>9fee94e023fe11acda11741e16610e8bee3c0fc7</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(notification): added notification to operation and monitoring context.</td>
+    <td>d0be12441626dd23e4e7a7d162a7326742249f37</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(feature/assets-and-resources): command and query service implementation</td>
+    <td>497dfc3ebf105fb0cc3ed7d17ef8668981e382ba</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(feature/assets-and-resources): sensor localdatetime</td>
+    <td>8d24ab2cd72218fdd1c24df151b1ed2cb5794d53</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(feature/assets-and-resources): interface layer</td>
+    <td>1a1ba88d57224a4bf726536a0886bb6dbbae8d2f</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>added Schedule partially</td>
+    <td>acfd58dd2be66e71077c2ed16aae9e9bb3ce2e29</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>fixed(feature/assets-and-resources): repository included</td>
+    <td>1815a7c101e6736596acb5f3d393c97270c5426e</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(pond): added pond aggregates.</td>
+    <td>14f6cf2984d70456e01254057249e61d3cbd1ffd</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat: update sdp</td>
+    <td>a211cc40523d04961e108ea6243700d68b1e30e5</td>
+    <td>-</td>
+    <td>13/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(iam): update iam bounded context.</td>
+    <td>efb25a8cc843796e25c211b0d0aa9c5a09284346</td>
+    <td>-</td>
+    <td>16/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(operation): advance.</td>
+    <td>e628bc1ca89dceab456578c08672038a4e41bacf</td>
+    <td>-</td>
+    <td>19/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>Merge branch 'feat/service-design-and-planning' into develop</td>
+    <td>7b6a652b3db25f02b0ff9291d2430fe5adbb20a5</td>
+    <td>-</td>
+    <td>20/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>Merge branch 'feature/assets-and-resources' into develop</td>
+    <td>962ef22c8b1c4fab41fcfb2d035f622a592172d4</td>
+    <td>-</td>
+    <td>20/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>Merge branch 'feature/operation&monitoring' into develop</td>
+    <td>d422d9802ec18b1ca080e2de54454572d78173c2</td>
+    <td>-</td>
+    <td>20/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>fix: update settings.</td>
+    <td>86a9d82c249e8f0985b5e14000af56ffc47dc346</td>
+    <td>-</td>
+    <td>20/06/2025</td>
   </tr>
 </table>
 
 ##### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
-En esta entrega se inició con la implementación de ___, dejando evidencia de las historias de usuario trabajadas y culminadas.
+En esta entrega se inició con la implementación de backend, Fog Application y Edge Application, teniendo como evidencia nuestros testings realizados.
 
 ##### 6.2.2.6. Execution Evidence for Sprint Review.
 
+En este segundo sprint se logró implementar el backend y las primeras versiones del Edge y Fog Application de FeedGuard. Se desarrollaron las partes clave con las cuales el sistema llega a funcionar correctamente.
+
+A continuación, se presentan la ejecución de las mismas:
+
 ##### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
+Se desarrolaron los endpoints necesarios para que el backend sea funcional, dividiendose en diferentes bounded context para una mejor organización al respecto.
+
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue del Fog y Edge Application, hemos utilizado ___
 
 ##### 6.2.2.9. Team Collaboration Insights during Sprint.
 
