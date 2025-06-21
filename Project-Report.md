@@ -229,7 +229,6 @@ TP Github
   - [Device Management Bounded Context](#device-management-bounded-context)
   - [Feeding Bounded Context](#feeding-bounded-context)
   - [Schedule Management Bounded Context](#schedule-management-bounded-context)
-    - [link de structurizr](#link-de-structurizr)
     - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
       - [4.2.1. Bounded Context: \<Access and Identify\>](#421-bounded-context-access-and-identify)
         - [4.2.1.1. Domain Layer](#4211-domain-layer)
@@ -266,8 +265,8 @@ TP Github
         - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer-1)
         - [4.2.3.5. Component Level Diagrams](#4235-component-level-diagrams-1)
         - [4.2.3.6. Code Level Diagrams](#4236-code-level-diagrams-1)
-          - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
-          - [4.3.2 Database Design Diagram](#432-database-design-diagram)
+      - [4.3.1 Domain Layer Class Diagrams](#431-domain-layer-class-diagrams)
+      - [4.3.2 Database Design Diagram](#432-database-design-diagram)
   - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
     - [5.1. Style Guidelines.](#51-style-guidelines)
       - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
@@ -296,14 +295,7 @@ TP Github
     - [6.1. Software Configuration Management.](#61-software-configuration-management)
       - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
       - [6.1.2. Source Code Management.](#612-source-code-management)
-    - [Semantic Versioning 2.0.0](#semantic-versioning-200)
-    - [Conventional Commits](#conventional-commits)
       - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [TypeScript con Angular](#typescript-con-angular)
-    - [Java con Spring Boot](#java-con-spring-boot)
-    - [Flutter con Dart](#flutter-con-dart)
       - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
     - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
       - [6.2.1. Sprint 1](#621-sprint-1)
@@ -481,12 +473,6 @@ AquaSense Technologies es una startup tecnológica orientada al desarrollo de so
     <td><img src="Assets\GabrielGarcia.png" width="200"/></td>
     <td>
     Mi nombre es Garcia Rodriguez Gabriel Stefano, tengo conocimientos de lenguajes de programación c++, c#, python, html y css, Frontend: Html, CSS, Angular y Vue. Backend: C# .NET y Java Spring Boot.  Habilidades de liderazgo y contribución en equipo.
-    </td>
-  </tr>
-  <tr>
-    <td> <img src="./Assets/GabrielMartel.jpg" width="200"/></td>
-    <td>
-      Mi nombre es Gabriel Martel, tengo conocimientos de lenguajes de programación JavaScript, TypeScript, Python, HTML y CSS. Frontend: React. Me interesa el área de Data Science y cuento con habilidades de liderazgo y trabajo en equipo.
     </td>
   </tr>
   <tr>
