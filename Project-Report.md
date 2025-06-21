@@ -49,10 +49,6 @@
       <td align="center">Flores Avalos, Diego</td>
     </tr>
     <tr>
-      <td align="center">U202121584</td>
-      <td align="center">Martel Zevallos, Gabriel</td>
-    </tr>
-    <tr>
       <td align="center">U202018627</td>
       <td align="center">Garcia Rodriguez, Gabriel</td>
     </tr>
