@@ -1678,66 +1678,112 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr>
 <tr>
   <td>HU30</td>
-  <td>Inicio de sesión</td>
-  <td>.</td>
+  <td>Inicio de sesión desde móvil</td>
+  <td>Como técnico de campo registrado Quiero poder iniciar sesión desde la aplicación móvil Para acceder a las funcionalidades específicas de mi rol</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Inicio de sesión exitoso en móvil<br>
+    GIVEN un técnico de campo con cuenta registrada y credenciales válidas<br>
+    WHEN ingresa su usuario y contraseña en la app móvil y presiona "Iniciar sesión"<br>
+    THEN accede correctamente a su panel con funcionalidades específicas para técnicos<br><br>
+
+    <strong>Scenario 2:</strong> Error por credenciales incorrectas<br>
+    GIVEN un técnico intentando iniciar sesión<br>
+    WHEN ingresa una contraseña incorrecta<br>
+    THEN el sistema muestra un mensaje de error e impide el acceso
   </td>
-  <td>.</td>
+  <td>EP02</td>
 </tr>
 <tr>
   <td>HU31</td>
   <td>Gestión de perfiles</td>
-  <td>.</td>
+  <td>Como usuario Quiero poder visualizar y editar mi información personal Para mantener mis datos actualizados</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Edición exitosa del perfil<br>
+    GIVEN un usuario autenticado en su perfil<br>
+    WHEN modifica campos como nombre, correo o foto de perfil y guarda los cambios<br>
+    THEN los datos se actualizan correctamente<br><br>
+    <strong>Scenario 2:</strong> Error al guardar cambios<br>
+    GIVEN el usuario editando su perfil<br>
+    WHEN hay un fallo en la validación de datos (por ejemplo, correo inválido)<br>
+    THEN se muestra un mensaje indicando el error
   </td>
-  <td>.</td>
+  <td>EP02</td>
 </tr>
 <tr>
   <td>HU32</td>
-  <td>Gestión de roles</td>
-  <td>.</td>
+  <td>Gestión de roles en móvil</td>
+  <td>Como usuario Quiero que el sistema me asigne automáticamente un rol al registrarme Para acceder a las funcionalidades que me corresponden</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Asignación de rol al registrarse<br>
+    GIVEN un nuevo usuario completando el formulario de registro<br>
+    WHEN finaliza el proceso de sign up<br>
+    THEN el sistema le asigna automáticamente un rol predeterminado según su tipo de usuario
   </td>
-  <td>.</td>
+  <td>EP02</td>
 </tr>
 <tr>
   <td>HU33</td>
   <td>Visualización de Anomalías Detectadas en móvil</td>
   <td>Como piscicultor Quiero ver en el dashboard las anomalías detectadas (picos de amonio, caídas de oxígeno) resaltadas Para actuar de inmediato.</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Anomalías visibles en el dashboard<br>
+    GIVEN un piscicultor accediendo al panel desde el móvil<br>
+    WHEN hay una anomalía registrada<br>
+    THEN esta se visualiza resaltada (color rojo o ícono de alerta)<br><br>
+    <strong>Scenario 2:</strong> Sin anomalías<br>
+    GIVEN el usuario en el dashboard<br>
+    WHEN no se detectan valores fuera del umbral<br>
+    THEN se indica que todo está en condiciones normales
   </td>
-  <td>.</td>
+  <td>EP04</td>
 </tr>
 <tr>
   <td>HU34</td>
   <td>Visualización de Anomalías Detectadas en móvil</td>
   <td>Como técnico de campo Quiero poder definir umbrales personalizados para cualquier KPI del dashboard Para adaptar el monitoreo a condiciones específicas de mi cultivo.</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Definición de umbrales exitosa<br>
+    GIVEN un técnico accediendo a la configuración de KPIs<br>
+    WHEN introduce nuevos valores de umbral para pH, oxígeno o temperatura<br>
+    THEN los umbrales se actualizan y se aplican al sistema<br><br>
+    <strong>Scenario 2:</strong> Ingreso de valores inválidos<br>
+    GIVEN el técnico definiendo umbrales<br>
+    WHEN ingresa un valor fuera de rango permitido<br>
+    THEN el sistema muestra un mensaje de validación y no guarda el cambio
   </td>
-  <td>.</td>
+  <td>EP04</td>
 </tr>
 <tr>
   <td>HU35</td>
   <td>Visualizar el reporte de ciclo de vida de un estanque</td>
-  <td>.</td>
+  <td>Como piscicultor Quiero ver un reporte con todo el historial de variables, alimentación y eventos Para evaluar el desempeño del cultivo</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Visualización completa del historial<br>
+    GIVEN el piscicultor accediendo al módulo de reportes<br>
+    WHEN selecciona un estanque y un rango de fechas<br>
+    THEN el sistema muestra un gráfico con KPIs, eventos y registros históricos<br><br>
+    <strong>Scenario 2:</strong> Sin datos disponibles<br>
+    GIVEN un estanque sin historial reciente<br>
+    WHEN el usuario intenta ver el reporte<br>
+    THEN se informa que no hay datos en el periodo seleccionado
   </td>
-  <td>.</td>
+  <td>EP04</td>
 </tr>
 <tr>
   <td>HU36</td>
-  <td>Visualizar el reporte de ciclo de vida de un estanque en movil</td>
-  <td>.</td>
+  <td>Visualizar el reporte de ciclo de vida de un estanque en móvil</td>
+  <td>Como piscicultor Quiero ver desde el celular el historial del estanque Para tener acceso rápido a la información relevante</td>
   <td>
-    .
+    <strong>Scenario 1:</strong> Acceso móvil al reporte<br>
+    GIVEN el piscicultor en la app móvil<br>
+    WHEN selecciona un estanque y periodo<br>
+    THEN ve un resumen del ciclo con gráficos adaptados al móvil<br><br>
+    <strong>Scenario 2:</strong> Visualización limitada por conexión<br>
+    GIVEN el usuario con mala conexión<br>
+    WHEN intenta abrir el reporte<br>
+    THEN se muestra una versión reducida o mensaje de error por falta de datos
   </td>
-  <td>.</td>
+  <td>EP04</td>
 </tr>
 </table>
 
