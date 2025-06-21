@@ -148,19 +148,19 @@ TP Github
 
 - [Reporte de Proyecto](#reporte-de-proyecto)
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-    - [**2025-10**](#2025-10)
-      - [**Curso:**](#curso)
-    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-      - [**NRC:**](#nrc)
-      - [2947](#2947)
-      - [**Profesor:**](#profesor)
-      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-      - [Producto: **FeedGuard**](#producto-feedguard)
-    - [**Integrantes del equipo**](#integrantes-del-equipo)
-    - [**Abril 2025**](#abril-2025)
+  - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+  - [**2025-10**](#2025-10)
+    - [**Curso:**](#curso)
+  - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+    - [**NRC:**](#nrc)
+    - [2947](#2947)
+    - [**Profesor:**](#profesor)
+    - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+  - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+    - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+    - [Producto: **FeedGuard**](#producto-feedguard)
+  - [**Integrantes del equipo**](#integrantes-del-equipo)
+  - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -344,7 +344,7 @@ TP Github
       - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
     - [6.4. Video About-the-Product.](#64-video-about-the-product)
   - [Conclusiones](#conclusiones)
-      - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+    - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
     - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
 
@@ -1119,7 +1119,7 @@ En esta sección se presentan los _As-Is Scenario Mapping_ correspondientes a lo
 | Oxygen level      | Nivel de oxígeno         | Cantidad de oxígeno disuelto en el agua.                                                                                  |
 | Ammonia level     | Nivel de amoniaco        | Sistancia producida por los desechos de los peces que puede resultar tóxica en altas concentraciones.                     |
 | Daily routine     | Rutina diaria            | Actividades realizadas o por realizar en un día en la piscigranja.                                                        |
-| pH level          | Nivel de ph              | Medida de la acidez o alcalinidad de una solución, influye en la salud de los peces y organismos acuaticos.                            |
+| pH level          | Nivel de ph              | Medida de la acidez o alcalinidad de una solución, influye en la salud de los peces y organismos acuaticos.               |
 
 ## Capítulo III: Requirements Specification
 
@@ -2214,8 +2214,7 @@ El backend está dividido en varios contextos delimitados (Bounded Contexts) sig
 ## Assets and resources Management Bounded Context
 
 - Administración de sensores y dispositivos de campo.
-- 
-<img src="Assets/c45.png"/>
+- <img src="Assets/c45.png"/>
 
 ## Operation and monitoring Bounded Context
 
@@ -3878,15 +3877,15 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 
 En esta entrega se inició con la implementación de la landing page y el frontend de Aquasense, dejando evidencia de las historias de usuario trabajadas y culminadas.
 
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|HorsesDevelopers/Testing|develop|8c44ad|feat US001.feature|feat US001.feature|15/05/2025|
-|HorsesDevelopers/Testing|develop|8ab5c9b|feat: US002.feature|feat: US002.feature|15/05/2025|
-|HorsesDevelopers/Testing|develop|d7718b4|feat(base structure added)|feat(base structure added)|15/05/2025|
-|HorsesDevelopers/Testing|develop|952dd1b|Feat(test): files added|Feat(test): files added|15/05/2025|
-|HorsesDevelopers/Testing|develop|88de9e5|feat: US002,US003,US004,US005|feat: US002,US003,US004,US005|15/05/2025|
-|HorsesDevelopers/Testing|develop|825175|feat: US007|feat: US007|15/05/2025|
-|HorsesDevelopers/Testing|develop|326182b|feat: US024|feat: US024|15/05/2025|
+|        Repository        | Branch  | Commit Id |        Commit Message         |      Commit Message Body      | Commited on (Date) |
+| :----------------------: | :-----: | :-------: | :---------------------------: | :---------------------------: | :----------------: |
+| HorsesDevelopers/Testing | develop |  8c44ad   |      feat US001.feature       |      feat US001.feature       |     15/05/2025     |
+| HorsesDevelopers/Testing | develop |  8ab5c9b  |      feat: US002.feature      |      feat: US002.feature      |     15/05/2025     |
+| HorsesDevelopers/Testing | develop |  d7718b4  |  feat(base structure added)   |  feat(base structure added)   |     15/05/2025     |
+| HorsesDevelopers/Testing | develop |  952dd1b  |    Feat(test): files added    |    Feat(test): files added    |     15/05/2025     |
+| HorsesDevelopers/Testing | develop |  88de9e5  | feat: US002,US003,US004,US005 | feat: US002,US003,US004,US005 |     15/05/2025     |
+| HorsesDevelopers/Testing | develop |  825175   |          feat: US007          |          feat: US007          |     15/05/2025     |
+| HorsesDevelopers/Testing | develop |  326182b  |          feat: US024          |          feat: US024          |     15/05/2025     |
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review.
 
@@ -3906,7 +3905,6 @@ A continuación, se presentan capturas de pantalla de las principales vistas imp
 
   <img src="Assets\homeview.png" width="600"/>
 
-
 Para una demostración completa de la visualización y navegación logradas en este Sprint, revisa el siguiente video:
 
 Enlace del landing Page: [https://horsesdevelopers.github.io/Landing-Page/]
@@ -3914,7 +3912,6 @@ Enlace del landing Page: [https://horsesdevelopers.github.io/Landing-Page/]
 Enlace del frontend: [https://aquasensedev.netlify.app/]
 
 - Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018627_upc_edu_pe/ETl-UOvO04xFs1WZGUAhUsQBR84GMItJVTWxD4eTFVI13w?e=u7zNZr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
-
 
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
@@ -3936,7 +3933,7 @@ Para el despliegue del Frontend Web app, hemos utilizado la herramienta de Netli
 
 Una vez creado el repositorio, entraremos a Netlify, vinculamos el repositorio y lo configuramos. Se coloca la información necesaria, como la fuente del branch a utilizar para realizar el deployment. Luego de eso, Netlify nos confirmará el despliegue, al que podremos ingresar.
 
-<img src="Assets\netlify.jpg"/> 
+<img src="Assets\netlify.jpg"/>
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint.
 
@@ -4325,6 +4322,10 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
 
 En esta entrega se inició con la implementación de backend, Fog Application y Edge Application, teniendo como evidencia nuestros testings realizados.
 
+Fog:
+
+![Fog](Assets/fog/fog.png)
+
 ##### 6.2.2.6. Execution Evidence for Sprint Review.
 
 En este segundo sprint se logró implementar el backend y las primeras versiones del Edge y Fog Application de FeedGuard. Se desarrollaron las partes clave con las cuales el sistema llega a funcionar correctamente.
@@ -4335,9 +4336,15 @@ A continuación, se presentan la ejecución de las mismas:
 
 Se desarrolaron los endpoints necesarios para que el backend sea funcional, dividiendose en diferentes bounded context para una mejor organización al respecto.
 
+![backned1](Assets/backend/backend.png)
+
+![backned1](Assets/backend/backend-2.png)
+
+![backned1](Assets/backend/backend-3.png)
+
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
-Para el despliegue del Fog y Edge Application, hemos utilizado ___
+Para el despliegue del Fog y Edge Application, hemos utilizado \_\_\_
 
 ##### 6.2.2.9. Team Collaboration Insights during Sprint.
 
@@ -4345,11 +4352,10 @@ Para el desarrollo de este segundo sprint, la mayoria de los miembros del equipo
 
 Commits:
 
-
-
 Contributors:
 
 ### 6.3. Validation Interviews.
+
 #### 6.3.1. Diseño de Entrevistas.
 
 **Segmento 1: Productores acuícolas semiindustriales rurales**
@@ -4397,7 +4403,9 @@ Contributors:
 ¿Recomendaría esta aplicación a otros piscicultores como usted? ¿Qué elementos destacarías en esa recomendación?
 
 #### 6.3.2. Registro de Entrevistas.
+
 #### 6.3.3. Evaluaciones según heurísticas.
+
 ### 6.4. Video About-the-Product.
 
 ## Conclusiones
