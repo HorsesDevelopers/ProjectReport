@@ -344,24 +344,30 @@ TP Github
     <i>
     TP: Pude apoyar y liderar al crear modelos (C4, UML, base de datos) y mejorar el frontend, facilitando la comprensión y toma de decisiones del equipo.
     </i>
+    <i>
+    TB2: Elaboré la correcta ejecución del edge y fog para su comunicación con el cloud backend.
+    </i> 
     <br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
     <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
-    <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br><br>
+    <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br>
+    <i>TB2: Como líder de Planning, realize su parte en el fog y notifiqué a mi equipo sobre mis avances.</i><br><br>
     Flores Avalos, Diego<br>
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
-    <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
+    <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br>
+    <i>TB2: Se realizó el fog además de las correcciones correspondientes a las vistas de operation and monitoring.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, user stories</i><br>
-    <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br><br>
-    Martel Zevallos, Gabriel<br>
-    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
-    <i>TP: Coolabore con el desarrollo de los user stories, y ampliamente en el desarrollo del prototipo.</i><br><br>
+    <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br>
+    <i>TB2: Se realizó el fog además de las correcciones correspondientes a las vistas de operation and monitoring.</i><br><br>
     Rivas Sarango, David Alejandro<br>
-    <i>TB1:<i>Se realizó el capítulo 2, junto con la elaboración de las entrevistas.  Nos comunicamos eficientemte al comunicar nuestras ideas para el diseño de las entrevistas y así identificarlas falencias actuales que poseen los piscicultores.</i><br></i><br>
-    <i>TP:<i>Se dialogó la elaboración y decisión de mockups y wireframes de la aplicación.</i><br></i><br>
+    <i>TB1:Se realizó el capítulo 2, junto con la elaboración de las entrevistas.  Nos comunicamos eficientemte al comunicar nuestras ideas para el diseño de las entrevistas y así identificarlas falencias actuales que poseen los piscicultores.</i><br>
+    <i>TP:Se dialogó la elaboración y decisión de mockups y wireframes de la aplicación.</i><br>
+    <i>TB2:Se realizaron los avances de Dashboard and Analytics, donde me encargue de la generación de reportes. Se comunicóo al equipo cuáles serían los KPIs que serían útiles para el usuario final.</i><br><br>
     </td>
     <td>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.</td>
+    <td> TP: Durante el desarrollo del TP se consolidó un liderazgo compartido mediante la coordinación de tareas técnicas clave como la creación de modelos, diseño visual y planificación del sistema.</td>
+   <td> TB2: el liderazgo en equipo se manifestó a través de la organización por aspectos, donde cada integrante asumió responsabilidad en su módulo y comunicó avances de forma efectiva. Esta estrategia permitió mantener la alineación del equipo, resolver desafíos técnicos de manera coordinada y lograr una integración exitosa entre los distintos componentes del sistema. </td>
   </tr>
   <tr>
     <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
@@ -370,27 +376,32 @@ TP Github
     <i>TB1: Creamos un entorno colaborativo y alcanzamos el objetivo de construir el modelo C4 mediante tareas planificadas y comunicación abierta.
     </i>
     <i>
-    TP: Contribui a un entorno colaborativo creando herramientas visuales y entregables concretos (modelos, diseño frontend), planificando el trabajo y cumpliendo objetivos del proyecto.
+    TP: Contribuí a un entorno colaborativo creando herramientas visuales y entregables concretos (modelos, diseño frontend), planificando el trabajo y cumpliendo objetivos del proyecto.
+    </i>
+    <i>
+    TB2: Conseguimos avanzar a través de los micro sprints, planificando las tareas para los miembros del equipo en su respectivo producto y aspecto
     </i>
     <br><br>
     Eduardo Espinoza, Vittorio Marcelo<br>
-    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i><br>
-    <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br><br>
+    <i>TB1: se realizo el Lean UX Problem Statements, Assumptions, Hypothesis Statements, Canvas y Segmentos objetivo</i>
+    <i>TP1: se realizo Style Guidelines, Web Applications Wireframes y Web Applications Mock-ups</i><br>
+    <i>TB2: se realizo Planning, el aspecto que muestra al usuario los horarios de alimentación para sus peces en el estanque. Complete los objetivos en el fog establecidos para mi aspecto.</i><br><br>
     Flores Avalos, Diego<br>
     <i>TB1: Se realizó user stories, Context Mapping, System Landscape Diagram, Context Diagram.</i><br>
-    <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i><br><br>
+    <i>TP: Se realizó el event storming, domain message flow modelling, feeding context, user stories.</i>
+    <i>TB2: Se realizó el aspecto de Operations and Monitoring, estableci un limite de caracteríisticas iba a consumir y cóomo lo iba a realziar con la información que obtenía del edge.</i><br><br>
     Garcia Rodriguez, Gabriel Stefano<br>
     <i>TB1: se realizo el ubiquitous Languaje, To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog</i><br>
-    <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i><br><br>
-    Martel Zevallos, Gabriel<br>
-    <i>TB1: Colaboré con la elaboración de las preguntas que se le cuestionarian a los segmentos objetivo, también he aportado en el liderazgo para el EventStorming.</i><br>
-    <i>TP: Coolabore con el desarrollo de los user stories, y ampliamente en el desarrollo del prototipo.</i><br><br>
-    <i>TB1</i><br>
+    <i>TP1: se realizo user stories, event storming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Software Configuration Management, feeding context, Sprint 1</i>
+    <i>TB2: se realizo el registro de dispositivos tsnto en el edge como en el fog backend.</i><br><br>
     Rivas Sarango, David Alejandro<br>
-    <i>TB1:<i> Para esta entrega realice el análisis de competidores y las entrevistas. Lo que me ayudó a comprender mejor la situación actual del usuario y así mejorar el Needfinding.</i><br>
-    <i>TP:<i> En esta entrega se realizaron los user stories, style guidelines, message flows y mockups de la aplicación.</i><br></i><br>
+    <i>TB1:Para esta entrega realice el análisis de competidores y las entrevistas. Lo que me ayudó a comprender mejor la situación actual del usuario y así mejorar el Needfinding.</i><br>
+    <i>TP: En esta entrega se realizaron los user stories, style guidelines, message flows y mockups de la aplicación.</i><br>
+    <i>TB2: Se realizaron las acrividades propuestas para el backend respecto al Dashboard and Analytics de acuerdo al alcance establecido.</i><br><br>
     </td>
     <td> TB1: Concluimos que la incorporación de soluciones IoT es fundamental para el sector acuícola. Si se les ayuda a automatizar y que no requieran un sobre esfuerzo. Se centrarían más en la gestión y administración adecuada de su negocio.</td>
+    <td> TP: Concluimos que la planificación colaborativa, la división clara de responsabilidades y la integración de herramientas visuales y técnicas como event storming, wireframes y mockups fueron esenciales para avanzar en la conceptualización del sistema.</td>
+    <td> Concluimos que el trabajo por aspectos durante los micro sprints permitió avanzar en paralelo y de forma organizada, enfocándonos en entregables específicos dentro de cada módulo del sistema. La planificación en FOG, el uso de criterios técnicos para definir límites y prioridades, y la implementación concreta en frontend, backend y edge resultaron clave para consolidar un producto funcional y alineado con los objetivos del proyecto.</td>
   </tr>
 </table>
 
