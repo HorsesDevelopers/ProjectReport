@@ -361,10 +361,10 @@ TP Github
     <i>TP:Se dialogó la elaboración y decisión de mockups y wireframes de la aplicación.</i><br>
     <i>TB2:Se realizaron los avances de Dashboard and Analytics, donde me encargue de la generación de reportes. Se comunicóo al equipo cuáles serían los KPIs que serían útiles para el usuario final.</i><br><br>
     </td>
-    <td>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.
-      TP: Durante el desarrollo del TP se consolidó un liderazgo compartido mediante la coordinación de tareas técnicas clave como la creación de modelos, diseño visual y planificación del sistema.
-      TB2: el liderazgo en equipo se manifestó a través de la organización por aspectos, donde cada integrante asumió responsabilidad en su módulo y comunicó avances de forma efectiva. Esta estrategia permitió mantener la alineación del equipo, resolver desafíos técnicos de manera coordinada y lograr una integración exitosa entre los distintos componentes del sistema.
-    </td>
+    <td><i>TB1: La construcción de la solución se benefició con el intercambio constante de ideas entre los miembros del equipo. Cada miembro asumió responsabilidades específicas y contribuyó activamente en la toma de decisiones, fortaleciendo así el liderazgo distribuido dentro del grupo.</i><br>
+     <i> TP: Durante el desarrollo del TP se consolidó un liderazgo compartido mediante la coordinación de tareas técnicas clave como la creación de modelos, diseño visual y planificación del sistema.</i><br>
+     <i> TB2: el liderazgo en equipo se manifestó a través de la organización por aspectos, donde cada integrante asumió responsabilidad en su módulo y comunicó avances de forma efectiva. Esta estrategia permitió mantener la alineación del equipo, resolver desafíos técnicos de manera coordinada y lograr una integración exitosa entre los distintos componentes del sistema.
+   </i> </td>
   </tr>
   <tr>
     <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
@@ -396,9 +396,10 @@ TP Github
     <i>TP: En esta entrega se realizaron los user stories, style guidelines, message flows y mockups de la aplicación.</i><br>
     <i>TB2: Se realizaron las acrividades propuestas para el backend respecto al Dashboard and Analytics de acuerdo al alcance establecido.</i><br><br>
     </td>
-    <td> TB1: Concluimos que la incorporación de soluciones IoT es fundamental para el sector acuícola. Si se les ayuda a automatizar y que no requieran un sobre esfuerzo. Se centrarían más en la gestión y administración adecuada de su negocio.</td>
-    <td> TP: Concluimos que la planificación colaborativa, la división clara de responsabilidades y la integración de herramientas visuales y técnicas como event storming, wireframes y mockups fueron esenciales para avanzar en la conceptualización del sistema.</td>
-    <td> Concluimos que el trabajo por aspectos durante los micro sprints permitió avanzar en paralelo y de forma organizada, enfocándonos en entregables específicos dentro de cada módulo del sistema. La planificación en FOG, el uso de criterios técnicos para definir límites y prioridades, y la implementación concreta en frontend, backend y edge resultaron clave para consolidar un producto funcional y alineado con los objetivos del proyecto.</td>
+    <td> <i>TB1: Concluimos que la incorporación de soluciones IoT es fundamental para el sector acuícola. Si se les ayuda a automatizar y que no requieran un sobre esfuerzo. Se centrarían más en la gestión y administración adecuada de su negocio. </i><br>
+    <i>TP: Concluimos que la planificación colaborativa, la división clara de responsabilidades y la integración de herramientas visuales y técnicas como event storming, wireframes y mockups fueron esenciales para avanzar en la conceptualización del sistema. </i><br>
+    <i> TB2: Concluimos que el trabajo por aspectos durante los micro sprints permitió avanzar en paralelo y de forma organizada, enfocándonos en entregables específicos dentro de cada módulo del sistema. La planificación en FOG, el uso de criterios técnicos para definir límites y prioridades, y la implementación concreta en frontend, backend y edge resultaron clave para consolidar un producto funcional y alineado con los objetivos del proyecto.</i>
+    </td>
   </tr>
 </table>
 
