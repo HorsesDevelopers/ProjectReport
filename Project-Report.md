@@ -4088,6 +4088,86 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>Status (To-do / InProcess / To-Review / Done)</td>
 </tr>
 <tr>
+    <td>HU6</td>
+    <td colspan="2">Registro Seguro de Usuario</td>
+    <td>T6</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>1</td>
+    <td colspan="2">Gabriel Rivas</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU7</td>
+    <td colspan="2">Configuración Inicial de la Granja</td>
+    <td>T7</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>3</td>
+    <td colspan="2">Carlos Avellaneda</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU8</td>
+    <td colspan="2">Vinculación de Dispositivos IoT</td>
+    <td>T8</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>4</td>
+    <td colspan="2">Carlos Avellaneda</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU10</td>
+    <td colspan="2">Gráficos Históricos de Parámetros Ambientales</td>
+    <td>T10</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>2</td>
+    <td colspan="2">Diego Flores</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU11</td>
+    <td colspan="2">Alertas por Parámetros Fuera de Rango</td>
+    <td>T11</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>3</td>
+    <td colspan="2">Diego Flores</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU12</td>
+    <td colspan="2">Recomendaciones de Alimentación Basadas en Tendencias Históricas</td>
+    <td>T12</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>2</td>
+    <td colspan="2">Diego Flores</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU14</td>
+    <td colspan="2">Gestión Avanzada de Roles y Permisos</td>
+    <td>T14</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>2</td>
+    <td colspan="2">Gabreil Garcia</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU16</td>
+    <td colspan="2">Configuración de Alertas por Tendencias y Predicciones</td>
+    <td>T16</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>2</td>
+    <td colspan="2">Diego Flores</td>
+    <td>Done</td>
+</tr>
+<tr>
     <td>HU17</td>
     <td colspan="2">Dashboard de Indicadores Clave</td>
     <td>T17</td>
@@ -4108,6 +4188,16 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>Done</td>
 </tr>
 <tr>
+    <td>HU22</td>
+    <td colspan="2">Creación de Reglas de Alerta por Umbral</td>
+    <td>T22</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>2</td>
+    <td colspan="2">Diego Flores</td>
+    <td>Done</td>
+</tr>
+<tr>
     <td>HU27</td>
     <td colspan="2">Creación de un nuevo horario de alimentación</td>
     <td>T27</td>
@@ -4115,6 +4205,26 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td colspan="3">Elaborar formulario para crear un nuevo horario de alimentación para cada estanque, especificando sus parámetros</td>
     <td>3</td>
     <td colspan="2">Vittorio Eduardo</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU30</td>
+    <td colspan="2">Inicio de sesion desde móvil</td>
+    <td>T30</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>1</td>
+    <td colspan="2">Gabriel Garcia</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU31</td>
+    <td colspan="2">Gestion de perfiles</td>
+    <td>T31</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>2</td>
+    <td colspan="2">Gabriel Garcia</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -4352,7 +4462,7 @@ Link backend desplegado: https://backend-production-5e9e.up.railway.app/swagger-
 
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
-Para el despliegue del Fog y Edge Application, hemos utilizado \_\_\_
+Para el despliegue del Fog y Edge Application, hemos utilizado:
 
 ![Railway](Assets/railway/railway.png)
 
