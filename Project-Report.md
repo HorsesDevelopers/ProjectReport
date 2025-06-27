@@ -148,19 +148,19 @@ TP Github
 
 - [Reporte de Proyecto](#reporte-de-proyecto)
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-  - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
-  - [**2025-10**](#2025-10)
-    - [**Curso:**](#curso)
-  - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
-    - [**NRC:**](#nrc)
-    - [2947](#2947)
-    - [**Profesor:**](#profesor)
-    - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
-  - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
-    - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
-    - [Producto: **FeedGuard**](#producto-feedguard)
-  - [**Integrantes del equipo**](#integrantes-del-equipo)
-  - [**Abril 2025**](#abril-2025)
+    - [**Facultad de Ingeniería - Carrera de Ingeniería de Software**](#facultad-de-ingeniería---carrera-de-ingeniería-de-software)
+    - [**2025-10**](#2025-10)
+      - [**Curso:**](#curso)
+    - [1ASI0572 - Desarrollo de Soluciones IoT](#1asi0572---desarrollo-de-soluciones-iot)
+      - [**NRC:**](#nrc)
+      - [2947](#2947)
+      - [**Profesor:**](#profesor)
+      - [Angel Augusto Velasquez Nuñez](#angel-augusto-velasquez-nuñez)
+    - [**Informe de Trabajo Final**](#informe-de-trabajo-final)
+      - [Startup: **AquaSense Technologies**](#startup-aquasense-technologies)
+      - [Producto: **FeedGuard**](#producto-feedguard)
+    - [**Integrantes del equipo**](#integrantes-del-equipo)
+    - [**Abril 2025**](#abril-2025)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Contenido](#contenido)
@@ -344,7 +344,7 @@ TP Github
       - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
     - [6.4. Video About-the-Product.](#64-video-about-the-product)
   - [Conclusiones](#conclusiones)
-    - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+      - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
     - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
 
@@ -4091,8 +4091,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU6</td>
     <td colspan="2">Registro Seguro de Usuario</td>
     <td>T6</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Implementar sistema de registro con validación segura</td>
+    <td colspan="3">Crear endpoint y formulario de registro con validación de correo y cifrado de contraseña.</td>
     <td>1</td>
     <td colspan="2">Gabriel Rivas</td>
     <td>Done</td>
@@ -4101,8 +4101,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU7</td>
     <td colspan="2">Configuración Inicial de la Granja</td>
     <td>T7</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Crear módulo de configuración inicial</td>
+    <td colspan="3">Permitir al usuario ingresar datos básicos de su granja tras el registro.</td>
     <td>3</td>
     <td colspan="2">Carlos Avellaneda</td>
     <td>Done</td>
@@ -4111,8 +4111,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU8</td>
     <td colspan="2">Vinculación de Dispositivos IoT</td>
     <td>T8</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Desarrollar interfaz para vincular dispositivos IoT</td>
+    <td colspan="3">Permitir al usuario asociar sensores y alimentadores a estanques.</td>
     <td>4</td>
     <td colspan="2">Carlos Avellaneda</td>
     <td>Done</td>
@@ -4121,8 +4121,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU10</td>
     <td colspan="2">Gráficos Históricos de Parámetros Ambientales</td>
     <td>T10</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Crear visualización de datos históricos</td>
+    <td colspan="3">Mostrar gráficas con evolución de temperatura, oxígeno y pH de las últimas 24 horas.</td>
     <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
@@ -4131,8 +4131,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU11</td>
     <td colspan="2">Alertas por Parámetros Fuera de Rango</td>
     <td>T11</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Configurar alertas para parámetros anómalos</td>
+    <td colspan="3">Definir rangos por especie y generar notificaciones al superar límites establecidos.</td>
     <td>3</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
@@ -4141,8 +4141,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU12</td>
     <td colspan="2">Recomendaciones de Alimentación Basadas en Tendencias Históricas</td>
     <td>T12</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Integrar módulo de recomendaciones basadas en datos</td>
+    <td colspan="3">Usar datos históricos de crecimiento y consumo para sugerir cantidad óptima de alimento.</td>
     <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
@@ -4151,18 +4151,18 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU14</td>
     <td colspan="2">Gestión Avanzada de Roles y Permisos</td>
     <td>T14</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Desarrollar control de acceso por rol</td>
+    <td colspan="3">Implementar permisos diferenciados para administradores, técnicos y piscicultores.</td>
     <td>2</td>
-    <td colspan="2">Gabreil Garcia</td>
+    <td colspan="2">Gabriel Garcia</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>HU16</td>
     <td colspan="2">Configuración de Alertas por Tendencias y Predicciones</td>
     <td>T16</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Implementar alertas inteligentes</td>
+    <td colspan="3">Detectar cambios porcentuales críticos y generar alertas predictivas en base a tendencias.</td>
     <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
@@ -4191,8 +4191,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU22</td>
     <td colspan="2">Creación de Reglas de Alerta por Umbral</td>
     <td>T22</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Crear módulo de reglas personalizadas de alerta</td>
+    <td colspan="3">Permitir que el usuario defina condiciones de umbral para generar alertas específicas.</td>
     <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
@@ -4211,8 +4211,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU30</td>
     <td colspan="2">Inicio de sesion desde móvil</td>
     <td>T30</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Habilitar login desde app móvil</td>
+    <td colspan="3">Crear autenticación segura y responsiva en la versión móvil para técnicos y piscicultores.</td>
     <td>1</td>
     <td colspan="2">Gabriel Garcia</td>
     <td>Done</td>
@@ -4221,8 +4221,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>HU31</td>
     <td colspan="2">Gestion de perfiles</td>
     <td>T31</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td colspan="2">Desarrollar edición de perfil de usuario</td>
+    <td colspan="3">Permitir al usuario editar su nombre, correo y foto, validando la información ingresada.</td>
     <td>2</td>
     <td colspan="2">Gabriel Garcia</td>
     <td>Done</td>
@@ -4425,6 +4425,30 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td>86a9d82c249e8f0985b5e14000af56ffc47dc346</td>
     <td>-</td>
     <td>20/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(operation): added controllers.</td>
+    <td>213096021168b0080a9be6d8b296a7ae1d3d3e80</td>
+    <td>-</td>
+    <td>20/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(operation): added fog receive endpoint.</td>
+    <td>d97e49f694aed16558caa1a442a9e9206ef796f1</td>
+    <td>-</td>
+    <td>21/06/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/backend</td>
+    <td>develop</td>
+    <td>feat(deploy): added properties.</td>
+    <td>b17f751f96f4f293072c4901051fd9959c759d03</td>
+    <td>-</td>
+    <td>21/06/2025</td>
   </tr>
 </table>
 
