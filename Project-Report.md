@@ -338,6 +338,16 @@ TP Github
         - [6.2.2.7. Services Documentation Evidence for Sprint Review.](#6227-services-documentation-evidence-for-sprint-review)
         - [6.2.2.8. Software Deployment Evidence for Sprint Review.](#6228-software-deployment-evidence-for-sprint-review)
         - [6.2.2.9. Team Collaboration Insights during Sprint.](#6229-team-collaboration-insights-during-sprint)
+      - [6.2.3. Sprint 3](#623-sprint-3)
+        - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+        - [6.2.3.2. Aspect Leaders and Collaborators.](#6232-aspect-leaders-and-collaborators)
+        - [6.2.3.3. Sprint Backlog 3.](#6233-sprint-backlog-3)
+        - [6.2.3.4. Development Evidence for Sprint Review.](#6234-development-evidence-for-sprint-review)
+        - [6.2.3.5. Testing Suite Evidence for Sprint Review.](#6235-testing-suite-evidence-for-sprint-review)
+        - [6.2.3.6. Execution Evidence for Sprint Review.](#6236-execution-evidence-for-sprint-review)
+        - [6.2.3.7. Services Documentation Evidence for Sprint Review.](#6237-services-documentation-evidence-for-sprint-review)
+        - [6.2.3.8. Software Deployment Evidence for Sprint Review.](#6238-software-deployment-evidence-for-sprint-review)
+        - [6.2.3.9. Team Collaboration Insights during Sprint.](#6239-team-collaboration-insights-during-sprint)
     - [6.3. Validation Interviews.](#63-validation-interviews)
       - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
       - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -4507,6 +4517,533 @@ edge:
 
 mobile:
 ![mobile-insights](Assets/mobile-insights.png)
+
+#### 6.2.3. Sprint 3
+
+##### 6.2.3.1. Sprint Planning 3.
+
+Para este tercer sprint
+
+<table>
+<tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="9">Sprint 3</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-06-27</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">7:40 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord y Google Meet</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Gabriel Garcia</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n – 3 Review Summary</td>
+    <td colspan="8">En esta sección se planteó</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint n – 3 Retrospective Summary</td>
+    <td colspan="8">.</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8">Nuestro enfoque está en<br>
+        Creemos que<br>
+        Esto se confirmará cuando</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8">story points</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">Story Points</td>
+</tr>
+</table>
+
+##### 6.2.3.2. Aspect Leaders and Collaborators.
+
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Dashboard and Analitycs BC Leader (L) / Collaborator (C)</th>
+    <th>Identify and Access BC Leader (L) / Collaborator (C)</th>
+    <th>Assets and Resources BC Leader (L) / Collaborator (C)</th>
+    <th>Service Design and Planning BC Leader (L) / Collaborator (C)</th>
+    <th>Operation and Monitoring BC Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Eduardo Espinoza, Vittorio Marcelo</td>
+    <td>VittorioEdu</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Flores Avalos, Diego</td>
+    <td>DiegoFA04</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Garcia Rodriguez, Gabriel</td>
+    <td>Gabotw</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Avellaneda Ramos, Carlos</td>
+    <td>carlosAvellanedaRamos</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Rivas Sarango, David Alejandro</td>
+    <td>dars2002</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+##### 6.2.3.3. Sprint Backlog 3.
+
+<table>
+<tr>
+    <th colspan="3">Sprint #</th>
+    <th colspan="10">Sprint 2</th>
+</tr>
+<tr>
+    <td colspan="3">User Story</td>
+    <td colspan="10">Work-Item/Task</td>
+</tr>
+<tr>
+    <td>Id</td>
+    <td colspan="2">Title</td>
+    <td>Id</td>
+    <td colspan="2">Title</td>
+    <td colspan="3">Description</td>
+    <td>Estimation (Hours)</td>
+    <td colspan="2">Assigned To</td>
+    <td>Status (To-do / InProcess / To-Review / Done)</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+<tr>
+    <td>HU</td>
+    <td colspan="2">.</td>
+    <td>T</td>
+    <td colspan="2">.</td>
+    <td colspan="3">.</td>
+    <td>.</td>
+    <td colspan="2">.</td>
+    <td>Done</td>
+</tr>
+</table>
+
+##### 6.2.3.4. Development Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>-</td>
+    <td>.</td>
+  </tr>
+</table>
+
+##### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+
+En esta entrega
+
+##### 6.2.3.6. Execution Evidence for Sprint Review.
+
+En este tercer sprint
+
+##### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+Se desarrollaron
+
+##### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+
+##### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+Para el desarrollo de este tercer sprint, los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
+
+Commits:
+
+Contributors:
 
 ### 6.3. Validation Interviews.
 
