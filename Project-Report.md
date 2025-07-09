@@ -4659,153 +4659,153 @@ Para este tercer sprint
     <td>Status (To-do / InProcess / To-Review / Done)</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU9</td>
+    <td colspan="2">Visualización de Parámetros en Tiempo Real</td>
+    <td>T9</td>
+    <td colspan="2">Mostrar datos actuales en tablero principal</td>
+    <td colspan="3">Implementar panel para mostrar en tiempo real los valores de oxígeno, temperatura y pH por estanque.</td>
+    <td>1</td>
+    <td colspan="2">Carlos Avellaneda</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU13</td>
+    <td colspan="2">Mantenimiento Predictivo de Equipos IoT</td>
+    <td>T13</td>
+    <td colspan="2">Generar alertas por fallos potenciales de dispositivos</td>
+    <td colspan="3">Detectar lecturas inusuales en sensores y generar alertas preventivas para calibración o revisión.</td>
+    <td>3</td>
+    <td colspan="2">Carlos Avellaneda</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU15</td>
+    <td colspan="2">Exportación de Reportes para Análisis Externo</td>
+    <td>T15</td>
+    <td colspan="2">Desarrollar módulo de exportación de datos</td>
+    <td colspan="3">Permitir al usuario descargar datos en formatos CSV o PDF para análisis externo o respaldo.</td>
+    <td>1</td>
+    <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU18</td>
+    <td colspan="2">Visualización de Anomalías Detectadas</td>
+    <td>T18</td>
+    <td colspan="2">Implementar dashboard de anomalías destacadas</td>
+    <td colspan="3">Resaltar gráficamente eventos críticos como picos de amonio o caídas de oxígeno.</td>
+    <td>2</td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU19</td>
+    <td colspan="2">Comparación de Rendimiento entre Estanques</td>
+    <td>T19</td>
+    <td colspan="2">Mostrar métricas comparativas entre estanques</td>
+    <td colspan="3">Desarrollar gráfica interactiva que permita comparar parámetros entre múltiples estanques.</td>
+    <td>1</td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU20</td>
+    <td colspan="2">Comparación Histórica Año a Año</td>
+    <td>T20</td>
+    <td colspan="2">Visualizar comparaciones año a año</td>
+    <td colspan="3">Generar gráficos para comparar datos equivalentes entre distintos años.</td>
+    <td>2</td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU23</td>
+    <td colspan="2">Creación de Reglas de Alerta por Umbral</td>
+    <td>T23</td>
+    <td colspan="2">Implementar filtros en lista de notificaciones</td>
+    <td colspan="3">Permitir al usuario seleccionar qué tipo de alertas visualizar: agua, alimentación o dispositivos.</td>
+    <td>1</td>
+    <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
+    <td>HU24</td>
+    <td colspan="2">Historial de Notificaciones de los Últimos 30 Días</td>
+    <td>T24</td>
+    <td colspan="2">Desarrollar módulo de historial de alertas</td>
+    <td colspan="3">Mostrar todas las alertas recibidas en los últimos 30 días para análisis retrospectivo.</td>
     <td>.</td>
-    <td colspan="2">.</td>
+    <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU25</td>
+    <td colspan="2">Suscripción a Canales de Notificación</td>
+    <td>T25</td>
+    <td colspan="2">Implementar selección de canal por tipo de alerta</td>
+    <td colspan="3">Permitir al usuario elegir si desea recibir alertas por email, SMS o notificaciones push.</td>
+    <td>1</td>
+    <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU26</td>
+    <td colspan="2">Suscripción a Canales de Notificación</td>
+    <td>T26</td>
+    <td colspan="2">Desarrollar función de modo silencio programado</td>
+    <td colspan="3">Crear opción para definir ventanas horarias sin alertas y reactivarlas automáticamente.</td>
+    <td>1</td>
+    <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU28</td>
+    <td colspan="2">Visualización de los horarios registrados</td>
+    <td>T28</td>
+    <td colspan="2">Diseñar listado completo de horarios</td>
+    <td colspan="3">Mostrar horarios registrados por estanque con opción de búsqueda o filtrado.</td>
+    <td>1</td>
+    <td colspan="2">Vittorio Eduardo</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU29</td>
+    <td colspan="2">Edición de un horario existente</td>
+    <td>T29</td>
+    <td colspan="2">Crear interfaz editable para programación de horarios</td>
+    <td colspan="3">Incorporar formulario editable con validación para actualizar horarios existentes.</td>
+    <td>2</td>
+    <td colspan="2">Vittorio Eduardo</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU32</td>
+    <td colspan="2">Gestion de roles</td>
+    <td>T32</td>
+    <td colspan="2">Asignar rol según tipo de usuario al registrarse</td>
+    <td colspan="3">Definir lógica que asigne automáticamente el rol adecuado tras completar el registro móvil.</td>
+    <td>2</td>
+    <td colspan="2">Gabriel Garcia</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU33</td>
+    <td colspan="2">Visualización de Anomalías Detectadas en móvil</td>
+    <td>T33</td>
+    <td colspan="2">Mostrar alertas críticas resaltadas en el dashboard</td>
+    <td colspan="3">Implementar visualización móvil de anomalías como caídas de oxígeno o picos de amonio, con íconos e indicadores.</td>
+    <td>2</td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 <tr>
-    <td>HU</td>
-    <td colspan="2">.</td>
-    <td>T</td>
-    <td colspan="2">.</td>
-    <td colspan="3">.</td>
-    <td>.</td>
-    <td colspan="2">.</td>
+    <td>HU34</td>
+    <td colspan="2">Visualizar el reporte de ciclo de vida de un estanque</td>
+    <td>T34</td>
+    <td colspan="2">Mostrar historial completo de variables y eventos</td>
+    <td colspan="3">Desarrollar panel con KPIs, alimentación, parámetros y eventos pasados para análisis técnico completo.</td>
+    <td>2</td>
+    <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
 </table>
