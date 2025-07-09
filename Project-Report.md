@@ -3586,8 +3586,7 @@ Adicionalmente, el frontend principal de la aplicación será desplegado utiliza
 
 ##### 6.2.1.1. Sprint Planning 1.
 
-Para este primer sprint nos enfocaremos en los tasks para la
-elaboración del Landing Page y la primera version del Frontend. Nos dividiremos entre nosotros cada una de las tareas identificadas para el sprint.
+Durante la primera sesión de planificación, el equipo definió el enfoque inicial del proyecto, priorizando la construcción de la Landing Page, el registro de usuarios y la configuración básica de la piscigranja. Estas funcionalidades permitirán presentar el modelo de negocio y sentar las bases para la integración de dispositivos en siguientes sprints.
 
 <table>
 <tr>
@@ -3617,24 +3616,16 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
     <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Martel Zevallos, Gabriel; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint n – 1 Review Summary</td>
-    <td colspan="8">En esta sección se planteó el desarrollo del Landing Page y la primera versión del Frontend para FeedGuard.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint n – 1 Retrospective Summary</td>
-    <td colspan="8">El equipo identificó aciertos en la colaboración y áreas de mejora en la integración del diseño y desarrollo del Landing Page y Frontend.</td>
-</tr>
-<tr>
     <td colspan="13">Sprint Goal & User Stories</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 1 Goal</td>
-    <td colspan="8">Nuestro enfoque está en entregar una Landing Page completa y la primera versión funcional del Frontend de FeedGuard.<br>
-        Creemos que esto permitirá a los usuarios conocer el producto, explorar sus beneficios y acceder a la plataforma.<br>
-        Esto se confirmará cuando la Landing Page y el Frontend estén desplegados y accesibles públicamente mostrando la información principal y opciones de navegación.</td>
+    <td colspan="8">Our focus is on delivering the first functional version of the Landing Page and the initial setup flows for new users and their fish farms.<br>
+        We believe it delivers early validation of our business model and engagement from potential users.<br>
+        This will be confirmed when visitors can navigate the Landing Page, register successfully, and configure the initial details of their farm.</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint n Velocity</td>
+    <td colspan="5">Sprint 1 Velocity</td>
     <td colspan="8">20 story points</td>
 </tr>
 <tr>
@@ -3644,6 +3635,8 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
 </table>
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators.
+
+En este primer Sprint, el equipo organizó el trabajo por aspectos clave del sistema: Landing Page, registro de usuario y configuración inicial de piscigranjas. Cada aspecto fue asignado a un líder responsable de coordinar el avance, con uno o más colaboradores encargados de apoyar en tareas específicas. Esta estructura permitió distribuir el trabajo de forma clara desde el inicio del proyecto, asegurar autonomía en cada frente y mantener una comunicación fluida entre responsables técnicos y funcionales.
 
 <table>
   <tr>
@@ -3659,10 +3652,10 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
     <td>Eduardo Espinoza, Vittorio Marcelo</td>
     <td>VittorioEdu</td>
     <td>L</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
   </tr>
   <tr>
     <td>Flores Avalos, Diego</td>
@@ -3676,11 +3669,11 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
   <tr>
     <td>Martel Zevallos, Gabriel</td>
     <td>GabrielMarllos</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
     <td>L</td>
-    <td>...</td>
+    <td>C</td>
   </tr>
   <tr>
     <td>Garcia Rodriguez, Gabriel</td>
@@ -3703,11 +3696,11 @@ elaboración del Landing Page y la primera version del Frontend. Nos dividiremos
   <tr>
     <td>Rivas Sarango, David Alejandro</td>
     <td>dars2002</td>
-    <td>...</td>
+    <td>C</td>
     <td>L</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
   </tr>
 </table>
 
@@ -3961,7 +3954,7 @@ contributors:
 
 ##### 6.2.2.1. Sprint Planning 2.
 
-Para este segundo sprint nos enfocaremos en completar nuestro backend, así como realizar nuestras primeras versiones del Fog Application y Edge Application.
+Durante esta reunión de planificación, el equipo revisó los resultados del Sprint 1, identificó oportunidades de mejora y definió el objetivo del Sprint 2. Se priorizaron las historias de usuario relacionadas con la implementación del Backend, Fog y Edge, asegurando que cada tarea contribuya al avance integral del sistema.
 
 <table>
 <tr>
@@ -3991,21 +3984,21 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
     <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint n – 2 Review Summary</td>
-    <td colspan="8">En esta sección se planteó el desarrollo del backend, Fog y Edge Application.</td>
+    <td colspan="5">Sprint 1 Review Summary</td>
+    <td colspan="8">Durante el Sprint 1 se completó la Landing Page del producto FeedGuard y se implementaron las funcionalidades de registro de usuario, configuración inicial de piscigranja y vinculación básica de dispositivos IoT. Las pruebas internas y la revisión del Product Owner validaron los avances, destacando el enfoque en la experiencia del usuario y recomendando avanzar hacia el backend y las aplicaciones Fog y Edge en el siguiente Sprint.</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint n – 2 Retrospective Summary</td>
-    <td colspan="8">El equipo identificó las tareas que teniamos que realizar y pudimos trabajar colaborativamente. </td>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8">El equipo valoró positivamente la coordinación por aspectos y el cumplimiento de tareas. Como mejora, se acordó reforzar la documentación técnica y planificar mejor las pruebas. Se estableció la asignación de los responsables y el uso de checklists técnicos por Sprint para asegurar calidad y consistencia.</td>
 </tr>
 <tr>
     <td colspan="13">Sprint Goal & User Stories</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Goal</td>
-    <td colspan="8">Nuestro enfoque está en entregar nuestro backend y las primeras versiones de nuestro Fog Application y Edge Application.<br>
-        Creemos que esto ayudará a demostrar las capacidades de nuestro trabajo de manera más clara.<br>
-        Esto se confirmará cuando tanto el Fog Application como Edge Application se encuentren funcionando lo mejor posible.</td>
+    <td colspan="8">Our focus is on delivering a functional Backend API, along with the first working versions of the Fog Application and Edge Application.<br>
+    We believe it delivers a tangible demonstration of our solution’s operational capabilities to end users and stakeholders.<br>
+    This will be confirmed when users can interact with the Edge and Fog Applications and retrieve consistent data through the deployed Backend.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Velocity</td>
@@ -4018,6 +4011,8 @@ Para este segundo sprint nos enfocaremos en completar nuestro backend, así como
 </table>
 
 ##### 6.2.2.2. Aspect Leaders and Collaborators.
+
+Para el segundo Sprint, el equipo reorganizó la asignación de líderes y colaboradores con base en las lecciones del Sprint anterior y la especialización técnica requerida. Se priorizaron los aspectos de Backend, Fog Application y Edge Application, permitiendo una cobertura equilibrada entre frontend, lógica de negocio y componentes embebidos. Esta nueva asignación mejoró la autonomía técnica y permitió avanzar en paralelo en los módulos centrales del sistema, con una coordinación más ágil entre los responsables de cada componente.
 
 <table>
   <tr>
@@ -4522,7 +4517,7 @@ mobile:
 
 ##### 6.2.3.1. Sprint Planning 3.
 
-Para este tercer sprint
+Durante esta última sesión de planificación, el equipo revisó los logros del Sprint 2, evaluó los aspectos técnicos y colaborativos, y definió un objetivo claro para concluir el proyecto. En este Sprint final se busca entregar versiones funcionales e integradas de todos los componentes de la solución: frontend, backend, aplicación móvil y sistemas Edge y Fog.
 
 <table>
 <tr>
@@ -4552,33 +4547,35 @@ Para este tercer sprint
     <td colspan="8">Eduardo Espinoza, Vittorio Marcelo; Flores Avalos, Diego; Garcia Rodriguez, Gabriel; Avellaneda Ramos, Carlos; Rivas Sarango, David Alejandro</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint n – 3 Review Summary</td>
-    <td colspan="8">En esta sección se planteó</td>
+    <td colspan="5">Sprint 2 Review Summary</td>
+    <td colspan="8">Durante el Sprint 2 se avanzó significativamente en la construcción del Backend, así como en las primeras versiones funcionales de la aplicación Fog y la aplicación Edge. El equipo logró implementar flujos de datos estables entre los dispositivos y la nube, sentando las bases para la integración completa. Se validaron endpoints clave y se documentaron APIs de forma preliminar.</td>
 </tr>
 <tr>
-    <td colspan="5">Sprint n – 3 Retrospective Summary</td>
-    <td colspan="8">.</td>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8">El equipo resaltó mejoras en la comunicación técnica y en el cumplimiento de tareas por aspecto. Se identificó como punto a reforzar el tiempo de integración y pruebas entre módulos. Para este Sprint final, se decidió priorizar sesiones de integración cruzada y revisiones intermedias para garantizar una solución estable y lista para su presentación.</td>
 </tr>
 <tr>
     <td colspan="13">Sprint Goal & User Stories</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 3 Goal</td>
-    <td colspan="8">Nuestro enfoque está en<br>
-        Creemos que<br>
-        Esto se confirmará cuando</td>
+    <td colspan="8">Our focus is on delivering the final, integrated versions of the Frontend, Backend, Mobile, Edge and Fog applications.<br>
+        We believe it delivers a complete and functional IoT solution to aquaculture producers and stakeholders.<br>
+        This will be confirmed when all components are deployed, connected, and tested, and users can interact with the system end-to-end through the frontend and receive real-time data and automated alerts.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8">story points</td>
+    <td colspan="8">30 story points</td>
 </tr>
 <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">Story Points</td>
+    <td colspan="8">30 Story Points</td>
 </tr>
 </table>
 
 ##### 6.2.3.2. Aspect Leaders and Collaborators.
+
+En el Sprint final se mantuvo la misma asignación de líderes y colaboradores del Sprint anterior, ya que demostró ser efectiva en la integración de los módulos. Los líderes continuaron al frente de sus respectivos aspectos, asegurando continuidad y profundidad técnica en los avances. Esta estabilidad en la organización del equipo permitió centrar los esfuerzos en la integración cruzada y cierre completo del producto.
 
 <table>
   <tr>
