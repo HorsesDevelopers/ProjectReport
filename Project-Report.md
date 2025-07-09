@@ -3706,6 +3706,12 @@ En este primer Sprint, el equipo organizó el trabajo por aspectos clave del sis
 
 ##### 6.2.1.3. Sprint Backlog 1.
 
+El objetivo principal de este Sprint fue implementar la primera versión funcional de la Landing Page. A partir de las User Stories seleccionadas, el equipo descompuso el trabajo en tareas específicas, organizadas y gestionadas mediante Trello. Esta planificación inicial permitió sentar las bases del sistema y validar la propuesta de valor ante los usuarios.
+
+Link del Trello: https://trello.com/invite/b/6839db121e7ff2a91991a0df/ATTId45caf1d50ec448d19ece0ee250348c44F83D85A/sprint-backlog
+
+<img src="Assets\SprintBacklog1.jpg"/>
+
 <table>
 <tr>
     <th colspan="3">Sprint #</th>
@@ -4072,6 +4078,12 @@ Para el segundo Sprint, el equipo reorganizó la asignación de líderes y colab
 </table>
 
 ##### 6.2.2.3. Sprint Backlog 2.
+
+Este Sprint se centró en el desarrollo del Backend y las primeras versiones funcionales de las aplicaciones Fog y Edge. A partir del Sprint Goal, se seleccionaron las User Stories más relevantes y se dividieron en tareas técnicas concretas, asignadas en el tablero de Trello. Esta estructura de planificación permitió avanzar en paralelo en componentes críticos del sistema, asegurando la comunicación entre los distintos niveles de la arquitectura IoT.
+
+Link del Trello: https://trello.com/invite/b/684b0651300b780ae7aa6877/ATTIf6ade21484909e7a6932dbc97d959e71B5BD2B28/sprint-backlog-2
+
+<img src="Assets\SprintBacklog2.jpg"/>
 
 <table>
 <tr>
@@ -4635,6 +4647,12 @@ En el Sprint final se mantuvo la misma asignación de líderes y colaboradores d
 </table>
 
 ##### 6.2.3.3. Sprint Backlog 3.
+
+En el Sprint final, el equipo trabajó en la integración completa de todos los módulos de la solución: Backend, Frontend Web, Aplicación Móvil, Fog y Edge. Se priorizaron User Stories orientadas al despliegue, validación cruzada y estabilidad del sistema, descomponiendo el trabajo en tareas detalladas en el tablero de Trello. Esta planificación buscó asegurar una entrega funcional y alineada con el objetivo general del proyecto.
+
+Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22cfab3a6e4fa64a5f0868233c82b597599F5/sprint-backlog-3
+
+<img src="Assets\SprintBacklog3.jpg"/>
 
 <table>
 <tr>
