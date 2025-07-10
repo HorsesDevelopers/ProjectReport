@@ -3886,7 +3886,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo de la Landing Page y 
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
-En esta entrega se inició con la implementación de la landing page y el frontend de Aquasense, dejando evidencia de las historias de usuario trabajadas y culminadas.
+Durante este primer Sprint, se diseñó una serie de pruebas funcionales y de validación visual orientadas a asegurar el correcto comportamiento de la Landing Page. Las pruebas consideraron distintos escenarios de ingreso de datos válidos e inválidos, verificación de redireccionamientos, visualización en dispositivos móviles y mensajes de error. También se establecieron criterios iniciales para futuras pruebas automatizadas en base a los casos de uso principales identificados en las User Stories. Esta base permitirá una evolución progresiva hacia una suite de testing estructurada en los siguientes sprints.
 
 |        Repository        | Branch  | Commit Id |        Commit Message         |      Commit Message Body      | Commited on (Date) |
 | :----------------------: | :-----: | :-------: | :---------------------------: | :---------------------------: | :----------------: |
@@ -4475,7 +4475,7 @@ En el Sprint 2, el equipo concentró sus esfuerzos en la implementación del Bac
 
 ##### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
-En esta entrega se inició con la implementación de backend, Fog Application y Edge Application, teniendo como evidencia nuestros testings realizados.
+En este segundo Sprint se amplió el enfoque de validación incorporando pruebas orientadas a backend y a los procesos de adquisición de datos desde los dispositivos Fog y Edge. Se estructuraron casos de prueba funcionales y de integración para validar los endpoints de los servicios RESTful, la correcta persistencia de datos y la respuesta esperada ante solicitudes concurrentes. También se documentaron escenarios de flujo completo desde dispositivo hasta la nube, incluyendo condiciones normales y excepcionales. Asimismo, se definieron las estructuras iniciales para implementar pruebas BDD, alineadas con los criterios de aceptación de las historias de usuario del Sprint.
 
 Fog:
 
@@ -4483,9 +4483,9 @@ Fog:
 
 ##### 6.2.2.6. Execution Evidence for Sprint Review.
 
-En este segundo sprint se logró implementar el backend y las primeras versiones del Edge y Fog Application de FeedGuard. Se desarrollaron las partes clave con las cuales el sistema llega a funcionar correctamente.
+El equipo mantuvo una dinámica de trabajo constante mediante reuniones periódicas de micro planificación y sincronización entre los líderes de aspecto. La ejecución se organizó en base a entregables por componente, con tareas distribuidas de forma equilibrada entre los miembros. Se monitoreó el avance por medio de revisiones internas y reportes técnicos. Ante imprevistos técnicos menores, se realizaron replanificaciones puntuales sin comprometer los objetivos principales. El Sprint concluyó con una implementación estable de los módulos planificados, evidenciando un alto nivel de compromiso y organización del equipo.
 
-A continuación, se presentan la ejecución de las mismas:
+A continuación, se presentan la ejecución de los mismas:
 
 ![backned1](Assets/backend/backend.png)
 
@@ -4495,7 +4495,7 @@ A continuación, se presentan la ejecución de las mismas:
 
 ##### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
-Se desarrolaron los endpoints necesarios para que el backend sea funcional, dividiendose en diferentes bounded context para una mejor organización al respecto.
+Durante el Sprint 2 se avanzó significativamente en la documentación técnica del Backend. Se definieron y describieron los principales endpoints RESTful a través de Swagger, permitiendo una visualización clara y estandarizada de los servicios implementados. Esta documentación incluyó métodos de autenticación, rutas para configuración y monitoreo de dispositivos, así como estructuras de datos esperadas y códigos de respuesta. La disponibilidad de esta documentación facilitó la integración con las aplicaciones Fog y Edge, al brindar referencias precisas para el consumo de servicios. Este trabajo sentó las bases para futuras validaciones y ajustes en los próximos sprints.
 
 ![backned1](Assets/backend/backend.png)
 
@@ -4507,7 +4507,7 @@ Link backend desplegado: https://backend-production-5e9e.up.railway.app/swagger-
 
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
-Para el despliegue del Fog y Edge Application, hemos utilizado:
+Se realizaron los primeros despliegues funcionales del Backend, Fog y Edge en entornos locales controlados. El Backend fue ejecutado en un entorno de desarrollo que permitió validar la conectividad con las aplicaciones periféricas, mientras que las versiones preliminares de Fog y Edge se ejecutaron en dispositivos de prueba simulados. Estos despliegues permitieron ejecutar flujos de datos reales entre los módulos, verificando el funcionamiento básico del sistema de monitoreo distribuido.
 
 ![Railway](Assets/railway/railway.png)
 
@@ -4683,7 +4683,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T9</td>
     <td colspan="2">Mostrar datos actuales en tablero principal</td>
     <td colspan="3">Implementar panel para mostrar en tiempo real los valores de oxígeno, temperatura y pH por estanque.</td>
-    <td>1</td>
+    <td>2</td>
     <td colspan="2">Carlos Avellaneda</td>
     <td>Done</td>
 </tr>
@@ -4693,7 +4693,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T13</td>
     <td colspan="2">Generar alertas por fallos potenciales de dispositivos</td>
     <td colspan="3">Detectar lecturas inusuales en sensores y generar alertas preventivas para calibración o revisión.</td>
-    <td>3</td>
+    <td>4</td>
     <td colspan="2">Carlos Avellaneda</td>
     <td>Done</td>
 </tr>
@@ -4703,7 +4703,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T15</td>
     <td colspan="2">Desarrollar módulo de exportación de datos</td>
     <td colspan="3">Permitir al usuario descargar datos en formatos CSV o PDF para análisis externo o respaldo.</td>
-    <td>1</td>
+    <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
@@ -4713,7 +4713,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T18</td>
     <td colspan="2">Implementar dashboard de anomalías destacadas</td>
     <td colspan="3">Resaltar gráficamente eventos críticos como picos de amonio o caídas de oxígeno.</td>
-    <td>2</td>
+    <td>3</td>
     <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
@@ -4723,7 +4723,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T19</td>
     <td colspan="2">Mostrar métricas comparativas entre estanques</td>
     <td colspan="3">Desarrollar gráfica interactiva que permita comparar parámetros entre múltiples estanques.</td>
-    <td>1</td>
+    <td>4</td>
     <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
@@ -4733,7 +4733,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T20</td>
     <td colspan="2">Visualizar comparaciones año a año</td>
     <td colspan="3">Generar gráficos para comparar datos equivalentes entre distintos años.</td>
-    <td>2</td>
+    <td>3</td>
     <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
@@ -4743,7 +4743,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T23</td>
     <td colspan="2">Implementar filtros en lista de notificaciones</td>
     <td colspan="3">Permitir al usuario seleccionar qué tipo de alertas visualizar: agua, alimentación o dispositivos.</td>
-    <td>1</td>
+    <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
@@ -4753,7 +4753,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T24</td>
     <td colspan="2">Desarrollar módulo de historial de alertas</td>
     <td colspan="3">Mostrar todas las alertas recibidas en los últimos 30 días para análisis retrospectivo.</td>
-    <td>.</td>
+    <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
@@ -4773,7 +4773,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T26</td>
     <td colspan="2">Desarrollar función de modo silencio programado</td>
     <td colspan="3">Crear opción para definir ventanas horarias sin alertas y reactivarlas automáticamente.</td>
-    <td>1</td>
+    <td>2</td>
     <td colspan="2">Diego Flores</td>
     <td>Done</td>
 </tr>
@@ -4783,7 +4783,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T28</td>
     <td colspan="2">Diseñar listado completo de horarios</td>
     <td colspan="3">Mostrar horarios registrados por estanque con opción de búsqueda o filtrado.</td>
-    <td>1</td>
+    <td>2</td>
     <td colspan="2">Vittorio Eduardo</td>
     <td>Done</td>
 </tr>
@@ -4793,7 +4793,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T29</td>
     <td colspan="2">Crear interfaz editable para programación de horarios</td>
     <td colspan="3">Incorporar formulario editable con validación para actualizar horarios existentes.</td>
-    <td>2</td>
+    <td>3</td>
     <td colspan="2">Vittorio Eduardo</td>
     <td>Done</td>
 </tr>
@@ -4803,7 +4803,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T32</td>
     <td colspan="2">Asignar rol según tipo de usuario al registrarse</td>
     <td colspan="3">Definir lógica que asigne automáticamente el rol adecuado tras completar el registro móvil.</td>
-    <td>2</td>
+    <td>3</td>
     <td colspan="2">Gabriel Garcia</td>
     <td>Done</td>
 </tr>
@@ -4823,7 +4823,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <td>T34</td>
     <td colspan="2">Mostrar historial completo de variables y eventos</td>
     <td colspan="3">Desarrollar panel con KPIs, alimentación, parámetros y eventos pasados para análisis técnico completo.</td>
-    <td>2</td>
+    <td>3</td>
     <td colspan="2">David Rivas</td>
     <td>Done</td>
 </tr>
@@ -5066,21 +5066,43 @@ Durante el Sprint 3, se completó la integración final de todos los componentes
     <td>-</td>
     <td>08/07/2025</td>
   </tr>
+  <tr>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>feat: added pond details view.</td>
+    <td>91740d3aa4aa135f836ec0e8847179b4ac11461c</td>
+    <td>-</td>
+    <td>09/07/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>feat: added pond details view.</td>
+    <td>0ae5d07839f8ec520e8bfc64071f169578187967</td>
+    <td>-</td>
+    <td>09/07/2025</td>
+  </tr>
 </table>
 
 ##### 6.2.3.5. Testing Suite Evidence for Sprint Review.
 
-En esta entrega
+Durante este último sprint, el equipo consolidó y aplicó pruebas funcionales sobre todos los módulos del sistema. Se ejecutaron pruebas basadas en escenarios reales de usuario, cubriendo flujos end-to-end, validaciones de datos, respuesta del sistema ante errores comunes y verificación de consistencia entre las interfaces. También se llevaron a cabo pruebas de integración para verificar la comunicación efectiva entre los distintos niveles de la arquitectura IoT. Se redactaron múltiples archivos de pruebas tipo .feature para documentar la validación de funcionalidades críticas bajo enfoque BDD, los cuales servirán como base para su automatización futura.
 
 ##### 6.2.3.6. Execution Evidence for Sprint Review.
 
-En este tercer sprint
+El equipo centró sus esfuerzos en la integración completa del sistema y en la validación funcional de todos sus módulos. Se mantuvo una estructura de trabajo colaborativa entre líderes y colaboradores, con sesiones de revisión cruzada que permitieron alinear criterios técnicos y resolver incompatibilidades. Se priorizó la resolución de errores detectados en pruebas internas, así como la optimización del rendimiento general del sistema. El equipo demostró flexibilidad para adaptar tareas ante cambios de prioridad y logró entregar versiones finales funcionales de la solución, cumpliendo con el cronograma y los objetivos trazados.
+
+Aqui se presenta la ejecución de los programas finales:
 
 ##### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 
-Se desarrollaron
+Durante el Sprint 3 se completó y refinó la documentación de los servicios desarrollados a lo largo del proyecto. Se consolidó toda la estructura del API REST en formato Swagger, asegurando que cada endpoint sea funcional, con parámetros requeridos, ejemplos de respuesta y códigos de error. Se añadieron también rutas relacionadas con alertas automatizadas, visualización de datos históricos y administración de usuarios. Esta documentación permitió la integración efectiva entre los distintos componentes del sistema y servirá como insumo clave para futuras implementaciones, mantenimiento o extensión del sistema. El equipo validó internamente la claridad y funcionalidad de la documentación generada.
+
+Link backend desplegado: https://backend-production-5e9e.up.railway.app/swagger-ui/index.html
 
 ##### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+
+Se logró el despliegue completo de todos los componentes del sistema en entornos funcionales listos para demostración y evaluación. El Backend fue desplegado en un servidor accesible de forma externa, permitiendo la comunicación con las otras aplicaciones. Las aplicaciones cliente fueron empaquetadas y ejecutadas en sus respectivos dispositivos: la aplicación móvil fue instalada en smartphones Android, el frontend web fue accesible vía navegador, y los sistemas Fog y Edge fueron desplegados en hardware de prueba. Estos despliegues exitosos confirmaron la interoperabilidad de toda la solución y sirvieron como base para las pruebas funcionales de cierre del proyecto.
 
 ##### 6.2.3.9. Team Collaboration Insights during Sprint.
 
