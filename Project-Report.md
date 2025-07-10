@@ -4467,6 +4467,12 @@ Fog:
 
 ![Fog](Assets/fog/fog.png)
 
+User Stories (Gherkin)
+
+|        Repository        | Branch  | Commit Id |        Commit Message         |      Commit Message Body      | Commited on (Date) |
+| :----------------------: | :-----: | :-------: | :---------------------------: | :---------------------------: | :----------------: |
+| HorsesDevelopers/Testing | develop |  8aeb9e5   |       feat(tb2): features      |      feat(tb2): features      |     10/07/2025     |
+
 ##### 6.2.2.6. Execution Evidence for Sprint Review.
 
 El equipo mantuvo una dinámica de trabajo constante mediante reuniones periódicas de micro planificación y sincronización entre los líderes de aspecto. La ejecución se organizó en base a entregables por componente, con tareas distribuidas de forma equilibrada entre los miembros. Se monitoreó el avance por medio de revisiones internas y reportes técnicos. Ante imprevistos técnicos menores, se realizaron replanificaciones puntuales sin comprometer los objetivos principales. El Sprint concluyó con una implementación estable de los módulos planificados, evidenciando un alto nivel de compromiso y organización del equipo.
@@ -5073,6 +5079,12 @@ Durante el Sprint 3, se completó la integración final de todos los componentes
 ##### 6.2.3.5. Testing Suite Evidence for Sprint Review.
 
 Durante este último sprint, el equipo consolidó y aplicó pruebas funcionales sobre todos los módulos del sistema. Se ejecutaron pruebas basadas en escenarios reales de usuario, cubriendo flujos end-to-end, validaciones de datos, respuesta del sistema ante errores comunes y verificación de consistencia entre las interfaces. También se llevaron a cabo pruebas de integración para verificar la comunicación efectiva entre los distintos niveles de la arquitectura IoT. Se redactaron múltiples archivos de pruebas tipo .feature para documentar la validación de funcionalidades críticas bajo enfoque BDD, los cuales servirán como base para su automatización futura.
+
+|        Repository        | Branch  | Commit Id |        Commit Message         |      Commit Message Body      | Commited on (Date) |
+| :----------------------: | :-----: | :-------: | :---------------------------: | :---------------------------: | :----------------: |
+| HorsesDevelopers/Testing | develop |  9af395c   |       feat(tf): features      |      feat(tf): features      |     10/07/2025     |
+| HorsesDevelopers/Testing | main |  eb73be8   |      Merge pull request #1 from HorsesDevelopers/develop       |      Develop      |     10/07/2025     |
+
 
 ##### 6.2.3.6. Execution Evidence for Sprint Review.
 
