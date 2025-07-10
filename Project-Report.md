@@ -2983,7 +2983,7 @@ Responsabilidades:
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
-<img src="Assets/bc_backend.png" />
+<img src="Assets/dc_backend.png" />
 
 ###### 4.3.2 Database Design Diagram
 
