@@ -2983,11 +2983,11 @@ Responsabilidades:
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
-![uml](Assets/UMLAndFisicalDatabase/uml.png)
+<img src="Assets/bc_backend.png" />
 
 ###### 4.3.2 Database Design Diagram
 
-![ContextDiagram](Assets/UMLAndFisicalDatabase/database.png)
+<img src="Assets/bd_backend.png" />
 
 ## Capítulo V: Solution UI/UX Design
 
