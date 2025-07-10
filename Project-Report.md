@@ -5114,6 +5114,18 @@ Contributors:
 
 #### 6.3.1. Diseño de Entrevistas.
 
+**Objetivos de validación**
+
+Objetivo Principal: Validar que las funcionalidades implementadas en el Sprint 3 cumplan con las expectativas y necesidades de los usuarios objetivo, identificando áreas de mejora para futuras iteraciones.
+
+Objetivos Específicos:
+
+* Evaluar la usabilidad del Landing Page para atraer y convertir visitantes
+* Validar la interfaz de usuario de la aplicación web y su facilidad de uso
+* Comprobar que los user flows principales sean intuitivos y eficientes
+* Identificar problemas de navegación o confusiones en el diseño
+* Recopilar feedback sobre las funcionalidades de monitoreo ambiental y control de dispositivos
+
 **Segmento 1: Productores acuícolas semiindustriales rurales**
 
 ¿Qué tan útil le pareció la aplicación para llevar un control de la alimentación y crecimiento de sus peces?
@@ -5160,9 +5172,23 @@ Contributors:
 
 #### 6.3.2. Registro de Entrevistas.
 
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Andre Bernaola**|
+|:-|:-|
+|Edad|24 años|
+|Profesión|Psicicultor|
+|Departamento|Lima, Peru|
+|<img src="Assets\none.PNG" >|Andre nos menciona que la aplicación posee ícnos muy grandes y visibles para su vista puesto que el se esfuerza por visualizar los detalles. Mencona que se debe detallar en como la aplicación se asocia con los sensores.|
+|Duración 8:43-13:45|URL:  |
+
+
 #### 6.3.3. Evaluaciones según heurísticas.
 
+Propósito: Detectar problemas de usabilidad en la aplicación de HorsesDevelopers que ayuda a controlar los estanques considerando temperatura, oxígeno y turbidez, mediante la lista de heurísticas de Nielsen.
+
 ### 6.4. Video About-the-Product.
+
+Se adjunta video relacionado a la promoción del producto y de igual forma en relación al equipo:
 
 ## Conclusiones
 
