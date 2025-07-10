@@ -4653,7 +4653,7 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
 <table>
 <tr>
     <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 2</th>
+    <th colspan="10">Sprint 3</th>
 </tr>
 <tr>
     <td colspan="3">User Story</td>
@@ -5078,7 +5078,7 @@ Durante el Sprint 3, se completó la integración final de todos los componentes
 
 ##### 6.2.3.5. Testing Suite Evidence for Sprint Review.
 
-Durante este último sprint, el equipo consolidó y aplicó pruebas funcionales sobre todos los módulos del sistema. Se ejecutaron pruebas basadas en escenarios reales de usuario, cubriendo flujos end-to-end, validaciones de datos, respuesta del sistema ante errores comunes y verificación de consistencia entre las interfaces. También se llevaron a cabo pruebas de integración para verificar la comunicación efectiva entre los distintos niveles de la arquitectura IoT. Se redactaron múltiples archivos de pruebas tipo .feature para documentar la validación de funcionalidades críticas bajo enfoque BDD, los cuales servirán como base para su automatización futura.
+Durante este último sprint, el equipo consolidó y aplicó pruebas funcionales sobre todos los módulos del sistema. Se ejecutaron pruebas basadas en escenarios reales de usuario, cubriendo flujos end-to-end, validaciones de datos, respuesta del sistema ante errores comunes y verificación de consistencia entre las interfaces. También se llevaron a cabo pruebas de integración para verificar la comunicación efectiva entre los distintos niveles de la arquitectura IoT. Se redactaron archivos de pruebas para documentar la validación de funcionalidades críticas bajo enfoque BDD, los cuales servirán como base para su correcta ejecución.
 
 |        Repository        | Branch  | Commit Id |        Commit Message         |      Commit Message Body      | Commited on (Date) |
 | :----------------------: | :-----: | :-------: | :---------------------------: | :---------------------------: | :----------------: |
