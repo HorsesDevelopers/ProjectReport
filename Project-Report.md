@@ -5061,16 +5061,16 @@ Durante el Sprint 3, se completó la integración final de todos los componentes
   <tr>
     <td>HorsesDevelopers/iot-mobile</td>
     <td>develop</td>
-    <td>feat: added pond details view.</td>
     <td>91740d3aa4aa135f836ec0e8847179b4ac11461c</td>
+    <td>feat: added pond details view.</td>
     <td>-</td>
     <td>09/07/2025</td>
   </tr>
   <tr>
     <td>HorsesDevelopers/iot-mobile</td>
     <td>develop</td>
-    <td>feat: added pond details view.</td>
     <td>0ae5d07839f8ec520e8bfc64071f169578187967</td>
+    <td>feat: added pond details view.</td>
     <td>-</td>
     <td>09/07/2025</td>
   </tr>
