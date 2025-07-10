@@ -3815,6 +3815,8 @@ Link del Trello: https://trello.com/invite/b/6839db121e7ff2a91991a0df/ATTId45caf
 
 ##### 6.2.1.4. Development Evidence for Sprint Review.
 
+Durante el Sprint 1, el equipo se enfocó en el desarrollo de la Landing Page y de los flujos iniciales de registro de usuario y configuración de piscigranjas. Se implementaron vistas responsivas, navegación básica, y validaciones iniciales. Todos los avances fueron registrados mediante commits en los repositorios correspondientes, evidenciando el trabajo colaborativo en los aspectos de frontend y diseño.
+
 <table>
   <tr>
     <th>Repository</th>
@@ -4257,6 +4259,8 @@ Link del Trello: https://trello.com/invite/b/684b0651300b780ae7aa6877/ATTIf6ade2
 </table>
 
 ##### 6.2.2.4. Development Evidence for Sprint Review.
+
+En el Sprint 2, el equipo concentró sus esfuerzos en la implementación del Backend y las primeras versiones funcionales de las aplicaciones Fog y Edge. Se desarrollaron flujos de comunicación entre dispositivos y nube, endpoints RESTful y procesos de adquisición y envío de datos. Estos avances fueron respaldados con commits en los repositorios respectivos, los cuales reflejan tanto la lógica de negocio como los aspectos técnicos clave de la arquitectura distribuida.
 
 <table>
   <tr>
@@ -4827,6 +4831,8 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
 
 ##### 6.2.3.4. Development Evidence for Sprint Review.
 
+Durante el Sprint 3, se completó la integración final de todos los componentes del sistema: Backend, Web Application, Mobile App, Fog Application y Edge Application. Se ajustaron funcionalidades, se resolvieron bugs y se implementaron mejoras de rendimiento. Todos los avances fueron registrados mediante commits y reflejan el cierre técnico de la solución IoT, lista para su validación final y entrega.
+
 <table>
   <tr>
     <th>Repository</th>
@@ -4837,204 +4843,228 @@ Link del Trello: https://trello.com/invite/b/684b027ee3b434a48ea328cd/ATTI86f22c
     <th>Commited on (Date)</th>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>04fedc0f907283ffd6a7e4402493535cec12172a</td>
+    <td>initial commit</td>
     <td>-</td>
-    <td>.</td>
+    <td>21/06/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>8d7cf5d30bafd0e7a8c52389ecc6b13a936a9015</td>
+    <td>feat: added notification communication with cloud backend.</td>
     <td>-</td>
-    <td>.</td>
+    <td>21/06/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>3d7085545f18a5c9af43b36ae7d1540a02ac46a9</td>
+    <td>feat: update notification communication with cloud backend.</td>
     <td>-</td>
-    <td>.</td>
+    <td>21/06/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>d6c3c4b8e133005d0aae7f9eb246418ab6fca6a4</td>
+    <td>feat(sidebar): create sidebar</td>
     <td>-</td>
-    <td>.</td>
+    <td>03/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>1d81e605751b7e4242a3213d863f2888869410ff</td>
+    <td>feat(tasks): create tasks page</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>3740ce5f835b8826c1da47c5780607167bdcc2a0</td>
+    <td>feat(develop): change features names</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>0f1b8181bd01b44e3d6ec60e53f71a4bb56267f8</td>
+    <td>Merge remote-tracking branch 'origin/develop' into feature/tasks</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>6332913c94861e38a86ee8908cd9c59bd31f1636</td>
+    <td>feat(tasks): update from develop</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>c2803b10fa34696de0f87576a21f3d72c98ce036</td>
+    <td>feat(tasks): update sidebar</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>9a801ebb1eba89530a7202e70d433edf159d2144</td>
+    <td>feat(feature/ponds): modifications by new dependency chart i guess</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>7220381b335cda2b7f3e2f7076fb381ea3802583</td>
+    <td>feat(ponds): detail, list and comparison</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>ba61e2e1a498afa2aba6276866135f963940ceca</td>
+    <td>feat(analytics): chart first try</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>e083b6d7879ad6143801fb336ce826d5a8d49a70</td>
+    <td>feat(ponds): real images</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>1f8502f1c8e1b58ff0f58fb5223e82d70e45908a</td>
+    <td>fixed(analytics): renamed kpis</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>ba94d3be6d4ac9895c31afa43bcb8cbdfc31bf4f</td>
+    <td>feat(analytics): title for oxygen level"</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>5a9e737b805fb7aa4e236b08ddabada455f1c007</td>
+    <td>fixed(analytics): title for oxygen level"</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>67d520cdb2929350363e680292868497c7e631bf</td>
+    <td>feat(ponds): create new pond screen</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>f8255210965a317bf482932dfb1a33648af8963b</td>
+    <td>fixed(ponds): icons changed for temperature kpis</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>41fa997f08ec1d0cee0993fc101db5c43b0390e7</td>
+    <td>feat: resolving merge conflicts</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>e56dc0fa104b936ccbc0464b78d0db0d07d8cea1</td>
+    <td>feat: configs</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>1463dc1fc47b8f41471b0c9f27fefef85d760d19</td>
+    <td>feat(tasks): update tasks</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>604b47e2433b6d13f178026651cfa20b8bbaae91</td>
+    <td>fix: fixed files fix nomenclature.</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>38b7800583fbd15679f4c47bc22a6c6db7d51fac</td>
+    <td>fix: fixed files fix nomenclature.</td>
     <td>-</td>
-    <td>.</td>
+    <td>04/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>c3aacc88f82fb1a54165a8ff0bbbdaefabff27ec</td>
+    <td>feat: update login and backend url.</td>
     <td>-</td>
-    <td>.</td>
+    <td>08/07/2025</td>
   </tr>
   <tr>
-    <td>HorsesDevelopers/</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>a240bc8bde06db1cf4f441eae46ef9b02d9c8bce</td>
+    <td>feat: solve conflict problems.</td>
     <td>-</td>
-    <td>.</td>
+    <td>08/07/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>86caf5c886cfa61b14d824ee124a198557e70778</td>
+    <td>feat: solve conflict problems.</td>
+    <td>-</td>
+    <td>08/07/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>649d907c053dfa5218f0fce52df978bcb94a6445</td>
+    <td>feat: added new api constants.</td>
+    <td>-</td>
+    <td>08/07/2025</td>
+  </tr>
+  <tr>
+    <td>HorsesDevelopers/iot-mobile</td>
+    <td>develop</td>
+    <td>9e1284a4ac961f5f084169ef5be0ffaffb70b783</td>
+    <td>feat: added pond create view.</td>
+    <td>-</td>
+    <td>08/07/2025</td>
   </tr>
 </table>
 
