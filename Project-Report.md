@@ -5215,7 +5215,8 @@ Propósito: Detectar problemas de usabilidad en la aplicación de HorsesDevelope
 ### Problemas detallados
 
 #### Problema #1 – Consistencia y estándares  
-**Imagen:**  <img src="Assets/prob-1.jpg" width="100px"/>  
+**Imagen:**  
+<img src="Assets/prob-1.jpg" width="250px"/>  
 **Descripción:**  
 La aplicación presenta una mezcla de idiomas, como botones y mensajes en inglés (“Download Report”) mientras que el resto de la interfaz está en español. Esta inconsistencia puede generar confusión en los usuarios y afecta la profesionalidad del producto.  
 **Escala de severidad:** 2  
@@ -5224,7 +5225,8 @@ La aplicación presenta una mezcla de idiomas, como botones y mensajes en inglé
 Unificar el idioma en toda la interfaz, preferentemente en español si ese es el público objetivo, o incluir una opción de cambio de idioma bien visible.
 
 #### Problema #2 – Diseño estético y minimalista  
-**Imagen:**  <img src="Assets/prob-2.jpg" width="100px"/>    
+**Imagen:**  
+<img src="Assets/prob-2.jpg" width="250px"/>    
 **Descripción:**  
 Algunos botones tienen bajo contraste entre el color del texto y el fondo, lo cual los hace difíciles de leer, especialmente para personas con discapacidades visuales o en condiciones de mucha luz.  
 **Escala de severidad:** 1  
@@ -5233,7 +5235,8 @@ Algunos botones tienen bajo contraste entre el color del texto y el fondo, lo cu
 Ajustar la paleta de colores para cumplir con los estándares de accesibilidad (WCAG), asegurando al menos una relación de contraste 4.5:1 entre texto y fondo.
 
 #### Problema #3 – Visibilidad del estado del sistema  
-**Imagen:**  <img src="Assets/prob-2.jpg" width="100px"/>    
+**Imagen:**  
+<img src="Assets/prob-2.jpg" width="250px"/>    
 **Descripción:**  
 El botón “Download Report” no indica qué tipo de reporte se descargará (por ejemplo, temperatura, oxígeno, resumen general, etc.). Esto puede generar incertidumbre y errores de interacción.  
 **Escala de severidad:** 2  
