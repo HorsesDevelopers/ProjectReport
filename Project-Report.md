@@ -2193,15 +2193,13 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
 
 <img src="Assets/c42.png"/>
 
+Link C4: https://structurizr.com/share/103655/d6dadfa5-3c39-4666-aced-e7fc814ea478
+
 ##### 4.1.3.4. Deployment Diagrams
 
-El backend está dividido en varios contextos delimitados (Bounded Contexts) siguiendo principios de **Domain-Driven Design**:
+Se visualiza la infraestructura física donde se implementarán los componentes del software, organizados en ambientes como Cloud (servicios web y bases de datos), Edge (dispositivos, sensores, actuadores) y Mobile. Muestra las relaciones técnicas entre componentes y los protocolos de comunicación utilizados.
 
-## Identify and access Bounded Context
-
-- Módulo de autenticación y autorización de usuarios.
-
-<img src="Assets/c43.png"/>
+<img src="Assets/dpeloyment1.png"/>
 
 ## Dashboard and Analytics Bounded Context
 
@@ -2219,12 +2217,6 @@ El backend está dividido en varios contextos delimitados (Bounded Contexts) sig
 - Gestión de la programación de alimentación y operación de los sensores.
 
 <img src="Assets/c46_monitoringBC.png"/>
-
-## Design and Planning Management Bounded Context
-
-- Manejo de horarios de alimentación, alertas y eventos.
-
-<img src="Assets/c47_planningBC.png"/>
 
 ### link de structurizr
 
@@ -2301,6 +2293,10 @@ https://structurizr.com/share/103655/d6dadfa5-3c39-4666-aced-e7fc814ea478
 
 ##### 4.2.1.5. Component Level Diagrams
 
+- Módulo de autenticación y autorización de usuarios.
+
+<img src="Assets/c43.png"/>
+
 Incluye:
 
 - Identify and Access Controller
@@ -2335,33 +2331,26 @@ Responsabilidades:
 
     - Columnas: id, username, password, role, created_at
 
-#### 4.2.2. Bounded Context: \<Communication\>
+#### 4.2.2. Bounded Context: \<Schedule\>
+
+Este bounded context se encarga del planeamiento de comida para los peces que se encuentran en el estanque. Su responsabilidad es especificar la hora y minuto en el que se le dispensará comida.
 
 ##### 4.2.2.1. Domain Layer
 
-- **Entity: Report**
+- **Aggregates: Schedule**
 
-  - Propósito: Representa un reporte generado por el sistema, que puede incluir alertas o estados sobre condiciones ambientales.
+  - Propósito: Representa el aggregate de Schedule.
     - Atributos:
       - id: UUID – Identificador único del usuario.
-      - type: String - Tipo de reporte (alerta, estado, etc.).
-      - title: String – Título del reporte.
-      - information: String – Información detallada del reporte.
-      - pond_id: UUID – Identificador del estanque asociado al reporte.
+      - name: String - Nombre.
+      - pondId: String – Id de estanque.
+      - day: String – Día de schedule.
+      - hour: UUID – Hora de schedule.
+      - duration: OpenDuration - duration
     - Métodos:
-      - createReport(): void – Crea un nuevo reporte.
-      - updateReport(): void – Actualiza la información del reporte.
-      - deleteReport(): void – Elimina un reporte.
-
-- **Entity: User_Report**
-
-  - Propósito: Representa la relación entre un usuario y un reporte, indicando qué reportes han sido generados o asignados a un usuario específico.
-    - Atributos:
-      - report_id: UUID – Identificador único del reporte.
-      - user_id: UUID – Identificador único del usuario.
-      - created_at: Date – Fecha de creación del reporte.
-    - Métodos:
-      - getUserReports(): List< Report > – Devuelve la lista de reportes asociados a un usuario.
+      - createSchedule(): void – Crea un nuevo schedule.
+      - updateSchedule(): void – Actualiza la información del schedule.
+      - deleteSchedule(): void – Elimina un schedule.
 
 - **Entity: Notifcation**
 
@@ -2375,51 +2364,36 @@ Responsabilidades:
       - createNotification(): void – Crea una nueva notificación.
       - deleteNotification(): void – Elimina una notificación.
 
-- **Entity: User_Notification**
-
-  - Propósito: Representa la relación entre un usuario y una notificación, indicando qué notificaciones han sido enviadas o asignadas a un usuario específico.
-    - Atributos:
-      - notification_id: UUID – Identificador único de la notificación.
-      - user_id: UUID – Identificador único del usuario.
-      - created_at: Date – Fecha de creación del reporte.
-      - is_read: boolean – Indica si la notificación ha sido leída por el usuario.
-    - Métodos:
-      - getUserNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas a un usuario.
-
-- **Repository Interface**
-  - NotificationRepository
-    - Interface para acceder a los datos de las notificaciones.
-  - ReportRepository
-    - Interface para acceder a los datos de los reportes.
+- **Services**
+  - ScheduleService
+    - Interface para acceder a los datos de los schedules.
+      - getAllScheduleQuery()
+      - getScheduleIdQuery()
 
 ##### 4.2.2.2. Interface Layer
 
-- **Controller: Communication Controller**
-  - Controlador que expone los endpoints para la gestión de reportes y notificaciones.
+- **Controller: Schedule Controller**
+  - Controlador que expone los endpoints para la gestión de schedule.
   - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
-
+    - createSchedule()
+    - getAllSchedules()
+    - getScheduleById(Long id)
+      
 ##### 4.2.2.3. Application Layer
 
 - **Service: Communication Service**
 
-  - Lógica de negocio para gestionar reportes y notificaciones.
-  - Permite crear, actualizar y eliminar reportes y notificaciones, así como asociarlos a usuarios.
-
-- **Command Handlers (implícitos en los servicios)**
-  - NotificationCommandHandler
-  - ReportCommandHandler
-
+  - Lógica de negocio para gestionar schedules.
+  - Permite crear, actualizar y eliminar schedules.
+    
 ##### 4.2.2.4. Infrastructure Layer
 
 - **Repositories:**
 
-  - NotificationRepositoryImpl
+  - ScheduleRepositoryImpl
 
-    - Implementa el acceso a la tabla de notifications en la base de datos PostgreSQL.
-
-  - ReportRepositoryImpl
-
-    - Implementa el acceso a la tabla de reports en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de notifications en la base de datos MySQL.
+        - existsByID(Long id)
 
 - **Tecnología:**
 
@@ -2433,15 +2407,19 @@ Responsabilidades:
 
 ##### 4.2.2.5. Component Level Diagrams
 
+- Manejo de horarios de alimentación, alertas y eventos.
+
+<img src="Assets/c47_planningBC.png"/>
+
 Incluye:
 
-- Communication Controller
+- Schedule Controller
 
-- Communication Service
+- Schedule Service
 
-- NotificationRepository
+- SchedulenRepository
 
-- ReportRepository
+- ScheduleRepository
 
 Responsabilidades:
 
@@ -2455,30 +2433,16 @@ Responsabilidades:
 
 - Bounded Context Domain Layer Class Diagram:
 
-  - Clase Report y Notification como entidad principal
+  - Clase Schedule como entidad principal
 
-  - Interfaces NotificationRepository y ReportRepository
-
-  - Clase User_Report y User_Notification como entidades de relación
+  - Interfaces ScheduleRepository
 
 - Bounded Context Database Diagram:
 
   - Tabla reports
 
-    - Columnas: id, type, title, information, pond_id
-
-  - Tabla notifications
-
-    - Columnas: id, title, description, pond_id
-
-  - Tabla user_reports
-
-    - Columnas: report_id, user_id, created_at
-
-  - Tabla user_notifications
-
-    - Columnas: notification_id, user_id, created_at, is_read
-
+    - Columnas: id, name, pond_id, day, hour, duration
+      
 #### 4.2.3. Bounded Context: \<Device Management\>
 
 ##### 4.2.3.1. Domain Layer
