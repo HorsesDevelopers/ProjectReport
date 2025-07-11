@@ -2292,6 +2292,10 @@ Responsabilidades:
 
 ##### 4.2.1.6. Code Level Diagrams
 
+##### 4.2.1.6.1 Class Diagrams
+
+<img src="Assets/iam-dc.png"/>
+
 - Bounded Context Domain Layer Class Diagram:
 
   - Clase User como entidad principal
@@ -2303,6 +2307,10 @@ Responsabilidades:
   - Tabla users (o tablas separadas: farmers, technicians)
 
     - Columnas: id, username, password, role, created_at
+
+##### 4.2.1.6.2 Database Design Diagram
+
+<img src="Assets/iam-bd.png"/>
 
 #### 4.2.2. Bounded Context: \<Schedule\>
 
@@ -2404,6 +2412,10 @@ Responsabilidades:
 
 ##### 4.2.2.6. Code Level Diagrams
 
+##### 4.2.2.6.1  Class Diagrams
+
+<img src="Assets/schedule-dc.png"/>
+
 - Bounded Context Domain Layer Class Diagram:
 
   - Clase Schedule como entidad principal
@@ -2415,7 +2427,11 @@ Responsabilidades:
   - Tabla reports
 
     - Columnas: id, name, pond_id, day, hour, duration
-      
+
+##### 4.2.2.6.2 Database Design Diagram
+
+<img src="Assets/schedule-bd.png"/>
+
 #### 4.2.3. Bounded Context: \<Device Management\>
 
 ##### 4.2.3.1. Domain Layer
