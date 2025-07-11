@@ -2143,6 +2143,14 @@ A continuación, se presenta el resumen de los **Bounded Context Canvases** elab
 
 A continuación, se presenta el context mapping elaborado para nuestra solución. Este representa el cómo se comportan y colaboran los BC entre sí y de qué depende que esto suceda.
 
+Bounded Context Identificados
+
+* Assets and Resources: Generación de registro de sensores.
+* DashBoard and Analytics: Generación y visualización de reportes.
+* Operation and Monitoring: Encargado del procesamiento y funcionamiento de los sensores y estanques.
+* Identity and Accesss Management: Gestión de usuarios
+* Schedule: Permite accionar en cierto horario la alimentación para los peces en un estanque.
+
 <img src="Assets\EventStorming\ContextMapping.png">
 
 #### 4.1.3. Software Architecture
@@ -2177,15 +2185,9 @@ El sistema AquaSense actúa como núcleo central que ofrece servicios digitales 
 - Aplicación web desarrollada en Angular 17.
 - Dirigida a usuarios que prefieren trabajar desde escritorio, principalmente para la gestión de datos y generación de reportes.
 
-3. **API Gateway**
+3. **Relational Database**
 
-- Componente central que expone endpoints RESTful y gestiona todas las solicitudes provenientes de la app móvil y web.
-- Implementado en Java con Spring Boot.
-- Sirve de punto de entrada único al backend, facilitando el control, seguridad y mantenimiento.
-
-4. **Relational Database**
-
-- Base de datos relacional implementada en PostgreSQL.
+- Base de datos relacional implementada en MySQL.
 - Almacena información crítica del sistema como usuarios, sensores, horarios, alimentación, etc.
 - Todos los contextos acceden a ella a través de sus respectivos repositorios, manteniendo la coherencia y separación de responsabilidades.
 
