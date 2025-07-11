@@ -5176,10 +5176,28 @@ Objetivos Específicos:
 |**Nombre del entrevistado**|**Andre Bernaola**|
 |:-|:-|
 |Edad|24 años|
-|Profesión|Psicicultor|
+|Profesión|Psicicultor Rural|
 |Departamento|Lima, Peru|
-|<img src="Assets\none.PNG" >|Andre nos menciona que la aplicación posee ícnos muy grandes y visibles para su vista puesto que el se esfuerza por visualizar los detalles. Mencona que se debe detallar en como la aplicación se asocia con los sensores.|
-|Duración 8:43-13:45|URL:  |
+|<img src="Assets\entre-heu1.PNG" >|Andre nos menciona que la aplicación posee ícnos muy grandes y visibles para su vista puesto que el se esfuerza por visualizar los detalles. Mencona que se debe detallar en como la aplicación se asocia con los sensores.|
+|Duración 0:00 - 10:48|URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e831_upc_edu_pe/EZ7VxJphH6dKuKMOy_LfbWcBDCzdxNs7S1YMM8GBqbXcgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Xs8d5P |
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Sebastián Vargas**|
+|:-|:-|
+|Edad|26 años|
+|Profesión|Psicicultor Especialista|
+|Departamento|Lima, Peru|
+|<img src="Assets\entre-heu2.PNG" >|Sebastián destacó el potencial de la herramienta y especificó que facilita la automatización de procesos, ya no tendría que estar pendiente presencialmente para poder alimentar y gracias a la aplicación.|
+|Duración 10:48-17:54|URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e831_upc_edu_pe/EZ7VxJphH6dKuKMOy_LfbWcBDCzdxNs7S1YMM8GBqbXcgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Xs8d5P |
+
+**Entrevista a piscicultores**
+|**Nombre del entrevistado**|**Sebastián Pacheco**|
+|:-|:-|
+|Edad|23 años|
+|Profesión|Psicicultor Rural|
+|Departamento|Lima, Peru|
+|<img src="Assets\entre-heu3.PNG" >|Le pareció interesante la aplicación, menciona que las vistas se encuentran ordenadas y no posee una dificultad visual en cuanto a la experiencia de usuario.|
+|Duración 17:54-26:20|URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191e831_upc_edu_pe/EZ7VxJphH6dKuKMOy_LfbWcBDCzdxNs7S1YMM8GBqbXcgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Xs8d5P |
 
 
 #### 6.3.3. Evaluaciones según heurísticas.
