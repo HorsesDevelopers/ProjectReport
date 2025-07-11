@@ -2579,27 +2579,28 @@ Responsabilidades:
 
 ##### 4.2.4.1. Domain Layer
 
-- **Entity: Scheduled Feeding**
+- **Entity: Fish**
 
-  - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
+  - Propósito: Representa peces en un estanque.
     - Atributos:
       - id: UUID – Identificador único del usuario.
-      - name: String - Nombre del horario.
-      - Schedule: MealScheduleId[] – Identificador del horario de alimentación.
+      - type: String - Nombre del horario.
+      - quantity: MealScheduleId[] – Identificador del horario de alimentación.
+      - lenght: Integer
+      - age: Integer
+      - pond: Pond
     - Métodos:
-      - createMealSchedule(): void – Crea un nuevo horario de alimentación.
-      - updateMealSchedule(): void – Actualiza el horario de alimentación.
-      - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
-      - deleteMealSchedule(): void – Elimina un horario de alimentación.
-      - getFeedingSchedule(): List< Feeding > – Devuelve la lista de horarios de alimentación.
-
-- **Repository Interface**
-  - FeedingDataRepository
-    - Interface para acceder a los datos de la alimentación.
+      - createFishSchedule(): void – Crea un nuevo horario de alimentación.
+     
+   - **PondRecord**
+       - Atributos:
+           - pond: Pond
+           - sensorIdL: Long
+           - valuel List<RecordValue> : Lista de records value
 
 ##### 4.2.4.2. Interface Layer
 
-- **Controller: Feeding Schedule Controller**
+- **Controller: Fish Controller**
   - Controlador que expone los endpoints para la gestión de horarios de alimentación.
     - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
 
