@@ -5207,7 +5207,7 @@ Propósito: Detectar problemas de usabilidad en la aplicación de HorsesDevelope
 ### Tabla Resumen
 
 | # | Producto | Problema detectado | Escala de severidad | Heurística/Principio violado |
-|---|----------------------|----------------------|-------------------------------|
+|---|---|----------------------|----------------------|-------------------------------|
 | 1 | Dispositivo móvil | Mezcla de idiomas con contenido en español | 2 | Consistencia y estándares |
 | 2 | Dispositivo móvil | Botones tienen poco constraste entre texto y fondo | 1 | Diseño estético y minimalista |
 | 3 | Dispositivo móvil | El botón "Download Report" no indica que tipo de reporte se descargará | 2 | Visibilidad del estado del sistema |
@@ -5215,7 +5215,7 @@ Propósito: Detectar problemas de usabilidad en la aplicación de HorsesDevelope
 ### Problemas detallados
 
 #### Problema #1 – Consistencia y estándares  
-**Imagen:**  <img src="Assets/prob-1.jpg"/>  
+**Imagen:**  <img src="Assets/prob-1.jpg" width="25px"/>  
 **Descripción:**  
 La aplicación presenta una mezcla de idiomas, como botones y mensajes en inglés (“Download Report”) mientras que el resto de la interfaz está en español. Esta inconsistencia puede generar confusión en los usuarios y afecta la profesionalidad del producto.  
 **Escala de severidad:** 2  
@@ -5224,7 +5224,7 @@ La aplicación presenta una mezcla de idiomas, como botones y mensajes en inglé
 Unificar el idioma en toda la interfaz, preferentemente en español si ese es el público objetivo, o incluir una opción de cambio de idioma bien visible.
 
 #### Problema #2 – Diseño estético y minimalista  
-**Imagen:**  <img src="Assets/prob-2.jpg"/>    
+**Imagen:**  <img src="Assets/prob-2.jpg" width="25px"/>    
 **Descripción:**  
 Algunos botones tienen bajo contraste entre el color del texto y el fondo, lo cual los hace difíciles de leer, especialmente para personas con discapacidades visuales o en condiciones de mucha luz.  
 **Escala de severidad:** 1  
