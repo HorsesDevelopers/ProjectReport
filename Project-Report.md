@@ -2248,11 +2248,11 @@ https://structurizr.com/share/103655/d6dadfa5-3c39-4666-aced-e7fc814ea478
 
   - FarmerRepositoryImpl
 
-    - Implementa el acceso a la tabla de farmers en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de farmers en la base de datos MySQL.
 
   - TechnicianRepositoryImpl
 
-    - Implementa el acceso a la tabla de technicians en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de technicians en la base de datos MySQL.
 
 - **Tecnología:**
 
@@ -2294,7 +2294,7 @@ Responsabilidades:
 
 ##### 4.2.1.6.1 Class Diagrams
 
-<img src="Assets/iam-dc.png"/>
+<img src="Assets/iam-dc.PNG"/>
 
 - Bounded Context Domain Layer Class Diagram:
 
@@ -2310,7 +2310,7 @@ Responsabilidades:
 
 ##### 4.2.1.6.2 Database Design Diagram
 
-<img src="Assets/iam-bd.png"/>
+<img src="Assets/iam-bd.PNG"/>
 
 #### 4.2.2. Bounded Context: \<Schedule\>
 
@@ -2414,7 +2414,7 @@ Responsabilidades:
 
 ##### 4.2.2.6.1  Class Diagrams
 
-<img src="Assets/schedule-dc.png"/>
+<img src="Assets/schedule-dc.PNG"/>
 
 - Bounded Context Domain Layer Class Diagram:
 
@@ -2430,116 +2430,65 @@ Responsabilidades:
 
 ##### 4.2.2.6.2 Database Design Diagram
 
-<img src="Assets/schedule-bd.png"/>
+<img src="Assets/schedule-bd.PNG"/>
 
-#### 4.2.3. Bounded Context: \<Device Management\>
+#### 4.2.3. Bounded Context: \<Assets and Resources\>
 
 ##### 4.2.3.1. Domain Layer
 
-- **Entity: Device**
+- **Entity: Actuator**
 
-  - Propósito: Representa un dispositivo IoT (sensor o alimentador) asociado a un estanque.
+  - Propósito: Representa un dispositivo IoT asociado a un estanque.
     - Atributos:
-      - id: UUID – Identificador único del usuario.
-      - name: String - Nombre del dispositivo.
-      - description: String – Descripción del dispositivo.
-      - is_registered: boolean – Indica si el dispositivo está registrado en el sistema.
-      - status: String – Estado actual del dispositivo (activo, inactivo, error).
-    - Métodos:
-      - updateInformation(): void – Actualiza la información del dispositivo.
-      - deleteDevice(): void – Elimina un dispositivo.
-      - getDeviceStatus(): String – Devuelve el estado actual del dispositivo.
-      - getDeviceData(): List< Data > – Devuelve los datos históricos del dispositivo.
-      - isRegistered(): boolean – Verifica si el dispositivo está registrado.
+      - id: UUID – Identificador único del actuador.
+      - foodCapacity: String - Capacidade comida que se dispensará.
+      - isEmpty: String – Booleano.
 
-- **Entity: Sensor**
+- **Aggregates: Device**
 
-  - Propósito: Representa un sensor IoT que mide parámetros ambientales en un estanque.
+  - Propósito: Representa un device IoT que mide parámetros ambientales en un estanque.
     - Atributos:
-      - id: UUID – Identificador único del usuario.
-      - device_id: UUID – Identificador del dispositivo asociado.
-      - oxygen_level: Float – Nivel de oxígeno disuelto.
-      - temperature: Float – Temperatura del agua.
-      - ph: Float – Nivel de pH.
+      - id: UUID – Identificador único del device.
+      - name: UUID – Nombre de device.
+      - pondId: Float – Identificador del dispositivo asociado.
+      - status: Float – Estado.
+      - descripion: Float – Descripción de device.
+      - lastUpdate: LocalTime.
+      - isRegistered: Booleano.
     - Métodos:
       - createSensor(): void – Crea un nuevo sensor.
-      - updateSensor(): void – Actualiza la información del sensor.
-      - getSensorData(): List< Data > – Devuelve los datos históricos del sensor.
+      - registerSensorByIdCommand(): – Devuelve los datos históricos del sensor.
 
-- **Entity: Dispenser**
-
-  - Propósito: Representa un alimentador IoT que controla la alimentación de los peces en un estanque.
-    - Atributos:
-      - id: UUID – Identificador único del usuario.
-      - device_id: UUID – Identificador del dispositivo asociado.
-      - food_capacity: Float – Capacidad de alimento del dispensador.
-      - is_empty: boolean – Indica si el dispensador está vacío.
-      - is_programmed: boolean – Indica si el dispensador está programado.
-      - is_working: boolean – Indica si el dispensador está funcionando correctamente.
-    - Métodos:
-      - createDispenser(): void – Crea un nuevo dispensador.
-      - updateDispenser(): void – Actualiza la información del dispensador.
-      - programDispenser(): void – Programa el dispensador para una alimentación específica.
-      - startDispenser(): void – Inicia el dispensador.
-      - stopDispenser(): void – Detiene el dispensador.
-      - getDispenserStatus(): String – Devuelve el estado actual del dispensador.
-      - isWorking(): boolean – Verifica si el dispensador está funcionando correctamente.
-      - isEmpty(): boolean – Verifica si el dispensador está vacío.
-      - isProgrammed(): boolean – Verifica si el dispensador está programado.
-
-- **Entity: Registered_Dispenser**
-
-  - Propósito: Representa la relación entre un dispensador y un estanque, indicando qué dispensadores están registrados en el sistema.
-    - Atributos:
-      - dispenser_id: UUID – Identificador del dispensador asociado.
-      - pond_id: UUID – Identificador del estanque asociado.
-      - created_at: Date – Fecha de creación del registro.
-    - Métodos:
-      - getRegisteredDispensers(): List< Dispenser > – Devuelve la lista de dispensadores registrados en el sistema.
-
-- **Entity: Registered_Sensors**
-
-  - Propósito: Representa la relación entre un sensor y un estanque, indicando qué sensores están registrados en el sistema.
-    - Atributos:
-      - sensor_id: UUID – Identificador del sensor asociado.
-      - pond_id: UUID – Identificador del estanque asociado.
-      - created_at: Date – Fecha de creación del registro.
-    - Métodos:
-      - getRegisteredSensors(): List< Sensor > – Devuelve la lista de sensores registrados en el sistema.
-
-- **Repository Interface**
-  - DeviceRepository
-    - Interface para acceder a los datos de los dispositivos.
-  - SensorRepository
-    - Interface para acceder a los datos de los sensores.
+- **Service**
+  - SensorCommandService
+     - createSensorCommand()
+  - SensorQueryService
+     - getSensorByIdQuery()
+     - existsSensorByPondIdAndTypeQuery()
+     - getSensorIdByPondIdAndTypeQuery()
+     - getAllSensorsQuery()
 
 ##### 4.2.3.2. Interface Layer
 
 - **Controller: Device Controller**
-  - Controlador que expone los endpoints para la gestión de dispositivos, sensores y alimentadores.
+  - Controlador que expone los endpoints para la gestión de dispositivos.
+  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+
+- **Controller: Sensor Controller**
+  - Controlador que expone los endpoints para la gestión de sensores.
   - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
 
 ##### 4.2.3.3. Application Layer
 
-- **Service: Sensor Service**
+- **Manejadores de Comandos (Command Handlers)**
 
   - Lógica de negocio para gestionar sensores.
   - Permite crear, actualizar y eliminar sensores, así como asociarlos a estanques.
 
-- **Service: Configuration Service**
+- **Manejadores de Consultas (Query Handlers)**
 
   - Lógica de negocio para gestionar dispositivos y alimentadores.
   - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
-
-- **Service: Dispenser Service**
-
-  - Lógica de negocio para gestionar dispensadores.
-  - Permite crear, actualizar y eliminar dispensadores, así como asociarlos a estanques.
-
-- **Command Handlers (implícitos en los servicios)**
-  - SensorCommandHandler
-  - ConfigurationCommandHandler
-  - DispenserCommandHandler
 
 ##### 4.2.3.4. Infrastructure Layer
 
@@ -2547,11 +2496,11 @@ Responsabilidades:
 
   - DeviceRepositoryImpl
 
-    - Implementa el acceso a la tabla de devices en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de devices en la base de datos MySQL.
 
   - SensorRepositoryImpl
 
-    - Implementa el acceso a la tabla de sensors en la base de datos PostgreSQL.
+    - Implementa el acceso a la tabla de sensors en la base de datos MySQL.
 
 - **Tecnología:**
 
@@ -2559,11 +2508,13 @@ Responsabilidades:
 
   - Backend: Java / Spring Boot
 
-  - Base de datos: PostgreSQL
+  - Base de datos: MySQL
 
   - Seguridad: JWT para autenticación
 
 ##### 4.2.3.5. Component Level Diagrams
+
+<img src="Assets/aa-dc.PNG"/>
 
 Incluye:
 
@@ -2586,6 +2537,10 @@ Responsabilidades:
 - Repositories acceden a datos
 
 ##### 4.2.3.6. Code Level Diagrams
+
+##### 4.2.3.6.1  Class Diagrams
+
+<img src="Assets/aa-bd.PNG"/>
 
 - Bounded Context Domain Layer Class Diagram:
 
@@ -2615,8 +2570,12 @@ Responsabilidades:
 
   - Tabla registered_dispensers
     - Columnas: dispenser_id, pond_id, created_at
+    - 
+##### 4.2.3.6.2 Design Diagram 
 
-#### 4.2.4. Bounded Context: \<Feeding Management\>
+<img src="Assets/aa-dc.PNG"/>
+
+#### 4.2.4. Bounded Context: \<Operation and Monitoring Management\>
 
 ##### 4.2.4.1. Domain Layer
 
@@ -2703,167 +2662,25 @@ Responsabilidades:
   - Tabla feeding
     - Columnas: id, name, schedule
 
-#### 4.2.5. Bounded Context: \<Schedule Management\>
+#### 4.2.5. Bounded Context: \<DashBoards and Analtics Management\>
 
-##### 4.2.5.1. Domain Layer
-
-- **Entity: Pond**
-
-  - Propósito: Representa un estanque acuícola donde se cultivan peces.
-    - Atributos:
-      - id: UUID – Identificador único del usuario.
-      - ubication: String – Ubicación del estanque.
-      - name: String – Nombre del estanque.
-      - created_at: Date – Fecha de creación del estanque.
-      - updated_at: Date – Fecha de la última actualización del estanque.
-      - schdule_feeding_id: UUID – Identificador del horario de alimentación asociado al estanque.
-      - user_id: UUID – Identificador del usuario propietario del estanque.
-    - Métodos:
-      - createPond(): void – Crea un nuevo estanque.
-      - updatePond(): void – Actualiza la información del estanque.
-      - deletePond(): void – Elimina un estanque.
-      - getPondDetails(): Pond – Devuelve los detalles del estanque.
-      - getPondFeedingSchedule(): List< Feeding > – Devuelve la lista de horarios de alimentación asociados al estanque.
-      - getPondSensors(): List< Sensor > – Devuelve la lista de sensores asociados al estanque.
-      - getPondDispensers(): List< Dispenser > – Devuelve la lista de dispensadores asociados al estanque.
-      - getPondReports(): List< Report > – Devuelve la lista de reportes asociados al estanque.
-      - getPondNotifications(): List< Notification > – Devuelve la lista de notificaciones asociadas al estanque.
-      - getPondUsers(): List< User > – Devuelve la lista de usuarios asociados al estanque.
-
-- **Entity: Fish**
-
-  - Propósito: Representa un pez cultivado en el estanque.
-
-    - Atributos:
-
-      - id: UUID – Identificador único del usuario.
-      - weight: Float – Peso del pez.
-      - length: Float – Longitud del pez.
-      - fish_type: String – Tipo de pez.
-      - age: Integer – Edad del pez.
-
-    - Métodos:
-      - createFish(): void – Crea un nuevo pez.
-      - updateFish(): void – Actualiza la información del pez.
-      - deleteFish(): void – Elimina un pez.
-      - getFishDetails(): Fish – Devuelve los detalles del pez.
-
-- **Entity: Pond_Fish**
-
-  - Propósito: Representa la relación entre un estanque y los peces cultivados en él.
-    - Atributos:
-      - pond_id: UUID – Identificador del estanque asociado.
-      - fish_id: UUID – Identificador del pez asociado.
-      - created_at: Date – Fecha de creación del registro.
-      - updated_at: Date – Fecha de la última actualización del registro.
-    - Métodos:
-      - getPondFish(): List< Fish > – Devuelve la lista de peces asociados a un estanque.
-      - getFishPonds(): List< Pond > – Devuelve la lista de estanques asociados a un pez.
-
-- **Entity: Meal**
-
-  - Propósito: Representa una comida para los peces en un estanque.
-    - Atributos:
-      - id: UUID – Identificador único del usuario.
-      - name: String – Nombre de la comida.
-      - description: String – Descripción de la comida.
-    - Métodos:
-      - createMeal(): void – Crea una nueva comida.
-      - updateMeal(): void – Actualiza la información de la comida.
-      - deleteMeal(): void – Elimina una comida.
-      - getMealDetails(): Meal – Devuelve los detalles de la comida.
-      - addIngredient(): void – Agrega un ingrediente a la comida.
-      - removeIngredient(): void – Elimina un ingrediente de la comida.
-
-- **Entity: Meal_Ingredient**
-
-  - Propósito: Representa la relación entre una comida y sus ingredientes.
-    - Atributos:
-      - meal_id: UUID – Identificador de la comida asociada.
-      - ingredient_id: UUID – Identificador del ingrediente asociado.
-      - amount: Float – Cantidad del ingrediente en la comida.
-    - Métodos:
-      - getMealIngredients(): List< Ingredient > – Devuelve la lista de ingredientes asociados a una comida.
-      - getIngredientMeals(): List< Meal > – Devuelve la lista de comidas asociadas a un ingrediente.
-
-- **Entity: Ingredient**
-
-  - Propósito: Representa un ingrediente utilizado en la comida de los peces.
-    - Atributos:
-      - id: UUID – Identificador único del ingrediente.
-      - name: String – Nombre del ingrediente.
-      - description: String – Descripción del ingrediente.
-    - Métodos:
-      - createIngredient(): void – Crea un nuevo ingrediente.
-      - updateIngredient(): void – Actualiza la información del ingrediente.
-      - deleteIngredient(): void – Elimina un ingrediente.
-      - getIngredientDetails(): Ingredient – Devuelve los detalles del ingrediente.
-
-- **Entity: Meal_Schedule**
-  - Propósito: Representa un horario programado para la alimentación de los peces en un estanque.
-    - Atributos:
-      - id: UUID – Identificador único del schdule.
-      - meal_id: UUID – Identificador de la comida asociada.
-      - hour: String – Hora programada para la alimentación.
-      - day: String – Día programado para la alimentación.
-      - amount: Float – Cantidad de comida a dispensar.
-    - Métodos:
-      - createMealSchedule(): void – Crea un nuevo horario de alimentación.
-      - updateMealSchedule(): void – Actualiza el horario de alimentación.
-      - deleteMealSchedule(): void – Elimina un horario de alimentación.
-      - getMealScheduleDetails(): MealSchedule – Devuelve los detalles del horario de alimentación.
-      - getMealSchedule(): List< MealSchedule > – Devuelve la lista de horarios de alimentación.
 - **Repository Interface**
-  - PondRepository
+  - AnalyticsRepository
     - Interface para acceder a los datos de los estanques.
-  - MealRepository
-    - Interface para acceder a los datos de las comidas.
-  - FishRepository
-    - Interface para acceder a los datos de los peces.
 
 ##### 4.2.3.2. Interface Layer
 
-- **Controller: Schedule Controller**
-  - Controlador que expone los endpoints para la gestión de estanques, peces y comidas.
-  - Maneja las solicitudes desde el cliente web o móvil, y responde con los datos solicitados o mensajes de error.
+- **Controller: Analytics Controller**
+  - Controlador que expone los endpoints para la gestión de datos con rango de sensores.
+  - Maneja las solicitudes desde el cliente web, y responde con los datos solicitados o mensajes de error.
 
 ##### 4.2.3.3. Application Layer
 
-- **Service: Meals Service**
+- **Service: Analytics Service**
 
-  - Lógica de negocio para gestionar comidas.
-  - Permite crear, actualizar y eliminar comidas, así como asociarlas a estanques.
-
-- **Service: Schedule Service**
-
-  - Lógica de negocio para gestionar dispositivos y alimentadores.
-  - Permite crear, actualizar y eliminar dispositivos, así como asociarlos a estanques.
-
-- **Service: Feeding Data Service**
-
-  - Lógica de negocio para gestionar horarios de alimentación.
-  - Permite crear, actualizar y eliminar horarios de alimentación, así como asociarlos a estanques.
-
-- **Command Handlers (implícitos en los servicios)**
-  - PondCommandHandler
-  - FishCommandHandler
-  - MealCommandHandler
-
+  - Lógica de negocio para gestionar analytics.
+  - 
 ##### 4.2.3.4. Infrastructure Layer
-
-- **Repositories:**
-
-  - PondRepositoryImpl
-
-    - Implementa el acceso a la tabla de ponds en la base de datos PostgreSQL.
-
-  - FishRepositoryImpl
-
-    - Implementa el acceso a la tabla de fish en la base de datos PostgreSQL.
-
-  - MealRepositoryImpl
-
-    - Implementa el acceso a la tabla de meals en la base de datos PostgreSQL.
 
 - **Tecnología:**
 
@@ -2874,67 +2691,6 @@ Responsabilidades:
   - Base de datos: PostgreSQL
 
   - Seguridad: JWT para autenticación
-
-##### 4.2.3.5. Component Level Diagrams
-
-Incluye:
-
-- Schedule Controller
-
-- Meals Service
-- Schedule Service
-- Feeding Data Service
-
-- PondRepository
-
-- FishRepository
-
-- MealRepository
-
-Responsabilidades:
-
-- Controller maneja los endpoints
-
-- Services ejecutan lógica de negocio
-
-- Repositories acceden a datos
-
-##### 4.2.3.6. Code Level Diagrams
-
-- Bounded Context Domain Layer Class Diagram:
-
-  - Clase Pond, Fish y Meal como entidades principales
-
-  - Interfaces PondRepository, FishRepository y MealRepository
-
-  - Clase Pond_Fish y Meal_Ingredient como entidades de relación
-
-  - Clase Meal_Schedule como entidad de programación
-
-- Bounded Context Database Diagram:
-
-  - Tabla ponds
-
-    - Columnas: id, ubication, name, created_at, updated_at, schdule_feeding_id, user_id
-
-  - Tabla fish
-
-    - Columnas: id, weight, length, fish_type, age
-
-  - Tabla meals
-
-    - Columnas: id, name, description
-
-  - Tabla meal_schedule
-
-    - Columnas: id, meal_id, hour, day, amount
-
-  - Tabla pond_fish
-
-    - Columnas: pond_id, fish_id, created_at, updated_at
-
-  - Tabla meal_ingredient
-    - Columnas: meal_id, ingredient_id, amount
 
 ###### 4.3.1 Domain Layer Class Diagrams
 
